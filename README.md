@@ -1,4 +1,4 @@
-# FIPS
+# FIPS version 02.01alpha1
 FIDO Integrated Point System.
 
 ## How to build
