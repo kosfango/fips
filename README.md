@@ -1,4 +1,5 @@
 # FIPS
 FIDO Integrated Point System.
 
-Visual Studio 2015 project. Open Light.sln for start.
+## How to build
+Use MS Visual studio 2015. Open Light.sln for start.
