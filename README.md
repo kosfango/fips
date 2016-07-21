@@ -8,7 +8,7 @@ Use MS Visual studio 2015. Open Light.sln for start.
 
 2. Put files from defs\fipstest into deployment directory fips.exe
 
-3. Put files supercom.dll, protocol.dll and unipack.dll into deployment directory fips.exe
+3. Put files supercom.dll, protocol.dll and *.dll from .\Unipack directory into deployment directory fips.exe
 
 4. Create fips.ini into deployment directory and put next lines:
 
