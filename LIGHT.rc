@@ -1,0 +1,4176 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SELCOLOR DIALOGEX 0, 0, 49, 73
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "",5101,"Button",BS_OWNERDRAW | WS_TABSTOP,1,1,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5102,"Button",BS_OWNERDRAW | WS_TABSTOP,13,1,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5103,"Button",BS_OWNERDRAW | WS_TABSTOP,25,1,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5104,"Button",BS_OWNERDRAW | WS_TABSTOP,37,1,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5105,"Button",BS_OWNERDRAW | WS_TABSTOP,1,12,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5106,"Button",BS_OWNERDRAW | WS_TABSTOP,13,12,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5107,"Button",BS_OWNERDRAW | WS_TABSTOP,25,12,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5108,"Button",BS_OWNERDRAW | WS_TABSTOP,37,12,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5109,"Button",BS_OWNERDRAW | WS_TABSTOP,1,24,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5110,"Button",BS_OWNERDRAW | WS_TABSTOP,13,24,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5111,"Button",BS_OWNERDRAW | WS_TABSTOP,25,24,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5112,"Button",BS_OWNERDRAW | WS_TABSTOP,37,24,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5113,"Button",BS_OWNERDRAW | WS_TABSTOP,1,36,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5114,"Button",BS_OWNERDRAW | WS_TABSTOP,13,36,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5115,"Button",BS_OWNERDRAW | WS_TABSTOP,25,36,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5116,"Button",BS_OWNERDRAW | WS_TABSTOP,37,36,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5117,"Button",BS_OWNERDRAW | WS_TABSTOP,1,48,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5118,"Button",BS_OWNERDRAW | WS_TABSTOP,13,48,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5119,"Button",BS_OWNERDRAW | WS_TABSTOP,25,48,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5120,"Button",BS_OWNERDRAW | WS_TABSTOP,37,48,11,10,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Ещё...",5121,1,60,47,11
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_SCRIPTFILT          "Файлы скриптов (*.fps)|*.fps|Все файлы (*.*)|*.*||"
+    IDS_TEXTFILT            "Текстовые файлы (*.txt)|*.txt|Все файлы (*.*)|*.*||"
+    IDS_SOUNDFILT           "Звуковые файлы (*.wav)|*.wav||"
+    IDS_QUERYFILT           "Запросы (*.qry)|*.qry|Все файлы (*.*)|*.*||"
+    IDS_QRESFILT            "Результаты поиска (*.qre)|*.qre|Все файлы (*.*)|*.*||"
+    IDS_ALLFILES            "Все файлы (*.*)|*.*||"
+    IDS_DESCRFILT           "Файлы описаний (*.bbs)|*.bbs|Все файлы (*.*)|*.*||"
+    IDS_EXECFILT            "Исполнимые файлы (*.exe;*.com)|*.exe;*.com|Все файлы (*.*)|*.*||"
+    IDS_E_NOTCOR            "<%s> не является правильным FIDO-адресом."
+    IDS_W_FILLIT            "Поле <%s> не должно быть пустым!"
+    IDS_W_NOEXEC            "Невозможно найти исполнимый файл <%s> . (Не существует или неправильный путь ?)"
+    IDS_TEXT_SAMPLES        "\001 TAG-информационная строка\t\t Строка обычного текста\t\tKK>> Строка четной цитаты\tKK> Строка нечетной цитаты\t\t Строка обычного текста\t    //фраза курсивом//\t  __подчеркнутая фраза__\t   **выделенная фраза**\t  ##инверсное выделение##\t\t * Origin: строка ориджина\t\001 KLUDGE-служебная строка"
+    IDS_EMPTY_PATTERNS      "\tОбычный текст\t\tH00FFFFFF\t\n\t##Обычный текст\t\tH00FFFFFF\t"
+    IDS_DEFSOUNDS           "APPLICATION_START\tNONE\nAPPLICATION_END\tNONE\nTOSSER_START\tNONE\nPURGER_START\tNONE\nPURGER_END\tSTOP\nTOSSER_END\tSTOP\nMAILER_START\tNONE\nMAILER_END\tSTOP\nSCRIPT_START\tNONE\nSCRIPT_END\tSTOP\nNLCOMP_START\tNONE\nNLCOMP_END\tSTOP\nNEW_NETMAIL\tNONE\nNEW_LOCALMAIL\tNONE\nMAIL_TO_ME\tNONE\nISDN_FAILED\tNONE\nISDN_CONNECT\tNONE\nISDN_DIALING\tNONE\nEVENT_DIALING\tNONE\nSEARCH_END\tNONE\nINCOMING_SERIAL\tNONE\nINCOMING_CAPI\tNONE"
+    IDS_ALREADYRUN          "FIPS уже запущен!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CFGNOTAVAIL         "Нет доступа к файлу настройки FIPS!"
+    IDS_INVALIDCHAR         "В данном поле нельзя использовать символ ';'"
+    IDS_SYSERROR            "System error %d while calling  %s"
+    IDS_SKINFILT            "Файлы оформления (*.fsk)|*.fsk||"
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_SCRIPTFILT          "Fips Script Files (*.fps)|*.fps|All Files (*.*)|*.*||"
+    IDS_TEXTFILT            "Text Files (*.txt)|*.txt|All Files (*.*)|*.*||"
+    IDS_SOUNDFILT           "Sound Files (*.wav)|*.wav||"
+    IDS_QUERYFILT           "Queries (*.qry)|*.qry|All Files (*.*)|*.*||"
+    IDS_QRESFILT            "Search Results (*.qre)|*.qre|All Files (*.*)|*.*||"
+    IDS_ALLFILES            "All Files (*.*)|*.*||"
+    IDS_DESCRFILT           "Description Files (*.bbs)|*.bbs|All Files (*.*)|*.*||"
+    IDS_EXECFILT            "Executables (*.exe;*.com)|*.exe;*.com|All Files (*.*)|*.*||"
+    IDS_E_NOTCOR            "<%s> ist keine vollstaendige FIDO Adresse."
+    IDS_W_FILLIT            "Eingabe Feld <%s> darf nicht leer sein!"
+    IDS_W_NOEXEC            "Kann kein ausfuehrbares Program <%s> finden. (nicht vorhanden ?, nicht im Pfad ?)"
+    IDS_TEXT_SAMPLES        "\001 An information Line\t\tThis is a normal text line\t\tKK>> An even quoted line\tKK> An odd quoted line\t\tThis is a normal text line\t    //italic phrase//\t  __underlined phrase__\t    **bold phrase**\t  ##inverted phrase##\t\t * Origin: an origin line\t\001 An information Line"
+    IDS_EMPTY_PATTERNS      "\tNormal Text\t\tH00FFFFFF\n\t##Normal Text\t\tH00FFFFFF"
+    IDS_DEFSOUNDS           "APPLICATION_START\tNONE\nAPPLICATION_END\tNONE\nTOSSER_START\tNONE\nPURGER_START\tNONE\nPURGER_END\tSTOP\nTOSSER_END\tSTOP\nMAILER_START\tNONE\nMAILER_END\tSTOP\nSCRIPT_START\tNONE\nSCRIPT_END\tSTOP\nNLCOMP_START\tNONE\nNLCOMP_END\tSTOP\nNEW_NETMAIL\tNONE\nNEW_LOCALMAIL\tNONE\nMAIL_TO_ME\tNONE\nISDN_FAILED\tNONE\nISDN_CONNECT\tNONE\nISDN_DIALING\tNONE\nEVENT_DIALING\tNONE\nSEARCH_END\tNONE\nINCOMING_SERIAL\tNONE\nINCOMING_CAPI\tNONE"
+    IDS_ALREADYRUN          "FIPS already is running!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CFGNOTAVAIL         "Cannot access FIPS configuration file!"
+    IDS_INVALIDCHAR         "Do not use character ';' in this field"
+    IDS_SYSERROR            "System error %d while calling  %s"
+    IDS_SKINFILT            "Skin Files (*.fsk)|*.fsk||"
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_GUARD DIALOGEX 0, 0, 127, 50
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "Enter password:",IDC_STATIC,6,6,114,8
+    EDITTEXT        IDC_PASSWORD,6,18,114,12,ES_CENTER | ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,6,34,50,12
+    PUSHBUTTON      "Cancel",IDCANCEL,70,34,50,12
+END
+
+IDD_CFG_FAX DIALOG  0, 0, 294, 257
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_BASEPATH,130,50,150,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BROWSE_PATH,280,50,10,12
+    EDITTEXT        IDC_FAXVIEWER,130,65,150,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BROWSE_VIEWER,280,65,10,12
+    CONTROL         "Do not convert to AWD format",IDC_DONT_CONVERT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,5,5,245,10
+    CONTROL         "Do not delete raw fax files.",IDC_DONT_DELETE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,5,20,245,10
+    LTEXT           "Base path for incoming fax:",IDC_STATIC1,5,51,125,9
+    LTEXT           "Command line for MS Fax-Viewer:",IDC_STATIC2,5,66,125,9
+    EDITTEXT        IDC_FAXVIEWER_BGFAX,130,80,150,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BROWSE_VIEWER_BGFAX,280,80,10,12
+    LTEXT           "Command line for raw .FAX - Viewer:",IDC_STATIC3,5,81,
+                    125,9
+    CONTROL         "Fall back to 19200 baud",IDC_CHECK_FALLBACK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,5,35,245,10
+END
+
+IDD_CFG_MAGIC DIALOGEX 0, 0, 294, 257
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_MAGIC,50,225,80,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASSWORD,175,225,60,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PATH,50,240,175,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Add",IDC_ADD,240,210,50,12
+    PUSHBUTTON      "Change",IDC_CHANGE,240,225,50,12
+    PUSHBUTTON      "Delete",IDC_DELETE,240,240,50,12
+    PUSHBUTTON      "...",IDC_BROWSE,225,240,10,12
+    PUSHBUTTON      "Export",IDC_EXPORT,240,195,50,12
+    LISTBOX         IDC_LIST,5,5,230,215,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Magic:",IDC_STATIC1,5,226,43,9
+    RTEXT           "Filepath:",IDC_STATIC2,5,242,43,8
+    RTEXT           "Password:",IDC_STATIC3,135,226,38,10
+END
+
+IDD_CFG_REQPATH DIALOGEX 0, 0, 297, 257
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT_PATH,50,225,170,12,ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PASSWORD,50,240,98,12,ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    PUSHBUTTON      "Add",IDC_ADD,234,210,55,12
+    PUSHBUTTON      "Change",IDC_CHANGE,234,225,55,12
+    PUSHBUTTON      "Delete",IDC_DELETE,234,240,55,12
+    PUSHBUTTON      "...",IDC_BROWSE,220,225,10,12
+    PUSHBUTTON      "Import Pathes",IDC_IMPORT,234,195,55,12
+    LISTBOX         IDC_LIST,5,10,225,210,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Directroy:",IDC_STATIC2,5,227,43,8
+    RTEXT           "Password:",IDC_STATIC3,5,241,43,9
+    GROUPBOX        "New entry:",IDC_STATIC1,2,0,293,255,BS_CENTER
+END
+
+IDD_INADR_FOUND DIALOG  0, 0, 227, 138
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Internet adresses found in mailtext:"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Use to address",IDOK,120,120,90,14
+    PUSHBUTTON      "Cancel",IDCANCEL,15,120,90,14
+    LISTBOX         IDC_LIST,2,0,223,104,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    RTEXT           "Address:",IDC_STATIC1,5,107,39,8
+    EDITTEXT        IDC_EDIT1,46,105,179,12,ES_AUTOHSCROLL
+END
+
+IDD_START_BROWSER DIALOG  0, 0, 299, 189
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Start internet browser"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_LIST,7,15,285,133,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_STARTCMD,45,155,251,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Go",IDOK,115,170,60,14
+    PUSHBUTTON      "Cancel",IDCANCEL,180,170,60,14
+    PUSHBUTTON      "Help",IDHELP,50,170,60,14
+    GROUPBOX        "Internet resources found in your selection:",
+                    IDC_STATIC1,3,5,293,147,BS_CENTER
+    RTEXT           "Command:",IDC_STATIC2,5,157,38,8
+END
+
+IDD_SELECT_EV_BOSS DIALOG  0, 0, 127, 158
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Select boss system"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,10,140,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,65,140,50,14
+    LISTBOX         IDC_LIST,2,14,123,121,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    CTEXT           "Available boss systems:",IDC_STATIC1,4,3,121,8
+END
+
+IDD_INOUT_HIST DIALOG  0, 0, 265, 112
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Incoming/Outgoing History"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Incoming Calls",IDC_INCOME,6,94,83,15
+    PUSHBUTTON      "Outgoing Calls",IDC_OUTGOING,91,94,83,15
+    DEFPUSHBUTTON   "Exit",IDOK,176,94,83,15
+    LISTBOX         IDC_LIST1,0,5,265,85,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_MANUAL_POLL DIALOG  0, 0, 279, 68
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Poll a remote system"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT1,145,5,129,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,170,50,50,15
+    PUSHBUTTON      "Cancel",IDCANCEL,225,50,50,15
+    RTEXT           "System:(name or FIDO-address)",IDC_STATIC1,5,6,138,10
+    CTEXT           "To make a call to your BOSS system please use the boss setup.\nUse this dialog only if you want to call a remote system.",
+                    IDC_STATIC2,10,24,260,21
+    GROUPBOX        "",IDC_STATIC,5,15,270,32
+END
+
+IDD_SELECT_MODEM DIALOG  0, 0, 311, 103
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Modem Selection"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Use",IDOK,105,85,50,15
+    PUSHBUTTON      "Cancel",IDCANCEL,160,85,50,15
+    LISTBOX         IDC_LIST1,5,15,300,66,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    CTEXT           "Please select the modem to use:",IDC_STATIC1,5,4,300,8
+END
+
+IDD_CFG_EXTFREQ DIALOG  0, 0, 253, 52
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Configure external FileRequest Tool"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_PATH,5,19,133,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Save",IDOK,60,35,55,14
+    PUSHBUTTON      "Cancel",IDCANCEL,120,35,55,14
+    LTEXT           "Command Line (without Path)",IDC_STATIC2,5,5,245,8
+    CONTROL         "This is a 16-bit program",IDC_CHECK_16BIT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,140,20,110,10
+END
+
+IDD_BBS_AREA DIALOG  0, 0, 297, 257
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_DESCRIPTION,80,190,155,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PATH_FOR_FILES,80,205,145,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_GET_PATH,225,205,10,10
+    EDITTEXT        IDC_EDIT_FILESBBS,80,220,145,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_GET_FILELIST,225,220,10,10
+    COMBOBOX        IDC_DD_LEVEL,80,235,25,78,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_GROUPS,170,235,65,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Import Pathes",IDC_IMPORT,237,189,55,12
+    PUSHBUTTON      "Delete",IDC_DELETE,237,204,55,12
+    PUSHBUTTON      "Change",IDC_CHANGE,237,219,55,12
+    PUSHBUTTON      "Add",IDC_ADD,237,234,55,12
+    LISTBOX         IDC_LIST,5,10,287,175,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Path for files:",IDC_STATIC2,8,207,70,8
+    GROUPBOX        "Available Areas:",IDC_STATIC1,3,0,292,250,BS_CENTER
+    LTEXT           "Area Description:",IDC_STATIC4,8,192,70,8
+    LTEXT           "Minimum Sec. Level:",IDC_STATIC5,8,237,70,8
+    LTEXT           "Groupflags:",IDC_STATIC6,110,237,58,8
+    LTEXT           "Files.bbs Path:",IDC_STATIC3,8,222,70,8
+END
+
+IDD_CFG_MMEDIA DIALOGEX 0, 0, 300, 260
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "Play sounds",IDC_PLAY_SOUNDS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,8,15,195,10
+    CONTROL         "Display BMP's",IDC_DISPLAY_BMPS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,8,25,195,10
+    CONTROL         "Warning about absent elements",IDC_DD_NOTFOUND,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,8,35,195,10
+    CONTROL         "Normal",IDC_SIZE0,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,8,59,70,8
+    CONTROL         "Smaller",IDC_SIZE1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,78,59,70,8
+    CONTROL         "Smallest",IDC_SIZE2,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,148,59,70,8
+    CONTROL         "Tiny",IDC_SIZE3,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,218,59,70,8
+    CONTROL         "BMP Files",IDC_SHOWBMP,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | WS_GROUP,8,75,106,11
+    CONTROL         "WAV Files",IDC_SHOWWAV,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,120,75,114,11
+    PUSHBUTTON      "Play",IDC_PLAY,237,158,27,12,NOT WS_VISIBLE
+    PUSHBUTTON      "Stop",IDC_STOP,266,158,27,12,NOT WS_VISIBLE
+    PUSHBUTTON      "Default",IDC_DEFAULT,237,209,56,12
+    PUSHBUTTON      "Test",IDTESTSOUND,237,224,27,12
+    PUSHBUTTON      "Stop",IDSTOPSOUND,266,224,27,12
+    EDITTEXT        IDC_WAVPATH,85,239,141,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_WAVEBR,225,239,10,12
+    PUSHBUTTON      "Change",IDC_CHANGE,237,239,56,12
+    LISTBOX         IDC_MMLIST,8,89,226,81,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST,10,186,225,50,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Bitmap Size:",IDC_STATIC2,5,48,292,126,BS_CENTER | 
+                    WS_GROUP
+    LTEXT           "Wave file path",IDC_STATIC4,10,241,73,8
+    GROUPBOX        "Multimedia extensions",IDC_STATIC1,5,5,290,67,BS_CENTER
+    GROUPBOX        "Events sounds",IDC_STATIC3,5,174,292,81,BS_CENTER
+    CONTROL         "",IDC_BMP,"Static",SS_BITMAP,237,115,11,11
+END
+
+IDD_ABOUTBOX DIALOG  34, 22, 42, 24
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP
+FONT 10, "Times New Roman"
+BEGIN
+    CONTROL         "",IDC_ABOUT,"Static",SS_BITMAP,0,0,141,24
+END
+
+IDD_MAIN_WINDOW DIALOGEX 0, 0, 389, 187
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "FIPS/Phoenix"
+MENU IDR_MENU_ENG
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_SUBJLIST,25,15,53,70,LBS_OWNERDRAWFIXED | 
+                    LBS_USETABSTOPS | LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | 
+                    WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_MAILTEXT,15,115,65,45,LBS_OWNERDRAWFIXED | 
+                    LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | 
+                    WS_HSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_PREV,"Button",BS_OWNERDRAW | WS_TABSTOP,45,0,15,
+                    12
+    CONTROL         "",IDC_NEXT,"Button",BS_OWNERDRAW | WS_TABSTOP,60,0,15,
+                    12
+    CONTROL         "",IDC_ASAVE,"Button",BS_OWNERDRAW | WS_TABSTOP,0,25,15,
+                    10
+    CONTROL         "",IDC_FIND,"Button",BS_OWNERDRAW | WS_TABSTOP,0,35,15,
+                    10
+    CONTROL         "",IDC_NEW,"Button",BS_OWNERDRAW | WS_TABSTOP,0,45,15,10
+    CONTROL         "",IDC_QUOTE,"Button",BS_OWNERDRAW | WS_TABSTOP,0,55,15,
+                    10
+    CONTROL         "",IDC_QUOTEA,"Button",BS_OWNERDRAW | WS_TABSTOP,0,65,15,
+                    10
+    CONTROL         "",IDC_FREQ,"Button",BS_OWNERDRAW | WS_TABSTOP,0,75,15,
+                    10
+    CONTROL         "",IDC_MACRO1,"Button",BS_OWNERDRAW | WS_TABSTOP,0,85,15,
+                    10
+    CONTROL         "",IDC_MACRO2,"Button",BS_OWNERDRAW | WS_TABSTOP,0,95,15,
+                    10
+    CONTROL         "",IDC_MACRO3,"Button",BS_OWNERDRAW | WS_TABSTOP,0,105,
+                    15,10
+    CONTROL         "",IDC_MACRO4,"Button",BS_OWNERDRAW | WS_TABSTOP,0,115,
+                    15,10
+    CONTROL         "",IDC_MACRO5,"Button",BS_OWNERDRAW | WS_TABSTOP,0,125,
+                    15,10
+    CONTROL         "",IDC_EXIT,"Button",BS_OWNERDRAW | WS_TABSTOP,0,135,15,
+                    10
+    CONTROL         "",IDC_ABORT,"Button",BS_OWNERDRAW | NOT WS_VISIBLE,0,
+                    145,15,10
+    CONTROL         "",IDC_FROM,"Static",SS_LEFTNOWORDWRAP | SS_NOPREFIX | 
+                    SS_NOTIFY,65,86,154,8,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_FROM_ADDRESS,"Static",SS_LEFTNOWORDWRAP | 
+                    SS_NOPREFIX | SS_NOTIFY | WS_GROUP,224,86,65,8,
+                    WS_EX_TRANSPARENT
+    CONTROL         "",IDC_CREATE,"Static",SS_LEFTNOWORDWRAP | SS_NOPREFIX | 
+                    SS_NOTIFY | WS_GROUP,291,86,78,8,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_TO,"Static",SS_LEFTNOWORDWRAP | SS_NOPREFIX | 
+                    SS_NOTIFY,65,95,154,8,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_TO_ADDRESS,"Static",SS_LEFTNOWORDWRAP | 
+                    SS_NOPREFIX | SS_NOTIFY | WS_GROUP,224,95,65,8,
+                    WS_EX_TRANSPARENT
+    CONTROL         "",IDC_RECEIVE,"Static",SS_LEFTNOWORDWRAP | SS_NOPREFIX | 
+                    SS_NOTIFY | WS_GROUP,291,95,78,8,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_SUBJECT,"Static",SS_LEFTNOWORDWRAP | SS_NOPREFIX | 
+                    SS_NOTIFY,65,105,154,8,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_CITY,"Static",SS_LEFTNOWORDWRAP | SS_NOPREFIX | 
+                    SS_NOTIFY | WS_GROUP,224,105,145,8,WS_EX_TRANSPARENT
+    DEFPUSHBUTTON   "OK",IDOK,15,160,30,10,NOT WS_VISIBLE
+    LISTBOX         IDC_ATTRLIST,15,15,10,70,LBS_OWNERDRAWFIXED | 
+                    LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | WS_TABSTOP
+    PUSHBUTTON      "Cancel",IDCANCEL,50,160,30,10,NOT WS_VISIBLE
+    CONTROL         "A",IDC_SHOW_ATTRIBUTES,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE,15,85,10,9
+    CONTROL         "H",IDC_SHOW_HIDDEN,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE,15,95,10,9
+    CONTROL         "D",IDC_SHOW_DELETED,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE,15,105,10,9
+    CONTROL         "",IDC_FILT,"Button",BS_OWNERDRAW | WS_TABSTOP,0,15,15,
+                    10
+    CONTROL         "",IDC_ECHOTAG,"Static",SS_LEFTNOWORDWRAP | SS_NOPREFIX | 
+                    SS_NOTIFY | SS_CENTERIMAGE | WS_GROUP,198,0,165,12,
+                    WS_EX_TRANSPARENT
+    CTEXT           "",IDC_COUNTER,78,0,110,12,SS_NOPREFIX | SS_NOTIFY | 
+                    SS_CENTERIMAGE,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_ANIMAIL,"Button",BS_OWNERDRAW | WS_TABSTOP,0,0,15,
+                    12
+    CONTROL         "",IDC_ANITOSS,"Button",BS_OWNERDRAW | WS_TABSTOP,15,0,
+                    15,12
+    CONTROL         "",IDC_ANIPURGE,"Button",BS_OWNERDRAW | WS_TABSTOP,30,0,
+                    15,12
+    PUSHBUTTON      "From:",IDC_TEXT_FROM,25,85,40,9,BS_RIGHT
+    PUSHBUTTON      "To:",IDC_TEXT_TO,25,95,40,9,BS_RIGHT
+    PUSHBUTTON      "Subject:",IDC_TEXT_SUBJECT,25,105,40,9,BS_RIGHT
+END
+
+IDD_AREASELECT DIALOG  0, 0, 354, 227
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "New area selection"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List3",IDC_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | 
+                    WS_BORDER | WS_TABSTOP,1,1,353,169
+    CONTROL         "List4",IDC_LISTU,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,1,1,353,174
+    CONTROL         "User defined display",IDC_DISPLAY_UDEF,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,5,180,133,10
+    RTEXT           "Comment",IDC_STATIC45,5,196,53,8
+    EDITTEXT        IDC_EDIT_COMMENT,60,195,140,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Add",IDC_ADD_COMMENT,203,180,50,13
+    PUSHBUTTON      "Up",IDC_UP,254,180,40,13
+    PUSHBUTTON      "Restore",IDC_REST,295,180,55,13
+    PUSHBUTTON      "Hide",IDC_DELETE_COMMENT,203,195,50,13
+    PUSHBUTTON      "Down",IDC_DOWN,254,195,40,13
+    PUSHBUTTON      "Save",IDC_SAVE_UDEF,295,195,55,13
+    PUSHBUTTON      "Help",IDHELP,4,210,85,14
+    PUSHBUTTON      "Areas traffic",IDC_BUTTON1,91,210,85,14
+    DEFPUSHBUTTON   "OK",IDOK,178,210,85,14
+    PUSHBUTTON      "Cancel",IDCANCEL,265,210,85,14
+END
+
+IDD_CFG_DIRS DIALOG  0, 0, 292, 257
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Use Base Folder as Root for others",IDC_USEROOT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,95,20,190,9
+    EDITTEXT        IDC_BASEDIR,95,30,180,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_PATH1,275,30,10,12
+    EDITTEXT        IDC_MESSAGEBASE,95,45,180,12,ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_PATH2,275,45,10,12
+    EDITTEXT        IDC_UTILITIES,95,60,180,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_PATH3,275,60,10,12
+    EDITTEXT        IDC_NODELIST,95,75,180,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_PATH4,275,75,10,12
+    EDITTEXT        IDC_INBOUND,95,90,180,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_PATH5,275,90,10,12
+    EDITTEXT        IDC_OUTBOUND,95,105,180,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_PATH6,275,105,10,12
+    EDITTEXT        IDC_MULTIMEDIA,95,120,180,12,ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_PATH7,275,120,10,12
+    EDITTEXT        IDC_TICBASIC,95,135,180,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_PATH8,275,135,10,12
+    EDITTEXT        IDC_BROWSER,95,175,180,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_PATH9,275,175,10,12
+    EDITTEXT        IDC_PRTPROG,95,215,179,11,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_PATH10,275,215,10,12
+    CONTROL         "Execute hidden",IDC_HIDDEN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,95,230,79,10
+    CONTROL         "Print in ANSI",IDC_USEANSI,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,180,230,105,10
+    GROUPBOX        "Work Folders Configuration:",IDC_STATIC1,2,5,288,150,
+                    BS_CENTER
+    LTEXT           "Root Folder:",IDC_STATIC2,5,32,88,8
+    LTEXT           "Message Base Folder:",IDC_STATIC3,5,47,88,8
+    LTEXT           "Utilities Folder:",IDC_STATIC4,5,62,88,8
+    LTEXT           "Nodelist Folder:",IDC_STATIC5,5,77,88,8
+    LTEXT           "Inbound Folder:",IDC_STATIC6,5,92,88,8
+    LTEXT           "Outbound Folder:",IDC_STATIC7,5,107,88,8
+    LTEXT           "Multimedia Folder:",IDC_STATIC8,5,122,88,8
+    LTEXT           "Default TIC  Folder:",IDC_STATIC9,5,137,88,8
+    LTEXT           "Command line:",IDC_STATIC11,5,177,88,8
+    GROUPBOX        "Internet Browser command ( use '%s' for the argument )",
+                    IDC_STATIC10,2,160,288,35,BS_CENTER
+    LTEXT           "Command line:",IDC_STATIC13,5,216,88,8
+    GROUPBOX        "Printing Program (if is empty - Notepad will be used)",
+                    IDC_STATIC12,2,200,288,45,BS_CENTER
+END
+
+IDD_CFG_BOSS DIALOGEX 0, 0, 297, 257
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_BOSSNAME,81,70,65,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SYSOPNAME,81,85,65,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FIDOADDRESS,81,100,65,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PHONENUMBER,81,115,65,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MYPOINTNUMBER,81,140,65,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SESSIONPASSWORD,81,155,65,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ECHOFILENAME,81,170,65,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_PACKERTYPE,81,185,65,90,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_ARCFILENAME,81,200,65,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ROUTE,81,215,65,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FL_PACKEDNAME,225,70,65,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FL_UNPACKEDNAME,225,85,65,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_NEW_PACKEDNAME,225,110,65,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_NEW_UNPACKEDNAME,225,125,65,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_AFIX_NAME,225,150,65,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_AFIX_PASSWORD,225,165,65,12,ES_AUTOHSCROLL
+    CONTROL         "Add '+' Sign",IDC_AFIX_PLUS,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | BS_RIGHT | WS_TABSTOP,155,180,135,10
+    EDITTEXT        IDC_FFIX_NAME,225,200,65,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FFIX_PASSWORD,225,215,65,12,ES_AUTOHSCROLL
+    CONTROL         "Add '+' Sign",IDC_FFIX_PLUS,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | BS_RIGHT | WS_TABSTOP,155,230,135,10
+    CONTROL         "Don't put this boss into mailer queue",IDC_NOMAIL,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,235,136,10
+    CONTROL         "Don't create empty Poll-packet",IDC_NOPOLL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,5,245,136,10
+    CONTROL         "no HYDRA",IDC_HYDRA,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,150,245,49,10
+    CONTROL         "no ZMODEM",IDC_ZMODEM,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,200,245,54,10
+    CONTROL         "TCP/IP",IDC_TCPIP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    255,245,34,10
+    PUSHBUTTON      "Add",IDC_ADD,240,15,50,12
+    PUSHBUTTON      "Change",IDC_CHANGE,240,30,50,12
+    PUSHBUTTON      "Delete",IDC_DELETE,240,45,50,12
+    LISTBOX         IDC_LIST,7,10,230,47,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "List of current Bosses:",IDC_STATIC1,5,0,290,65,
+                    BS_CENTER
+    GROUPBOX        "Basic settings:",IDC_STATIC2,5,60,146,170,BS_CENTER
+    GROUPBOX        "File list (boss filelist):",IDC_STATIC14,150,60,145,45,
+                    BS_CENTER
+    GROUPBOX        "New files list (usually Newfiles):",IDC_STATIC17,150,
+                    100,145,45,BS_CENTER
+    GROUPBOX        "Echo bot (usually Areafix):",IDC_STATIC20,150,140,145,
+                    55,BS_CENTER
+    GROUPBOX        "Fileecho bot (usually FileFix):",IDC_STATIC23,150,190,
+                    145,52,BS_CENTER
+    LTEXT           "System name:",IDC_STATIC3,8,72,70,8
+    LTEXT           "Fido address:",IDC_STATIC5,8,102,70,8
+    LTEXT           "Phone number:",IDC_STATIC6,8,117,70,8
+    LTEXT           "My point number:",IDC_STATIC7,8,142,70,8
+    LTEXT           "Session password:",IDC_STATIC8,8,157,70,8
+    LTEXT           "Password:",IDC_STATIC22,155,168,68,8
+    LTEXT           "Filename:",IDC_STATIC21,155,154,68,8
+    LTEXT           "Packed Filename:",IDC_STATIC15,155,72,68,8
+    LTEXT           "Packer type:",IDC_STATIC10,8,187,70,8
+    LTEXT           "Unpacked Filename:",IDC_STATIC16,155,87,68,8
+    LTEXT           "Echolist filename:",IDC_STATIC9,8,172,70,8
+    LTEXT           "Filename:",IDC_STATIC24,155,203,68,8
+    LTEXT           "Password:",IDC_STATIC25,155,217,68,8
+    LTEXT           "Packed Filename:",IDC_STATIC18,155,114,68,8
+    LTEXT           "Unpacked Filename:",IDC_STATIC19,155,128,68,8
+    LTEXT           "Boss name:",IDC_STATIC4,8,87,70,8
+    LTEXT           "Arcmail  password:",IDC_STATIC11,8,202,70,8
+    LTEXT           "Routing:",IDC_STATIC12,8,217,70,8
+    RTEXT           "To dial with CAPI 2.0 use '$'-preffix",IDC_STATIC88,8,
+                    129,138,8
+END
+
+IDD_CFG_EDITOR DIALOGEX 0, 0, 300, 260
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "Immediate message update",IDC_IMMEDIATE_UPDATE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,5,5,155,10
+    CONTROL         "Golded-style cursor keys",IDC_GOLDED_COMP,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,5,15,155,10
+    CONTROL         "Hide leading empty lines",IDC_HIDE_BEG_EMP_LINES,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,5,25,155,10
+    CONTROL         "Enable colered reader",IDC_COLORED,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,5,35,155,10
+    CONTROL         "Enable alternate-colored quotes",IDC_ALTCOLORED,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,5,45,155,10
+    CONTROL         "Use ORIGIN in Netmail",IDC_NETMAILORIG,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,5,55,155,10
+    CONTROL         "Filter 'Re:' in Subjects",IDC_FILTER_RE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,5,65,285,8
+    CONTROL         "Don't generate RE: when quoting a mail",IDC_NORES,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,75,285,8
+    CONTROL         "Structured subject display",IDC_STRUCT_SUBJECT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,5,85,285,8
+    CONTROL         "Repeat quote after breaking line",IDC_REPEAT_QUOTE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,95,285,8
+    CONTROL         "Display Area selection after last mail",
+                    IDC_AREA_AFTER_LAST,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,5,105,285,8
+    CONTROL         "Multiselection in mail navigation with SPACE",
+                    IDC_MULTISPACE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,
+                    115,285,8
+    CONTROL         "Do not ask for detailed name search",IDC_NO_DETSEARCH,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,125,285,8
+    CONTROL         "Preferable nodelist in sender location search",
+                    IDC_NDLPREFER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,
+                    135,285,8
+    EDITTEXT        IDC_MAXUUE,5,146,20,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "Max. number of UUE lines in one mail (10-1000 lines)",
+                    IDC_LBL_MAXUUE,27,148,263,10
+    EDITTEXT        IDC_EDITORWIDTH,5,160,20,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "Width of mail editor dialog window (20-100 chars)",
+                    IDC_LBL_EDITORWIDTH,28,161,262,10
+    CONTROL         "clear                                                                 TEARLINE:",
+                    IDC_LBL_TEARLINE,"Button",BS_AUTOCHECKBOX | BS_LEFT | 
+                    WS_TABSTOP,6,174,284,10
+    EDITTEXT        IDC_TEARLINE,6,185,284,12,ES_AUTOHSCROLL
+    CONTROL         "Autoscroll subject list",IDC_AUTOSCROLL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,165,5,125,10
+    GROUPBOX        "On area change show:",IDC_STATIC2,165,17,125,38
+    CONTROL         "First non-read mail",IDC_FIRST_NON,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,170,28,115,10
+    CONTROL         "Last already read mail",IDC_LAST_READ,"Button",
+                    BS_AUTORADIOBUTTON,170,41,115,10
+    CONTROL         "Auto indent",IDC_AUTOINDENT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,6,199,144,10
+    CONTROL         "Use pseudographics",IDC_USEDOS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,6,209,144,10
+    CONTROL         "Word wrap",IDC_WORDWRAP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,154,199,128,10
+    CONTROL         "Equal Tabs",IDC_EQUALTABS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,154,209,116,10
+    CONTROL         "Replace Tabs with spaces",IDC_TABTOSPACE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,154,219,134,10
+    CONTROL         "Show Tabs and spaces",IDC_SHOWTABS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,219,144,10
+    EDITTEXT        IDC_TABSIZE,270,208,17,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    COMBOBOX        IDC_COLORS,132,229,108,63,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "",IDC_COLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,240,229,
+                    50,12
+    CONTROL         "Use color attributes",IDC_COLORMARK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,230,126,10
+    PUSHBUTTON      "Editor font",IDC_EDITOR_FONT,212,243,78,12,NOT 
+                    WS_VISIBLE
+    LTEXT           "Right margin:",IDC_STATIC1,6,245,76,8
+    EDITTEXT        IDC_RMARGIN,83,243,19,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+END
+
+IDD_CFG_AREA DIALOGEX 0, 0, 300, 266
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Areas setup"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_AREATAG,43,135,147,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    EDITTEXT        IDC_DESCRIPTION,43,150,177,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_UPLINK,43,165,65,43,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_AKA,130,165,65,12,ES_AUTOHSCROLL
+    CONTROL         "CC-Area",IDC_CCAREA,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,200,167,94,8
+    EDITTEXT        IDC_MAXMAILS,164,190,24,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_CREATE,164,204,24,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_RECIPT,164,218,24,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_ADDDAYS,6,231,23,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_GROUP,220,135,77,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    PUSHBUTTON      "Add",IDC_ADD,239,57,58,12
+    PUSHBUTTON      "Change",IDC_CHANGE,239,72,58,12
+    PUSHBUTTON      "Delete",IDC_DELETE,239,87,58,12
+    PUSHBUTTON      "Change group",IDC_SETGROUP,239,102,58,12
+    PUSHBUTTON      "Save defaults",IDC_DEFAULT,239,117,58,12
+    PUSHBUTTON      "Look for description",IDC_DESCR,220,150,77,12
+    EDITTEXT        IDC_NUMBER,225,180,40,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER | WS_DISABLED
+    PUSHBUTTON      "Renumber",IDC_RENUM,195,195,95,12,WS_DISABLED
+    CONTROL         "List2",IDC_LIST,"SysListView32",LVS_SINGLESEL | 
+                    LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,3,4,232,126
+    LTEXT           "+ days for non-read",IDC_STATIC55,31,233,152,8
+    LTEXT           "AreaTag:",IDC_STATIC1,3,137,39,8
+    LTEXT           "Description:",IDC_STATIC2,3,151,39,9
+    RTEXT           "AKA:",IDC_STATIC3,110,167,18,8
+    RTEXT           "Group:",IDC_STATIC4,190,137,28,8
+    GROUPBOX        "Purge Area with criteria:",IDC_STATIC6,3,180,188,66,
+                    BS_CENTER
+    LTEXT           "Uplink:",IDC_STATIC5,3,167,39,8
+    LTEXT           "N",IDC_STATIC7,215,182,8,8
+    LTEXT           "Max. number of mails (0 - no limits)",IDC_MAXTXT,7,192,
+                    155,8
+    LTEXT           "Age in days from creation greater  (0-no limits)",
+                    IDC_CREATETXT,7,206,155,8
+    LTEXT           "Age in days from reciption greater (0-no limits)",
+                    IDC_RECIPTTXT,7,220,155,8
+    LTEXT           "Created: 0",IDC_STATIC8,242,7,48,8
+    LTEXT           "Modified: 0",IDC_STATIC9,242,19,48,8
+    LTEXT           "Deleted: 0",IDC_STATIC10,242,31,48,8
+    LTEXT           "Areas: 0",IDC_STATIC11,242,43,48,8
+    GROUPBOX        "",IDC_STATIC,239,0,58,55
+    PUSHBUTTON      "Help",IDHELP,60,250,60,12
+    PUSHBUTTON      "Save",IDOK,126,250,60,12
+    PUSHBUTTON      "Cancel",IDCANCEL,192,250,60,12
+END
+
+IDD_CFG_PACKER DIALOGEX 0, 0, 292, 257
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_NAME,85,140,40,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PACKCMD,85,165,150,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_UNPACKCMD,85,180,150,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_P1,76,215,15,12,ES_CENTER | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_P2,92,215,15,12,ES_CENTER | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_P3,108,215,15,12,ES_CENTER | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_P4,124,215,15,12,ES_CENTER | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_P5,140,215,15,12,ES_CENTER | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_P6,156,215,15,12,ES_CENTER | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_P7,172,215,15,12,ES_CENTER | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_P8,188,215,15,12,ES_CENTER | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_P9,204,215,15,12,ES_CENTER | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_P10,220,215,15,12,ES_CENTER | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    PUSHBUTTON      "Add",IDC_ADD,240,210,50,12
+    PUSHBUTTON      "Change",IDC_CHANGE,240,225,50,12
+    PUSHBUTTON      "Delete",IDC_DELETE,240,240,50,12
+    CONTROL         "Use built-in packer",IDC_BUILTIN,"Button",
+                    BS_AUTOCHECKBOX | BS_TOP | BS_MULTILINE | WS_TABSTOP,5,
+                    242,225,10
+    PUSHBUTTON      "Default",IDC_DEFAULT,240,195,50,12,NOT WS_VISIBLE
+    LISTBOX         IDC_LIST,3,5,287,120,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Pack command:",IDC_STATIC3,4,167,79,8
+    LTEXT           "Unpack command:",IDC_STATIC4,4,180,79,8
+    LTEXT           "Packer name:",IDC_STATIC2,4,142,79,8
+    GROUPBOX        "Packer Descpription",IDC_STATIC1,2,130,236,110,
+                    BS_CENTER
+    CTEXT           "First 10 Bytes(in hex) to detect this archiver.\nLeave blank to ignore a specific byte",
+                    IDC_STATIC6,75,195,160,18
+    LTEXT           "1",IDC_STATIC,82,230,6,8
+    LTEXT           "2",IDC_STATIC,98,230,6,8
+    LTEXT           "3",IDC_STATIC,115,230,6,8
+    LTEXT           "4",IDC_STATIC,130,230,6,8
+    LTEXT           "5",IDC_STATIC,147,230,6,8
+    LTEXT           "6",IDC_STATIC,163,230,6,8
+    LTEXT           "7",IDC_STATIC,179,230,6,8
+    LTEXT           "8",IDC_STATIC,194,230,6,8
+    LTEXT           "9",IDC_STATIC,210,230,6,8
+    LTEXT           "10",IDC_STATIC,225,230,10,8
+    CTEXT           "Use %p for destination path and %f for filename",
+                    IDC_STATIC5,85,155,150,10
+END
+
+IDD_SIMPLE_SEARCH DIALOGEX 0, 0, 237, 116
+STYLE DS_SETFONT | DS_MODALFRAME | DS_SETFOREGROUND | DS_CENTER | WS_POPUP | 
+    WS_CAPTION
+CAPTION "Search in current area"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_PATTERN,4,14,226,12,ES_AUTOHSCROLL
+    CONTROL         "in Headers",IDC_HEADER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,4,29,93,10
+    CONTROL         "in Mail text",IDC_MESSAGETEXT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,4,39,93,10
+    CONTROL         "Ignore Case",IDC_IGNORECASE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,4,49,93,10
+    CONTROL         "Ever highlight",IDC_HIGHLIGHT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,4,59,93,10
+    CONTROL         "Multiselection",IDC_MULTI,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,4,69,90,10
+    CONTROL         "Char convertion",IDC_CONVERT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,4,79,93,10
+    GROUPBOX        "Direction",IDC_DIRECTION,99,34,56,45,BS_CENTER | 
+                    WS_GROUP
+    CONTROL         "Upward",IDC_UP,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    101,44,50,10
+    CONTROL         "Downward",IDC_DOWN,"Button",BS_AUTORADIOBUTTON,101,54,
+                    50,10
+    CONTROL         "Everywhere",IDC_ALL,"Button",BS_AUTORADIOBUTTON,101,64,
+                    50,10
+    DEFPUSHBUTTON   "Find Next",IDOK,158,39,75,17,WS_GROUP
+    PUSHBUTTON      "Extended Search",IDEXTSEARCH,158,57,75,17
+    PUSHBUTTON      "Help",IDHELP,158,75,75,17
+    PUSHBUTTON      "Exit",IDCANCEL,158,94,75,17
+    CTEXT           "Search pattern (Use '?' as a Wildcard )",IDC_STATIC1,6,
+                    3,225,8
+    EDITTEXT        IDC_STATUS,5,98,145,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER
+    GROUPBOX        "Last search result",IDC_STATIC2,2,88,153,25,BS_CENTER
+END
+
+IDD_STAT_PURGE DIALOGEX 0, 0, 237, 111
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Purger"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "Help",IDHELP,2,97,46,12
+    PUSHBUTTON      "Clear",IDCLEAR,49,97,46,12
+    PUSHBUTTON      "Purge sel.",IDC_PURGEONE,96,97,46,12
+    PUSHBUTTON      "Purge all",IDC_PURGEALL,143,97,46,12
+    DEFPUSHBUTTON   "Hide",IDCANCEL,190,97,46,12
+    LISTBOX         IDC_LIST,2,1,233,59,NOT LBS_NOTIFY | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL
+    CONTROL         "Generic3",IDC_AREA_PROZ,"msctls_progress32",WS_BORDER | 
+                    0x1,5,85,230,8
+    GROUPBOX        "",IDC_FR,2,60,235,35
+    EDITTEXT        IDC_STATUS,5,65,230,20,ES_CENTER | ES_MULTILINE | 
+                    ES_READONLY | NOT WS_BORDER
+END
+
+IDD_STAT_MAILER DIALOGEX 0, 0, 378, 229
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Mailer Details:"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Session Info:",IDC_MSESSINFO,1,0,193,115,BS_CENTER
+    GROUPBOX        "Incoming Calls:",IDC_MCALLS,193,0,92,32,BS_CENTER
+    GROUPBOX        "Outgoing Calls:",IDC_MCALLS2,284,0,91,32,BS_CENTER
+    GROUPBOX        "",IDC_STATIC8,193,27,182,199,BS_CENTER
+    GROUPBOX        "Events:",IDC_MEVENTS,193,86,182,29,BS_CENTER
+    GROUPBOX        "Sending:",IDC_MSENDATA,1,110,193,63,BS_CENTER
+    GROUPBOX        "Mailer Queue:",IDC_MQUEUE,193,110,182,63,BS_CENTER
+    GROUPBOX        "Recieving:",IDC_MRESDATA,1,168,193,58,BS_CENTER
+    GROUPBOX        "Remote Info:",IDC_MINFO,193,168,182,38,BS_CENTER
+    LISTBOX         IDC_LIST,5,10,185,86,NOT LBS_NOTIFY | 
+                    LBS_NOINTEGRALHEIGHT | LBS_NOSEL | WS_VSCROLL | 
+                    WS_HSCROLL
+    PUSHBUTTON      "Mailer Queue",IDC_SHOW_QUEUE,240,26,90,12
+    LISTBOX         IDC_QUEUE,196,40,175,45,LBS_MULTIPLESEL | 
+                    LBS_USETABSTOPS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_HSCROLL | WS_TABSTOP
+    LISTBOX         IDC_EVENTLOG,196,40,175,45,LBS_MULTIPLESEL | 
+                    LBS_USETABSTOPS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_HSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Start",IDC_START_EVENTS,197,96,58,13
+    PUSHBUTTON      "Stop",IDC_STOP_EVENTS,256,96,57,13
+    PUSHBUTTON      "Setup",IDC_SETUP_EVENTS,314,96,57,13
+    PUSHBUTTON      "Skip Call",IDC_SKIPCALL,197,120,87,12,BS_CENTER | 
+                    BS_VCENTER | BS_MULTILINE | WS_DISABLED
+    PUSHBUTTON      "Skip File",IDC_SKIPFILE,285,120,86,12,BS_CENTER | 
+                    BS_VCENTER | BS_MULTILINE | WS_DISABLED
+    PUSHBUTTON      "Remove Call",IDC_REMOVECALL,197,133,87,12,BS_CENTER | 
+                    BS_VCENTER | BS_MULTILINE
+    PUSHBUTTON      "Remove File",IDC_REMOVEFILE,285,133,86,12,BS_CENTER | 
+                    BS_VCENTER | BS_MULTILINE | WS_DISABLED
+    PUSHBUTTON      "Rescan",IDC_RESCAN,197,146,58,20,BS_CENTER | BS_VCENTER | 
+                    BS_MULTILINE
+    PUSHBUTTON      "Start",IDSTART,256,146,57,20,BS_CENTER | BS_VCENTER | 
+                    BS_MULTILINE
+    PUSHBUTTON      "Abort",IDABORTSESSION,314,146,57,20,BS_CENTER | 
+                    BS_VCENTER | BS_MULTILINE | WS_DISABLED
+    EDITTEXT        IDC_SYSTEM,196,177,175,26,ES_CENTER | ES_MULTILINE | 
+                    ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    PUSHBUTTON      "Help",IDHELP,205,209,75,12
+    PUSHBUTTON      "Hide",IDCANCEL,290,209,75,12
+    EDITTEXT        IDC_STATUS,48,99,143,12,ES_READONLY | NOT WS_BORDER | 
+                    NOT WS_TABSTOP
+    EDITTEXT        IDC_BYTESTRANSF,115,143,75,12,ES_READONLY | NOT 
+                    WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_BYTESTRANSF2,115,203,75,12,ES_READONLY | NOT 
+                    WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_BYTESTOTAL,30,143,44,12,ES_READONLY | NOT WS_BORDER | 
+                    NOT WS_TABSTOP
+    EDITTEXT        IDC_BYTESTOTAL2,30,203,44,12,ES_READONLY | NOT WS_BORDER | 
+                    NOT WS_TABSTOP
+    EDITTEXT        IDC_TIMEELAPSED,115,132,75,12,ES_READONLY | NOT 
+                    WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_TIMEELAPSED2,115,192,75,12,ES_READONLY | NOT 
+                    WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_CPS,30,132,44,12,ES_READONLY | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_CPS2,30,192,44,12,ES_READONLY | NOT WS_BORDER | NOT 
+                    WS_TABSTOP
+    CONTROL         "Generic3",IDC_PROZ,"msctls_progress32",0x1,6,156,185,6
+    CONTROL         "Generic3",IDC_PROZ2,"msctls_progress32",0x1,6,216,185,6
+    RTEXT           "Total:",IDC_MTOTAL,5,143,23,12
+    RTEXT           "Total:",IDC_MTOTAL2,5,203,23,12
+    RTEXT           "Transferred:",IDC_MTRANSF,76,143,38,12
+    RTEXT           "Transferred:",IDC_MTRANSF2,76,203,38,12
+    RTEXT           "CPS:",IDC_MCPS,5,132,23,12
+    RTEXT           "CPS:",IDC_MCPS2,5,192,23,12
+    RTEXT           "Time:",IDC_MTIME,76,132,38,12
+    RTEXT           "Time:",IDC_MTIME2,76,192,38,12
+    RTEXT           "Status:",IDC_MSTAT,5,99,38,12
+    RTEXT           "File:",IDC_MFNAME,5,121,23,12
+    RTEXT           "File:",IDC_MFNAME2,5,181,23,12
+    EDITTEXT        IDC_TRANSNAME,29,121,161,12,ES_READONLY | NOT WS_BORDER | 
+                    NOT WS_TABSTOP
+    EDITTEXT        IDC_TRANSNAME2,29,181,161,12,ES_READONLY | NOT WS_BORDER | 
+                    NOT WS_TABSTOP
+    CONTROL         306,IDC_MOD2IN,"Static",SS_BITMAP,228,11,20,10
+    CONTROL         308,IDC_ISDNIN,"Static",SS_BITMAP,253,11,20,10
+    CONTROL         304,IDC_MOD1OUT,"Static",SS_BITMAP,292,11,20,10
+    CONTROL         306,IDC_MOD2OUT,"Static",SS_BITMAP,317,11,20,10
+    CONTROL         308,IDC_ISDNOUT,"Static",SS_BITMAP,342,11,20,10
+    CONTROL         304,IDC_MOD1IN,"Static",SS_BITMAP,202,11,18,10
+END
+
+IDD_STAT_TOSS DIALOG  0, 0, 229, 121
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Tosser"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Help",IDHELP,5,105,53,14
+    PUSHBUTTON      "Clear",IDCLEAR,60,105,53,14
+    DEFPUSHBUTTON   "Start",IDSTART,115,105,53,14
+    PUSHBUTTON      "Hide",IDCANCEL,170,105,53,14
+    LISTBOX         IDC_LIST,1,5,226,55,NOT LBS_NOTIFY | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL
+    CONTROL         "Generic3",IDC_AREA_PROZ,"msctls_progress32",0x1,5,93,
+                    220,8
+    EDITTEXT        IDC_STATUS,5,67,220,25,ES_CENTER | ES_MULTILINE | 
+                    ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    GROUPBOX        "",IDC_FR,2,60,226,43
+END
+
+IDD_CFG_SOUND DIALOG  0, 0, 297, 257
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_PATH,80,240,145,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BROWSE,225,240,10,12
+    PUSHBUTTON      "Default",IDDEFAULT,237,195,56,12
+    PUSHBUTTON      "Test",IDTESTSOUND,237,210,56,12
+    PUSHBUTTON      "Stop",IDSTOPSOUND,237,225,56,12
+    PUSHBUTTON      "Change",IDC_CHANGE,237,240,56,12
+    LISTBOX         IDC_LIST,4,5,231,230,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Wave file path",IDC_STATIC1,5,242,73,8
+END
+
+IDD_CFG_TEMPLATE DIALOGEX 0, 0, 300, 260
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_TMPL,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | 
+                    WS_TABSTOP,2,2,171,198
+    EDITTEXT        IDC_EDIT,2,201,234,42,ES_MULTILINE | ES_WANTRETURN | 
+                    WS_VSCROLL
+    PUSHBUTTON      "Add",IDC_ADD,238,201,60,13
+    PUSHBUTTON      "Change",IDC_CHANGE,238,216,60,13
+    PUSHBUTTON      "Delete",IDC_DELETE,238,231,60,12
+    CONTROL         "random",IDC_RANDOM_NEW,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,232,14,66,8
+    PUSHBUTTON      "For New - 0",IDC_SET_NEW,232,2,66,11
+    CONTROL         "random",IDC_RANDOM_QUOTE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,232,35,66,8
+    PUSHBUTTON      "For Quote - 0",IDC_SET_QUOTE,232,23,66,11
+    CONTROL         "Header",IDC_CHK_HEADER,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | WS_GROUP,175,2,56,13
+    CONTROL         "Footer",IDC_CHK_FOOTER,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,175,17,56,13
+    CONTROL         "Origin",IDC_CHK_ORIGIN,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,175,32,56,13
+    EDITTEXT        IDC_ORIGINPATH,72,245,215,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_ORIGINFILE,288,245,10,12
+    RTEXT           "Origins File:",IDC_STATIC2,1,247,70,8
+    CONTROL         "",IDC_AREAS,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | 
+                    WS_TABSTOP,175,47,123,153
+END
+
+IDD_WRITMAIL640 DIALOGEX 0, 0, 422, 180
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Write a new mail:"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_TO,35,31,170,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SUBJECT,35,45,295,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_ORIGIN,2,150,382,65,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_TO_FIDO,205,31,65,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_HEADER,2,59,382,24,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | WS_VSCROLL
+    EDITTEXT        IDC_FOOTER,2,127,382,23,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | WS_VSCROLL
+    COMBOBOX        IDC_ALIASES,35,17,170,118,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_FIDODROP,205,17,65,118,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "&Help",IDHELP,5,165,65,12
+    PUSHBUTTON      "&Address Info",IDC_INFO,73,165,65,12
+    PUSHBUTTON      "Attach &File",IDC_ATTACH,141,165,65,12
+    PUSHBUTTON      "&Import",IDC_IMPORT,209,165,65,12
+    PUSHBUTTON      "&Cancel",IDCANCEL,345,165,65,12
+    PUSHBUTTON      "&Save",IDC_SAVE,277,165,65,12
+    CONTROL         "Request receipt",IDC_REQUEST_RECIPT,"Button",
+                    BS_AUTOCHECKBOX,354,0,66,9
+    CONTROL         "Send direct",IDC_SEND_DIRECT,"Button",BS_AUTOCHECKBOX,
+                    354,10,66,9
+    CONTROL         "Kill after send",IDC_KILL_AFTER_SEND,"Button",
+                    BS_AUTOCHECKBOX,354,20,66,9
+    CONTROL         "Private",IDC_PRIVATE,"Button",BS_AUTOCHECKBOX,354,30,66,
+                    9
+    CONTROL         "Do not scan ",IDC_FREEZEMAIL,"Button",BS_AUTOCHECKBOX,
+                    354,40,66,9
+    CONTROL         "Char conversion",IDC_CHAR_CONVERSION,"Button",
+                    BS_AUTOCHECKBOX | NOT WS_VISIBLE,354,50,66,9
+    CONTROL         "Generic1",IDC_RANGE,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_VERT | TBS_TOP | WS_BORDER,332,1,20,58
+    CONTROL         "File attach",IDC_ATTACH_CHK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,279,19,50,10
+    PUSHBUTTON      "&Address Book",IDC_ADDRESS,270,30,60,13
+    EDITTEXT        IDC_TMP,393,106,15,12,ES_READONLY | NOT WS_VISIBLE | NOT 
+                    WS_BORDER | NOT WS_TABSTOP,WS_EX_STATICEDGE
+    RTEXT           "To:",IDC_STATIC3,1,32,32,10
+    RTEXT           "From:",IDC_STATIC2,1,18,32,10
+    CTEXT           "FIDO-address",IDC_STATIC5,205,5,61,8
+    RTEXT           "Subject:",IDC_STATIC4,1,46,32,10
+    RTEXT           "Area:",IDC_STATIC1,1,4,32,10
+    EDITTEXT        IDC_AREATAG,35,3,170,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP
+    PUSHBUTTON      "&0",IDC_00,390,60,9,14,NOT WS_VISIBLE | NOT WS_TABSTOP
+    PUSHBUTTON      "&2",IDC_22,410,60,9,14,NOT WS_VISIBLE | NOT WS_TABSTOP
+    PUSHBUTTON      "&1",IDC_11,400,60,9,14,NOT WS_VISIBLE | NOT WS_TABSTOP
+    PUSHBUTTON      "&3",IDC_33,390,75,9,14,NOT WS_VISIBLE | NOT WS_TABSTOP
+    PUSHBUTTON      "&4",IDC_44,400,75,9,14,NOT WS_VISIBLE | NOT WS_TABSTOP
+    PUSHBUTTON      "&5",IDC_55,410,75,9,14,NOT WS_VISIBLE | NOT WS_TABSTOP
+    PUSHBUTTON      "&6",IDC_66,390,90,9,14,NOT WS_VISIBLE | NOT WS_TABSTOP
+    PUSHBUTTON      "&7",IDC_77,400,90,9,14,NOT WS_VISIBLE | NOT WS_TABSTOP
+    PUSHBUTTON      "&8",IDC_88,410,90,9,14,NOT WS_VISIBLE | NOT WS_TABSTOP
+    PUSHBUTTON      "&9",IDC_99,410,105,9,14,NOT WS_VISIBLE | NOT WS_TABSTOP
+    RTEXT           "Size of dialog box:",IDC_STATIC7,270,5,59,8
+    CONTROL         "",IDC_TEXT,"FreeprogEditwnd",WS_BORDER | WS_VSCROLL | 
+                    WS_HSCROLL,2,84,382,42
+END
+
+IDD_CHANGE_TEMPLATE DIALOG  50, 80, 394, 118
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Change template"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,165,100,50,15
+    PUSHBUTTON      "Cancel",IDCANCEL,220,100,50,15
+    LISTBOX         IDC_LIST,5,5,385,90,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Help",IDHELP,110,100,50,15
+END
+
+IDD_CFG_HARDWARE DIALOGEX 0, 0, 300, 260
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_INIT1,35,10,195,12,ES_AUTOHSCROLL
+    CONTROL         "use",IDC_USEINIT1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    234,10,60,12
+    EDITTEXT        IDC_INIT2,35,23,195,12,ES_AUTOHSCROLL
+    CONTROL         "use",IDC_USEINIT2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    234,23,60,12
+    EDITTEXT        IDC_INIT3,35,36,195,12,ES_AUTOHSCROLL
+    CONTROL         "use",IDC_USEINIT3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    234,36,60,12
+    EDITTEXT        IDC_INITDIAL1,35,60,195,12,ES_AUTOHSCROLL
+    CONTROL         "use",IDC_USECMD1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    234,60,60,12
+    EDITTEXT        IDC_INITDIAL2,35,73,195,12,ES_AUTOHSCROLL
+    CONTROL         "use",IDC_USECMD2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    234,73,60,12
+    EDITTEXT        IDC_INITDIAL3,35,86,195,12,ES_AUTOHSCROLL
+    CONTROL         "use",IDC_USECMD3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    234,86,60,12
+    EDITTEXT        IDC_DIAL_COMMAND,70,105,128,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ANSWER_COMMAND,70,118,128,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMPORT,246,105,48,88,CBS_DROPDOWNLIST | 
+                    CBS_UPPERCASE | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_BAUD,246,118,48,85,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "8",IDC_DATA8,"Button",BS_AUTORADIOBUTTON | WS_GROUP,30,
+                    157,16,10
+    CONTROL         "7",IDC_DATA7,"Button",BS_AUTORADIOBUTTON,30,172,16,10
+    CONTROL         "None",IDC_PNONE,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    70,154,34,10
+    CONTROL         "Odd",IDC_PODD,"Button",BS_AUTORADIOBUTTON,70,164,34,10
+    CONTROL         "Even",IDC_PEVEN,"Button",BS_AUTORADIOBUTTON,70,174,34,
+                    10
+    CONTROL         "1",IDC_STOP1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,130,
+                    157,16,10
+    CONTROL         "2",IDC_STOP2,"Button",BS_AUTORADIOBUTTON,130,172,16,10
+    CONTROL         "RTS/CTS",IDC_RTS,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    170,157,48,10
+    CONTROL         "XON/XOFF",IDC_XON,"Button",BS_AUTORADIOBUTTON,170,172,
+                    48,10
+    CONTROL         "Modem 1",IDC_MOD1SET,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | WS_GROUP,237,137,55,12
+    CONTROL         "Modem 2",IDC_MOD2SET,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,237,152,55,12
+    PUSHBUTTON      "Import settings...",IDC_IMPORT,237,167,55,20,
+                    BS_MULTILINE
+    CONTROL         "Enable ISDN Line Detection",IDC_ISDNENABLE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,5,195,140,10
+    CONTROL         "Use 2nd Modem Config instead of CAPI2.0",IDC_USE2MODEM,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,145,195,150,10
+    EDITTEXT        IDC_NEWLINE,90,240,75,12,ES_AUTOHSCROLL
+    LISTBOX         IDC_LIST,5,208,160,27,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Delete",IDC_DELETE,170,225,50,13
+    PUSHBUTTON      "Add",IDC_ADD,170,240,50,13
+    EDITTEXT        IDC_MSN,230,235,60,12,ES_AUTOHSCROLL
+    LTEXT           "Init 1:",IDC_STATIC,10,12,20,8
+    LTEXT           "Init 2:",IDC_STATIC,10,25,20,8
+    LTEXT           "Init 3:",IDC_STATIC,10,38,20,8
+    GROUPBOX        "Modem Init Strings:",IDC_STATIC1,5,0,292,54,BS_CENTER
+    RTEXT           "Dial command:",IDC_STATIC3,5,107,63,8
+    RTEXT           "Answer command:",IDC_STATIC4,5,120,63,8
+    RTEXT           "Com Port:",IDC_STATIC10,204,108,40,8
+    RTEXT           "Baud:",IDC_STATIC11,204,120,40,8
+    GROUPBOX        "Parity:",IDC_STATIC7,60,142,50,44
+    GROUPBOX        "Data Bits:",IDC_STATIC6,15,142,45,44
+    GROUPBOX        "Stop Bits:",IDC_STATIC8,110,142,50,44
+    GROUPBOX        "Communication Parameters",IDC_STATIC5,15,132,205,54,
+                    BS_CENTER
+    LTEXT           "Cmd 1:",IDC_STATIC,10,62,22,8
+    LTEXT           "Cmd 2:",IDC_STATIC,10,75,22,8
+    LTEXT           "Cmd 3:",IDC_STATIC,10,88,22,8
+    GROUPBOX        "Modem commands before dialing :",IDC_STATIC2,5,49,292,
+                    53,BS_CENTER
+    GROUPBOX        "Flow control:",IDC_STATIC9,160,142,60,44
+    GROUPBOX        "Call Acception:",IDC_STATIC13,225,210,68,43
+    CTEXT           "MSN:",IDC_STATIC,230,225,60,8
+    RTEXT           "String (Case Sensitive)",IDC_STATIC12,5,242,83,8
+    GROUPBOX        "ISDN",IDC_STATIC,2,186,294,71,BS_CENTER
+    CTEXT           "Identification strings in nodelist",IDC_STATIC14,167,
+                    207,55,17
+END
+
+IDD_ADDRBOOK DIALOGEX 0, 0, 253, 241
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "Address Book"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_NAME,35,180,84,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FIDO,144,180,53,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_NICKNAME,59,194,138,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_INFO,59,208,138,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Change",IDC_CHANGE,200,194,50,12
+    PUSHBUTTON      "Add",IDC_ADD,200,180,50,12
+    PUSHBUTTON      "Delete",IDC_DELETE,200,208,50,12
+    DEFPUSHBUTTON   "Save",IDOK,78,225,100,14
+    PUSHBUTTON      "Cancel",IDCANCEL,183,225,67,14
+    PUSHBUTTON      "Help",IDHELP,3,225,70,14
+    LTEXT           "Fido:",IDC_STATIC3,121,182,22,8,SS_NOPREFIX
+    LTEXT           "Name:",IDC_STATIC2,5,182,30,8
+    LTEXT           "Comment:",IDC_STATIC5,5,211,54,8
+    CTEXT           "Use right mouse button to sort entries!",IDC_STATIC1,3,
+                    2,247,8
+    LTEXT           "Nickname:",IDC_STATIC4,5,196,54,8
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,2,12,249,165
+END
+
+IDD_FREQ DIALOG  0, 0, 356, 223
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "File requests"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_ADDRESS,71,140,60,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASSWORD,71,155,60,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FILENAME,71,170,280,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Add",IDC_ADD,300,186,52,15
+    LISTBOX         IDC_FIDO,1,16,90,110,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    LISTBOX         IDC_REQUEST,95,16,92,110,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_FILELIST,190,16,165,96,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Add",IDC_BUTTON1,249,2,52,12
+    PUSHBUTTON      "Delete",IDC_BUTTON2,303,2,52,12
+    PUSHBUTTON      "External program",IDC_EXT_TOOL,191,115,82,13
+    PUSHBUTTON      "Config",IDC_EXT_TOOL_CFG,276,115,75,13
+    PUSHBUTTON      "Info address",IDC_INFO_ADDRESS,4,186,61,15
+    PUSHBUTTON      "Pattern search",IDC_PATTERNSEARCH,68,186,61,15
+    PUSHBUTTON      "Other Lines",IDC_INFO_OTHERLINES,132,186,57,15
+    PUSHBUTTON      "Schedule",IDC_SCHEDULE,192,186,52,15
+    PUSHBUTTON      "Delete",IDC_DELETE,246,186,52,15
+    PUSHBUTTON      "Help",IDHELP,237,207,57,15
+    DEFPUSHBUTTON   "Exit",IDOK,295,207,57,15
+    EDITTEXT        IDC_SYSTEMNAME,136,147,210,18,ES_CENTER | ES_MULTILINE | 
+                    ES_READONLY | NOT WS_BORDER
+    RTEXT           "Address:",IDC_STATIC5,6,142,63,8
+    RTEXT           "Filename(s):",IDC_STATIC7,6,172,63,8
+    GROUPBOX        "File Requests:",IDC_STATIC4,1,128,354,77
+    CTEXT           "Fido Systems or Tel #",IDC_STATIC1,1,3,89,9
+    CTEXT           "Request List:",IDC_STATIC2,96,3,89,9
+    RTEXT           "Password:",IDC_STATIC8,6,156,63,10
+    LTEXT           "FileLists:",IDC_STATIC3,190,3,55,9
+    GROUPBOX        "System information",IDC_STATIC6,133,136,218,32,
+                    BS_CENTER
+END
+
+IDD_CFG_NODELIST DIALOGEX 0, 0, 297, 257
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT_EXCLUDE,75,165,215,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_POINTLIST_ZONE,135,180,15,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "This is a Pointlist",IDC_PNTCHECK,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | BS_RIGHT | WS_TABSTOP,
+                    155,181,70,9
+    EDITTEXT        IDC_NODELIST_NAME,65,195,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_NODEDIFF_NAME,188,195,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_NODELIST_TYPE,65,210,160,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Add",IDC_ADD,242,180,50,12
+    PUSHBUTTON      "Change",IDC_CHANGE,242,195,50,12
+    PUSHBUTTON      "Delete",IDC_DELETE,242,210,50,12
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,2,5,290,155
+    RTEXT           "Nodelist Desc.",IDC_STATIC6,5,212,58,8
+    RTEXT           "Nodediff Name:",IDC_STATIC8,102,197,84,8
+    RTEXT           "Nodelist Name:",IDC_STATIC7,5,197,58,8
+    RTEXT           "Zone for this list (e.g. 2 for Europe)",IDC_STATIC10,5,
+                    182,128,8
+    RTEXT           "Exclude systems:",IDC_STATIC5,5,167,68,8
+    CTEXT           "Note",IDC_STATIC9,5,225,235,27,SS_SUNKEN
+    PUSHBUTTON      "Address book",IDC_ADDRBOOK,242,234,50,12
+END
+
+IDD_MESSAGEBOX DIALOG  150, 120, 290, 0
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Title"
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+IDD_SELECT_FROM_NODELIST DIALOG  0, 0, 355, 69
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "Please select FIDO address:"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_LIST,0,0,351,47,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,245,50,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,300,50,50,14
+    CTEXT           "Hint: Press right mouse button to sort.",IDC_STATIC1,55,
+                    55,190,8
+END
+
+IDD_CFG_TWITS DIALOGEX 0, 0, 300, 260
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE | WS_SYSMENU
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "FROM",IDC_FROM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,
+                    196,68,10
+    CONTROL         "TO",IDC_TO,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,78,197,
+                    68,10
+    CONTROL         "SUBJECT",IDC_SUBJECT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,150,197,68,10
+    CONTROL         "FROM-ADDR",IDC_FROMADDR,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,222,197,68,10
+    EDITTEXT        IDC_EDIT,8,216,284,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_USEINTHISAREAS,8,240,284,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Add",IDC_ADD,236,124,60,12
+    PUSHBUTTON      "Change",IDC_CHANGE,236,140,60,12
+    PUSHBUTTON      "Delete",IDC_DELETE,236,156,60,12
+    LISTBOX         IDC_LIST,1,12,231,156,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    CTEXT           "Search Pattern (may use '?' and '*' wildcards)",
+                    IDC_STATIC1,6,207,284,9
+    GROUPBOX        "Twit filter definition:",IDC_STATIC4,4,174,292,82,
+                    BS_CENTER
+    CTEXT           "Current Twit definitions:",IDC_STATIC5,2,4,232,8
+    CTEXT           "Use in this Areas ('*' for all)",IDC_STATIC3,6,231,284,
+                    8
+    CTEXT           "Kill mail if this string is found in:",IDC_STATIC2,6,
+                    185,284,8
+END
+
+IDD_CFG_COLOR DIALOGEX 0, 0, 300, 260
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_SAMPLE,"RICHEDIT",WS_BORDER | WS_TABSTOP,5,150,
+                    105,13
+    CONTROL         "ignore case",IDC_IGNORE_CASE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,5,194,55,10
+    PUSHBUTTON      "Color",IDC_COLOR_SELECT,5,165,50,12
+    PUSHBUTTON      "Add",IDC_ADD,60,165,50,12
+    PUSHBUTTON      "Change",IDC_CHANGE,60,179,50,12
+    PUSHBUTTON      "Delete",IDC_DELETE,60,193,50,12
+    PUSHBUTTON      "Background ",IDC_BACKGROUND_SUBJ,5,218,50,12
+    PUSHBUTTON      "Text",IDC_TEXT_SUBJ,60,218,50,12
+    PUSHBUTTON      "Arrow",IDC_ARROW_SUBJ,60,233,50,12
+    CONTROL         "Use OEM (DOS) coding for mail text",IDC_TEXTCONV,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,116,152,175,10
+    PUSHBUTTON      "Background",IDC_BASECOLOR,116,165,58,12
+    PUSHBUTTON      "Text",IDC_NORMALTEXT,176,165,58,12
+    PUSHBUTTON      "Bold",IDC_BOLD_BUTTON,236,165,58,12
+    PUSHBUTTON      "Kludge",IDC_INFORMATION,116,179,58,12
+    PUSHBUTTON      "Origin",IDC_ORIGIN,176,179,58,12
+    PUSHBUTTON      "Odd Quote",IDC_ODDQUOTE,116,193,58,12
+    PUSHBUTTON      "Even Quote",IDC_EVENQUOTE,176,193,58,12
+    PUSHBUTTON      "Subjects List",IDC_SUBJLIST_FONT,116,218,58,12
+    PUSHBUTTON      "Mailtext (ANSI)",IDC_TEXTANSI_FONT,176,218,58,12
+    PUSHBUTTON      "Mailtext (OEM)",IDC_TEXTOEM_FONT,236,218,58,12
+    PUSHBUTTON      "Editor",IDC_EDITOR_FONT,116,233,58,12,NOT WS_VISIBLE
+    PUSHBUTTON      "Labels",IDC_LABELS_FONT,176,233,58,12
+    PUSHBUTTON      "Fields",IDC_FIELDS_FONT,236,233,58,12
+    CONTROL         "Generic1",IDC_RANGE_SUBJECT,"msctls_trackbar32",
+                    TBS_AUTOTICKS | TBS_VERT | WS_TABSTOP,92,5,20,145
+    CONTROL         "Generic1",IDC_RANGE,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_VERT | WS_TABSTOP,278,5,19,145
+    GROUPBOX        "Subjects List Window:",IDC_STATIC1,2,0,111,250,
+                    BS_CENTER
+    GROUPBOX        "Mail Text Window:",IDC_STATIC8,112,0,186,213,BS_CENTER
+    LISTBOX         IDC_PATTERNS_LIST,5,10,86,140,LBS_OWNERDRAWVARIABLE | 
+                    LBS_USETABSTOPS | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    LISTBOX         IDC_SAMPLES_LIST,116,10,161,140,NOT LBS_NOTIFY | 
+                    LBS_OWNERDRAWVARIABLE | WS_DISABLED | WS_VSCROLL | 
+                    WS_HSCROLL | WS_TABSTOP
+    GROUPBOX        "Fonts:",IDC_STATIC3,112,208,186,42,BS_CENTER
+    GROUPBOX        "Main colors:",IDC_STATIC2,2,208,111,42,BS_CENTER
+END
+
+IDD_FREQ_SELECT DIALOG  0, 0, 194, 218
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Please select:"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_SYSTEMS,5,5,88,190,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    LISTBOX         IDC_FILES,96,5,94,190,LBS_MULTIPLESEL | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,70,200,56,14
+    PUSHBUTTON      "Cancel",IDCANCEL,130,200,56,14
+    PUSHBUTTON      "Help",IDHELP,10,200,56,14
+END
+
+IDD_SCRIPT_EDITOR DIALOG  0, 0, 407, 248
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Script editor"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Load",IDC_LOAD,2,112,72,12
+    PUSHBUTTON      "Save",IDC_SAVE,77,112,70,12
+    EDITTEXT        IDC_EDIT,2,15,144,95,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    LISTBOX         IDC_LIST1,2,137,144,89,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    LBS_WANTKEYBOARDINPUT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_UDEF_1,215,14,172,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_UDEF_FIND_1,389,14,13,13
+    EDITTEXT        IDC_EDIT_UDEF_2,215,27,172,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_UDEF_FIND_2,389,27,13,13
+    EDITTEXT        IDC_EDIT_UDEF_3,215,40,172,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_UDEF_FIND_3,389,40,13,13
+    EDITTEXT        IDC_EDIT_UDEF_4,215,53,172,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_UDEF_FIND_4,389,53,13,13
+    EDITTEXT        IDC_EDIT_UDEF_13,215,66,172,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_UDEF_FIND_13,389,66,13,13
+    EDITTEXT        IDC_EDIT_UDEF_5,215,92,172,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_UDEF_FIND_5,389,93,13,13
+    EDITTEXT        IDC_EDIT_UDEF_6,215,105,172,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_UDEF_FIND_6,389,106,13,13
+    EDITTEXT        IDC_EDIT_UDEF_7,215,118,172,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_UDEF_FIND_7,389,119,13,13
+    EDITTEXT        IDC_EDIT_UDEF_8,215,131,172,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_UDEF_FIND_8,389,132,13,13
+    EDITTEXT        IDC_EDIT_UDEF_9,215,144,172,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_UDEF_FIND_9,389,145,13,13
+    EDITTEXT        IDC_EDIT_UDEF_10,215,157,172,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_UDEF_FIND_10,389,158,13,13
+    EDITTEXT        IDC_EDIT_UDEF_11,215,170,172,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_UDEF_FIND_11,389,171,13,13
+    EDITTEXT        IDC_EDIT_UDEF_12,215,183,172,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_UDEF_FIND_12,389,184,13,13
+    EDITTEXT        IDC_EDIT_UDEF_15,215,196,172,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_UDEF_FIND_15,389,197,13,13
+    EDITTEXT        IDC_EDIT_UDEF_16,215,209,172,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_UDEF_FIND_16,389,210,13,13
+    PUSHBUTTON      "Save",IDOK,190,230,60,15
+    PUSHBUTTON      "Cancel",IDCANCEL,255,230,60,15
+    PUSHBUTTON      "Help",IDHELP,125,230,60,15
+    LTEXT           "User Pushbutton 1:",IDC_STATIC3,155,16,58,8
+    LTEXT           "User Pushbutton 2:",IDC_STATIC4,155,29,58,8
+    LTEXT           "User Pushbutton 3:",IDC_STATIC5,155,42,58,8
+    LTEXT           "User Pushbutton 4:",IDC_STATIC6,155,55,58,8
+    GROUPBOX        "Pushbutton definition",IDC_STATIC2,150,1,255,85,
+                    BS_CENTER
+    CTEXT           "Available commands:",IDC_STATIC1,3,127,143,9
+    LTEXT           "Function Key 'F2'",IDC_STATIC7,155,94,58,8
+    LTEXT           "Function Key 'F3'",IDC_STATIC8,155,107,58,8
+    LTEXT           "Function Key 'F4'",IDC_STATIC9,155,120,58,8
+    LTEXT           "Function Key 'F5'",IDC_STATIC10,155,133,58,8
+    LTEXT           "Function Key 'F6'",IDC_STATIC11,155,146,58,8
+    LTEXT           "Function Key 'F7'",IDC_STATIC12,155,159,58,8
+    LTEXT           "Function Key 'F8'",IDC_STATIC13,155,172,58,8
+    LTEXT           "Function Key 'F9'",IDC_STATIC14,155,185,58,8
+    GROUPBOX        "Function Keys",IDC_STATIC880,150,81,255,145,BS_CENTER
+    LTEXT           "User Pushbutton 5:",IDC_STATIC15,155,68,58,8
+    LTEXT           "Function Key 'F11'",IDC_STATIC17,155,198,58,8
+    LTEXT           "Function Key 'F12'",IDC_STATIC18,155,211,58,8
+    LTEXT           "New script",IDC_SCRIPTNAME,5,5,140,10
+END
+
+IDD_STAT_NLCOMP DIALOG  0, 0, 266, 82
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Nodelist compile:"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Start",IDSTART,161,65,50,14
+    PUSHBUTTON      "Check",IDCHECK,109,65,50,14
+    PUSHBUTTON      "Hide",IDCANCEL,213,65,50,14
+    PUSHBUTTON      "Help",IDHELP,5,65,50,14
+    LISTBOX         IDC_LIST,3,1,262,59,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_HSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Clear",IDCLEAR,57,65,50,14
+END
+
+IDD_TIMEOUTS DIALOGEX 0, 0, 300, 260
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE | WS_SYSMENU
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_TRYCOUNTER,160,16,25,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_WAITTIME,160,32,25,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_LOOPCOUNTER,160,48,25,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    RTEXT           "Loop Counter",IDC_STATIC3,44,50,111,8
+    RTEXT           "Trycount on one entry",IDC_STATIC1,44,18,111,8
+    RTEXT           "Waittime (sec)",IDC_STATIC2,44,34,111,8
+    RTEXT           "Allow to dial maximum",IDC_STATIC4,8,98,124,9
+    EDITTEXT        IDC_MAXIMUM,136,96,25,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CTEXT           "per",IDC_STATIC5,164,97,16,9
+    EDITTEXT        IDC_SECONDS,184,96,25,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "sec",IDC_STATIC6,212,97,18,9
+    RTEXT           "If overflow, delay each following call ",IDC_STATIC7,8,
+                    114,172,8
+    EDITTEXT        IDC_DELAY,184,112,25,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "sec",IDC_STATIC8,212,113,18,9
+    CONTROL         "Enabled",IDC_ENABLE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,8,84,180,9
+    PUSHBUTTON      "Reset Counter",IDC_RESET,232,112,60,12
+    GROUPBOX        "Emergency dial-break",IDC_STATIC10,4,68,292,60
+    GROUPBOX        "Timeouts",IDC_STATIC9,4,4,292,60
+END
+
+IDD_CHANGE_DEST DIALOG  0, 0, 219, 68
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Change destination"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_CDPHONE,63,19,151,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CDPASSWORD,63,33,151,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,80,50,60,15
+    PUSHBUTTON      "Cancel",IDCANCEL,145,50,60,15
+    EDITTEXT        IDC_CDSYSTEM,63,5,151,12,ES_AUTOHSCROLL | ES_READONLY
+    RTEXT           "System:",IDC_STATIC1,4,6,56,8
+    RTEXT           "Phone:",IDC_STATIC2,4,20,56,8
+    RTEXT           "Password:",IDC_STATIC3,4,34,56,8
+    PUSHBUTTON      "Other lines",ID_OTHERLINES,15,50,60,15
+END
+
+IDD_CFG_CARBONS DIALOGEX 0, 0, 300, 260
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE | WS_SYSMENU
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_STRING,8,172,216,12,ES_AUTOHSCROLL
+    CONTROL         "ignore case",IDC_IGNORE_CASE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,228,172,64,10
+    EDITTEXT        IDC_DEST_AREA,9,199,283,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_NOT_COPY_AREAS,8,224,283,12,ES_AUTOHSCROLL
+    CONTROL         "Don't save original",IDC_NSAVE_ORIGINAL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,8,240,284,10
+    PUSHBUTTON      "Add",IDC_ADD,246,100,50,12
+    PUSHBUTTON      "Change",IDC_CHANGE,246,116,50,12
+    PUSHBUTTON      "Delete",IDC_DELETE,246,132,50,12
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,4,48,240,96
+    CONTROL         "Carbon copy for NETMAILs ->ASAVED:MYNETMAIL",
+                    IDC_CHECK_CC_NETMET,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,4,12,285,10
+    CONTROL         "Carbon copy for ECHOMAILs ->ASAVED:MYECHOMAIL",
+                    IDC_CHECK_CC_ECHOMET,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,4,22,285,10
+    CONTROL         "All autosave to area 'ASAVED:GLOBAL'",
+                    IDC_GLOBAL_AUTOSAVE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,4,33,285,8
+    CTEXT           "String:",IDC_STATIC2,8,162,216,8
+    GROUPBOX        "String to force a carbon copy:",IDC_STATIC1,4,148,292,
+                    108,BS_CENTER
+    CTEXT           "To Area: (Leave blank to send to LOCALMAIL):",
+                    IDC_STATIC3,8,189,283,8
+    CTEXT           "Do not copy from the following areas:",IDC_STATIC5,8,
+                    214,283,8
+    GROUPBOX        "Copy actions for mails:",IDC_STATIC4,0,0,296,45,
+                    BS_CENTER
+END
+
+IDD_ECHO_FILELIST DIALOG  0, 0, 337, 247
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Echo filelist "
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_BOSS,5,14,239,51,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_AREALIST,5,83,330,143,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Request echofilelist",IDC_BUTTON1,245,16,90,15
+    PUSHBUTTON      "Send changes",IDC_SEND,245,32,90,15
+    PUSHBUTTON      "Send complete",IDC_SEND_COMPLETE,80,60,90,14,NOT 
+                    WS_VISIBLE
+    PUSHBUTTON      "Manual Order",IDC_MANUAL_ORDER,245,48,90,15
+    PUSHBUTTON      "Help",IDHELP,4,230,80,14
+    PUSHBUTTON      "Boss Configuration",IDC_BOSSCFG,85,230,84,14
+    PUSHBUTTON      "Area Configuration",IDC_AREACFG,171,230,83,14
+    DEFPUSHBUTTON   "Exit",IDOK,255,230,80,14
+    LTEXT           "Available Boss Systems:",IDC_STATIC1,14,3,110,8
+    LTEXT           "Echofileliste",IDC_STATIC2,129,3,115,8
+    CTEXT           "Change subscription with double-click   (O=current ordered, X=ordered from another BOSS)",
+                    IDC_STATIC3,5,71,330,9
+END
+
+IDD_TRAFFIC DIALOG  0, 0, 268, 157
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "Area Traffic Display"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,180,140,80,15
+    CONTROL         "Generic1",IDC_GENERIC1,"SysListView32",LVS_REPORT | 
+                    LVS_AUTOARRANGE | WS_BORDER | WS_TABSTOP,3,15,262,120
+    PUSHBUTTON      "Help",IDHELP,5,140,80,15
+    PUSHBUTTON      "Clear Statistics",IDC_BUTTON1,90,140,85,15
+    LTEXT           "Format:    Incoming mails,(Outgoing mails)",IDC_STATIC1,
+                    4,5,261,10
+END
+
+IDD_QUICK_SETUP DIALOG  0, 0, 317, 244
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Quick Setup"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_LANG,70,15,90,43,CBS_DROPDOWNLIST | CBS_UPPERCASE | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_cfg_prename,70,30,90,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_cfg_aftername,70,45,90,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_cfg_systemname,216,16,92,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_cfg_location,216,32,92,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_cfg_telephone,216,48,92,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_INIT1,95,80,125,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMPORT,265,80,40,88,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_DIAL_COMMAND,95,95,125,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SYSBOSS,85,135,100,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SYSOPNAME,85,150,100,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PHONENUMBER,85,165,100,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FIDOADDRESS,85,180,100,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MYPOINTNUMBER,85,195,100,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SESSIONPASSWORD,85,210,100,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_PACKERTYPE2,85,225,100,90,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "OK",IDOK,224,221,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,224,205,50,14
+    PUSHBUTTON      "Help",IDHELP,224,189,50,14
+    LTEXT           "This simple setup contains all neccessary setup data.   For advanced configuration and use of all the features of FIPS please use the configuration menues once FIPS has started. ",
+                    IDC_STATIC19,190,130,125,54
+    RTEXT           "First Name:",IDC_STATIC2,15,32,53,8
+    RTEXT           "Last Name:",IDC_STATIC3,15,47,53,8
+    GROUPBOX        "Your personal data ",IDC_STATIC0,5,4,308,61,BS_CENTER
+    RTEXT           "Systemname:",IDC_STATIC4,163,18,49,8
+    RTEXT           "Location:",IDC_STATIC5,163,34,49,8
+    RTEXT           "Telephone:",IDC_STATIC6,163,50,49,8
+    RTEXT           "Init:",IDC_STATIC8,8,82,85,8
+    GROUPBOX        "Modem Init Strings: (In case of doubt, use the defaults)",
+                    IDC_STATIC7,5,68,308,47,BS_CENTER
+    RTEXT           "Dial command:",IDC_STATIC9,8,97,85,8
+    RTEXT           "Com Port:",IDC_STATIC10,220,82,43,8
+    RTEXT           "System name:",IDC_STATIC12,10,137,73,8
+    RTEXT           "Fido address:",IDC_STATIC15,10,182,73,8
+    RTEXT           "Boss Phone number:",IDC_STATIC14,10,167,73,8
+    RTEXT           "My pointnumber:",IDC_STATIC16,10,197,73,8
+    RTEXT           "Session password:",IDC_STATIC17,10,212,73,8
+    RTEXT           "Packertype:",IDC_STATIC18,10,227,73,8
+    GROUPBOX        "Boss Configuration (ask your Boss for these entries)",
+                    IDC_STATIC11,4,120,184,121,BS_CENTER
+    RTEXT           "Sysop name:",IDC_STATIC13,10,152,73,8
+    RTEXT           "Language:",IDC_STATIC1,15,16,53,10
+END
+
+IDD_FILELIST_REQUEST DIALOG  0, 0, 376, 126
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "Select files to request"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT3,10,10,90,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Find case Insensitive",IDC_CASEINSENS,100,10,75,12
+    PUSHBUTTON      "Find case Sensitive",IDC_CASESENS,176,10,75,12
+    PUSHBUTTON      "Add",IDC_ADD,50,95,45,12
+    EDITTEXT        IDC_EDIT2,100,95,195,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT1,5,30,360,60,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_NOHIDESEL | ES_READONLY | 
+                    ES_WANTRETURN | WS_HSCROLL
+    PUSHBUTTON      "OK",IDOK,300,110,45,12
+    PUSHBUTTON      "Cancel",IDCANCEL,300,95,45,12
+    GROUPBOX        "Search:",IDC_STATIC1,5,0,249,26
+    PUSHBUTTON      "Goto Line",IDC_BUTTON1,256,10,77,12
+    EDITTEXT        IDC_GOTO,335,10,40,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    SCROLLBAR       IDC_SCROLLBAR1,365,30,10,60,SBS_VERT
+    PUSHBUTTON      "Top",IDC_TOP,100,110,45,12
+    PUSHBUTTON      "PgUp",IDC_PGUP,150,110,45,12
+    PUSHBUTTON      "PgDown",IDC_PGDOWN,200,110,45,12
+    PUSHBUTTON      "Bottom",IDC_BOTTOM,250,110,45,12
+    PUSHBUTTON      "Help",IDHELP,50,110,45,12
+    CONTROL         "ANSI",IDC_ANSI,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | WS_GROUP,20,95,25,12
+    CONTROL         "OEM",IDC_OEM,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,
+                    20,110,25,12
+END
+
+IDD_ADD_FILELIST DIALOG  0, 0, 269, 190
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Import a new Filelist"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_LIST1,3,25,87,125,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Extract",IDC_EXTRACT,95,65,50,17
+    LISTBOX         IDC_LIST2,150,25,115,95,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT1,105,156,128,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Import",IDOK,153,172,65,15
+    PUSHBUTTON      "search",IDC_SEARCH,235,155,30,14
+    EDITTEXT        IDC_DIRECT,95,135,153,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BROWSE,249,135,12,11
+    PUSHBUTTON      "...",IDC_FLIST_PATH,250,9,12,10
+    PUSHBUTTON      "Cancel",IDCANCEL,219,172,46,15
+    PUSHBUTTON      "Help",IDHELP,105,172,47,15
+    GROUPBOX        "Import already unpacked filelist:",IDC_STATIC1,92,123,
+                    173,27
+    CTEXT           "FIDO-addres of System:\nInput as zone:net/node\nor use search with partial info",
+                    IDC_STATIC2,2,156,101,34
+    LTEXT           "",IDC_FPATH,7,10,240,10
+    GROUPBOX        "Path to packed filelists",IDC_STATIC3,4,0,261,23,
+                    BS_CENTER
+END
+
+IDD_CFG_OTHERS DIALOGEX 0, 0, 294, 257
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "Disable Tooltips",IDC_NO_TOOLTIPS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,6,220,8
+    CONTROL         "Hide nodelist oldness reminder",IDC_NO_NL_REMINDER,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,18,220,8
+    CONTROL         "Hide command processor window",IDC_HIDE_CMD_WINDOW,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,30,220,8
+    CONTROL         "Let the 'SCROLL-LOCK' LED blink if there is unread new mail",
+                    IDC_ROLLEN_LIGHT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,
+                    42,220,8
+    CONTROL         "Minimize to tray",IDC_MINTOTRAY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,54,222,7
+    CONTROL         "Convert Latin-1 to IBMPC (only for german lang.)",
+                    IDC_CONVERT_LATIN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    6,66,220,8
+END
+
+IDD_INFO_ADDRESS DIALOG  0, 0, 267, 101
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Address info"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT1,70,5,195,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,70,18,195,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_BBS,70,31,195,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_LOCATION,70,44,195,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT6,70,57,195,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT7,70,70,60,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "Help",IDHELP,5,85,60,15
+    PUSHBUTTON      "Pattern search",IDEXTENDED,70,85,65,15
+    DEFPUSHBUTTON   "Search",IDOK,140,85,60,15
+    PUSHBUTTON      "Cancel",IDCANCEL,205,85,60,15
+    LTEXT           "Fido/Name:",IDC_STATIC1,3,7,62,8
+    LTEXT           "Name:",IDC_STATIC2,3,20,62,8
+    LTEXT           "Info:",IDC_STATIC3,3,59,62,8
+    LTEXT           "BBS:",IDC_STATIC4,3,33,62,8
+    LTEXT           "Location:",IDC_STATIC5,3,46,62,8
+    LTEXT           "Time to call:",IDC_STATIC6,3,72,62,8
+END
+
+IDD_CFG_TEXTIMP DIALOG  0, 0, 294, 262
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_1,30,15,205,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BROWSE,235,15,11,12
+    CONTROL         "",IDC_DOS1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,254,
+                    17,8,10
+    CONTROL         "",IDC_WIN1,"Button",BS_AUTORADIOBUTTON,273,17,8,10
+    EDITTEXT        IDC_2,30,30,205,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BROWSE2,235,30,11,12
+    CONTROL         "",IDC_DOS2,"Button",BS_AUTORADIOBUTTON | WS_GROUP,254,
+                    32,8,10
+    CONTROL         "",IDC_WIN2,"Button",BS_AUTORADIOBUTTON,273,32,8,10
+    EDITTEXT        IDC_3,30,45,205,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BROWSE3,235,45,11,12
+    CONTROL         "",IDC_DOS3,"Button",BS_AUTORADIOBUTTON | WS_GROUP,254,
+                    47,8,10
+    CONTROL         "",IDC_WIN3,"Button",BS_AUTORADIOBUTTON,273,47,8,10
+    EDITTEXT        IDC_4,30,60,205,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BROWSE4,235,60,11,12
+    CONTROL         "",IDC_DOS4,"Button",BS_AUTORADIOBUTTON | WS_GROUP,254,
+                    62,8,10
+    CONTROL         "",IDC_WIN4,"Button",BS_AUTORADIOBUTTON,273,62,8,10
+    EDITTEXT        IDC_5,30,75,205,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BROWSE5,235,75,11,12
+    CONTROL         "",IDC_DOS5,"Button",BS_AUTORADIOBUTTON | WS_GROUP,254,
+                    77,8,10
+    CONTROL         "",IDC_WIN5,"Button",BS_AUTORADIOBUTTON,273,77,8,10
+    EDITTEXT        IDC_6,30,90,205,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BROWSE6,235,90,11,12
+    CONTROL         "",IDC_DOS6,"Button",BS_AUTORADIOBUTTON | WS_GROUP,254,
+                    92,8,10
+    CONTROL         "",IDC_WIN6,"Button",BS_AUTORADIOBUTTON,273,92,8,10
+    EDITTEXT        IDC_7,30,105,205,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BROWSE7,235,105,11,12
+    CONTROL         "",IDC_DOS7,"Button",BS_AUTORADIOBUTTON | WS_GROUP,254,
+                    107,8,10
+    CONTROL         "",IDC_WIN7,"Button",BS_AUTORADIOBUTTON,273,107,8,10
+    EDITTEXT        IDC_8,30,120,205,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BROWSE8,235,120,11,12
+    CONTROL         "",IDC_DOS8,"Button",BS_AUTORADIOBUTTON | WS_GROUP,254,
+                    122,8,10
+    CONTROL         "",IDC_WIN8,"Button",BS_AUTORADIOBUTTON,273,122,8,10
+    EDITTEXT        IDC_9,30,135,205,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BROWSE9,235,135,11,12
+    CONTROL         "",IDC_DOS9,"Button",BS_AUTORADIOBUTTON | WS_GROUP,254,
+                    137,8,10
+    CONTROL         "",IDC_WIN9,"Button",BS_AUTORADIOBUTTON,273,137,8,10
+    EDITTEXT        IDC_0,30,150,205,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BROWSE10,235,150,11,12
+    CONTROL         "",IDC_DOS0,"Button",BS_AUTORADIOBUTTON | WS_GROUP,254,
+                    152,8,10
+    CONTROL         "",IDC_WIN10,"Button",BS_AUTORADIOBUTTON,273,152,8,10
+    LTEXT           "Alt-1",IDC_STATIC,8,17,16,8
+    LTEXT           "Alt-2",IDC_STATIC,8,32,16,8
+    LTEXT           "Alt-3",IDC_STATIC,8,47,16,8
+    LTEXT           "Alt-4",IDC_STATIC,8,62,16,8
+    LTEXT           "Alt-5",IDC_STATIC,8,77,16,8
+    LTEXT           "Alt-6",IDC_STATIC,8,92,16,8
+    LTEXT           "Alt-7",IDC_STATIC,8,107,16,8
+    LTEXT           "Alt-8",IDC_STATIC,8,122,16,8
+    LTEXT           "Alt-9",IDC_STATIC,8,137,16,8
+    LTEXT           "Alt-0",IDC_STATIC,8,152,16,8
+    CTEXT           "Shortcut",IDC_STATIC1,0,5,35,9
+    CTEXT           "Message file to import:",IDC_STATIC2,40,5,195,8
+    LTEXT           "DOS",IDC_STATIC,249,5,15,10
+    LTEXT           "WIN",IDC_STATIC,270,5,15,10
+END
+
+IDD_LOGFILE_DISPLAY DIALOG  0, 0, 288, 158
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "Display Logfiles"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Exit",IDOK,150,140,60,14
+    EDITTEXT        IDC_EDIT1,2,32,283,104,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL
+    PUSHBUTTON      "Mailer Logfile",IDC_MAILER_LOGFILE,2,16,55,14
+    PUSHBUTTON      "Tosser Logfile",IDC_TOSSER_LOGFILE,59,16,55,14
+    PUSHBUTTON      "Purger Logfile",IDC_PURGER_LOGFILE,116,16,55,14
+    EDITTEXT        IDC_EDIT2,3,2,282,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER
+    PUSHBUTTON      "Help",IDHELP,85,140,60,14
+    PUSHBUTTON      "Events Logfile",IDC_EVENTS_LOGFILE,173,16,55,14
+    PUSHBUTTON      "Nodelist Logfile",IDC_NODELIST_LOGFILE,229,16,55,14
+END
+
+IDD_CFG_LOGFILES DIALOGEX 0, 0, 300, 260
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE | WS_SYSMENU
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "Log MAILER enabled",IDC_LMAILER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,16,20,111,10
+    CONTROL         "Log TOSSER enabled",IDC_LTOSSER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,16,36,110,10
+    CONTROL         "Log PURGER enabled",IDC_LPURGER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,16,52,111,10
+    CONTROL         "Log EVENTS enabled",IDC_LEVENTS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,16,68,111,10
+    EDITTEXT        IDC_MAILER_MAXSIZE,156,20,30,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_MAILER_SHORT_TO,228,20,30,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_TOSSER_MAXSIZE,156,36,30,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_TOSSER_SHORT_TO,228,36,30,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_PURGER_MAXSIZE,156,52,30,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_PURGER_SHORT_TO,228,52,30,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EVENTS_MAXSIZE,156,68,30,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EVENTS_SHORT_TO,228,68,30,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_NUMBER
+    GROUPBOX        "Maximum Size:(kb)",IDC_STATIC1,136,5,70,95,BS_CENTER
+    GROUPBOX        "Shorten to:(kb)",IDC_STATIC2,208,5,68,95,BS_CENTER
+    GROUPBOX        "Enable Logfile for:",IDC_STATIC3,5,5,129,95,BS_CENTER
+    CONTROL         "Log NODELIST enabled",IDC_LNODELIST,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,16,84,111,10
+    EDITTEXT        IDC_NODELIST_MAXSIZE,156,84,30,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_NODELIST_SHORT_TO,228,84,30,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_NUMBER
+END
+
+IDD_CFG_PERSONAL DIALOGEX 0, 0, 292, 257
+STYLE DS_SETFONT | DS_3DLOOK | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_PRENAME,55,16,101,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_AFTERNAME,55,30,101,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SYSNAME,55,44,101,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LOCATION,55,58,101,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PHONE,55,72,101,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PHONE2,55,86,53,12,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT1,165,85,50,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Add",IDC_ADD1,228,55,50,12
+    PUSHBUTTON      "Change",IDC_CHANGE1,228,70,50,12
+    PUSHBUTTON      "Delete",IDC_DELETE1,228,85,50,12
+    PUSHBUTTON      "Set password",IDC_SETPAS,109,86,48,12
+    EDITTEXT        IDC_EDIT2,10,235,220,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Add",IDC_ADD2,234,204,50,12
+    PUSHBUTTON      "Change",IDC_CHANGE2,234,220,50,12
+    PUSHBUTTON      "Delete",IDC_DELETE2,234,235,50,12
+    LISTBOX         IDC_AKAS,165,20,50,60,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    LISTBOX         IDC_ALIASES,10,130,220,100,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Add only AKA's that are not listed in your Boss configurations!",
+                    IDC_STATIC2,217,20,70,34
+    GROUPBOX        "Additional AKA's:",IDC_STATIC1,162,5,128,97,BS_CENTER
+    CTEXT           "List of Aliases (comma delimited Areas list)",
+                    IDC_STATIC4,10,120,220,10
+    GROUPBOX        "Aliases (Nicknames):",IDC_STATIC3,5,105,285,148,
+                    BS_CENTER
+    GROUPBOX        "Personal data:",IDC_STATIC5,5,5,155,97,BS_CENTER
+    LTEXT           "First Name:",IDC_STATIC6,8,18,45,8
+    LTEXT           "Last Name:",IDC_STATIC7,8,32,45,8
+    LTEXT           "Systemname:",IDC_STATIC8,8,46,45,8
+    LTEXT           "Location:",IDC_STATIC9,8,60,45,8
+    LTEXT           "Phone:",IDC_STATIC10,8,74,45,8
+    LTEXT           "Password:",IDC_STATIC11,8,88,45,8
+END
+
+IDD_MANUAL_AREA_ORDER DIALOG  0, 0, 174, 143
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Manual area order"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT,5,2,165,119,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    DEFPUSHBUTTON   "Order",IDOK,60,125,55,14
+    PUSHBUTTON      "Cancel",IDCANCEL,116,125,55,14
+    PUSHBUTTON      "Help",IDHELP,4,125,55,14
+END
+
+IDD_CFG_FILTER DIALOG  0, 0, 226, 193
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Reader Display Filter"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "No Filter (show all mails)",IDC_NOFILTER,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,5,5,214,10
+    CONTROL         "Unread mails",IDC_UNREAD,"Button",BS_AUTORADIOBUTTON,6,
+                    28,214,10
+    CONTROL         "New mails from last poll:",IDC_SINCE_LAST_POLL,"Button",
+                    BS_AUTORADIOBUTTON,6,40,214,10
+    CONTROL         "Outgoing mails:",IDC_OUTGOING,"Button",
+                    BS_AUTORADIOBUTTON,6,52,214,10
+    CONTROL         "No Replys",IDC_NO_REPLY,"Button",BS_AUTORADIOBUTTON,6,
+                    64,214,10
+    CONTROL         "Marked Only",IDC_MARKEDONLY,"Button",BS_AUTORADIOBUTTON,
+                    6,76,214,10
+    CONTROL         "Frozen Only",IDC_FORZEN_ONLY,"Button",
+                    BS_AUTORADIOBUTTON,6,88,214,10
+    CONTROL         "Not older than ",IDC_NOT_OLDER,"Button",
+                    BS_AUTORADIOBUTTON,6,100,90,10
+    EDITTEXT        IDC_EDIT_DAYS,100,99,23,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Contain in From:",IDC_C_IN_FROM,"Button",
+                    BS_AUTORADIOBUTTON,6,112,79,10
+    EDITTEXT        IDC_EDIT_FROM,100,111,115,12,ES_AUTOHSCROLL
+    CONTROL         "Contain in To:",IDC_C_IN_TO,"Button",BS_AUTORADIOBUTTON,
+                    6,124,79,10
+    EDITTEXT        IDC_EDIT_TO,100,123,115,12,ES_AUTOHSCROLL
+    CONTROL         "Contain in Subject:",IDC_C_IN_SUBJECT,"Button",
+                    BS_AUTORADIOBUTTON,6,136,79,10
+    EDITTEXT        IDC_EDIT_SUBJECT,100,135,115,12,ES_AUTOHSCROLL
+    CONTROL         "Header Only",IDC_HEADERONLY,"Button",BS_AUTORADIOBUTTON,
+                    6,148,90,10
+    EDITTEXT        IDC_EDIT_HEADER,100,147,115,12,ES_AUTOHSCROLL
+    CONTROL         "Show last",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | BS_RIGHT | WS_TABSTOP,6,160,90,10
+    EDITTEXT        IDC_EDIT_SHOWLAST,100,159,23,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    PUSHBUTTON      "Help",IDHELP,2,177,54,14
+    PUSHBUTTON      "Default",IDDEFAULT,57,177,55,14
+    PUSHBUTTON      "Cancel",IDCANCEL,169,177,55,14
+    DEFPUSHBUTTON   "Use",IDOK,113,177,55,14
+    LTEXT           "days",IDC_STATIC1,126,100,31,10
+    GROUPBOX        "",IDC_COND,2,18,221,157
+    LTEXT           "messages only",IDC_STATIC496,126,160,59,10
+    PUSHBUTTON      "->",IDC_PASTESUBJ,88,136,10,10,NOT WS_TABSTOP
+    PUSHBUTTON      "->",IDC_PASTEFROM,88,112,10,10,NOT WS_TABSTOP
+    PUSHBUTTON      "->",IDC_PASTETO,88,124,10,10,NOT WS_TABSTOP
+    CONTROL         "Inverse filter",IDC_NOT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,17,110,10
+END
+
+IDD_CHAR_CONVERSION DIALOG  0, 0, 182, 172
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Character conversion outgoing mails"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Save",IDOK,65,155,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,120,155,50,14
+    LISTBOX         IDC_LIST,4,15,173,74,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_CHAR,65,101,105,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_REPLACE,65,117,105,12,ES_AUTOHSCROLL
+    RTEXT           "Character",IDC_STATIC2,10,103,53,10
+    RTEXT           "Replace with:",IDC_STATIC3,10,118,53,10
+    PUSHBUTTON      "Add",IDC_ADD,32,134,50,14
+    PUSHBUTTON      "Delete",IDC_DELETE,92,134,50,14
+    GROUPBOX        "New Translation:",IDC_STATIC1,4,91,172,61,BS_CENTER
+    CONTROL         "default is character conversion ",
+                    IDC_ENABLE_CHARACTER_CONVERSION,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,6,4,172,10
+    PUSHBUTTON      "Help",IDHELP,10,155,50,14
+END
+
+IDD_CROSSPOST DIALOG  0, 0, 239, 277
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Crosspostings"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Crosspost style",IDC_STATIC2,5,3,230,42,BS_CENTER
+    CONTROL         "Unmodified",IDC_UNMODIFIED,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,10,13,220,8
+    CONTROL         "Include Crosspost header (FIPS Style)",IDC_FIPSSTYLE,
+                    "Button",BS_AUTORADIOBUTTON,10,23,220,8
+    CONTROL         "Include Crosspost  header (GoldEdit Style)",
+                    IDC_GEDSTYLE,"Button",BS_AUTORADIOBUTTON,10,33,220,10
+    PUSHBUTTON      "Help",IDHELP,30,260,55,14
+    LISTBOX         IDC_LIST,5,60,230,160,LBS_MULTIPLESEL | LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Cancel",IDCANCEL,150,260,55,14
+    DEFPUSHBUTTON   "Crosspost",IDOK,90,260,55,14
+    CTEXT           "Please select one or more destination areas:",
+                    IDC_STATIC1,5,50,230,9
+    CTEXT           "Be sure not to violate the rules of the destination areas\nDo not crosspost to areas where your mail isn't of interest",
+                    IDC_STATIC3,7,235,225,18
+    GROUPBOX        "Important hint:",IDC_STATIC4,5,225,230,32,BS_CENTER
+END
+
+IDD_CFG_PHONES DIALOG  0, 0, 297, 257
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_COUNTRYPF,89,5,40,12,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_TRANSLATE,241,5,40,12,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_CITYPF,89,19,40,12,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_OFFICEPF,241,19,40,12,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_NUMBER,135,225,89,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_REPLACE,135,240,89,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Add",IDC_ADD,230,210,50,12
+    PUSHBUTTON      "Change",IDC_CHANGE,230,225,50,12
+    PUSHBUTTON      "Delete",IDC_DELETE,230,240,50,12
+    LISTBOX         IDC_LIST,60,35,165,185,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Number begins with:",IDC_STATIC2,65,227,67,8
+    RTEXT           "Replace with:",IDC_STATIC3,65,242,68,8
+    RTEXT           "Country prefix:",IDC_STATIC4,5,7,80,8
+    RTEXT           "translate to:",IDC_STATIC5,145,7,94,8
+    RTEXT           "City prefix:",IDC_STATIC6,5,21,80,8
+    RTEXT           "Office Out Prefix:",IDC_STATIC1,145,21,94,8
+END
+
+IDD_CHOOSE_SAVE DIALOG  0, 0, 84, 67
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "File already exists:"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "append",IDAPPEND,10,9,66,14
+    PUSHBUTTON      "overwrite",IDOVER,10,26,66,14
+    PUSHBUTTON      "cancel",IDCANCEL,10,49,66,14
+    GROUPBOX        "",IDC_STATIC,5,0,75,45
+END
+
+IDD_OUTBOUND_VIEW DIALOG  0, 0, 349, 188
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "View outbound systems"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Exit",IDOK,175,170,60,15
+    LISTBOX         IDC_LIST,3,15,342,103,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    CTEXT           "Current outbound systems:",IDC_STATIC_01,5,5,340,8
+    PUSHBUTTON      "File attach",IDC_BUTTON1,20,130,100,15
+    PUSHBUTTON      "Messages",IDC_BUTTON2,125,130,100,15
+    PUSHBUTTON      "File requests",IDC_BUTTON12,20,146,100,15
+    GROUPBOX        "Change Information for:",IDC_STATIC_02,0,120,345,45,
+                    BS_CENTER
+    PUSHBUTTON      "Delete this outbound",IDC_BUTTON18,230,130,100,31
+    PUSHBUTTON      "Help",IDHELP,110,170,60,15
+    PUSHBUTTON      "TIC files",IDC_TICFILES,125,146,100,15
+END
+
+IDD_XFERFLS_EDIT DIALOG  0, 0, 329, 163
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Change files to transfer"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,135,145,50,15
+    PUSHBUTTON      "Cancel",IDCANCEL,190,145,50,15
+    EDITTEXT        IDC_EDIT,5,5,320,135,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    PUSHBUTTON      "Help",IDHELP,80,145,50,15
+END
+
+IDD_CFG_PRIVNODES DIALOGEX 0, 0, 297, 257
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_NAME,45,210,190,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FIDO,45,225,60,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TELEPHONE_NUMBER,175,225,60,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DESCRIPTION,45,240,190,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Add",IDC_ADD,240,210,50,12
+    PUSHBUTTON      "Change",IDC_CHANGE,240,225,50,12
+    PUSHBUTTON      "Delete",IDC_DELETE,240,240,50,12
+    LISTBOX         IDC_LIST,5,5,289,199,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,240,186,50,14,NOT WS_VISIBLE
+    LTEXT           "Phone:",IDC_STATIC3,110,227,65,8
+    LTEXT           "Description:",IDC_STATIC4,5,242,40,8
+    LTEXT           "Name:",IDC_STATIC2,5,212,40,8
+    LTEXT           "Address:",IDC_STATIC5,5,227,40,8
+END
+
+IDD_OUTBOUND_MAIL_VIEW DIALOG  0, 0, 263, 196
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "Outbound-Mail View"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_LIST_PKT,2,15,74,75,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST_CONTENTS,77,15,183,75,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT,2,100,258,77,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    PUSHBUTTON      "Exit",IDCANCEL,196,180,64,14
+    PUSHBUTTON      "Help",IDHELP,1,180,64,14
+    PUSHBUTTON      "Delete this mail",IDC_DELETE,131,180,64,14
+    CTEXT           "Select packet file:",IDC_STATIC1,3,4,72,9
+    CTEXT           "Mail text view:",IDC_STATIC2,5,91,255,9
+    CTEXT           "Packet contains the following mails:",IDC_STATIC6,83,4,
+                    178,9
+    PUSHBUTTON      "Delete this packet",IDC_DELETE_THIS_PACKET,66,180,64,14
+END
+
+IDD_RECIPIENT_LIST DIALOGEX 0, 0, 300, 260
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE | WS_SYSMENU
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    LISTBOX         IDC_GROUPS,5,12,69,208,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_GROUP,5,224,121,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Add",IDC_ADD1,77,181,50,12
+    PUSHBUTTON      "Change",IDC_CHANGE1,77,195,50,12
+    PUSHBUTTON      "Delete",IDC_DELETE1,77,209,50,12
+    LISTBOX         IDC_MEMBERS,132,12,108,194,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_NAME,164,210,130,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_FIDO,164,224,130,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Add",IDC_ADD2,244,166,50,12
+    PUSHBUTTON      "Change",IDC_CHANGE2,244,180,50,12
+    PUSHBUTTON      "Delete",IDC_DELETE2,244,194,50,12
+    PUSHBUTTON      "Import",IDC_IMPORT,77,167,50,12,NOT WS_VISIBLE
+    GROUPBOX        "Groups:",IDC_STATIC3,2,0,128,241,BS_CENTER
+    GROUPBOX        "Members:",IDC_STATIC4,129,0,169,241,BS_CENTER
+    RTEXT           "Name:",IDC_STATIC1,132,212,30,8
+    RTEXT           "Fido:",IDC_STATIC2,132,225,30,8
+    CTEXT           "Hint: Preffix groupname with '::' while using as recipient in mail editor.",
+                    IDC_STATIC5,4,246,289,11
+END
+
+IDD_CHOOSE_IMPORT DIALOGEX 0, 0, 102, 79
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Insert In Mail"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "OEM Text",IDC_OEMTEXT,6,6,90,12
+    PUSHBUTTON      "ANSI Text",IDC_ANSITEXT,6,19,90,12
+    PUSHBUTTON      "Uuencode",IDC_UUENCODE,6,32,90,12
+    PUSHBUTTON      "Multimedia",IDC_MULTIM,6,45,90,12
+    PUSHBUTTON      "Cancel",IDCANCEL,6,62,90,14
+    GROUPBOX        "",IDC_STATIC,3,0,96,60
+END
+
+IDD_EVENTS DIALOGEX 0, 0, 327, 258
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Event setup dialog"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_FROM2,132,21,75,12,ES_AUTOHSCROLL
+    CONTROL         "enabled",IDC_CHECK_THIS_ENABLED,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,212,17,86,10
+    EDITTEXT        IDC_EDIT_FROM,86,58,24,12,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TO,121,58,24,12,ES_CENTER | ES_AUTOHSCROLL
+    CONTROL         "Mo",IDC_CHECK_MONDAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,147,59,23,10
+    CONTROL         "Tu",IDC_CHECK_THUESDAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,172,59,23,10
+    CONTROL         "We",IDC_CHECK_WEDNESDAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,197,59,23,10
+    CONTROL         "Th",IDC_CHECK_THURSDAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,222,59,23,10
+    CONTROL         "Fr",IDC_CHECK_FRIDAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,247,59,23,10
+    CONTROL         "Sa",IDC_CHECK_SATURADAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,272,59,23,10
+    CONTROL         "Su",IDC_CHECK_SUNDAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,297,59,23,10
+    EDITTEXT        IDC_EDIT_BOSS1,126,95,102,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BOSS2,126,109,114,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BOSS3,126,123,114,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MAXTRY,295,88,23,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_CAUTION,295,102,23,12,ES_CENTER | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_INWAIT,295,116,23,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_OUTWAIT,295,130,23,12,ES_CENTER | 
+                    ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_CAUTION2,140,160,165,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CAUTION3,140,175,165,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_FILE_ACTION_FAILED,308,160,12,11
+    PUSHBUTTON      "...",IDC_FILE_ACTION_OK,308,175,12,11
+    PUSHBUTTON      "Set",IDC_SET,245,195,70,14
+    PUSHBUTTON      "Delete",IDC_DELETE,170,195,70,14
+    PUSHBUTTON      "Add",IDC_ADD,95,195,70,14
+    PUSHBUTTON      "Save",IDOK,170,240,70,14
+    PUSHBUTTON      "Cancel",IDCANCEL,245,240,70,14
+    PUSHBUTTON      "Help",IDHELP,20,240,70,14
+    PUSHBUTTON      "Enable Events",IDC_ENABLE,170,220,70,14
+    PUSHBUTTON      "Disable Events",IDC_DISABLE,245,220,70,14
+    LISTBOX         IDC_LIST,9,10,70,180,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "--",IDC_STATIC2,113,59,8,8,0,WS_EX_TRANSPARENT
+    RTEXT           "Delay Inwait:",IDC_STATIC3,248,117,45,10
+    RTEXT           "Delay Outwait:",IDC_STATIC4,248,131,45,10
+    RTEXT           "Bosspoll:",IDC_STATIC5,85,97,40,8
+    RTEXT           "Alt. Phone 1:",IDC_STATIC6,85,111,40,8
+    RTEXT           "Alt. Phone 2:",IDC_STATIC7,85,125,40,8
+    RTEXT           "Maxtry:",IDC_STATIC8,248,89,45,10
+    RTEXT           "Condition:",IDC_STATIC9,248,103,45,10
+    GROUPBOX        "Event:",IDC_STATIC78,5,0,320,215
+    GROUPBOX        "Time:  (Format: HH:MM)",IDC_STATIC55,83,45,242,30,
+                    BS_CENTER
+    GROUPBOX        "Connect to:",IDC_STATIC345,83,76,163,71,BS_CENTER
+    GROUPBOX        "Conditions: (optional)",IDC_STATIC542,245,76,80,71,
+                    BS_CENTER
+    RTEXT           "Name:",IDC_STATIC19,94,23,35,8
+    GROUPBOX        "Description:",IDC_STATIC57,83,7,242,33,BS_CENTER
+    RTEXT           "if FAILED:",IDC_STATIC198,85,162,53,8
+    RTEXT           "if OK:",IDC_STATIC199,90,177,48,8
+    GROUPBOX        "Optional actions (script file with path to execute):",
+                    IDC_STATIC3453,83,148,242,43,BS_CENTER
+    PUSHBUTTON      "Restart Sequencer",IDC_RESTART_SEQUENCE,95,220,70,14
+    GROUPBOX        "Event control:",IDC_STATIC197,5,210,320,27,BS_CENTER
+    PUSHBUTTON      "Statusreport",IDSTATUSREPORT,95,240,70,14
+    CONTROL         "delete after success",IDC_DELETE_AFTER_SUCCESS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,212,27,86,10
+    PUSHBUTTON      "Default",IDC_ASDEFAULT,20,195,70,14
+    PUSHBUTTON      "Abort current event",IDC_ABORT_CURRENT_EVENT,20,220,70,
+                    14,NOT WS_VISIBLE
+    PUSHBUTTON      "...",IDC_BROWSE_BOSS,229,95,12,12
+END
+
+IDD_SEARCH_REPLACE DIALOGEX 0, 0, 149, 94
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Seach and Replace"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT_SEARCH,50,5,95,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_REPLACE,50,20,95,12,ES_AUTOHSCROLL
+    CONTROL         "Ignore Case",IDC_IGNCASE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,50,35,95,10
+    CONTROL         "Use text replacement",IDC_USERCONV,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,50,45,95,10
+    PUSHBUTTON      "Cancel",IDCANCEL,73,72,50,14
+    DEFPUSHBUTTON   "OK",IDOK,18,72,50,14
+    RTEXT           "Search:",IDC_SEARCH,5,6,43,10
+    RTEXT           "Replace:",IDC_REPLACE,5,21,43,10
+    CONTROL         "Use regexps",IDC_REGEXP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,50,56,94,10
+END
+
+IDD_CFG_TEXTREPL DIALOGEX 0, 0, 294, 257
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT_STRING,55,225,180,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_REPLACEMENT,55,240,180,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Add",IDC_ADD,240,210,50,12
+    PUSHBUTTON      "Change",IDC_CHANGE,240,225,50,12
+    PUSHBUTTON      "Delete",IDC_DELETE,240,240,50,12
+    LISTBOX         IDC_LIST,5,15,230,205,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    CTEXT           "List of strings to substitute while typing:",
+                    IDC_STATIC1,5,5,230,9
+    RTEXT           "String:",IDC_STATIC2,5,226,48,9
+    RTEXT           "Replacement:",IDC_STATIC3,5,241,48,9
+END
+
+IDD_MESSAGEBOX_T DIALOG  0, 0, 170, 58
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT           "Message",IDC_STATIC1,5,5,165,30
+    DEFPUSHBUTTON   "OK",IDOK,5,40,74,14
+    PUSHBUTTON      "Cancel",IDCANCEL,85,40,80,14
+END
+
+IDD_CFG_INCOME DIALOGEX 0, 0, 297, 257
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_CHECK_MONDAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,140,35,10,10
+    CONTROL         "",IDC_CHECK_THUESDAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,160,35,10,10
+    CONTROL         "",IDC_CHECK_WEDNESDAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,180,35,10,10
+    CONTROL         "",IDC_CHECK_THURSDAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,200,35,10,10
+    CONTROL         "",IDC_CHECK_FRIDAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,220,35,10,10
+    CONTROL         "",IDC_CHECK_SATURADAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,240,35,10,10
+    CONTROL         "",IDC_CHECK_SUNDAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,260,35,10,10
+    EDITTEXT        IDC_EDIT_FROM,180,62,25,12,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TO,235,62,24,12,ES_CENTER | ES_AUTOHSCROLL
+    CONTROL         "Modem &1",IDC_FIRST_MODEM,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,139,97,45,8
+    CONTROL         "Modem &2",IDC_SECOND_MODEM,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,184,97,45,8
+    CONTROL         "&ISDN",IDC_ISDN_LINE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,229,97,45,8
+    CONTROL         "EMSI",IDC_EMSI,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    155,126,35,8
+    CONTROL         "BBS",IDC_BBS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,195,
+                    126,35,8
+    CONTROL         "Fax",IDC_FAX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,235,
+                    126,35,8
+    PUSHBUTTON      "Add",IDC_ADD,126,198,50,12
+    PUSHBUTTON      "Change",IDC_CHANGE,126,216,50,12
+    PUSHBUTTON      "Delete",IDC_DELETE,126,234,50,12
+    LISTBOX         IDC_LIST1,8,25,114,220,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "From:",IDC_STATIC12,149,64,23,8
+    RTEXT           "To:",IDC_STATIC13,209,64,18,8
+    GROUPBOX        "Time:  (Format: HH:MM)",IDC_STATIC11,135,50,145,30,
+                    BS_CENTER
+    GROUPBOX        "Days enabled:",IDC_STATIC10,135,15,145,35,BS_CENTER
+    CTEXT           "Current times:",IDC_STATIC9,10,15,114,8
+    GROUPBOX        "Device Selection:",IDC_STATIC14,135,85,145,25,BS_CENTER
+    GROUPBOX        "Icoming calls conditions:",IDC_STATIC8,4,0,286,250,
+                    BS_CENTER
+    GROUPBOX        "Accept services:",IDC_STATIC15,135,115,145,25,BS_CENTER
+    LTEXT           "Mo",IDC_STATIC1,140,25,10,10
+    LTEXT           "Tu",IDC_STATIC2,160,25,10,10
+    LTEXT           "We",IDC_STATIC3,180,25,10,10
+    LTEXT           "Th",IDC_STATIC4,200,25,10,10
+    LTEXT           "Fr",IDC_STATIC5,220,25,10,10
+    LTEXT           "Sa",IDC_STATIC6,240,25,10,10
+    LTEXT           "Su",IDC_STATIC7,260,25,10,10
+END
+
+IDD_CFG_INRINGS DIALOG  0, 0, 294, 257
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Disable call acception ",IDC_DISABLE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,5,10,240,10
+    EDITTEXT        IDC_NR_S1,110,45,25,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_NR_S2,110,60,25,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_NR_ISDN,110,75,25,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_PAUSE_S1,223,45,25,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_PAUSE_S2,223,60,25,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_PAUSE_ISDN,223,75,25,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_FROM,195,110,17,12,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_TO,250,110,16,12,ES_CENTER | ES_AUTOHSCROLL
+    CONTROL         "Modem 1",IDC_FOR1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    130,130,45,8
+    CONTROL         "Modem 2",IDC_FOR2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    180,130,47,8
+    LTEXT           "1st Modem",IDC_STATIC4,12,45,53,8
+    LTEXT           "2nd Modem",IDC_STATIC5,12,60,53,8
+    LTEXT           "ISDN",IDC_STATIC,12,75,53,8
+    GROUPBOX        "Nr of rings to accept:",IDC_STATIC1,75,30,95,65,
+                    BS_CENTER
+    GROUPBOX        "Time to detect new call: (sec)",IDC_STATIC2,175,30,115,
+                    65,BS_CENTER
+    GROUPBOX        "Device:",IDC_STATIC3,5,30,65,65,BS_CENTER
+    GROUPBOX        "Line splitter:",IDC_STATIC6,5,100,285,45,BS_CENTER
+    RTEXT           "Accept calls in intervall after last call:",IDC_STATIC7,
+                    9,112,166,8
+    LTEXT           "sec.",IDC_STATIC9,215,112,15,8
+    LTEXT           "sec.",IDC_STATIC11,268,112,17,8
+    RTEXT           "From",IDC_STATIC8,176,112,18,8
+    RTEXT           "To",IDC_STATIC10,235,112,13,8
+    RTEXT           "Used for:",IDC_STATIC12,10,130,115,8
+END
+
+IDD_EXT_SEARCH DIALOGEX 0, 0, 373, 238
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Extended Search"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_DD_FIELD,5,175,64,65,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "not",IDC_NOT,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | 
+                    BS_RIGHT | WS_TABSTOP,71,176,21,10
+    COMBOBOX        IDC_DD_CONTAINS,95,175,88,68,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "case sensitve",IDC_CASE_SESITIVE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,185,176,80,9
+    EDITTEXT        IDC_EDIT,52,190,213,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Clear list",IDC_CLEAR_QUERY_LIST,8,205,60,12
+    PUSHBUTTON      "Delete",IDC_DELETE,72,205,60,12
+    PUSHBUTTON      "Add",IDC_ADD,136,205,60,12
+    PUSHBUTTON      "Change",IDC_CHANGE,200,205,60,12
+    PUSHBUTTON      "Load",IDC_LOAD_QUERY,8,220,60,12
+    PUSHBUTTON      "Save",IDC_SAVE_QUERY,72,220,60,12
+    DEFPUSHBUTTON   "Start search",IDOK,200,220,60,12
+    PUSHBUTTON      "Select all",IDC_SEL_ALL,270,205,50,12
+    PUSHBUTTON      "Clear all",IDC_CLEAR_ALL,321,205,50,12
+    PUSHBUTTON      "Help",IDHELP,270,220,50,12
+    PUSHBUTTON      "Hide",IDC_HIDE,321,220,50,12
+    PUSHBUTTON      "Stop search",IDC_STOP_SEARCH,136,220,60,12
+    PUSHBUTTON      "Clear results",IDC_CLEAR_SEARCH,8,56,60,12
+    PUSHBUTTON      "Config",IDC_DISPLAY,72,56,60,12,WS_DISABLED
+    PUSHBUTTON      "Load",IDC_LOAD_RESULTS,136,56,60,12
+    PUSHBUTTON      "Save",IDC_SAVE_RESULTS,200,56,60,12
+    CONTROL         "'AND' Query (instead of 'OR')",IDC_ORED,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,5,80,140,10
+    CONTROL         "UserMark all found messages",IDC_MARKALLFOUND,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,5,90,140,10
+    CONTROL         "Mark all found messages as read",IDC_MARKALLFOUNDASREAD,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,100,140,10
+    EDITTEXT        IDC_EDIT1,230,80,30,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Proceed deleted",IDC_PROCDELETED,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,145,95,115,10
+    EDITTEXT        IDC_EDIT_COPYTOAREA,145,110,104,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BROWSE_AREAS,250,110,12,12
+    CONTROL         "List1",IDC_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,5,125,260,45
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,270,2,100,200
+    CONTROL         "List2",IDC_LIST2,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,5,22,260,31
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER | 
+                    0x1,135,10,130,7
+    GROUPBOX        "Query:",IDC_STATIC45,0,70,268,166,BS_CENTER
+    LTEXT           "Found:   0",IDC_STATIC_NR_FOUND,90,10,45,8
+    RTEXT           "Limit search to:",IDC_STATIC_123,145,82,84,8
+    RTEXT           "Text::",IDC_STATIC352,7,192,42,8
+    GROUPBOX        "Search result:",IDC_STATIC876,0,0,268,71,BS_CENTER
+    CTEXT           "Status",IDC_STATUS,5,9,79,11,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "&v (next)",IDC_DISP_NEXT_Q_RESULT,4,192,23,10,NOT 
+                    WS_VISIBLE
+    RTEXT           "Copy results to area: (optional):",IDC_STATIC639,5,112,
+                    138,8
+END
+
+IDD_RESULT_FORMAT DIALOG  0, 0, 283, 77
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Configure Result Format"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Save",IDOK,170,60,50,13
+    PUSHBUTTON      "Cancel",IDCANCEL,225,60,50,13
+    EDITTEXT        IDC_EDIT_FORMAT,40,20,140,12,ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    CTEXT           "Warning: This configuration is for experienced users only!",
+                    IDC_STATIC1,5,5,275,9
+    EDITTEXT        IDC_EDIT_TABS,40,35,140,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    PUSHBUTTON      "Help",IDHELP,5,60,50,13
+    PUSHBUTTON      "Default",IDDEFAULT,60,60,50,13
+    RTEXT           "Format:",IDC_STATIC,7,22,31,8
+    RTEXT           "Tabs:",IDC_STATIC,7,37,33,8
+    PUSHBUTTON      "Apply",IDAPPLY,115,60,50,13
+    LTEXT           "A - Area\t\t- = space\nS - Sender\tI - Subject\nE - Recipient\tD - Rec.time\nT - delimiter\tK - Cr.time",
+                    IDC_STATIC,185,20,95,35
+END
+
+IDD_CFG_DESIGN DIALOGEX 0, 0, 300, 260
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_SKINPATH,75,32,210,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_SKINBR,285,32,10,12
+    CONTROL         "List3",IDC_AVAIL,"SysListView32",LVS_SINGLESEL | 
+                    LVS_SHAREIMAGELISTS | LVS_AUTOARRANGE | LVS_ALIGNLEFT | 
+                    LVS_NOSCROLL | WS_BORDER | WS_TABSTOP,10,70,90,180
+    PUSHBUTTON      "<< --- ",IDC_DELETE,102,140,31,12,WS_DISABLED
+    PUSHBUTTON      "--- >>",IDC_ADD,102,155,31,12,WS_DISABLED
+    CONTROL         "List4",IDC_USED,"SysListView32",LVS_SINGLESEL | 
+                    LVS_SHAREIMAGELISTS | LVS_AUTOARRANGE | WS_BORDER | 
+                    WS_TABSTOP,135,70,60,180
+    PUSHBUTTON      "Up",IDC_UP,102,220,31,12,WS_DISABLED
+    PUSHBUTTON      "Down",IDC_DOWN,102,235,31,12,WS_DISABLED
+    CONTROL         "List1",IDC_ICONS,"SysListView32",LVS_NOSCROLL | 
+                    WS_DISABLED | WS_TABSTOP,5,5,290,25,WS_EX_TRANSPARENT
+    LTEXT           "Skin-file path:",IDC_STATIC1,5,33,68,10
+    CTEXT           "Used Icons",IDC_STATIC4,130,60,68,8
+    CTEXT           "Available Icons",IDC_STATIC3,10,60,90,8
+    GROUPBOX        "Customizing floating toolbar",IDC_STATIC2,5,50,195,205,
+                    BS_CENTER
+END
+
+IDD_MM_SELECTION DIALOG  0, 0, 303, 237
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Multimedia element selection"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         ".BMP Files",IDC_BMPTYPE,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,10,13,135,11
+    CONTROL         ".WAV Files",IDC_WAVTYPE,"Button",BS_AUTORADIOBUTTON,10,
+                    28,135,11
+    CONTROL         "Once mail is displayed",IDC_PLAYMAIL,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,162,11,133,10
+    CONTROL         "Once line is displayed",IDC_PLAYLINE,"Button",
+                    BS_AUTORADIOBUTTON,162,22,133,10
+    CONTROL         "On Double Click",IDC_PLAYDBLCLK,"Button",
+                    BS_AUTORADIOBUTTON,162,33,133,10
+    LISTBOX         IDC_LIST,5,55,295,162,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Help",IDHELP,8,220,67,14
+    PUSHBUTTON      "Test",IDTEST,81,220,69,14
+    PUSHBUTTON      "Cancel",IDCANCEL,225,220,70,14
+    DEFPUSHBUTTON   "Insert",IDOK,155,220,65,14
+    GROUPBOX        "Display the following multimedia elements:",IDC_STATIC1,
+                    5,0,145,44
+    CTEXT           "Please choose one ID to insert into your mail:",
+                    IDC_STATIC2,5,45,295,10
+    GROUPBOX        "Play (or display) options:",IDC_STATIC4,155,0,145,44
+END
+
+IDD_BMP_VIEW DIALOG  0, 0, 64, 57
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+IDD_CFG_GATE DIALOGEX 0, 0, 300, 260
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT_TO,60,42,228,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TO_FIDO,60,60,228,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SUBJECT,60,78,228,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MAILCONT,60,114,228,108,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_HSCROLL
+    LTEXT           "To:",IDC_STATIC1,6,44,53,8
+    LTEXT           "To Fido:",IDC_STATIC3,6,62,53,8
+    LTEXT           "Subject:",IDC_STATIC4,6,80,53,8
+    LTEXT           "Mail contence:",IDC_STATIC5,6,116,53,8
+    GROUPBOX        "New mail template:",IDC_STATIC56,3,24,292,234,BS_CENTER
+    CTEXT           "For a detailed macro description press help button.",
+                    IDC_STATIC78,6,0,288,8
+    LTEXT           "AKA:",IDC_STATIC6,6,98,53,8
+    EDITTEXT        IDC_EDIT_AKA,60,96,228,12,ES_AUTOHSCROLL
+    CTEXT           "To quote a mail from/to internet use the right mouse button -> Find email address in the Writemail Dialog Box",
+                    IDC_STATIC568,6,228,282,20
+    CONTROL         "Enable Internet-gateway macros",IDC_ENABLE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,12,288,10
+END
+
+IDD_ADJUST_SUBJ_LIST DIALOG  0, 0, 273, 97
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Subject window adjustment"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Save",IDOK,75,80,60,15
+    PUSHBUTTON      "Cancel",IDCANCEL,140,80,60,15
+    CONTROL         "Slider1",IDC_SLIDER1,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_TOP | WS_TABSTOP,55,10,212,20
+    CONTROL         "Slider1",IDC_SLIDER2,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_TOP | WS_TABSTOP,55,30,212,20
+    CONTROL         "Slider1",IDC_SLIDER3,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_TOP | WS_TABSTOP,55,50,212,20
+    GROUPBOX        "Positions:",IDC_STATIC1,0,0,273,75,BS_CENTER
+    RTEXT           "Recipient:",IDC_STATIC2,5,17,44,8
+    RTEXT           "Subject:",IDC_STATIC3,6,36,44,8
+    RTEXT           "Nr. and Size:",IDC_STATIC4,5,56,45,8
+END
+
+IDD_CFG_REMOTE DIALOG  0, 0, 255, 53
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Remote monitor configuration"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Save",IDOK,100,35,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,155,35,50,14
+    PUSHBUTTON      "Help",IDHELP,45,35,50,14
+    CONTROL         "Enable remote monitoring",IDC_CHECK_ENABLE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,9,20,241,10
+    LTEXT           "To use remote monitoring, the TCP/IP protocol must be installed!",
+                    IDC_STATIC1,7,5,243,8
+END
+
+IDD_SEARCH_AREA_SELECTION DIALOG  0, 0, 277, 194
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Select destination area:"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,140,175,130,15
+    LISTBOX         IDC_LIST1,0,0,276,170,LBS_SORT | LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Use",IDUSE,5,175,130,15
+END
+
+IDD_CFG_TICS DIALOGEX 0, 0, 300, 273
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "TIC-areas setup"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT_ECHO,52,160,94,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_UPLINK,220,160,72,72,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_DESCRIPTION,52,176,240,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PATH,52,192,224,12,ES_AUTOHSCROLL
+    CONTROL         "Don't delete incoming file from inbound",IDC_DONTDELETE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,52,208,240,10
+    PUSHBUTTON      "Add",IDC_ADD,236,104,60,12
+    PUSHBUTTON      "Change",IDC_CHANGE,236,120,60,12
+    PUSHBUTTON      "Delete",IDC_DELETE,236,136,60,12
+    PUSHBUTTON      "...",IDC_BROWSE,280,192,11,12
+    PUSHBUTTON      "Help",IDHELP,60,258,60,12
+    PUSHBUTTON      "Save",IDOK,126,258,60,12
+    PUSHBUTTON      "Cancel",IDCANCEL,192,258,60,12
+    LISTBOX         IDC_LIST,2,0,230,148,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    RTEXT           "TIC echo:",IDC_STATIC1,4,162,46,8
+    RTEXT           "Path:",IDC_STATIC2,4,194,47,8
+    RTEXT           "Uplink:",IDC_STATIC3,184,162,34,8
+    GROUPBOX        "New entry:",IDC_STATIC6,2,148,295,108,BS_CENTER
+    RTEXT           "Description:",IDC_STATIC4,4,178,47,8
+    CTEXT           "Please note:\nIf there is no path configured for a incoming tic echo, the path definded in the system setup will be used.",
+                    IDC_STATIC5,4,224,289,28,WS_BORDER
+END
+
+IDD_HATCHDLG DIALOG  0, 0, 346, 197
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "File 'hatch' dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_FILENAME,65,18,260,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BROWSE,328,19,12,11
+    EDITTEXT        IDC_EDIT_REPLACE,65,35,93,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MAGIC,249,35,92,12,ES_AUTOHSCROLL
+    LISTBOX         IDC_LIST,40,52,300,73,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_DESCRIPTION,40,125,300,52,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | WS_VSCROLL
+    PUSHBUTTON      "Help",IDHELP,40,180,65,15
+    PUSHBUTTON      "Import Desc.",IDC_IMPORT_DIZ,110,180,70,15
+    PUSHBUTTON      "Cancel",IDCANCEL,260,180,70,15
+    DEFPUSHBUTTON   "Send",IDOK,185,180,70,15
+    CONTROL         "&Delete file after transmission",IDC_CHECK1,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,66,4,259,10
+    RTEXT           "Filename:",IDC_STATIC1,1,19,62,8
+    CTEXT           "Destination Tic Area:",IDC_STATIC2,0,55,38,37
+    CTEXT           "Description:",IDC_STATIC3,0,125,38,12
+    RTEXT           "Replace File",IDC_STATIC685,1,36,62,8
+    RTEXT           "Magic:",IDC_STATIC687,210,37,35,8
+END
+
+IDD_TIC_EDITOR DIALOG  0, 0, 331, 162
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "TIC Editor"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_LIST,0,1,70,143,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT,70,1,261,143,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    PUSHBUTTON      "Delete TIC file",IDC_DELETE,61,147,108,13
+    PUSHBUTTON      "Exit",IDCANCEL,171,147,106,13
+END
+
+IDD_CHOOSE_MARK DIALOG  0, 0, 174, 77
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Execute for:"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Selected mails (red mark)",IDC_ON_SELECTED,10,10,155,13
+    PUSHBUTTON      "Marked mails (inverted mark)",IDC_ON_MARKED,10,25,155,
+                    13
+    PUSHBUTTON      "Selected and Marked mails",IDC_ON_BOTH,10,40,155,13
+    PUSHBUTTON      "Cancel",IDCANCEL,10,60,155,13
+    GROUPBOX        "",IDC_STATIC1,5,2,165,55,BS_CENTER
+END
+
+IDD_CFG_COST DIALOGEX 0, 0, 300, 260
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE | WS_SYSMENU
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "Enable Cost Calculation",IDC_CHECK_ENABLE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,2,288,10
+    GROUPBOX        "Base costs",IDC_STATIC11,2,11,293,144,BS_CENTER
+    GROUPBOX        "Phone costs",IDC_STATIC12,2,150,293,108,BS_CENTER
+    EDITTEXT        IDC_NAME,54,90,75,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_COST,213,90,24,12,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_CURRENCY,273,90,18,12,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_WORKDAYS,54,116,237,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_WEEKEND,54,131,237,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Add",IDC_ADDB,230,32,60,12
+    PUSHBUTTON      "Change",IDC_CHANGEB,230,50,60,12
+    PUSHBUTTON      "Delete",IDC_DELETEB,230,68,60,12
+    EDITTEXT        IDC_DELAY,6,162,25,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_PHONE,54,240,72,12,ES_AUTOHSCROLL | ES_NUMBER
+    COMBOBOX        IDC_BASECOSTS,198,240,94,54,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Add",IDC_ADDU,231,186,60,12
+    PUSHBUTTON      "Change",IDC_CHANGEU,231,204,60,12
+    PUSHBUTTON      "Delete",IDC_DELETEU,231,222,60,12
+    LISTBOX         IDC_LISTB,6,30,222,54,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    LISTBOX         IDC_LISTU,6,186,222,48,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    CTEXT           "Current phone costs:",IDC_STATIC8,6,176,221,8
+    RTEXT           "Phone:",IDC_STATIC9,6,242,46,8
+    LTEXT           "Delay to CONNECT message (sec)",IDC_STATIC7,36,164,192,
+                    8
+    RTEXT           "Base cost:",IDC_STATIC10,126,242,70,8
+    RTEXT           "Name:",IDC_STATIC2,6,92,46,8
+    RTEXT           "Workdays:",IDC_STATIC5,6,118,46,8
+    RTEXT           "Weekend:",IDC_STATIC6,6,133,46,8
+    RTEXT           "Cost of Unit (xx.yy):",IDC_STATIC3,129,92,83,8
+    CTEXT           "Available base costs:",IDC_STATIC1,6,20,222,8
+    RTEXT           "Currency:",IDC_STATIC4,237,92,34,8
+    CTEXT           "(format:   Interval=Seconds-in-Unit, example:   0:00-5:00=240 5:00-9:00=150)",
+                    IDC_SAMPLE,6,107,282,8
+END
+
+IDD_COSTANAL DIALOG  0, 0, 360, 191
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Telephone-Cost Analyze"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Exit",IDCANCEL,256,175,75,14
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_AUTOARRANGE | WS_BORDER | WS_TABSTOP,0,61,358,109
+    PUSHBUTTON      "Help",IDHELP,28,175,75,14
+    EDITTEXT        IDC_EDIT_STARTDATE,75,25,40,12,ES_CENTER | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ENDDATE,75,40,40,12,ES_CENTER | ES_AUTOHSCROLL
+    PUSHBUTTON      "Display selected interval",IDC_DISPLAY,120,25,112,13
+    PUSHBUTTON      "Save as default",IDC_DEFAULT,235,10,95,13
+    RTEXT           "Begin (dd.mm.yyyy):",IDC_STATIC1,5,27,68,8
+    RTEXT           "End (dd.mm.yyyy):",IDC_STATIC2,5,42,68,8
+    GROUPBOX        "Display Selection:",IDC_STATIC573,1,0,357,58,BS_CENTER
+    RTEXT           "Period of Analyse",IDC_STATIC88,5,13,110,8
+    PUSHBUTTON      "Display All",IDC_DISPLAY_ALL,120,10,112,13
+    PUSHBUTTON      "Clear Cost Info",IDC_CLEAR_INFO,104,175,75,14
+    CONTROL         "Supress empty",IDC_SUPRESS_EMPTY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,235,27,117,10
+    PUSHBUTTON      "Display today",IDC_DISPLAY_TODAY,120,40,112,13
+    PUSHBUTTON      "Write to file",IDC_WRITE_FILE,180,175,75,14
+END
+
+IDD_CHOOSE_AUTOSAVE DIALOGEX 0, 0, 208, 271
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Autosave area selection"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    LISTBOX         IDC_LIST,4,4,200,210,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT1,10,233,140,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    PUSHBUTTON      "Create",IDC_CREATE,155,233,45,13
+    DEFPUSHBUTTON   "OK",IDOK,55,255,45,14
+    PUSHBUTTON      "Cancel",IDCANCEL,105,255,45,14
+    GROUPBOX        "Create new area: ( area name without 'ASAVED: ' )",
+                    IDC_STATIC1,5,220,200,31
+END
+
+IDD_BBS_USERS DIALOG  0, 0, 297, 257
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_LIST,2,10,288,100,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_NAME,85,115,155,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_STREET,85,130,155,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TOWN,85,145,155,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TEL,85,160,155,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MODEMFAX,85,175,155,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LINES,85,205,26,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_DD_LEVEL,85,220,25,75,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_DD_LANGUAGE,85,235,50,75,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_GROUPS,160,220,80,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PASSWORD,85,190,155,12,ES_UPPERCASE | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_REMAIN,215,235,25,12,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "Delete",IDC_DELETE,242,205,50,12
+    PUSHBUTTON      "Add",IDC_ADD,242,235,50,12
+    PUSHBUTTON      "Change",IDC_CHANGE,242,220,50,12
+    CONTROL         "Use ANSI Colors",IDC_CHECK_ANSI,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | BS_RIGHT | WS_TABSTOP,
+                    115,207,125,8
+    LTEXT           "Name:",IDC_STATIC2,5,117,78,8
+    LTEXT           "Security Level:",IDC_STATIC9,5,222,78,8
+    LTEXT           "Street:",IDC_STATIC3,5,132,78,8
+    LTEXT           "Town:",IDC_STATIC4,5,147,78,8
+    LTEXT           "Phone:",IDC_STATIC5,5,162,78,8
+    LTEXT           "Modem/Fax:",IDC_STATIC6,5,177,78,8
+    LTEXT           "Lines per page:",IDC_STATIC8,5,207,78,8
+    LTEXT           "Language:",IDC_STATIC11,5,237,78,8
+    LTEXT           "Groups:",IDC_STATIC10,115,222,43,8
+    LTEXT           "Password:",IDC_STATIC7,5,192,78,8
+    GROUPBOX        "List of Users:",IDC_STATIC1,2,0,293,255,BS_CENTER
+    LTEXT           "Remaining time:",IDC_STATIC12,140,237,72,8
+END
+
+IDD_BBS_LEVELS DIALOG  0, 0, 294, 257
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT1,75,220,29,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT5,179,220,29,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT2,75,234,160,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Delete",IDC_DELETE,240,205,50,12
+    PUSHBUTTON      "Change",IDC_CHANGE,240,220,50,12
+    PUSHBUTTON      "Add",IDC_ADD,240,235,50,12
+    LISTBOX         IDC_LIST1,4,10,286,190,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Access Level:",IDC_STATIC2,5,222,68,8
+    LTEXT           "Online Time:",IDC_STATIC3,110,222,66,8
+    GROUPBOX        "Available Levels:",IDC_STATIC1,2,0,291,250,BS_CENTER
+    LTEXT           "Comment:",IDC_STATIC4,5,236,68,8
+    LTEXT           "min",IDC_STATIC888,212,222,22,8
+END
+
+IDD_BBS_MAIN DIALOG  0, 0, 256, 296
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_DD_LANGUAGE,150,25,50,82,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DD_DEFGROUP,175,40,26,68,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_SOUND,5,65,185,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_SOUND_CHOICE,190,66,10,10
+    CONTROL         "Minimized BBS startup",IDC_CHECK_MINI,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | NOT WS_VISIBLE | 
+                    WS_DISABLED | WS_TABSTOP,226,12,16,10
+    PUSHBUTTON      "Test sound",IDC_TEST_SOUND,205,65,50,12
+    RTEXT           "Default Language for BBS startup screen:",IDC_STATIC1,5,
+                    26,143,10
+    RTEXT           "Acces Level for new user:",IDC_STATIC2,5,41,168,10
+    CTEXT           "Sound if user wants to chat with sysop:",IDC_STATIC3,5,
+                    55,195,9
+END
+
+IDD_VALUE_AREAFIX DIALOG  0, 0, 284, 233
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Value Areafix netmail "
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_UPLINK,135,5,72,78,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LISTBOX         IDC_LIST,5,30,271,90,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT,5,140,271,70,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | WS_VSCROLL
+    DEFPUSHBUTTON   "Send request",IDOK,105,217,75,14
+    PUSHBUTTON      "Cancel",IDCANCEL,185,217,75,14
+    PUSHBUTTON      "Help",IDHELP,25,217,75,14
+    RTEXT           "Uplink address:",IDC_STATIC1,70,7,63,8
+    GROUPBOX        "Linked echo conferences, doubleclick to unlink, right click - sort on echotag",
+                    IDC_STATIC2,1,18,279,107,BS_CENTER
+    GROUPBOX        "Echo Conference add/remove request",IDC_STATIC3,1,130,
+                    279,85,BS_CENTER
+END
+
+IDD_FLOATING_BAR DIALOGEX 0, 0, 180, 31
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_ASAVE,"Button",BS_OWNERDRAW | WS_TABSTOP,0,0,30,
+                    10
+    CONTROL         "",IDC_FIND,"Button",BS_OWNERDRAW | WS_TABSTOP,30,0,30,
+                    10
+    CONTROL         "",IDC_NEW,"Button",BS_OWNERDRAW | WS_TABSTOP,150,0,30,
+                    10
+    CONTROL         "",IDC_QUOTE,"Button",BS_OWNERDRAW | WS_TABSTOP,60,0,30,
+                    10
+    CONTROL         "",IDC_QUOTEA,"Button",BS_OWNERDRAW | WS_TABSTOP,90,0,30,
+                    10
+    CONTROL         "",IDC_FREQ,"Button",BS_OWNERDRAW | WS_TABSTOP,120,0,30,
+                    10
+    CONTROL         "",IDC_MACRO1,"Button",BS_OWNERDRAW | WS_TABSTOP,0,10,30,
+                    10
+    CONTROL         "",IDC_MACRO2,"Button",BS_OWNERDRAW | WS_TABSTOP,30,10,
+                    30,10
+    CONTROL         "",IDC_MACRO3,"Button",BS_OWNERDRAW | WS_TABSTOP,60,10,
+                    30,10
+    CONTROL         "",IDC_MACRO4,"Button",BS_OWNERDRAW | WS_TABSTOP,90,10,
+                    30,10
+    CONTROL         "",IDC_EXIT,"Button",BS_OWNERDRAW | WS_TABSTOP,90,20,30,
+                    10
+    PUSHBUTTON      "",IDCANCEL,150,10,30,10,NOT WS_VISIBLE
+    CONTROL         "",IDC_MACRO5,"Button",BS_OWNERDRAW | WS_TABSTOP,120,10,
+                    30,10
+    CONTROL         "",IDC_ABORT,"Button",BS_OWNERDRAW | NOT WS_VISIBLE | 
+                    WS_TABSTOP,120,20,30,10
+    CONTROL         "",IDC_FILT,"Button",BS_OWNERDRAW | WS_TABSTOP,0,20,30,
+                    10
+END
+
+IDD_REPOST DIALOGEX 0, 0, 72, 97
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Repost"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT_DAYS,35,55,15,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    DEFPUSHBUTTON   "Select",IDOK,6,68,60,12
+    PUSHBUTTON      "Cancel",IDCANCEL,6,80,60,12
+    PUSHBUTTON      "Through 1 day",IDC_1DAY,6,6,62,12
+    PUSHBUTTON      "Through 3 days",IDC_3DAYS,6,18,62,12
+    PUSHBUTTON      "Through week",IDC_WEEK,6,30,62,12
+    PUSHBUTTON      "Through month",IDC_MONTH,6,42,62,12
+    RTEXT           "Through",IDC_STATIC1,0,57,33,8
+    LTEXT           "days",IDC_STATIC2,52,57,20,8
+END
+
+IDD_REPOST_FOLDER DIALOGEX 0, 0, 356, 113
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Repost folder"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Exit",IDOK,261,95,85,14
+    PUSHBUTTON      "Repost now",IDC_REPOST_NOW,176,95,83,14
+    PUSHBUTTON      "Delete repost",IDC_DELETE_REPOST,91,95,83,14
+    PUSHBUTTON      "Help",IDHELP,6,95,83,14
+    CTEXT           "The following mail will be reposted:",IDC_STATIC1,7,4,
+                    341,8
+    CONTROL         "List2",IDC_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,5,15,340,75
+END
+
+IDD_CFG_KLUDGES DIALOGEX 0, 0, 294, 257
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_MYKLUDGE,5,240,86,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Add",IDC_ADD1,96,210,50,12
+    PUSHBUTTON      "Change",IDC_CHANGE1,96,225,50,12
+    PUSHBUTTON      "Delete",IDC_DELETE1,96,240,50,12
+    EDITTEXT        IDC_HISKLUDGE,155,240,76,12,ES_AUTOHSCROLL
+    CONTROL         "All",IDC_HIDEALL,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    234,175,56,8
+    CONTROL         "Selected",IDC_HIDESEL,"Button",BS_AUTORADIOBUTTON,234,
+                    190,56,8
+    PUSHBUTTON      "Add",IDC_ADD2,236,210,50,12
+    PUSHBUTTON      "Change",IDC_CHANGE2,236,225,50,12
+    PUSHBUTTON      "Delete",IDC_DELETE2,236,240,50,12
+    LISTBOX         IDC_LIST1,5,15,86,220,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST2,155,15,76,220,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CTEXT           "Additional kludges:",IDC_STATIC1,5,5,85,10,NOT WS_GROUP
+    CTEXT           "Hidden kludges:",IDC_STATIC2,155,5,75,10,NOT WS_GROUP
+    GROUPBOX        "Hide kludges",IDC_HIDE,232,160,61,45
+END
+
+IDD_CFG_BADXFER DIALOG  0, 0, 264, 213
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "List badxfer files"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_LIST_BAD_XFER,5,15,255,87,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_REALNAME,77,114,175,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BADNAME,77,129,175,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_FILESIZE,60,146,75,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_FILE_TIME,180,145,72,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO1,60,162,190,55,CBS_DROPDOWNLIST | 
+                    CBS_UPPERCASE | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Set",IDSETONLY,60,177,75,15
+    PUSHBUTTON      "Delete",IDDELETE,140,177,75,15
+    DEFPUSHBUTTON   "OK",IDOK,60,197,75,14
+    PUSHBUTTON      "Cancel",IDCANCEL,140,197,75,14
+    GROUPBOX        "Files",IDC_STATIC1,7,104,250,91
+    LTEXT           "Real Name",IDC_STATIC51,15,116,60,8
+    LTEXT           "Bad Name",IDC_STATIC50,15,131,60,8
+    LTEXT           "File Time",IDC_STATIC3,143,147,37,8,SS_NOPREFIX
+    LTEXT           "File Size",IDC_STATIC2,15,147,40,8
+    LTEXT           "Status",IDC_STATIC,15,163,40,10
+    CTEXT           "List badxfer files",IDC_STATIC,5,2,255,8
+END
+
+IDD_MAIN_CONFIG DIALOG  0, 0, 410, 297
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Prefs"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Tree1",IDC_PAGE_TREE,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | 
+                    TVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,4,5,106,288
+    DEFPUSHBUTTON   "OK",IDOK,150,281,50,13
+    PUSHBUTTON      "Cancel",IDCANCEL,205,281,50,13
+    PUSHBUTTON      "Help",IDHELP,315,281,50,13
+    CONTROL         "",IDC_DLG_FRAME,"Static",SS_GRAYFRAME | NOT WS_VISIBLE,
+                    110,18,300,260
+    LTEXT           "",IDC_CAPTION_BAR,110,5,300,12,SS_CENTERIMAGE
+    PUSHBUTTON      "Apply",IDAPPLY,260,281,50,13
+END
+
+IDD_CFG_SERVICES DIALOGEX 0, 0, 297, 257
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Mailer:",IDC_MAILER_GRP,4,4,285,85
+    CONTROL         "Enable events at startup",IDC_STARTUP_EVENTS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,15,275,8
+    CONTROL         "Automatic rescan new mails on Startup",IDC_AUTORESCAN,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,25,275,8
+    CONTROL         "Pack outbound mail ",IDC_PACKOUTBOUND,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,35,275,8
+    CONTROL         "Always purge scanned mails",IDC_PURGE_SCANNED,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,45,275,8
+    CONTROL         "Do not generate eventmanager info mails",
+                    IDC_NO_INFOMAILS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    10,55,275,8
+    CONTROL         "No info mail when generating new area",
+                    IDC_NO_NEWAREAINFO,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    10,65,275,8
+    CONTROL         "Default route use AKA uplink",IDC_AKAROUTE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,75,275,8
+    GROUPBOX        "Tosser:",IDC_TOSSER_GRP,4,92,285,101
+    CONTROL         "Automatic start Tosser after Mailer Session",
+                    IDC_AUTOSTART_TOSSER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,8,104,275,8
+    CONTROL         "Ignore errors in FROM,TO,SUBJECT fields",IDC_IGNORERR,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,114,275,10
+    CONTROL         "Proccess hidden packets",IDC_PROC_HIDDEN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,8,124,275,10
+    CONTROL         "Delete IMP-files after proccessing",IDC_DELIMP,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,8,134,275,10
+    CONTROL         "Disable TIC processing",IDC_NOPROC_TIC,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,8,144,275,8
+    CONTROL         "Do not use timezone information",IDC_TZ_NOT,"Button",
+                    BS_AUTORADIOBUTTON,8,160,275,10
+    CONTROL         "Use timezone information while tossing",IDC_TZ_TOSS,
+                    "Button",BS_AUTORADIOBUTTON | WS_GROUP,8,170,275,10
+    CONTROL         "Use timezone information while displaying chains",
+                    IDC_TZ_DISP,"Button",BS_AUTORADIOBUTTON,8,180,275,10
+    GROUPBOX        "Purger:",IDC_PURGER_GRP,4,196,285,35
+    CONTROL         "Don't process ASAVED",IDC_NOT_PROC_ASAVED,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,9,206,275,9
+    CONTROL         "Delete KLUDGES",IDC_DELETE_SEENBY,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFT | WS_TABSTOP,9,216,275,10
+END
+
+IDD_CFG_FONTS DIALOG  13, 54, 264, 147
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Font"
+FONT 8, "Helv"
+BEGIN
+    LTEXT           "&Font:",1088,6,3,40,9
+    COMBOBOX        1136,6,13,94,54,CBS_SIMPLE | CBS_OWNERDRAWFIXED | 
+                    CBS_AUTOHSCROLL | CBS_SORT | CBS_HASSTRINGS | 
+                    CBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Font St&yle:",1089,108,3,44,9
+    COMBOBOX        1137,108,13,64,54,CBS_SIMPLE | CBS_DISABLENOSCROLL | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&Size:",1090,179,3,30,9
+    COMBOBOX        1138,179,13,32,54,CBS_SIMPLE | CBS_OWNERDRAWFIXED | 
+                    CBS_SORT | CBS_HASSTRINGS | CBS_DISABLENOSCROLL | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,218,6,40,14,WS_GROUP
+    PUSHBUTTON      "Cancel",IDCANCEL,218,23,40,14,WS_GROUP
+    PUSHBUTTON      "&Apply",1026,218,40,40,14,WS_GROUP
+    PUSHBUTTON      "&Help",1038,218,57,40,14,WS_GROUP
+    GROUPBOX        "Effects",1072,6,72,84,34,WS_GROUP
+    CONTROL         "Stri&keout",1040,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    10,82,49,10
+    CONTROL         "&Underline",1041,"Button",BS_AUTOCHECKBOX,10,94,51,10
+    LTEXT           "&Color:",1091,6,110,30,9
+    COMBOBOX        1139,6,120,84,100,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | 
+                    CBS_AUTOHSCROLL | CBS_HASSTRINGS | WS_BORDER | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Sample",1073,98,72,160,49,WS_GROUP
+    CTEXT           "",1093,98,124,160,20,SS_NOPREFIX | NOT WS_GROUP
+    CTEXT           "AaBbYyZz",1092,104,81,149,37,SS_NOPREFIX | NOT 
+                    WS_VISIBLE
+END
+
+IDD_DESIGN DIALOG  0, 0, 300, 260
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+IDD_COLORBTN DIALOGEX 0, 0, 49, 73
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "",5101,"Button",BS_OWNERDRAW | WS_TABSTOP,1,1,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5102,"Button",BS_OWNERDRAW | WS_TABSTOP,13,1,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5103,"Button",BS_OWNERDRAW | WS_TABSTOP,25,1,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5104,"Button",BS_OWNERDRAW | WS_TABSTOP,37,1,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5105,"Button",BS_OWNERDRAW | WS_TABSTOP,1,12,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5106,"Button",BS_OWNERDRAW | WS_TABSTOP,13,12,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5107,"Button",BS_OWNERDRAW | WS_TABSTOP,25,12,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5108,"Button",BS_OWNERDRAW | WS_TABSTOP,37,12,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5109,"Button",BS_OWNERDRAW | WS_TABSTOP,1,24,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5110,"Button",BS_OWNERDRAW | WS_TABSTOP,13,24,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5111,"Button",BS_OWNERDRAW | WS_TABSTOP,25,24,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5112,"Button",BS_OWNERDRAW | WS_TABSTOP,37,24,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5113,"Button",BS_OWNERDRAW | WS_TABSTOP,1,36,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5114,"Button",BS_OWNERDRAW | WS_TABSTOP,13,36,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5115,"Button",BS_OWNERDRAW | WS_TABSTOP,25,36,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5116,"Button",BS_OWNERDRAW | WS_TABSTOP,37,36,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5117,"Button",BS_OWNERDRAW | WS_TABSTOP,1,48,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5118,"Button",BS_OWNERDRAW | WS_TABSTOP,13,48,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5119,"Button",BS_OWNERDRAW | WS_TABSTOP,25,48,11,10,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",5120,"Button",BS_OWNERDRAW | WS_TABSTOP,37,48,11,10,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "...",5121,1,60,47,11
+END
+
+IDD_ADDRSELECT DIALOGEX 0, 0, 258, 242
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Recipient Selection"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Use",IDOK,90,228,78,12
+    PUSHBUTTON      "Cancel",IDCANCEL,174,228,78,12
+    LISTBOX         IDC_ADDR,3,12,189,192,LBS_SORT | LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_GRP,192,12,61,192,LBS_SORT | LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "Groups",IDC_STATIC2,195,2,54,8
+    PUSHBUTTON      "Help",IDHELP,6,228,78,12
+    CTEXT           "Start Search/filter by typing name. Doubleclick to select",
+                    IDC_STATIC3,6,218,246,8,SS_CENTERIMAGE
+    CONTROL         "Search",IDC_SEARCH,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,4,206,60,12
+    CONTROL         "Filter",IDC_FILTLIST,"Button",BS_AUTORADIOBUTTON,64,206,
+                    59,12
+    CONTROL         "Add nodelist data",IDC_ADDNLDATA,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,1,186,10
+    LTEXT           "",IDC_PATTERN,164,207,89,9,0,WS_EX_STATICEDGE
+    CTEXT           "Pattern:",IDC_STATIC1,126,207,40,9,0,WS_EX_STATICEDGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_CFG_BOSS DLGINIT
+BEGIN
+    IDC_PACKERTYPE, 0x403, 4, 0
+0x5241, 0x004a, 
+    IDC_PACKERTYPE, 0x403, 4, 0
+0x5a4c, 0x0048, 
+    IDC_PACKERTYPE, 0x403, 6, 0
+0x4b50, 0x495a, 0x0050, 
+    0
+END
+
+IDD_CFG_HARDWARE DLGINIT
+BEGIN
+    IDC_COMPORT, 0x403, 5, 0
+0x4f43, 0x314d, "\000" 
+    IDC_COMPORT, 0x403, 5, 0
+0x4f43, 0x324d, "\000" 
+    IDC_COMPORT, 0x403, 5, 0
+0x4f43, 0x334d, "\000" 
+    IDC_COMPORT, 0x403, 5, 0
+0x4f43, 0x344d, "\000" 
+    IDC_COMPORT, 0x403, 5, 0
+0x4f43, 0x354d, "\000" 
+    IDC_COMPORT, 0x403, 5, 0
+0x4f43, 0x364d, "\000" 
+    IDC_COMPORT, 0x403, 5, 0
+0x4f43, 0x374d, "\000" 
+    IDC_COMPORT, 0x403, 5, 0
+0x4f43, 0x384d, "\000" 
+    IDC_BAUD, 0x403, 5, 0
+0x3432, 0x3030, "\000" 
+    IDC_BAUD, 0x403, 5, 0
+0x3639, 0x3030, "\000" 
+    IDC_BAUD, 0x403, 6, 0
+0x3431, 0x3034, 0x0030, 
+    IDC_BAUD, 0x403, 6, 0
+0x3931, 0x3032, 0x0030, 
+    IDC_BAUD, 0x403, 6, 0
+0x3833, 0x3034, 0x0030, 
+    IDC_BAUD, 0x403, 6, 0
+0x3735, 0x3036, 0x0030, 
+    IDC_BAUD, 0x403, 6, 0
+0x3637, 0x3038, 0x0030, 
+    IDC_BAUD, 0x403, 7, 0
+0x3131, 0x3235, 0x3030, "\000" 
+    0
+END
+
+IDD_QUICK_SETUP DLGINIT
+BEGIN
+    IDC_LANG, 0x403, 8, 0
+0x6e45, 0x6c67, 0x7369, 0x0068, 
+    IDC_LANG, 0x403, 7, 0
+0x6547, 0x6d72, 0x6e61, "\000" 
+    IDC_LANG, 0x403, 8, 0
+0x7552, 0x7373, 0x6169, 0x006e, 
+    IDC_LANG, 0x403, 7, 0
+0x7246, 0x6e65, 0x6863, "\000" 
+    IDC_COMPORT, 0x403, 5, 0
+0x4f43, 0x314d, "\000" 
+    IDC_COMPORT, 0x403, 5, 0
+0x4f43, 0x324d, "\000" 
+    IDC_COMPORT, 0x403, 5, 0
+0x4f43, 0x334d, "\000" 
+    IDC_COMPORT, 0x403, 5, 0
+0x4f43, 0x344d, "\000" 
+    IDC_COMPORT, 0x403, 5, 0
+0x4f43, 0x344d, "\000" 
+    IDC_COMPORT, 0x403, 5, 0
+0x4f43, 0x354d, "\000" 
+    IDC_COMPORT, 0x403, 5, 0
+0x4f43, 0x364d, "\000" 
+    IDC_COMPORT, 0x403, 5, 0
+0x4f43, 0x374d, "\000" 
+    IDC_COMPORT, 0x403, 5, 0
+0x4f43, 0x384d, "\000" 
+    IDC_COMPORT, 0x403, 1, 0
+"\000" 
+    IDC_PACKERTYPE2, 0x403, 6, 0
+0x4b50, 0x495a, 0x0050, 
+    IDC_PACKERTYPE2, 0x403, 4, 0
+0x4152, 0x0052, 
+    IDC_PACKERTYPE2, 0x403, 4, 0
+0x5241, 0x004a, 
+    IDC_PACKERTYPE2, 0x403, 6, 0
+0x484c, 0x5241, 0x0043, 
+    0
+END
+
+IDD_EXT_SEARCH DLGINIT
+BEGIN
+    IDC_DD_FIELD, 0x403, 4, 0
+0x4c41, 0x004c, 
+    IDC_DD_FIELD, 0x403, 7, 0
+0x4548, 0x4441, 0x5245, "\000" 
+    IDC_DD_FIELD, 0x403, 7, 0
+0x4441, 0x4552, 0x5353, "\000" 
+    IDC_DD_FIELD, 0x403, 5, 0
+0x5246, 0x4d4f, "\000" 
+    IDC_DD_FIELD, 0x403, 3, 0
+0x4f54, "\000" 
+    IDC_DD_FIELD, 0x403, 8, 0
+0x5553, 0x4a42, 0x4345, 0x0054, 
+    IDC_DD_FIELD, 0x403, 9, 0
+0x414d, 0x4c49, 0x4554, 0x5458, "\000" 
+    IDC_DD_FIELD, 0x403, 8, 0
+0x4552, 0x4543, 0x5649, 0x0045, 
+    IDC_DD_FIELD, 0x403, 9, 0
+0x5243, 0x4145, 0x4954, 0x4e4f, "\000" 
+    IDC_DD_FIELD, 0x403, 9, 0
+0x414c, 0x5453, 0x4143, 0x4c4c, "\000" 
+    IDC_DD_FIELD, 0x403, 11, 0
+0x414d, 0x4c49, 0x5453, 0x5441, 0x5355, "\000" 
+    IDC_DD_CONTAINS, 0x403, 9, 0
+0x4f43, 0x544e, 0x4941, 0x534e, "\000" 
+    IDC_DD_CONTAINS, 0x403, 7, 0
+0x4542, 0x4947, 0x534e, "\000" 
+    IDC_DD_CONTAINS, 0x403, 1, 0
+"\000" 
+    IDC_DD_CONTAINS, 0x403, 1, 0
+"\000" 
+    0
+END
+
+IDD_CFG_BADXFER DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 9, 0
+0x6552, 0x6f63, 0x6576, 0x7972, "\000" 
+    IDC_COMBO1, 0x403, 7, 0
+0x6552, 0x7566, 0x6573, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x6b53, 0x7069, "\000" 
+    0
+END
+
+IDD_CFG_EDITOR DLGINIT
+BEGIN
+    IDC_COLORS, 0x403, 4, 0
+0xeed4, 0x00ed, 
+    IDC_COLORS, 0x403, 14, 0
+0xe1ce, 0xf7fb, 0xfbed, 0x20e9, 0xe5f2, 0xf1ea, 0x00f2, 
+    IDC_COLORS, 0x403, 12, 0
+0xeed4, 0x20ed, 0xfbe2, 0xeee1, 0xeaf0, 0x00e8, 
+    IDC_COLORS, 0x403, 8, 0
+0xfbc2, 0xeee1, 0xeaf0, 0x00e0, 
+    IDC_COLORS, 0x403, 8, 0
+0xe2ca, 0xf2ee, 0x20e0, 0x0031, 
+    IDC_COLORS, 0x403, 8, 0
+0xe2ca, 0xf2ee, 0x20e0, 0x0032, 
+    IDC_COLORS, 0x403, 8, 0
+0xe8d2, 0xebf0, 0xe9e0, 0x00ed, 
+    IDC_COLORS, 0x403, 8, 0
+0xe0d2, 0xebe3, 0xe9e0, 0x00ed, 
+    IDC_COLORS, 0x403, 8, 0
+0xf0ce, 0xe4e8, 0xe8e6, 0x00ed, 
+    IDC_COLORS, 0x403, 7, 0
+0xebca, 0xe4f3, 0xe8e6, "\000" 
+    IDC_COLORS, 0x403, 11, 0
+0xf2ce, 0xe5ec, 0xeaf2, 0x20e0, 0x2c30, "\000" 
+    IDC_COLORS, 0x403, 10, 0
+0xf2ce, 0xe5ec, 0xeaf2, 0x20e0, 0x0031, 
+    IDC_COLORS, 0x403, 10, 0
+0xf2ce, 0xe5ec, 0xeaf2, 0x20e0, 0x0032, 
+    IDC_COLORS, 0x403, 10, 0
+0xf2ce, 0xe5ec, 0xeaf2, 0x20e0, 0x0033, 
+    IDC_COLORS, 0x403, 10, 0
+0xf2ce, 0xe5ec, 0xeaf2, 0x20e0, 0x0034, 
+    IDC_COLORS, 0x403, 10, 0
+0xf2ce, 0xe5ec, 0xeaf2, 0x20e0, 0x0035, 
+    IDC_COLORS, 0x403, 10, 0
+0xf2ce, 0xe5ec, 0xeaf2, 0x20e0, 0x0036, 
+    IDC_COLORS, 0x403, 10, 0
+0xf2ce, 0xe5ec, 0xeaf2, 0x20e0, 0x0037, 
+    IDC_COLORS, 0x403, 10, 0
+0xf2ce, 0xe5ec, 0xeaf2, 0x20e0, 0x0038, 
+    IDC_COLORS, 0x403, 10, 0
+0xf2ce, 0xe5ec, 0xeaf2, 0x20e0, 0x0039, 
+    IDC_COLORS, 0x403, 11, 0
+0xf2ce, 0xe5ec, 0xeaf2, 0x20e0, 0x3031, "\000" 
+    IDC_COLORS, 0x403, 11, 0
+0xf2ce, 0xe5ec, 0xeaf2, 0x20e0, 0x3131, "\000" 
+    IDC_COLORS, 0x403, 11, 0
+0xf2ce, 0xe5ec, 0xeaf2, 0x20e0, 0x3231, "\000" 
+    IDC_COLORS, 0x403, 11, 0
+0xf2ce, 0xe5ec, 0xeaf2, 0x20e0, 0x3331, "\000" 
+    IDC_COLORS, 0x403, 11, 0
+0xf2ce, 0xe5ec, 0xeaf2, 0x20e0, 0x3431, "\000" 
+    IDC_COLORS, 0x403, 11, 0
+0xf2ce, 0xe5ec, 0xeaf2, 0x20e0, 0x3531, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_GUARD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 120
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 43
+    END
+
+    IDD_CFG_FAX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 287
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 250
+    END
+
+    IDD_CFG_MAGIC, DIALOG
+    BEGIN
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 254
+    END
+
+    IDD_CFG_REQPATH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 290
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 241
+        HORZGUIDE, 176
+    END
+
+    IDD_INADR_FOUND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 220
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 131
+    END
+
+    IDD_START_BROWSER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 292
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 182
+    END
+
+    IDD_SELECT_EV_BOSS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 120
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 151
+    END
+
+    IDD_INOUT_HIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 258
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 105
+    END
+
+    IDD_MANUAL_POLL, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 272
+        TOPMARGIN, 7
+    END
+
+    IDD_SELECT_MODEM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 304
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+
+    IDD_CFG_EXTFREQ, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 246
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 45
+    END
+
+    IDD_BBS_AREA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 290
+        VERTGUIDE, 120
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 250
+    END
+
+    IDD_CFG_MMEDIA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 253
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        RIGHTMARGIN, 39
+        BOTTOMMARGIN, 23
+    END
+
+    IDD_AREASELECT, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 215
+    END
+
+    IDD_CFG_BOSS, DIALOG
+    BEGIN
+        RIGHTMARGIN, 268
+    END
+
+    IDD_SIMPLE_SEARCH, DIALOG
+    BEGIN
+        RIGHTMARGIN, 234
+        BOTTOMMARGIN, 98
+    END
+
+    IDD_STAT_MAILER, DIALOG
+    BEGIN
+        VERTGUIDE, 190
+    END
+
+    IDD_CHANGE_TEMPLATE, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 117
+    END
+
+    IDD_ADDRBOOK, DIALOG
+    BEGIN
+        RIGHTMARGIN, 251
+        BOTTOMMARGIN, 200
+    END
+
+    IDD_FREQ, DIALOG
+    BEGIN
+        RIGHTMARGIN, 322
+        BOTTOMMARGIN, 207
+    END
+
+    IDD_SCRIPT_EDITOR, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 246
+    END
+
+    IDD_CFG_CARBONS, DIALOG
+    BEGIN
+        RIGHTMARGIN, 297
+        BOTTOMMARGIN, 257
+    END
+
+    IDD_CFG_OTHERS, DIALOG
+    BEGIN
+        RIGHTMARGIN, 292
+    END
+
+    IDD_INFO_ADDRESS, DIALOG
+    BEGIN
+        RIGHTMARGIN, 114
+        BOTTOMMARGIN, 13
+    END
+
+    IDD_LOGFILE_DISPLAY, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 157
+    END
+
+    IDD_CFG_LOGFILES, DIALOG
+    BEGIN
+        RIGHTMARGIN, 272
+        BOTTOMMARGIN, 254
+    END
+
+    IDD_CHAR_CONVERSION, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 171
+    END
+
+    IDD_RECIPIENT_LIST, DIALOG
+    BEGIN
+        RIGHTMARGIN, 250
+        BOTTOMMARGIN, 218
+    END
+
+    IDD_CFG_INCOME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 290
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 250
+    END
+
+    IDD_CFG_INRINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 287
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 250
+    END
+
+    IDD_EXT_SEARCH, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 235
+    END
+
+    IDD_RESULT_FORMAT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 276
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 70
+        HORZGUIDE, 76
+    END
+
+    IDD_MM_SELECTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 296
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 230
+    END
+
+    IDD_BMP_VIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 57
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 50
+    END
+
+    IDD_CFG_GATE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 253
+    END
+
+    IDD_ADJUST_SUBJ_LIST, DIALOG
+    BEGIN
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 94
+    END
+
+    IDD_CFG_REMOTE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 248
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 46
+    END
+
+    IDD_SEARCH_AREA_SELECTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 270
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 187
+    END
+
+    IDD_CFG_TICS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 266
+    END
+
+    IDD_HATCHDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 339
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 190
+    END
+
+    IDD_TIC_EDITOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 324
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_CHOOSE_MARK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 167
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 70
+    END
+
+    IDD_CFG_COST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 253
+    END
+
+    IDD_COSTANAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 353
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 184
+    END
+
+    IDD_CHOOSE_AUTOSAVE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 201
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 264
+    END
+
+    IDD_BBS_USERS, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 290
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 254
+    END
+
+    IDD_BBS_LEVELS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 287
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 250
+    END
+
+    IDD_BBS_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 289
+    END
+
+    IDD_VALUE_AREAFIX, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 278
+        VERTGUIDE, 9
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 227
+        HORZGUIDE, 90
+        HORZGUIDE, 105
+        HORZGUIDE, 207
+    END
+
+    IDD_FLOATING_BAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 173
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 30
+    END
+
+    IDD_REPOST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 65
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 90
+    END
+
+    IDD_REPOST_FOLDER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 349
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 106
+    END
+
+    IDD_CFG_KLUDGES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 291
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 250
+    END
+
+    IDD_CFG_SERVICES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 290
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 250
+    END
+
+    IDD_DESIGN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 253
+    END
+
+    IDD_ADDRSELECT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 251
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 235
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_ISDN_OFF            BITMAP                  "res\\isdn_off.bmp"
+IDB_COM1_ON             BITMAP                  "res\\com1_on.bmp"
+IDB_COM2_ON             BITMAP                  "res\\com2_on.bmp"
+IDB_ISDN_ON             BITMAP                  "res\\isdn_on.bmp"
+IDB_COM2_OFF            BITMAP                  "res\\com2_off.bmp"
+IDB_COM1_OFF            BITMAP                  "res\\com1_off.bmp"
+IDB_ABOUT               BITMAP                  "RES\\about.bmp"
+IDB_SPLASH              BITMAP                  "RES\\Splash.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_PHOENIX             ICON                    "res\\phoenix.ico"
+IDI_ABORT               ICON                    "res\\abort.ico"
+IDI_FIND                ICON                    "res\\find.ico"
+IDI_NEW                 ICON                    "res\\new.ico"
+IDI_MACRO3              ICON                    "res\\macro3.ico"
+IDI_QUOTEA              ICON                    "res\\quotea.ico"
+IDI_ASAVE               ICON                    "res\\asave.ico"
+IDI_PREV                ICON                    "res\\prev.ico"
+IDI_NEXT                ICON                    "res\\next.ico"
+IDI_FILT                ICON                    "res\\filt.ico"
+IDI_QUOTE               ICON                    "RES\\quote.ico"
+IDI_MACRO2              ICON                    "res\\macro2.ico"
+IDI_MACRO4              ICON                    "res\\macro4.ico"
+IDI_MACRO1              ICON                    "res\\macro1.ico"
+IDI_MACRO5              ICON                    "res\\macro5.ico"
+IDI_EXIT                ICON                    "res\\exit.ico"
+IDI_FREQ                ICON                    "res\\freq.ico"
+IDI_TOSSER              ICON                    "RES\\tosser.ico"
+IDI_MAILER              ICON                    "RES\\mailer.ico"
+IDI_PURGER              ICON                    "RES\\purger.ico"
+IDI_FIPS                ICON                    "RES\\Fips.ico"
+IDI_ARROWDN             ICON                    "res\\arrowdn.ico"
+IDI_ARROWUP             ICON                    "res\\arrowup.ico"
+IDI_EMPTY               ICON                    "res\\empty.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#include ""res\\light.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "\r\n"
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "#include ""afxres.rc""  // Standard components\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,1,0,0
+ PRODUCTVERSION 2,1,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x29L
+#else
+ FILEFLAGS 0x28L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "freeware version"
+            VALUE "CompanyName", "Russian FIPS Developing Group"
+            VALUE "FileDescription", "FIDO Integrated Point System"
+            VALUE "FileVersion", "02.01"
+            VALUE "InternalName", "FIPS"
+            VALUE "LegalCopyright", "Copyright © 1995-2003 Weinzierl/Weindl/RFDG"
+            VALUE "LegalTrademarks", "Russian FIPS Developing Group"
+            VALUE "OriginalFilename", "FIPS.EXE"
+            VALUE "PrivateBuild", "alpha"
+            VALUE "ProductName", "FIPS/Phoenix"
+            VALUE "ProductVersion", "02.01"
+            VALUE "SpecialBuild", "1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_MAILTO              CURSOR                  "RES\\mailto.cur"
+IDC_GOTOURL             CURSOR                  "RES\\http.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELS ACCELERATORS 
+BEGIN
+    "0",            ID_SCALE_100,           VIRTKEY, ALT, NOINVERT
+    "0",            ID_SORT_ORDER,          VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "1",            ID_SWITCH_MAILER,       VIRTKEY, CONTROL, NOINVERT
+    "1",            ID_SCALE_10,            VIRTKEY, ALT, NOINVERT
+    "1",            ID_SORT_RECIEVE,        VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "2",            ID_SWITCH_TOSSER,       VIRTKEY, CONTROL, NOINVERT
+    "2",            ID_SCALE_20,            VIRTKEY, ALT, NOINVERT
+    "2",            ID_SORT_CREATE,         VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "3",            ID_SWITCH_PURGER,       VIRTKEY, CONTROL, NOINVERT
+    "3",            ID_SCALE_30,            VIRTKEY, ALT, NOINVERT
+    "3",            ID_SORT_FROM,           VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "4",            ID_SWITCH_NODELIST,     VIRTKEY, CONTROL, NOINVERT
+    "4",            ID_SCALE_40,            VIRTKEY, ALT, NOINVERT
+    "4",            ID_SORT_TO,             VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "5",            ID_SCALE_50,            VIRTKEY, ALT, NOINVERT
+    "5",            ID_SORT_SUBJECT,        VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "6",            ID_SCALE_60,            VIRTKEY, ALT, NOINVERT
+    "6",            ID_SORT_STATUS,         VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "7",            ID_SCALE_70,            VIRTKEY, ALT, NOINVERT
+    "8",            ID_SCALE_80,            VIRTKEY, ALT, NOINVERT
+    "9",            ID_SCALE_90,            VIRTKEY, ALT, NOINVERT
+    "A",            ID_EDIT_SELECTALL,      VIRTKEY, CONTROL, NOINVERT
+    "A",            ID_AREA,                VIRTKEY, ALT, NOINVERT
+    "B",            ID_MAILCOPY,            VIRTKEY, CONTROL, NOINVERT
+    "B",            ID_SWITCH_LEFTICONS,    VIRTKEY, ALT, NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_CROSSPOST,           VIRTKEY, ALT, NOINVERT
+    "D",            ID_SWITCH_DEL,          VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_CHECKDUPES_CURRENT,  VIRTKEY, ALT, NOINVERT
+    "F",            ID_SIMPLE_SEARCH,       VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_SWITCH_EXTSEARCH,    VIRTKEY, ALT, NOINVERT
+    "G",            ID_CONFIG,              VIRTKEY, CONTROL, NOINVERT
+    "G",            ID_SAVEORIGIN,          VIRTKEY, ALT, NOINVERT
+    "H",            ID_SWITCH_KLUDGE,       VIRTKEY, CONTROL, NOINVERT
+    "I",            ID_INFO_RECIPIENT,      VIRTKEY, CONTROL, NOINVERT
+    "I",            ID_INFO_SENDER,         VIRTKEY, ALT, NOINVERT
+    "K",            ID_CFG_ADRESSBOOK,      VIRTKEY, CONTROL, NOINVERT
+    "K",            ID_MARK_MAIL_FREEZE,    VIRTKEY, ALT, NOINVERT
+    "L",            ID_NEVERPURGETHISMAIL,  VIRTKEY, ALT, NOINVERT
+    "M",            ID_TOGGLE_USERMARK,     VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_QUOTE_NETMAIL,       VIRTKEY, CONTROL, NOINVERT
+    "N",            IDC_FINDNEXT,           VIRTKEY, ALT, NOINVERT
+    "O",            ID_FINDORIGINAL,        VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_VIEWOUTBOUND,        VIRTKEY, ALT, NOINVERT
+    "P",            ID_EDIT_PRINTMAIL,      VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_VIEWLOGFILES,        VIRTKEY, ALT, NOINVERT
+    "Q",            ID_SWITCH_CODING,       VIRTKEY, ALT, NOINVERT
+    "R",            ID_MARKALLASREAD,       VIRTKEY, CONTROL, NOINVERT
+    "R",            ID_FILEREQUEST,         VIRTKEY, ALT, NOINVERT
+    "S",            ID_SAVEMAILTOFILE,      VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_AUTOSAVEMAIL,        VIRTKEY, ALT, NOINVERT
+    "S",            ID_SAVESELTOFILE,       VIRTKEY, CONTROL, ALT, NOINVERT
+    "T",            ID_SWITCH_ATTR,         VIRTKEY, CONTROL, NOINVERT
+    "T",            ID_TOGGLE_STRUCT,       VIRTKEY, ALT, NOINVERT
+    "U",            ID_UUFROMSELECTED,      VIRTKEY, ALT, NOINVERT
+    "V",            IDC_NEXT_AVAIL_SER,     VIRTKEY, ALT, NOINVERT
+    VK_ADD,         ID_PLUSPRESSED,         VIRTKEY, NOINVERT
+    VK_DELETE,      ID_DELETE_MAIL,         VIRTKEY, NOINVERT
+    VK_DIVIDE,      ID_DIVIDEPRESSED,       VIRTKEY, NOINVERT
+    VK_F10,         IDC_EXIT,               VIRTKEY, NOINVERT
+    VK_INSERT,      IDC_NEW,                VIRTKEY, NOINVERT
+    VK_LEFT,        ID_TOPREVAREA,          VIRTKEY, ALT, NOINVERT
+    VK_MULTIPLY,    ID_MULTIPLYPRESSED,     VIRTKEY, NOINVERT
+    VK_RETURN,      ID_CTLRETURN,           VIRTKEY, CONTROL, NOINVERT
+    VK_RETURN,      ID_QUOTE_A,             VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    VK_RIGHT,       ID_TONEXTAREA,          VIRTKEY, ALT, NOINVERT
+    VK_SPACE,       ID_SPACEPRESSED,        VIRTKEY, NOINVERT
+    VK_SUBTRACT,    ID_MINUSPRESSED,        VIRTKEY, NOINVERT
+    VK_TAB,         ID_AREA,                VIRTKEY, NOINVERT
+    "W",            ID_MAILPRESENTAGAIN,    VIRTKEY, CONTROL, NOINVERT
+    "W",            ID_FORWARDMAIL,         VIRTKEY, ALT, NOINVERT
+    "X",            ID_LIST_BADXFER,        VIRTKEY, CONTROL, ALT, NOINVERT
+    "Y",            ID_CFG_DISPLAYFILTER,   VIRTKEY, ALT, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AVI
+//
+
+IDR_TOSSER              AVI                     "RES\\tosser.avi"
+IDR_PURGER              AVI                     "RES\\purger.avi"
+IDR_MAILER              AVI                     "RES\\mailer.avi"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+#if defined(APSTUDIO_INVOKED) || defined(NOMANIFEST)
+#if defined(APSTUDIO_INVOKED)
+IDR_MANIFEST$(NOMANIFEST) RT_MANIFEST             "res\\Light.exe.manifest"
+#else
+IDR_MANIFEST            RT_MANIFEST             "res\\Light.exe.manifest"
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_ENG MENU 
+BEGIN
+    MENUITEM "File",                        65535
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_SCRIPTFILT          "Fips Script Files (*.fps)|*.fps|All Files (*.*)|*.*||"
+    IDS_TEXTFILT            "Text Files (*.txt)|*.txt|All Files (*.*)|*.*||"
+    IDS_SOUNDFILT           "Sound Files (*.wav)|*.wav||"
+    IDS_QUERYFILT           "Queries (*.qry)|*.qry|All Files (*.*)|*.*||"
+    IDS_QRESFILT            "Search Results (*.qre)|*.qre|All Files (*.*)|*.*||"
+    IDS_ALLFILES            "All Files (*.*)|*.*||"
+    IDS_DESCRFILT           "Description Files (*.bbs)|*.bbs|All Files (*.*)|*.*||"
+    IDS_EXECFILT            "Executables (*.exe;*.com)|*.exe;*.com|All Files (*.*)|*.*||"
+    IDS_E_NOTCOR            "<%s> is not a correct FIDO address."
+    IDS_W_FILLIT            "You need to fill the field <%s>!"
+    IDS_W_NOEXEC            "Cannot find executable <%s> (not existent ?, not in path ?)"
+    IDS_TEXT_SAMPLES        "\001 An information Line\t\tThis is a normal text line\t\tKK>> An even quoted line\tKK> An odd quoted line\t\tThis is a normal text line\t    //italic phrase//\t  __underlined phrase__\t    **bold phrase**\t  ##inverted phrase##\t\t * Origin: an origin line\t\001 An information Line"
+    IDS_EMPTY_PATTERNS      "\tNormal Text\t\tH00FFFFFF\n\t##Normal Text\t\tH00FFFFFF"
+    IDS_DEFSOUNDS           "APPLICATION_START\tNONE\nAPPLICATION_END\tNONE\nTOSSER_START\tNONE\nPURGER_START\tNONE\nPURGER_END\tSTOP\nTOSSER_END\tSTOP\nMAILER_START\tNONE\nMAILER_END\tSTOP\nSCRIPT_START\tNONE\nSCRIPT_END\tSTOP\nNLCOMP_START\tNONE\nNLCOMP_END\tSTOP\nNEW_NETMAIL\tNONE\nNEW_LOCALMAIL\tNONE\nMAIL_TO_ME\tNONE\nISDN_FAILED\tNONE\nISDN_CONNECT\tNONE\nISDN_DIALING\tNONE\nEVENT_DIALING\tNONE\nSEARCH_END\tNONE\nINCOMING_SERIAL\tNONE\nINCOMING_CAPI\tNONE"
+    IDS_ALREADYRUN          "FIPS already is running"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CFGNOTAVAIL         "Cannot access FIPS configuration file!"
+    IDS_INVALIDCHAR         "Do not use character ';' in this field"
+    IDS_SYSERROR            "System error %d while calling  %s"
+    IDS_SKINFILT            "Skin Files (*.fsk)|*.fsk||"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "res\light.rc2"  // non-Microsoft Visual C++ edited resources
+
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+#include "afxres.rc"  // Standard components
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

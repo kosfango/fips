@@ -1,0 +1,10 @@
+[DEFAULT]
+HN=Hi, guys!
+HQ=Oneday %D someone %s %S wrote %r %R on subject %G
+FN=With Best Regards, Hornet
+FQ=Glad to see you later! Hornet.
+[RU.FIPS]
+HN=Привет фипсоиды!
+HQ=Однажды %D один фипсоид %s %S шепнул %r %R про "%G"
+FN=Ну, не поминайте лихом Шершня :)
+FQ=За сим, прощаюсь и откланиваюсь, ваш Шершень.

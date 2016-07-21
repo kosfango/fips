@@ -1,0 +1,693 @@
+
+<HTML>
+<HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=windows-1251">
+    <META name=robots content="index,nofollow">
+    <TITLE>Элемент управления CFListCtrl 2.0</TITLE>
+    <LINK rel=stylesheet href="/css/article.css" type=text/css >
+    <LINK href="/conference/conference.css" rel=stylesheet type=text/css >
+    <SCRIPT LANGUAGE=javascript src="/conference/conference.js"></SCRIPT>
+</HEAD>
+<BODY marginwidth="20" marginheight="20">
+    <CENTER><TABLE width="98%" cellpadding="0" cellspacing="0">
+    <TR><TD style="background:#FFFFFF" valign="middle"><SCRIPT LANGUAGE=javascript src="/script/shMenu.js" type="text/javascript"></SCRIPT></TD>
+        <TD style="background:#FFFFFF" align="right" valign="middle">
+        <DIV id='prn' align='right'>
+        <A href="/files/printv.asp?Classes/cflist2.xml"  target=_blank><FONT face='tahoma' style='font-size:8pt'><IMG align=absmiddle width=16 height=14 src='/images/printer.gif' border=0> Версия для печати</FONT></A>
+        </DIV> </TD>
+    </TR></TABLE></CENTER>
+<SCRIPT LANGUAGE="javascript">	function ToggleCode(id){ el=document.all[id];img=document.all[ "img"+id];if(el.style.display=="none"){img.src="/images/ls2.gif";el.style.display="";}else{img.src="/images/ls1.gif";el.style.display="none";}}</SCRIPT><H1>Элемент управления CFListCtrl 2.0<A href="printv.asp?what=this"></A><BR><SPAN class="subtitle">Дерево - список</SPAN></H1>
+<H5><SPAN class="title">Автор: </SPAN><SPAN class="value"><A target="_blank" href="mailto:2los@land.ru" title="Отправить письмо">Денис Солоненков</A></SPAN></H5>
+<H6><SPAN class="title">Опубликовано: </SPAN><SPAN class="value">27.08.2002</SPAN><BR><SPAN class="title">Версия текста: </SPAN><SPAN class="value">1.0</SPAN></H6>
+<DIV style="margin-left:2em"><A href="#IDAQN4GB"><B></B></A><BR><DIV style="margin-left:2em">
+</DIV><A href="#IDATK4GB"><B></B></A><BR><DIV style="margin-left:2em"><A href="#IDAUL4GB">Intro</A><BR><A href="#IDAOL4GB">Создание элемента управления</A><BR><A href="#IDATYURC">Добавление столбцов</A><BR><A href="#IDAD0URC">Добавление строк</A><BR><A href="#IDA31URC">Операции с элементами строк</A><BR><A href="#IDAH2URC">Редактирование</A><BR><A href="#IDAJ5URC">Изменение цвета</A><BR><A href="#IDAZIVRC">Стили</A><BR><A href="#IDAJJVRC">Сообщения</A><BR></DIV>
+</DIV>
+<H2><A name="IDAQN4GB"></A></H2>
+<P>
+<P><CENTER><IMG src="Classes/cflist2/cflist2.gif" title=""><BR><FONT face="verdana" style="font-size:x-small"><I></I></FONT>
+</CENTER></P>
+</P>
+<P>
+<A href="Classes/cflist2/cflist2_demo.zip"><IMG src="/images/fileA.gif" border="0" width="28" height="11" align="absmiddle">Демонстрационная программа - 27 KB</A><BR>
+<A href="Classes/cflist2/cflist2_source.zip"><IMG src="/images/fileA.gif" border="0" width="28" height="11" align="absmiddle">Исходные тексты - 44 KB</A>
+</P>
+<H2><A name="IDATK4GB"></A></H2>
+
+<H3>Intro<A name="IDAUL4GB"></A></H3>
+
+
+<P>Класс CFListCtrl - это элемент управления типа дерево-список для MFC. Это уже 
+вторая версия элемента управления, которая обладает следующими особенностями:
+</P>
+<UL style="LIST-STYLE:square">
+<LI>список не мигает во время обновления отдельных строк, а если использовать 
+    стиль CLIP CHILDREN для родительского окна, то практически никогда не мигает;</LI>
+<LI>поддержка четырех типов элементов управления для редактирования элементов 
+    списка: checkbox, edit, combobox, button, - причем элементы управления можно 
+    комбинировать между собой;</LI>
+<LI>дерево может располагаться в любом столбце, а может и отсутствовать. Кроме 
+    того, существует специальный стиль дерева - FL_LINEAR_TREE, когда его узлы 
+    располагаются в линию, т.е. дочерние элементы не смещаются относительно 
+    родителя;</LI>
+<LI>можно изменить цвет фона или текста для отдельной строки, столбца или 
+    выделения;</LI>
+<LI>можно изменить высоту элемента дерева, чтобы он вмещал несколько строк 
+    текста;</LI>
+<LI>исходный текст и пример компилируются как в ANSI, так и в UNICODE. Также,
+    новая версия умещается всего в двух файлах, а не в четырех, как раньше.
+    </LI>
+</UL>
+<P>Хочу обратить внимание на то, что эта версия элемента управления не совместима 
+с предыдущей, поэтому лучше не обновлять его в существующих проектах.
+</P>
+
+
+<H3>Создание элемента управления<A name="IDAOL4GB"></A></H3>
+
+<P>Cначала необходимо подключить к проекту файлы FListCtrl.h и FListCtrl.cpp и 
+добавить в файл StdAfx.h следующую строку:
+</P>
+<DIV id="IDA1I4GB">
+<TABLE class="code" width="98%"><TR><TD>
+<PRE><SPAN class="PREPROCESSOR">#include</SPAN> "FListCtrl.h"</PRE>
+</TD></TR></TABLE>
+</DIV>
+<P>
+Элемент управления может быть создан двумя способами:
+</P>
+<OL>
+<LI>С использованием редактора формы диалога
+  <UL style="LIST-STYLE:square">
+    <LI>Поместить на форму обычный List Control и присвоить ему необходимые 
+      стили. Единственное, чего не стоит трогать, так это на странице Styles
+      значения выпадающих списков. Их следует оставить без изменений, т.е.: 
+      View - Icon, Align - Top, Sort - None.</LI>
+    <LI>В окне Class Wizard добавить новую переменную, ассоциированную со 
+      списком. Тип переменной должен быть CListCtrl, а название - например, 
+      m_treeList (хотя можно выбрать и другое).</LI>
+    <LI>Открыть заголовочный файл диалога, куда была добавлена переменная,
+      и изменить ее тип на CFListCtrl. Если вы так и не добавили включение
+      заголовочного файла FListCtrl.h в StdAfx.h, то сейчас последняя 
+      возможность, когда это можно еще успеть.</LI>
+    <LI>Если предполагается, что список будет не просто текстовым, а 
+      содержать картинки, то нужно также добавить переменную типа CImageList
+      с подходящим именем, например, m_imageList.</LI>
+    <LI>Добавить в функцию OnInitDialog следующий код:
+ 
+<DIV id="IDAZP4GB">
+<TABLE class="code" width="98%"><TR><TD>
+<PRE>
+<SPAN class="COMMENT">// создаем имэдж-лист с маскированными картинками 16 на 16, всего 10 штук</SPAN>
+m_imageList.Create(<SPAN class="NUMBER">16</SPAN>, <SPAN class="NUMBER">16</SPAN>, ILC_COLOR16|ILC_MASK, <SPAN class="NUMBER">0</SPAN>, <SPAN class="NUMBER">10</SPAN>);
+
+<SPAN class="COMMENT">// загружаем битмэп в имэдж лист, в качестве цвета маски задаем розовый</SPAN>
+CBitmap bitmap;
+bitmap.LoadBitmap(IDB_IMAGELIST);
+m_imageList.Add(&amp;bitmap, RGB(<SPAN class="NUMBER">255</SPAN>, <SPAN class="NUMBER">0</SPAN>, <SPAN class="NUMBER">255</SPAN>));
+
+<SPAN class="COMMENT">// подключаем имэдж-лист к списку</SPAN>
+m_treeList.SetImageList(&amp;m_imageList);
+</PRE>
+</TD></TR></TABLE>
+</DIV>
+
+        В приведенном примере IDB_IMAGELIST следует заменить на реальный ID
+        изображения. Eсли картинки в списке не нужны, то их можно и не 
+        подключать.<P>
+</P>
+</LI>
+  </UL>
+</LI>
+<LI>Динамическое создание:
+  <UL style="LIST-STYLE:square">
+    <LI>Допустим, требуется добавить дерево-список в окно CMyView. Для этого 
+      сначала необходимо добавить новую переменную типа CFListCtrl в класс 
+      CMyView, назначив ей какое-нибудь оригинальное имя, например,
+      m_treeList.</LI>
+    <LI>Добавить переменную типа CImageList и именем m_imageList рядом с 
+      объявлением m_treeList.</LI>
+    <LI>Добавить обработчик сообщения WM_CREATE в класс CMyView и добавить 
+      в его код следующее:
+
+<DIV id="IDAZO4GB">
+<TABLE class="code" width="98%"><TR><TD>
+<PRE>
+<SPAN class="COMMENT">// создаем имэдж-лист с маскированными картинками 16 на 16, всего 10 штук</SPAN>
+m_imageList.Create(<SPAN class="NUMBER">16</SPAN>, <SPAN class="NUMBER">16</SPAN>, ILC_COLOR16|ILC_MASK, <SPAN class="NUMBER">0</SPAN>, <SPAN class="NUMBER">10</SPAN>);
+
+<SPAN class="COMMENT">// загружаем битмэп в имэдж лист, в качестве цвета маски задаем розовый</SPAN>
+CBitmap bitmap;
+bitmap.LoadBitmap(IDB_IMAGELIST);
+m_imageList.Add(&amp;bitmap, RGB(<SPAN class="NUMBER">255</SPAN>, <SPAN class="NUMBER">0</SPAN>, <SPAN class="NUMBER">255</SPAN>));
+
+<SPAN class="COMMENT">// создаем список, идентификатор IDC_TREELIST должен быть предварительно</SPAN>
+<SPAN class="COMMENT">// где-то определен</SPAN>
+m_treeList.Create(WS_VISIBLE|WS_CHILD|LVS_SHAREIMAGELISTS, 
+                  CRect(<SPAN class="NUMBER">0</SPAN>, <SPAN class="NUMBER">0</SPAN>, <SPAN class="NUMBER">100</SPAN>, <SPAN class="NUMBER">100</SPAN>), <SPAN class="KEYWORD">this</SPAN>, IDC_TREELIST);
+
+<SPAN class="COMMENT">// подключаем имэдж-лист к три-листу</SPAN>
+m_treeList.SetImageList(&amp;m_imageList);
+</PRE>
+</TD></TR></TABLE>
+</DIV>
+    
+    </LI>
+  </UL>
+</LI>
+</OL>
+
+
+<H3>Добавление столбцов<A name="IDATYURC"></A></H3>
+
+
+<P>Добавить новый столбец в список можно используя функцию 
+InsertFColumn. Прототип этой функции представлен ниже:
+</P>
+<DIV id="IDAYYURC">
+<TABLE class="code" width="98%"><TR><TD>
+<PRE> 
+<SPAN class="KEYWORD">int</SPAN> InsertFColumn(<SPAN class="KEYWORD">int</SPAN> iIndex, CString strText, <SPAN class="KEYWORD">int</SPAN> nWidth, <SPAN class="KEYWORD">int</SPAN> nFormat = FL_LEFT,
+                                     <SPAN class="KEYWORD">int</SPAN> iDefaultControlProfile = FL_UNDEFINED);
+</PRE>
+</TD></TR></TABLE>
+</DIV>
+<P>Эта функция принимает в качестве параметров индекс добавляемого столбца, 
+его название и ширину. Также можно указать выравнивание текста (одна из
+констант FL_LEFT, FL_CENTER, FL_RIGHT), которое действует не только для 
+заголовка, но и для текста всего столбца. Последний параметр - это индекс 
+профиля элементов управления, используемых для редактирования элементов 
+списка. Разговор о профилях пойдет позже, а сейчас пример:
+</P>
+<DIV id="IDAGZURC">
+<TABLE class="code" width="98%"><TR><TD>
+<PRE>
+m_treeList.InsertFColumn(<SPAN class="NUMBER">0</SPAN>, _T(<SPAN class="STRING">"Column 1"</SPAN>), <SPAN class="NUMBER">100</SPAN>);
+m_treeList.InsertFColumn(<SPAN class="NUMBER">1</SPAN>, _T(<SPAN class="STRING">"Column 2"</SPAN>), <SPAN class="NUMBER">150</SPAN>);
+m_treeList.InsertFColumn(<SPAN class="NUMBER">2</SPAN>, _T(<SPAN class="STRING">"Column 3"</SPAN>), <SPAN class="NUMBER">150</SPAN>, FL_CENTER);
+
+m_treeList.SetTree(<SPAN class="NUMBER">0</SPAN>);  <SPAN class="COMMENT">// устанавливает номер столбца, в котором будет</SPAN>
+                        <SPAN class="COMMENT">// отображаться дерево</SPAN>
+</PRE>
+</TD></TR></TABLE>
+</DIV>
+<P>Последний вызов в этом примере устанавливает номер столбца, в котором 
+появится дерево. Дерево может и отсутствовать, или его можно убрать в 
+процессе выполнения программы, вызвав SetTree(-1).
+</P>
+
+
+<H3>Добавление строк<A name="IDAD0URC"></A></H3>
+
+
+<P>Строки добавляет фукнция с именем InsertFRow.
+</P>
+<DIV id="IDAI0URC">
+<TABLE class="code" width="98%"><TR><TD>
+<PRE>
+HFROW InsertFRow(HFROW hParent, HFROW hPosition, CString strText, 
+                 <SPAN class="KEYWORD">int</SPAN> iImageIndex = <SPAN class="NUMBER">-1</SPAN>, <SPAN class="KEYWORD">int</SPAN> iControlProfile = <SPAN class="NUMBER">-1</SPAN>);
+</PRE>
+</TD></TR></TABLE>
+</DIV>
+<P>Первый параметр хэндл родительской строки или FL_ROOT, если строка не 
+является дочерней. Параметр hPosition задает хэндл строки, после которой
+будет добавлена новая строка, это также может быть одно из значение 
+FL_FIRST или FL_LAST, заставляющих функцию InsertFRow вставить строку 
+в начало или конец списка дочерних строк. Следующие два параметра задают 
+текст и индекс картинки в имэдж-листе. Текст и картинка появятся в колонке 
+с деревом; если дерево не установлено, они появятся в нулевом столбце.
+</P>
+<P>Удалять строки можно при помощи методов RemoveFRow и RemoveAllFRows.
+</P>
+<P>Перечислять с помощью метода GetNextFRow. Последний в качестве параметра 
+принимает хэндл текущей строки и значение, определяющее хэндл какой строки 
+нужно вернуть следующим. Для этого параметра доступны следующие значения:
+</P>
+<TABLE border="0" cellspacing="2" cellpadding="5">
+<TR>
+<TH>Параметр nfrCode функции GetNextFRow</TH>
+    <TH>Возвращаемое начение</TH>
+</TR>
+<TR>
+<TD>FL_NEXT</TD>
+    <TD>Хэндл следующей строки, либо NULL, если строка последняя. Перебор 
+        ведется среди строк одного родителя.</TD>
+</TR>
+<TR>
+<TD>FL_PREV</TD>
+    <TD>Хэндл предыдущей строки, либо NULL, если строка первая.Перебор 
+        ведется среди строк одного родителя.</TD>
+</TR>
+<TR>
+<TD>FL_FIRST_CHILD</TD>
+    <TD>Хэндл первой дочерней строки для данной.</TD>
+</TR>
+<TR>
+<TD>FL_LAST_CHILD</TD>
+    <TD>Хэндл последней дочерней строки.</TD>
+</TR>
+<TR>
+<TD>FL_PARENT</TD>
+    <TD>Хэндл родительской строки или FL_ROOT, если строка не имеет 
+        родителя.</TD>
+</TR>
+</TABLE>
+
+<P>Число дочерних строк можно узнать вызовом функции GetFRowCount, в 
+качестве параметра которой передается хэндл родительской строки, число 
+дочерних элементов которой нужно посчитать. Если в качестве значения этого 
+параметра передать FL_ROOT, то функция вернет число строк самого верхнего 
+уровня. В принципе, теперь можно обращаться к строкам и по индексу. Для этого 
+служит функция FindIndex, первый параметр которой - это хэндл родительской 
+строки или FL_ROOT, а второй - это индекс. Функция возвращает хэндл строки, 
+который затем можно использовать при вызове других функций.
+</P>
+<P>Раскрывать и закрывать узлы дерева можно с помощью функции Collapse, 
+последний параметры которой задает тип действия. В случае, если передать 
+значение TRUE, то узел будет закрыт, иначе - открыт. Если данный узел не
+виден, т.е. его родитель сам закрыт, то его состояние будет сохранено, 
+и он откроется, как только будет раскрыт родительский узел. Определить 
+видима ли строка или нет позволяет метод IsFRowVisible, а определить 
+закрыт узел или нет - IsCollapsed.
+</P>
+
+
+
+<H3>Операции с элементами строк<A name="IDA31URC"></A></H3>
+
+
+<P>Сюда относятся функции для изменения текста, картинок, профилей 
+in-place элементов управления и другие. Особо интересного тут сказать 
+нечего, но если что-то не понятно, в исходных текстах класса CFListCtrl 
+есть комментарии. Приведу лишь короткий пример:
+</P>
+<DIV id="IDAC2URC">
+<TABLE class="code" width="98%"><TR><TD>
+<PRE>
+m_treeList.SetFItemText(hFRow, iFColumn, _T(<SPAN class="STRING">"Sample Text"</SPAN>));
+</PRE>
+</TD></TR></TABLE>
+</DIV>
+
+
+<H3>Редактирование<A name="IDAH2URC"></A></H3>
+
+
+<P>Класс CFListCtrl поддерживает четыре типа in-place элементов управления
+для редактирования. Это FL_BUTTON, FL_CHECKBOX, FL_EDIT и FL_COMBOBOX. В 
+отличие от предыдущей версии CFListCtrl, эти элементы управления не 
+назначаются непосредственно каждой ячейке таблицы. Вместо этого, сначала 
+нужно создать профиль элементов редактирования и потом использовать его 
+индекс. Выглядит это следующим образом:
+</P>
+<DIV id="IDAM2URC">
+<TABLE class="code" width="98%"><TR><TD>
+<PRE>
+m_treeList.SetReadOnly(FALSE);
+
+<SPAN class="NUMBER">int</SPAN> indx = m_treeList.AddControl(FL_EDIT|FL_BUTTON);
+
+m_treeList.SetFItemControl(hFRow, iFColumn, indx);
+</PRE>
+</TD></TR></TABLE>
+</DIV>
+
+<P>В этом примере был сначала создан профиль, представляющий два органа
+управления: поле ввода и кнопку. Далее этот профиль был присвоен конкретному 
+элементу, после чего текст элемента можно редактировать или нажать на кнопку. 
+Первый вызов функции AddControl возвращает ноль, а при каждом следующем
+вызове возвращаемое значение увеличивается на единицу, поэтому в приведенном 
+выше примере можно было и не сохранять его значение в отдельной переменной, 
+а в вызове SetFItemControl непосредственно использовать значение 0.
+</P>
+<P>Как уже упоминалось выше, существует четыре элемента управления, при этом 
+их можно комбинировать между собой, например:
+</P>
+
+<DIV id="IDAU2URC">
+<TABLE class="code" width="98%"><TR><TD>
+<PRE>
+<SPAN class="COMMENT">// флажок, поле ввода и кнопка</SPAN>
+m_treeList.AddControl(FL_CHECKBOX|FL_EDIT|FL_BUTTON);
+
+<SPAN class="COMMENT">// выпадающий список со стилем dropdown</SPAN>
+m_treeList.AddControl(FL_COMBOBOX|FL_EDITBOX); 
+
+<SPAN class="COMMENT">// ну это вообще круто!</SPAN>
+m_treeList.AddControl(FL_CHECKBOX|FL_AUTOCHECK|FL_COMBOBOX|FL_EDITBOX);
+</PRE>
+</TD></TR></TABLE>
+</DIV>
+
+<P>Добавленный профиль - это не только тип элементов управления, но 
+также и специфичные данные для них. Например, профиль, который включает 
+выпадающий список, хранит массив строк и ассоциированные им 
+пользовательские данные. Выглядит это так:
+</P>
+ 
+<DIV id="IDA42URC">
+<TABLE class="code" width="98%"><TR><TD>
+<PRE> 
+<SPAN class="KEYWORD">int</SPAN> indx = m_treeList.AddControl(FL_COMBOBOX);
+m_treeList.AddControlComboItem(indx, _T(<SPAN class="STRING">"Item 1"</SPAN>));
+m_treeList.AddControlComboItem(indx, _T(<SPAN class="STRING">"Item 2"</SPAN>));
+m_treeList.AddControlComboItem(indx, _T(<SPAN class="STRING">"Item 3"</SPAN>));
+
+m_treeList.SetFItemControl(hFRow, iFColumn, indx);
+</PRE>
+</TD></TR></TABLE>
+</DIV>
+
+<P>Теперь если выделить данную ячейку и открыть выпадающий список, 
+то там появятся три добавленных строки. Изменять элементы выпадающего
+списка можно в любой момент, более того, каждый раз перед тем, как 
+пользователь его открывает, CFListCtrl посылает уведомляющее сообщение, 
+позволяющее соответствующим образом заполнить выпадающий список. 
+Однако это не обязательно делать каждый раз - можно вообще не 
+обрабатывать это сообщение, а сформировать список только один раз, 
+как в предыдущем примере.
+</P>
+
+<P>Каждый профиль можно присвоить нескольким ячейкам таблицы, либо
+назначить по умолчания для отдельного столбца. Делается при вызове
+функции InsertFColumn, например:
+</P>
+
+<DIV id="IDAM3URC">
+<TABLE class="code" width="98%"><TR><TD>
+<PRE>
+<SPAN class="KEYWORD">int</SPAN> indx = m_treeList.AddControl(FL_COMBOBOX);
+m_treeList.InsertFColumn(<SPAN class="NUMBER">0</SPAN>, _T(<SPAN class="STRING">"Column A"</SPAN>), <SPAN class="NUMBER">100</SPAN>, FL_LEFT, indx);
+</PRE>
+</TD></TR></TABLE>
+</DIV>
+
+<P>При этом все вновь добавляемые строки в этом столбце будут использовать 
+combobox для редактирования элементов. Если в программе используется несколько
+органов управления CFListCtrl, то профили можно создать только в одном, а 
+остальные органы управления подключить к первому, например:
+</P>
+
+<DIV id="IDAY3URC">
+<TABLE class="code" width="98%"><TR><TD>
+<PRE>
+m_treeListA.AddControl(FL_COMBOBOX);
+m_treeListA.AddControl(FL_COMBOBOX|FL_EDIT);
+
+m_treeListB.AttachControls(&amp;m_treeListA);
+</PRE>
+</TD></TR></TABLE>
+</DIV>
+ 
+<P>Теперь оба списка разделяют одни и те же профили, соответственно и 
+органы управления combobox у них будут совершенно одинаковые, т.е. 
+содержащими одни и те же элементы. Ну и последнее о профилях: используя
+функцию SetFRowControls, можно установить их для всей строки, например:
+</P>
+
+<DIV id="IDA23URC">
+<TABLE class="code" width="98%"><TR><TD>
+<PRE>
+m_treeList.AddControl(FL_COMBOBOX);      <SPAN class="COMMENT">// первый выпадающий список</SPAN>
+m_treeList.AddControl(FL_COMBOBOX);      <SPAN class="COMMENT">// второй выпадающий список, который</SPAN>
+                                         <SPAN class="COMMENT">// можно заполнить другими значениями</SPAN>
+m_treeList.AddControl(FL_EDIT);
+
+m_treeList.InsertFColumn(<SPAN class="NUMBER">0</SPAN>, _T(<SPAN class="STRING">"Column A"</SPAN>), <SPAN class="NUMBER">100</SPAN>, FL_LEFT, <SPAN class="NUMBER">0</SPAN>);
+m_treeList.InsertFColumn(<SPAN class="NUMBER">1</SPAN>, _T(<SPAN class="STRING">"Column B"</SPAN>), <SPAN class="NUMBER">100</SPAN>, FL_LEFT, <SPAN class="NUMBER">2</SPAN>);
+m_treeList.InsertFColumn(<SPAN class="NUMBER">2</SPAN>, _T(<SPAN class="STRING">"Column C"</SPAN>), <SPAN class="NUMBER">100</SPAN>, FL_LEFT, <SPAN class="NUMBER">2</SPAN>);
+ 
+HFROW hRoot = m_treeList.InsertFRow(FL_ROOT, FL_LAST, _T(<SPAN class="STRING">"Row 1"</SPAN>));
+HFROW hFRow = m_treeList.InsertFRow(hRoot, FL_LAST, _T(<SPAN class="STRING">"Sub Row"</SPAN>));
+m_treeList.SetFRowControls(hFRow, <SPAN class="NUMBER">2</SPAN>, <SPAN class="NUMBER">-1</SPAN>, <SPAN class="NUMBER">1</SPAN>);
+</PRE>
+</TD></TR></TABLE>
+</DIV>
+
+<P>Небольшие пояснения, что здесь происходит. Сначала создаются три профиля,
+затем добавляются три столбца (совпадение количества профилей и количества
+столбцов чисто случайное) и каждому из них назначается профиль по умолчанию.
+При первом вызове InsertFRow добавляется строка, которая редактируется в 
+первом столбце выпадающим списком, во втором и третьем - окном ввода. 
+Следующий вызов добавляет дочернюю строку. Наконец, последний вызов устанавливает,
+что дочерняя строка редактируется в первом столбце выпадающим списком,
+среднее поле строки никак не редактируется, а последнее можно изменить с 
+помощью поля ввода.
+</P>
+
+
+<H3>Изменение цвета<A name="IDAJ5URC"></A></H3>
+
+
+<P>Как видно на снимке экрана, CFListCtrl позволяет настроить цвет отдельной 
+строки или столца. Делается это с помощью функции SetFColor:
+</P>
+<DIV id="IDAO5URC">
+<TABLE class="code" width="98%"><TR><TD>
+<PRE>
+<SPAN class="KEYWORD">void</SPAN> SetColor(<SPAN class="KEYWORD">int</SPAN> nArea, HFROW hFRow, <SPAN class="KEYWORD">int</SPAN> iFColumn,
+              COLORREF crText = FL_DONTSET, COLORREF crBackground = FL_DONTSET);
+</PRE>
+</TD></TR></TABLE>
+</DIV>
+
+<P>Первый параметр этой функции - это область, цвет которой нужно изменить. 
+Доступны следующие значения:
+</P>
+<TABLE border="0" cellspacing="2" cellpadding="5">
+<TR>
+<TD>FL_FULL</TD>
+    <TD>Основной цвет</TD>
+</TR>
+<TR>
+<TD>FL_FCOLUMN</TD>
+    <TD>Цвет столбца, номер которого задается параметром iFColumn</TD>
+</TR>
+<TR>
+<TD>FL_FROW</TD>
+    <TD>Цвет строки, которая задается описателем hFRow</TD>
+</TR>
+<TR>
+<TD>FL_SELECTED_FROW</TD>
+    <TD>Цвет выделенной строки</TD>
+</TR>
+<TR>
+<TD>FL_SELECTED_FITEM</TD>
+    <TD>Цвет выделенного элемента</TD>
+</TR>
+</TABLE>
+
+<P>В качестве цвета можно использовать предопределенные значения 
+FL_DONTSET - цвет не изменяется и FL_NOCOLOR - цвет не установлен.
+Если цвет не установлен для определенной строки (состояние по умолчанию),
+то используется цвет столбца, если и он не установлен, то используется
+основной цвет.
+</P>
+
+
+<H3>Стили<A name="IDAZIVRC"></A></H3>
+
+
+<P>Для установки и получения значения стилей предназначены функции 
+SetFStyle и GetFStyle. Элемент управления CFListCtrl поддерживает 
+два стиля. Первый - это уже упоминавшийся FL_READONLY, для установки
+которого используется функция SetReadOnly. Другой стиль называется 
+FL_LINEAR_TREE - узлы дерева располагаются в линию, т.е. дочерние
+строки не смещаются. Кроме того, стоит упомянуть стандартные расширенные
+стили обычного списка: LVS_EX_FULLROWSELECT и LVS_EX_GRIDLINES:
+</P>
+
+<DIV id="IDA4IVRC">
+<TABLE class="code" width="98%"><TR><TD>
+<PRE>
+<SPAN class="COMMENT">// линейное дерево</SPAN>
+m_treeList.SetFStyle(<SPAN class="NUMBER">0</SPAN>, FL_LINEAR_TREE);
+
+<SPAN class="COMMENT">// горизонтальные и вертикальные линии</SPAN>
+m_treeList.SetExtendedStyle(LVS_EX_GRIDLINES);  
+
+<SPAN class="COMMENT">// выделение всей строки</SPAN>
+m_treeList.SetExtendedStyle(LVS_EX_FULLROWSELECT);
+</PRE>
+</TD></TR></TABLE>
+</DIV>
+
+
+
+<H3>Сообщения<A name="IDAJJVRC"></A></H3>
+
+
+<P>Класс CFListCtrl в процессе работы посылает родительскому окну
+сообщения WM_NOTIFY. Для обработки таких сообщений нужно добавить
+обработчик следующего вида в заголовочный файле:
+</P>
+<DIV id="IDAOJVRC">
+<TABLE class="code" width="98%"><TR><TD>
+<PRE>
+afx_msg <SPAN class="KEYWORD">void</SPAN> OnEventFunc (NMHDR * pNotifyStruct, LRESULT * result);
+</PRE>
+</TD></TR></TABLE>
+</DIV>
+<P>в файле реализации:
+</P>
+<DIV id="IDAUJVRC">
+<TABLE class="code" width="98%"><TR><TD>
+<PRE> 
+<SPAN class="KEYWORD">void</SPAN> CFListDemoDlg::OnEventFunc(NMHDR * pNotifyStruct, LRESULT * result)
+{
+  FL_NOTIFY * notify = (FL_NOTIFY *)pNotifyStruct;
+  *result = FL_OK;
+}
+</PRE>
+</TD></TR></TABLE>
+</DIV>
+<P>и, наконец, в карте сообщений в файле реализации:
+</P>
+<DIV id="IDA0JVRC">
+<TABLE class="code" width="98%"><TR><TD>
+<PRE>
+ON_NOTIFY(FLNM_EVENT, IDC_TREELIST, OnEventFunc)
+</PRE>
+</TD></TR></TABLE>
+</DIV>
+
+<P>Доступные сообщения приведены в таблице ниже
+</P>
+<TABLE border="0" cellspacing="2" cellpadding="5">
+<TR>
+<TD>FLNM_COLLAPSE</TD>
+    <TD>Пользователь закрыл или открыл узел дерева</TD>
+</TR>
+<TR>
+<TD>FLNM_CHECK</TD>
+    <TD>Пользователь установил/снял флажок</TD>
+</TR>
+<TR>
+<TD>FLNM_DELETE</TD>
+    <TD>Строка удаляется вызовом DeleteFRow или DeleteAllFRows</TD>
+</TR>
+<TR>
+<TD>FLNM_SELECT</TD>
+    <TD>Изменилась выделенная строка</TD>
+</TR>
+<TR>
+<TD>FLNM_EDIT_BEGIN</TD>
+    <TD>Пользователь начинает редактировать в окне ввода</TD>
+</TR>
+<TR>
+<TD>FLNM_EDIT_END</TD>
+    <TD>Пользователь завершил редактирование в окне ввода или
+        выпадающем списке</TD>
+</TR>
+<TR>
+<TD>FLNM_BUTTON_CLICK</TD>
+    <TD>Пользователь нажал на кнопку</TD>
+</TR>
+<TR>
+<TD>FLNM_COMBOBOX_EXPAND</TD>
+    <TD>Пользователь пытается открыть выпадающий список</TD>
+</TR>
+</TABLE>
+
+<P>В обработчике FLNM_EDIT_END можно разрешить внести изменения,
+присвоив *result значение FL_OK, или оставить текущее значение
+без изменений, присвоив *result значение FL_CANCEL. Кроме того,
+совместно с этими константами можно применять значение FL_CONTINUE,
+чтобы in-place орган управления не исчез, а остался на месте.
+</P>
+<P>Посылаемая обработчику структура данных FL_NOTIFY содержит хэндл
+строки, для которой произошло событие, номер столбца (если установлено
+свойство readonly, он всегда равен -1), введенный пользователем 
+текст или существующий текст. Подробнее о FL_NOTIFY можно узнать,
+открыв заголовочный файл FListCtrl.h.
+</P>
+
+
+<DIV align="right">
+<FONT style="font-family:arial;font-size:9pt;color:#8088a0"><I><HR color="#8088a0" width="100%" size="1">
+                Любой из материалов, опубликованных на этом сервере, не может быть воспроизведен в какой бы
+                то ни было форме и какими бы то ни было средствами без письменного разрешения владельцев авторских
+                прав. 
+             </I></FONT>
+</DIV>
+
+<SCRIPT LANGUAGE="JavaScript" SRC="/script/getElementByID.js" type="text/javascript"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" SRC="/conference/conference.js" type="text/javascript"></SCRIPT>
+<BR>
+<TABLE cellSpacing=0 cellPadding=2 class="commentsTBL">
+  <TBODY>
+  <TR>
+    <TD height=16 class="tdTop" style="BORDER-RIGHT: none">&nbsp;<A ID=shConf ONCLICK="showConference()" TARGET="hiddenFrame" href="/conference/loadMessages.asp?src=/Files/Classes/cflist2.comments"><IMG alt="Скрыть/Показать комментарии" WIDTH=15 HEIGHT=14 src="/conference/images/f_hidebar.gif" border=0 ></A>&nbsp;Комментарии:&nbsp;
+		<A ID=ldAll ONCLICK="loadAll();" TARGET="hiddenFrame" href="/conference/loadMessages.asp?loadall=true&src=/Files/Classes/cflist2.comments"><IMG alt="Загрузить все нитки" WIDTH=18 HEIGHT=14 src="/conference/images/f_openall.gif" align=absMiddle border=0 ></A>&nbsp;
+		<A TARGET="fraNewPost" ONCLICK="newPost();" href="/conference/sendMSG.asp?src=/Files/Classes/cflist2.comments"><IMG alt="Написать комментарий" WIDTH=18 HEIGHT=14 src="/conference/images/f_crm.gif" border=0 ></A>&nbsp;
+		<A TARGET="_blank" ONCLICK="window.open('/conference/sub.asp?src=/Files/Classes/cflist2.comments','','tollbar=0,menubar=0,location=0,status=0,scrolling=0,width=300,height=200'); return false;" href="/conference/sub.asp?src=/Files/Classes/cflist2.comments"><IMG alt="Подписка/Отписка" WIDTH=15 HEIGHT=14 src="/conference/images/sub.gif" border=0 ></A>&nbsp; 
+	</TD>
+	<TD style="TEXT-ALIGN: right; BORDER-LEFT: none" class="tdTop"><EM>Всего сообщений:&nbsp;7&nbsp;</EM></TD>
+  </TR>
+  <TR>
+    <TD id="tdMsgTree"  COLSPAN=2>
+        <IFRAME style="DISPLAY: none;" class="msgFrame" id="fraNewPost" name="fraNewPost" frameborder=0> </IFRAME>
+		<UL id="ulRoot" width=100%>
+			<LI><IMG src="/conference/images/fr0.gif"> Сохранение данных в классе FListCtrl - <A href="mailto:mickymouse@mail.ru">Хирург </A><SPAN class="fDate">5.12.2002 13:5</SPAN> <A ONCLICK="replyMSG('id16nohln70');" HREF="/conference/sendMSG.asp?src=/Files/Classes/cflist2.comments&amp;repl=id16nohln70" TARGET="rplid16nohln70"><IMG alt="Ответить" src="/conference/images/rpm.gif"></A><BR><DIV class="msgText">Помогите пожалуйста!!!<BR>Надо написать рекурсию по всему дереву в листе.<BR>Короче, данные надо сохранить на диск и считать с него.<BR><BR>Не могу с GetNextFRow нормально разбраться...глючит чето</DIV>
+<IFRAME style="DISPLAY: none;" class="msgFrame" frameborder="0" id="rplid16nohln70" name="rplid16nohln70"> </IFRAME>
+</LI>
+<LI><A TARGET="hiddenFrame" ONCLICK="openMSG('id16n62d7ic',this);" href="/conference/loadMessages.asp?src=/Files/Classes/cflist2.comments&amp;id=id16n62d7ic"><IMG src="/conference/images/fr1.gif" id="imgid16n62d7ic"></A> Много строк... - Tigger <SPAN class="fDate">29.11.2002 10:2</SPAN> <A ONCLICK="replyMSG('id16n62d7ic');" HREF="/conference/sendMSG.asp?src=/Files/Classes/cflist2.comments&amp;repl=id16n62d7ic" TARGET="rplid16n62d7ic"><IMG alt="Ответить" src="/conference/images/rpm.gif"></A><BR><DIV class="msgText">Если добавить много строк, например, 9000, и закрыть программу, то она закрывается, но продолжает висеть в памяти.<BR>Сначала думал в моеу проге глюк,потом проверил и в демо-программе:<BR>в функции CFListDemoDlg::Init() изменил цикл на for(int i=0; i&lt;9000; i++),<BR>результат аналогичный.</DIV>
+<IFRAME style="DISPLAY: none;" class="msgFrame" frameborder="0" id="rplid16n62d7ic" name="rplid16n62d7ic"> </IFRAME>
+<UL id="ulid16n62d7ic">
+</UL>
+</LI>
+<LI><A TARGET="hiddenFrame" ONCLICK="openMSG('id16kbo24d1',this);" href="/conference/loadMessages.asp?src=/Files/Classes/cflist2.comments&amp;id=id16kbo24d1"><IMG src="/conference/images/fr1.gif" id="imgid16kbo24d1"></A> Множественный выбор - _Kostya_ <SPAN class="fDate">31.10.2002 11:45</SPAN> <A ONCLICK="replyMSG('id16kbo24d1');" HREF="/conference/sendMSG.asp?src=/Files/Classes/cflist2.comments&amp;repl=id16kbo24d1" TARGET="rplid16kbo24d1"><IMG alt="Ответить" src="/conference/images/rpm.gif"></A><BR><DIV class="msgText">Элемент управления классный, но очень хотелось бы иметь возможность выделять сразу несколько элементов. Кроме этого я хочу вывести по нажатию правой кнопки мыши контекстное меню, которое меняется в зависимости от строки, на котором находится мышь. Как это сделать?</DIV>
+<IFRAME style="DISPLAY: none;" class="msgFrame" frameborder="0" id="rplid16kbo24d1" name="rplid16kbo24d1"> </IFRAME>
+<UL id="ulid16kbo24d1">
+</UL>
+</LI>
+<LI><A TARGET="hiddenFrame" ONCLICK="openMSG('id16fg4ij93',this);" href="/conference/loadMessages.asp?src=/Files/Classes/cflist2.comments&amp;id=id16fg4ij93"><IMG src="/conference/images/fr1.gif" id="imgid16fg4ij93"></A> m_treeList.SetReadOnly(FALSE);   трабл? - <A href="mailto:dushes@hotbox.ru">DuШes </A><SPAN class="fDate">11.9.2002 14:53</SPAN> <A ONCLICK="replyMSG('id16fg4ij93');" HREF="/conference/sendMSG.asp?src=/Files/Classes/cflist2.comments&amp;repl=id16fg4ij93" TARGET="rplid16fg4ij93"><IMG alt="Ответить" src="/conference/images/rpm.gif"></A><BR><DIV class="msgText">после того, как устанавливаю значение TRUE - те только для чтения, как в DEBUG-версии, так и в RELEASE-версии вываливается ексершен после того, как окно с данным контролом активизировано и нажимаю клавишу ESCAPE ////&nbsp; Не очень приятно, буду искать блох, но может быть автор сам быстрее найдет?</DIV>
+<IFRAME style="DISPLAY: none;" class="msgFrame" frameborder="0" id="rplid16fg4ij93" name="rplid16fg4ij93"> </IFRAME>
+<UL id="ulid16fg4ij93">
+</UL>
+</LI>
+
+		</UL>
+    </TD></TR>
+  </TBODY></TABLE>
+<IFRAME id="hiddenFrame" name="hiddenFrame"></IFRAME>
+<!-- SpyLOG f:1211 -->
+<script language="javascript"><!--
+Mu="u1358.84.spylog.com";Md=document;Mnv=navigator;Mp=1;
+Mn=(Mnv.appName.substring(0,2)=="Mi")?0:1;Mrn=Math.random();
+Mt=(new Date()).getTimezoneOffset();
+Mz="p="+Mp+"&rn="+Mrn+"&t="+Mt;
+My="";
+My+="<a href='http://"+Mu+"/cnt?cid=135884&f=3&p="+Mp+"&rn="+Mrn+"' target=_blank>";
+My+="<img src='http://"+Mu+"/cnt?cid=135884&"+Mz+"&r1="+escape(Md.referrer)+"&r="+escape(parent.document.referrer)+"&pg="+escape(window.location.href)+"' border=0 width=1 height=1 alt='SpyLOG'>";
+My+="</a>";Md.write(My);//--></script><noscript>
+<a href="http://u1358.84.spylog.com/cnt?cid=135884&f=3&p=1" target=_blank>
+<img src="http://u1358.84.spylog.com/cnt?cid=135884&p=1" alt='SpyLOG' border='0' width=1 height=1 >
+</a></noscript>
+<!-- SpyLOG -->
+
+<!-- HotLog -->
+<script language="javascript">
+hotlog_js="1.0";hotlog_d=document; hotlog_n=navigator;hotlog_rn=Math.random();
+hotlog_n_n=(hotlog_n.appName.substring(0,3)=="Mic")?0:1;
+hotlog_r=""+hotlog_rn+"&s=21251&r="+escape(hotlog_d.referrer)+"&pg="+
+escape(window.location.href);
+hotlog_d.cookie="hotlog=1"; hotlog_r+="&c="+(hotlog_d.cookie?"Y":"N");
+hotlog_d.cookie="hotlog=1; expires=Thu, 01-Jan-70 00:00:01 GMT"</script>
+<script language="javascript1.1">
+hotlog_js="1.1";hotlog_r+="&j="+(navigator.javaEnabled()?"Y":"N")</script>
+<script language="javascript1.2">
+hotlog_js="1.2";hotlog_s=screen;
+hotlog_r+="&wh="+hotlog_s.width+'x'+hotlog_s.height+"&px="+((hotlog_n_n==0)?
+hotlog_s.colorDepth:hotlog_s.pixelDepth)</script>
+<script language="javascript1.3">hotlog_js="1.3"</script>
+<script language="javascript">hotlog_r+="&js="+hotlog_js;
+hotlog_d.write("<img src=\"http://hit2.hotlog.ru/cgi-bin/hotlog/count?"+
+hotlog_r+"&\" border=0 width=1 height=1>")</script>
+<noscript><img src="http://hit2.hotlog.ru/cgi-bin/hotlog/count?s=21251" border=0 
+width=1 height=1></noscript>
+<!-- /HotLog -->
+ 
+<SCRIPT LANGUAGE=javascript src="/script/shMenu.js" type="text/javascript"></SCRIPT>
+</BODY>
+</HTML>

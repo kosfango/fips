@@ -1,0 +1,626 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile|Win32">
+      <Configuration>Profile</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>LIGHT</ProjectName>
+    <ProjectGuid>{2B415B3E-8EAF-4BCF-9FEB-0CA2838F8306}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.24720.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>D:\fipstest</OutDir>
+    <IntDir>WinRel\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">
+    <OutDir>.\LIGHT___Win32_Profile\</OutDir>
+    <IntDir>.\LIGHT___Win32_Profile\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>.\WinDebug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>D:\fipstest</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\WinRel/Light.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>.\Sup;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;_OS_NT_;HTTPS;HAVE_THREADS;HAVE_IO_H;VISUALCPP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StructMemberAlignment>2Bytes</StructMemberAlignment>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\WinRel/Light.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\WinRel/</AssemblerListingLocation>
+      <ObjectFileName>.\WinRel/</ObjectFileName>
+      <ProgramDataBaseFileName>.\WinRel/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>version.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>d:\fipstest\Fips.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\WinRel/Fips.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>2097152</StackReserveSize>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\WinRel/Light.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">
+    <Midl>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\LIGHT___Win32_Profile/Light.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\Sup;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;WIN32;_WINDOWS;_OS_NT_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <StructMemberAlignment>2Bytes</StructMemberAlignment>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\LIGHT___Win32_Profile/Light.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\LIGHT___Win32_Profile/</AssemblerListingLocation>
+      <ObjectFileName>.\LIGHT___Win32_Profile/</ObjectFileName>
+      <ProgramDataBaseFileName>.\LIGHT___Win32_Profile/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>version.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>d:\fipstest\Light.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\LIGHT___Win32_Profile/Light.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>.\LIGHT___Win32_Profile/Light.map</MapFileName>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>2097152</StackReserveSize>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\LIGHT___Win32_Profile/Light.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\WinDebug/Light.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\Sup;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;WIN32;_WINDOWS;_OS_NT_;HTTPS;HAVE_THREADS;HAVE_IO_H;VISUALCPP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <StructMemberAlignment>2Bytes</StructMemberAlignment>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\WinDebug/Light.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\WinDebug/</AssemblerListingLocation>
+      <ObjectFileName>.\WinDebug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\WinDebug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalOptions>/FS %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>version.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>d:\fipstest\Light.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\WinDebug/Light.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>.\WinDebug/Light.map</MapFileName>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>2097152</StackReserveSize>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\WinDebug/Light.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="addrselect.cpp" />
+    <ClCompile Include="adrbook.cpp" />
+    <ClCompile Include="again.cpp" />
+    <ClCompile Include="al_exist.cpp" />
+    <ClCompile Include="arcmail.cpp" />
+    <ClCompile Include="areasel.cpp" />
+    <ClCompile Include="badxfer.cpp" />
+    <ClCompile Include="bbsarea.cpp" />
+    <ClCompile Include="bbsgrp.cpp" />
+    <ClCompile Include="bbsmain.cpp" />
+    <ClCompile Include="bbsstuff.cpp" />
+    <ClCompile Include="bbsuser.cpp" />
+    <ClCompile Include="binkd\binkd.cpp" />
+    <ClCompile Include="binkd\binlog.cpp" />
+    <ClCompile Include="binkd\bsy.cpp" />
+    <ClCompile Include="binkd\client.cpp" />
+    <ClCompile Include="binkd\crypt.cpp" />
+    <ClCompile Include="binkd\dirwin32.cpp" />
+    <ClCompile Include="binkd\ftnaddr.cpp" />
+    <ClCompile Include="binkd\ftndom.cpp" />
+    <ClCompile Include="binkd\ftnnode.cpp" />
+    <ClCompile Include="binkd\ftnq.cpp" />
+    <ClCompile Include="binkd\getfree.cpp" />
+    <ClCompile Include="binkd\getw.cpp" />
+    <ClCompile Include="binkd\https.cpp" />
+    <ClCompile Include="binkd\inbound.cpp" />
+    <ClCompile Include="binkd\iptools.cpp" />
+    <ClCompile Include="binkd\md5b.cpp" />
+    <ClCompile Include="binkd\prothlp.cpp" />
+    <ClCompile Include="binkd\protocol.cpp" />
+    <ClCompile Include="binkd\readcfg.cpp" />
+    <ClCompile Include="binkd\readflo.cpp" />
+    <ClCompile Include="binkd\sem.cpp" />
+    <ClCompile Include="binkd\server.cpp" />
+    <ClCompile Include="binkd\srif.cpp" />
+    <ClCompile Include="binkd\TCPErr.cpp" />
+    <ClCompile Include="binkd\tools.cpp" />
+    <ClCompile Include="binkd\WSock.cpp" />
+    <ClCompile Include="binkd\xalloc.cpp" />
+    <ClCompile Include="bmpview.cpp" />
+    <ClCompile Include="cfgexfr.cpp" />
+    <ClCompile Include="cfgmagic.cpp" />
+    <ClCompile Include="cfgrpath.cpp" />
+    <ClCompile Include="cfgsound.cpp" />
+    <ClCompile Include="cfg_aaka.cpp" />
+    <ClCompile Include="cfg_advn.cpp" />
+    <ClCompile Include="cfg_apno.cpp" />
+    <ClCompile Include="cfg_area.cpp" />
+    <ClCompile Include="cfg_boss.cpp" />
+    <ClCompile Include="cfg_carb.cpp" />
+    <ClCompile Include="cfg_col.cpp" />
+    <ClCompile Include="cfg_conv.cpp" />
+    <ClCompile Include="cfg_dir.cpp" />
+    <ClCompile Include="cfg_edit.cpp" />
+    <ClCompile Include="cfg_fax.cpp" />
+    <ClCompile Include="cfg_gate.cpp" />
+    <ClCompile Include="cfg_icon.cpp" />
+    <ClCompile Include="cfg_inco.cpp" />
+    <ClCompile Include="cfg_mailed.cpp" />
+    <ClCompile Include="cfg_mode.cpp" />
+    <ClCompile Include="cfg_mult.cpp" />
+    <ClCompile Include="cfg_nfll.cpp" />
+    <ClCompile Include="cfg_node.cpp" />
+    <ClCompile Include="cfg_othr.cpp" />
+    <ClCompile Include="cfg_pack.cpp" />
+    <ClCompile Include="cfg_ring.cpp" />
+    <ClCompile Include="cfg_rmon.cpp" />
+    <ClCompile Include="cfg_scr.cpp" />
+    <ClCompile Include="cfg_serv.cpp" />
+    <ClCompile Include="cfg_tics.cpp" />
+    <ClCompile Include="cfg_time.cpp" />
+    <ClCompile Include="cfg_tras.cpp" />
+    <ClCompile Include="cfido.cpp" />
+    <ClCompile Include="changed.cpp" />
+    <ClCompile Include="charging.cpp" />
+    <ClCompile Include="cha_tmpl.cpp" />
+    <ClCompile Include="cha_xfer.cpp" />
+    <ClCompile Include="choosas.cpp" />
+    <ClCompile Include="colorbtn.cpp" />
+    <ClCompile Include="costanal.cpp" />
+    <ClCompile Include="costuser.cpp" />
+    <ClCompile Include="crospost.cpp" />
+    <ClCompile Include="csobj.CPP" />
+    <ClCompile Include="cuuendec.cpp" />
+    <ClCompile Include="database.cpp" />
+    <ClCompile Include="dbcon.cpp" />
+    <ClCompile Include="detmail.cpp" />
+    <ClCompile Include="detpurg.cpp" />
+    <ClCompile Include="dettoss.cpp" />
+    <ClCompile Include="det_nl.cpp" />
+    <ClCompile Include="dibapi.cpp" />
+    <ClCompile Include="ecolst.cpp" />
+    <ClCompile Include="EditWnd.cpp" />
+    <ClCompile Include="emergenc.cpp" />
+    <ClCompile Include="error.cpp" />
+    <ClCompile Include="events.cpp" />
+    <ClCompile Include="evpump.cpp" />
+    <ClCompile Include="exbrow.cpp" />
+    <ClCompile Include="exsearch.cpp" />
+    <ClCompile Include="fax.cpp" />
+    <ClCompile Include="filereq.cpp" />
+    <ClCompile Include="FListCtrl.cpp" />
+    <ClCompile Include="floating.cpp" />
+    <ClCompile Include="guard.cpp" />
+    <ClCompile Include="hatch.cpp" />
+    <ClCompile Include="import.cpp" />
+    <ClCompile Include="impwhat.cpp" />
+    <ClCompile Include="inafound.cpp" />
+    <ClCompile Include="info_adr.cpp" />
+    <ClCompile Include="inouthis.cpp" />
+    <ClCompile Include="insmm.cpp" />
+    <ClCompile Include="kludges.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="lightdlg.cpp" />
+    <ClCompile Include="logdisp.cpp" />
+    <ClCompile Include="logopti.cpp" />
+    <ClCompile Include="mailhan.cpp" />
+    <ClCompile Include="manual.cpp" />
+    <ClCompile Include="marksel.cpp" />
+    <ClCompile Include="MathParser\Lexer.cpp" />
+    <ClCompile Include="MathParser\MathParser.CPP" />
+    <ClCompile Include="MathParser\StrMap.cpp" />
+    <ClCompile Include="MathParser\SymTable.cpp" />
+    <ClCompile Include="mime\Cb64endec.cpp" />
+    <ClCompile Include="msgbox.cpp" />
+    <ClCompile Include="myedit.cpp" />
+    <ClCompile Include="myeditfr.cpp" />
+    <ClCompile Include="mylist.cpp" />
+    <ClCompile Include="myowlist.cpp" />
+    <ClCompile Include="mystrlst.cpp" />
+    <ClCompile Include="net.cpp" />
+    <ClCompile Include="newmail.cpp" />
+    <ClCompile Include="nodelist.cpp" />
+    <ClCompile Include="nodesel.cpp" />
+    <ClCompile Include="nt_debug.cpp" />
+    <ClCompile Include="outbound.cpp" />
+    <ClCompile Include="owlist.cpp" />
+    <ClCompile Include="pkt_view.cpp" />
+    <ClCompile Include="quickset.cpp" />
+    <ClCompile Include="rbutton.cpp" />
+    <ClCompile Include="receiver.cpp" />
+    <ClCompile Include="regexp.cpp" />
+    <ClCompile Include="reqsel.cpp" />
+    <ClCompile Include="resultfm.cpp" />
+    <ClCompile Include="rfilter.cpp" />
+    <ClCompile Include="SAPrefsDialog.cpp" />
+    <ClCompile Include="SAPrefsStatic.cpp" />
+    <ClCompile Include="SAPrefsSubDlg.cpp" />
+    <ClCompile Include="SButton.cpp" />
+    <ClCompile Include="screenpo.cpp" />
+    <ClCompile Include="script.cpp" />
+    <ClCompile Include="search.cpp" />
+    <ClCompile Include="searepl.cpp" />
+    <ClCompile Include="sedesta.cpp" />
+    <ClCompile Include="selevbos.cpp" />
+    <ClCompile Include="sel_freq.cpp" />
+    <ClCompile Include="simple.cpp" />
+    <ClCompile Include="simppoll.cpp" />
+    <ClCompile Include="splash.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="sub_adj.cpp" />
+    <ClCompile Include="SUP\pr_common.cpp" />
+    <ClCompile Include="SUP\Pr_hydra.cpp" />
+    <ClCompile Include="SUP\Pr_xfer.cpp" />
+    <ClCompile Include="SUP\pr_zmod.cpp" />
+    <ClCompile Include="tapisel.cpp" />
+    <ClCompile Include="textbuffer.cpp" />
+    <ClCompile Include="textwnd.cpp" />
+    <ClCompile Include="ticedit.cpp" />
+    <ClCompile Include="timed.cpp" />
+    <ClCompile Include="tosslib.cpp" />
+    <ClCompile Include="traffic.cpp" />
+    <ClCompile Include="trash.cpp" />
+    <ClCompile Include="TrayIcon.cpp" />
+    <ClCompile Include="trepl.cpp" />
+    <ClCompile Include="trmansi.cpp" />
+    <ClCompile Include="txttemp.cpp" />
+    <ClCompile Include="u_crc.cpp" />
+    <ClCompile Include="valarea.cpp" />
+    <ClCompile Include="wiedinf.cpp" />
+    <ClCompile Include="writedit.cpp" />
+    <ClCompile Include="writmail.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="light.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="ntdebug.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="sup\Win32_D0\SUPERCOM.lib" />
+    <Library Include="sup\Win32_De\PROTOCOL.lib" />
+    <Library Include="WINMM.LIB" />
+    <Library Include="WSOCK32.LIB" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="adrbook.h" />
+    <ClInclude Include="again.h" />
+    <ClInclude Include="al_exist.h" />
+    <ClInclude Include="areasel.h" />
+    <ClInclude Include="badxfer.h" />
+    <ClInclude Include="bbsarea.h" />
+    <ClInclude Include="bbsgrp.h" />
+    <ClInclude Include="bbsmain.h" />
+    <ClInclude Include="bbsuser.h" />
+    <ClInclude Include="bmpview.h" />
+    <ClInclude Include="cfgexfr.h" />
+    <ClInclude Include="cfgmagic.h" />
+    <ClInclude Include="cfgrpath.h" />
+    <ClInclude Include="cfgsound.h" />
+    <ClInclude Include="cfg_aaka.h" />
+    <ClInclude Include="cfg_advn.h" />
+    <ClInclude Include="cfg_apno.h" />
+    <ClInclude Include="cfg_area.h" />
+    <ClInclude Include="cfg_boss.h" />
+    <ClInclude Include="cfg_carb.h" />
+    <ClInclude Include="cfg_col.h" />
+    <ClInclude Include="cfg_conv.h" />
+    <ClInclude Include="cfg_dir.h" />
+    <ClInclude Include="cfg_edit.h" />
+    <ClInclude Include="cfg_fax.h" />
+    <ClInclude Include="cfg_gate.h" />
+    <ClInclude Include="cfg_icon.h" />
+    <ClInclude Include="cfg_inco.h" />
+    <ClInclude Include="cfg_mode.h" />
+    <ClInclude Include="cfg_mult.h" />
+    <ClInclude Include="cfg_nfll.h" />
+    <ClInclude Include="cfg_node.h" />
+    <ClInclude Include="cfg_othr.h" />
+    <ClInclude Include="cfg_pack.h" />
+    <ClInclude Include="cfg_ring.h" />
+    <ClInclude Include="cfg_rmon.h" />
+    <ClInclude Include="cfg_scr.h" />
+    <ClInclude Include="cfg_serv.h" />
+    <ClInclude Include="cfg_tics.h" />
+    <ClInclude Include="cfg_time.h" />
+    <ClInclude Include="cfg_tras.h" />
+    <ClInclude Include="cfido.h" />
+    <ClInclude Include="changed.h" />
+    <ClInclude Include="cha_tmpl.h" />
+    <ClInclude Include="cha_xfer.h" />
+    <ClInclude Include="choosas.h" />
+    <ClInclude Include="costanal.h" />
+    <ClInclude Include="costuser.h" />
+    <ClInclude Include="crospost.h" />
+    <ClInclude Include="csobj.h" />
+    <ClInclude Include="cuuendec.h" />
+    <ClInclude Include="detmail.h" />
+    <ClInclude Include="detpurg.h" />
+    <ClInclude Include="dettoss.h" />
+    <ClInclude Include="det_nl.h" />
+    <ClInclude Include="dibapi.h" />
+    <ClInclude Include="ecolst.h" />
+    <ClInclude Include="emergenc.h" />
+    <ClInclude Include="events.h" />
+    <ClInclude Include="exbrow.h" />
+    <ClInclude Include="exsearch.h" />
+    <ClInclude Include="faxinc.h" />
+    <ClInclude Include="filereq.h" />
+    <ClInclude Include="FListCtrl.h" />
+    <ClInclude Include="floating.h" />
+    <ClInclude Include="gcomm.h" />
+    <ClInclude Include="globals.h" />
+    <ClInclude Include="hatch.h" />
+    <ClInclude Include="impwhat.h" />
+    <ClInclude Include="inafound.h" />
+    <ClInclude Include="include.hh" />
+    <ClInclude Include="info_adr.h" />
+    <ClInclude Include="inouthis.h" />
+    <ClInclude Include="insmm.h" />
+    <ClInclude Include="kludges.h" />
+    <ClInclude Include="light.h" />
+    <ClInclude Include="lightdlg.h" />
+    <ClInclude Include="logdisp.h" />
+    <ClInclude Include="logopti.h" />
+    <ClInclude Include="manual.h" />
+    <ClInclude Include="marksel.h" />
+    <ClInclude Include="MathParser\Lexer.h" />
+    <ClInclude Include="MathParser\MathParser.h" />
+    <ClInclude Include="MathParser\StrMap.h" />
+    <ClInclude Include="MathParser\SymTable.h" />
+    <ClInclude Include="mime\CB64ENDEC.H" />
+    <ClInclude Include="msgbox.h" />
+    <ClInclude Include="myedit.h" />
+    <ClInclude Include="myeditfr.h" />
+    <ClInclude Include="mylist.h" />
+    <ClInclude Include="myowlist.h" />
+    <ClInclude Include="mystrlst.h" />
+    <ClInclude Include="newmail.h" />
+    <ClInclude Include="nodesel.h" />
+    <ClInclude Include="outbound.h" />
+    <ClInclude Include="owlist.h" />
+    <ClInclude Include="pkt_view.h" />
+    <ClInclude Include="quickset.h" />
+    <ClInclude Include="receiver.h" />
+    <ClInclude Include="reqsel.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="resultfm.h" />
+    <ClInclude Include="rfilter.h" />
+    <ClInclude Include="SAPrefsDialog.h" />
+    <ClInclude Include="SAPrefsStatic.h" />
+    <ClInclude Include="SAPrefsSubDlg.h" />
+    <ClInclude Include="SButton.h" />
+    <ClInclude Include="search.h" />
+    <ClInclude Include="searepl.h" />
+    <ClInclude Include="sedesta.h" />
+    <ClInclude Include="selevbos.h" />
+    <ClInclude Include="sel_freq.h" />
+    <ClInclude Include="simppoll.h" />
+    <ClInclude Include="splash.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="structs.h" />
+    <ClInclude Include="sub_adj.h" />
+    <ClInclude Include="SUP\pr_common.h" />
+    <ClInclude Include="SUP\PR_HYDRA.H" />
+    <ClInclude Include="SUP\PR_XFER.H" />
+    <ClInclude Include="SUP\pr_zmod.h" />
+    <ClInclude Include="tapisel.h" />
+    <ClInclude Include="ticedit.h" />
+    <ClInclude Include="timed.h" />
+    <ClInclude Include="traffic.h" />
+    <ClInclude Include="trepl.h" />
+    <ClInclude Include="txttemp.h" />
+    <ClInclude Include="u_crc.h" />
+    <ClInclude Include="valarea.h" />
+    <ClInclude Include="version.h" />
+    <ClInclude Include="wiedinf.h" />
+    <ClInclude Include="writedit.h" />
+    <ClInclude Include="writmail.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="RES\abort.ico" />
+    <Image Include="RES\about.BMP" />
+    <Image Include="RES\area.ico" />
+    <Image Include="RES\asave.ico" />
+    <Image Include="RES\coda.ico" />
+    <Image Include="RES\codansi.bmp" />
+    <Image Include="RES\codansi.ico" />
+    <Image Include="RES\codo.ico" />
+    <Image Include="RES\codoem.bmp" />
+    <Image Include="RES\codoem.ico" />
+    <Image Include="RES\com1_off.bmp" />
+    <Image Include="RES\com1_on.bmp" />
+    <Image Include="RES\com2_off.bmp" />
+    <Image Include="RES\com2_on.bmp" />
+    <Image Include="RES\empty.ico" />
+    <Image Include="RES\exit.ico" />
+    <Image Include="RES\file.ico" />
+    <Image Include="RES\filt.ico" />
+    <Image Include="RES\find.ico" />
+    <Image Include="RES\Fips.ICO" />
+    <Image Include="RES\freq.ico" />
+    <Image Include="RES\ico00001.ico" />
+    <Image Include="RES\icon1.ico" />
+    <Image Include="RES\icon2.ico" />
+    <Image Include="RES\isdnoff.ico" />
+    <Image Include="RES\isdnon.ico" />
+    <Image Include="RES\isdn_off.bmp" />
+    <Image Include="RES\isdn_on.bmp" />
+    <Image Include="RES\light.ico" />
+    <Image Include="RES\macro1.ico" />
+    <Image Include="RES\macro2.ico" />
+    <Image Include="RES\macro3.ico" />
+    <Image Include="RES\macro4.ico" />
+    <Image Include="RES\macro5.ico" />
+    <Image Include="RES\mailer.ico" />
+    <Image Include="RES\mod1off.ico" />
+    <Image Include="RES\mod1on.ico" />
+    <Image Include="RES\mod2off.ico" />
+    <Image Include="RES\mod2on.ico" />
+    <Image Include="RES\new.ico" />
+    <Image Include="RES\next.ico" />
+    <Image Include="RES\phoenix.bmp" />
+    <Image Include="RES\phoenix.ico" />
+    <Image Include="RES\phoenix1.ico" />
+    <Image Include="RES\phoenix2.bmp" />
+    <Image Include="RES\phoenix2.ico" />
+    <Image Include="RES\prev.ico" />
+    <Image Include="RES\purger.ico" />
+    <Image Include="RES\quote.ico" />
+    <Image Include="RES\quotea.ico" />
+    <Image Include="RES\splash.bmp" />
+    <Image Include="RES\toolbar.bmp" />
+    <Image Include="RES\tosser.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RES\http.cur" />
+    <None Include="RES\mailer.avi" />
+    <None Include="RES\mailto.cur" />
+    <None Include="RES\purger.avi" />
+    <None Include="RES\tosser.avi" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="RES\Light.exe.manifest" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="light.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

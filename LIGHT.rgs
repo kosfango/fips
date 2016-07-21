@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		{DE11B54D-53DC-11D4-AAD4-00500464744A} = s 'LIGHT'
+		'LIGHT.EXE'
+		{
+			val AppID = s {DE11B54D-53DC-11D4-AAD4-00500464744A}
+		}
+	}
+}

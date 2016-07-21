@@ -1,0 +1,186 @@
+; Config translation file. DO NOT CHANGE !
+; File types: 	0 - LF-delimited cfg 
+;             	1 - TAB-delimited cfg 
+;             	2 - SPACE-delimited cfg
+;             	3 - SPACE-delimited string
+;             	4 - Binary array of longs
+
+pathes.cfg 1
+Common,FirstName,6
+Common,SecondName,7
+Common,SystemName,8
+Common,Location,9
+Common,Telephone,10
+Common,BasePath,5
+Common,UtilPath,0
+Common,OutboundPath,1
+Common,NodelistPath,2
+Common,MsgBasePath,3
+Common,InboundPath,4
+Common,MultimedPath,11
+Common,TicbasicPath,12
+
+others.cfg 0
+Common,TosserStart,1
+Common,RescanStart,2
+Common,EnableEvents,4
+Common,DontGenInfo,5
+Common,NoDetSearch,6
+Common,GlobalASave,7
+Common,PurgeScanned,8
+Common,LastAreaSelection,9
+Common,GenerateCharset,10
+Common,DontGenREs,11
+Common,PackOutbound,12
+Common,EmptyTearline,14
+Common,NoInfoNewArea,15
+Common,NoTooltips,18
+Common,NoTics,19
+Common,NoBlinkScrollLock,20
+Common,ConvertLatin,21
+Common,FilterREs,22
+
+editor.cfg 2
+Editor,Autoscroll,10
+Editor,StructDisplay,11
+Editor,ShowAttributes,13
+Editor,HideDeleted,14
+Editor,FirstNonRead,9
+Editor,GoldedComp,0
+Editor,HideLeading,1
+Editor,HideSeenBy,2
+Editor,HideTags,3
+Editor,ImmUpdate,4
+Editor,Colored,8
+
+scale.cfg 0
+Common,Scale,0
+
+txttmpl.cfg 0
+TextImport,Alt0,0
+TextImport,Alt1,1
+TextImport,Alt2,2
+TextImport,Alt3,3
+TextImport,Alt4,4
+TextImport,Alt5,5
+TextImport,Alt6,6
+TextImport,Alt7,7
+TextImport,Alt8,8
+TextImport,Alt9,9
+
+multimed.cfg 0
+Multimedia,PlaySound,0
+Multimedia,DisplayBmp,1
+Multimedia,WarnAbsent,2
+;Multimedia,BmpSize,3
+
+printer.cfg 0
+Print,PrintCommand,0
+Print,BackgroundPrint,1
+
+timeouts.cfg 0
+Timeouts,TryCounter,0
+Timeouts,WaitTime,1
+Timeouts,LoopCounter,2
+
+scripts.cfg 0
+Scripts,User1,0
+Scripts,User2,1
+Scripts,User3,2
+Scripts,User4,3
+Scripts,Func2,4
+Scripts,Func3,5
+Scripts,Func4,6
+Scripts,Func5,7
+Scripts,Func6,8
+Scripts,Func7,9
+Scripts,Func8,10
+Scripts,Func9,11
+
+tosser.cfg 0
+;Tosser,MaxErrors,0
+Tosser,TossHidden,1
+
+bmppos.cfg 3
+Picture,Xpos,0
+Picture,Ypos,1
+
+colors.cfg 4
+Colors,TextBgrColor,0
+Colors,TextColor,1
+Colors,OddColor,2
+Colors,KludgeColor,3
+Colors,OriginColor,4
+Colors,EvenColor,5
+Colors,SubjBgrColor,6
+Colors,SubjColor,7
+Colors,ReadSubjLines,8
+Colors,WriteEditSize,9
+Colors,BoldColor,10
+;Colors,ReadSubjWidth,16
+Colors,SubjLineDist,17
+;Colors,ReadWidth,18
+Colors,TextLineDist,19
+
+bosslist.cfg 0
+Bosses,Boss0,0
+Bosses,Boss1,1
+Bosses,Boss2,2
+Bosses,Boss3,3
+Bosses,Boss4,4
+Bosses,Boss5,5
+Bosses,Boss6,6
+Bosses,Boss7,7
+Bosses,Boss8,8
+Bosses,Boss9,9
+
+find.cfg 0
+Search,SearchPattern,0
+Search,ShowResults,1
+Search,IgnoreCase,2
+Search,InHeader,3
+Search,InText,4
+Search,UserConvert,5
+
+packer.cfg 0
+Packers,Pack0,0
+Packers,Pack1,1
+Packers,Pack2,2
+Packers,Pack3,3
+Packers,Pack4,4
+Packers,Pack5,5
+Packers,Pack6,6
+Packers,Pack7,7
+Packers,Pack8,8
+Packers,Pack9,9
+
+prefix.cfg 0
+Prefixes,CountryPref,0
+Prefixes,CountryRepl,1
+Prefixes,CityPref,2
+Prefixes,InternatPref,3
+Prefixes,Exclude,4
+
+logging.cfg 0
+Logs,MailerLog,0
+Logs,TosserLog,1
+Logs,PurgerLog,2
+Logs,EventsLog,3
+Logs,NLCompLog,4
+
+logsizes.cfg 0
+Logs,MailerLim,0
+Logs,TosserLim,1
+Logs,PurgerLim,2
+Logs,EventsLim,3
+Logs,NLCompLim,4
+
+ringcnt.cfg 0
+Incoming,Modem1,0
+Incoming,Modem2,1
+Incoming,ISDN,2
+
+addaka.cfg 1
+Common,Akas,0
+
+;TODO: places.cfg

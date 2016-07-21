@@ -1,0 +1,4913 @@
+; DO NO MODIFY!
+
+@SECTION RUSSIAN
+
+$IDD_CHOOSE_MARK
+Выполнить команду для:
+Отменить
+Выбранных писем (красная метка)
+Помеченных писем (инверсная метка)
+Выбранных и помеченных писем
+$IDD_MANUAL_POLL
+Вызов удаленной станции (POLL)
+Вызвать
+Отменить
+Станция: (имя или FIDO-адрес)
+Для звонков на станцию Вашего босса используйте настройку босса.\Используйте этот диалог только при прямых звонках на другие станции.
+$IDD_CFG_BOSS
+Боссы (аплинки)
+добавлять '+' при подписке
+добавлять '+' при подписке
+Изменить
+Добавить
+Удалить
+Имя системы:
+Адрес босса:
+Телефон:
+Мой поинт-адрес:
+Пароль на сессию:
+Пароль:
+Название:
+Упакованного:
+Тип упаковщика:
+Распакованного:
+Файл эхолиста:
+Название:
+Пароль:
+Робот файлэх (обычно AllFix или FileFix):
+Список файлов (файллист босса):
+Упакованного:
+Распакованного:
+Список новых файлов (обычно NewFiles):
+Робот эхоконференций (обычно Areafix):
+Установки выбранного босса:
+Список боссов для данной станции:
+ФИО босса:
+Пароль Arcmail:
+Маршрутизация:
+Не формировать пустой Poll-пакет
+Не включать этого босса в очередь
+для ISDN (CAPI 2.0) добавьте знак '$'
+нет HYDRA
+нет ZMODEM
+$IDD_REPOST
+Репост
+Выбрать
+Отменить
+Через
+дня
+Через 1 день
+Через 3 дня
+Через неделю
+Через месяц
+$IDD_AREASELECT
+Выбор новой области
+Трафик областей
+Настройка списка
+Вверх
+Вниз
+Комментарий:
+Добавить
+Скрыть
+Восстановить
+Сохранить
+Помощь
+Отменить
+Выбрать
+$IDD_CFG_EDITOR
+Редактор писем
+Управление как в GoldEd
+Скрыть пустые строки
+Немедленное обновление
+Цветовая раскраска
+Прокрутка списка писем
+Первое непрочитанное
+Последнее прочитанное
+Показать цепочку ответов (переключение по ALT-T)
+При выборе области показать
+Чередующаяся раскраска квот
+Использовать ORIGIN в нетмэйле
+Макс. количество строк UUE-кода в одном письме (10-1000 строк)
+очистить                              Линия отрыва (TEARLINE):
+Ширина окна редактора писем (20-100 символов)
+Выбор области после чтения последнего письма
+Повтор квоты при разрыве строки
+Мультивыбор при перемещении пробелом по списку писем
+Предпочтительное использование нодлиста при поиске города
+Не запрашивать расширенный поиск имен
+Не вставлять 'RE:' при ответах
+Удалять 'RE:' в теме письма
+Правая граница:
+Шрифт редактора
+Автоотступ
+Использовать псевдографику
+Показывать табуляции и пробелы
+Переносить слова
+Равные табуляции
+Заменять табуляции на пробелы
+Выделять пометки цветом
+$IDD_CFG_PACKER
+Архиваторы
+Изменить
+Добавить
+Удалить
+По умолчанию
+Команда упаковки:
+Команда распаковки:
+Название архиватора:
+Описание архиватора
+Первые 10 байт (Hex) архива.\Пустое поле - игнорировать позицию
+Используйте %p для пути и %f для имени файла
+Использовать встроенный архиватор
+$IDD_SIMPLE_SEARCH
+Поиск в текущей области
+Помощь
+Cледующий
+В заголовке
+В тексте письма
+Игнорировать регистр
+Всегда выделять
+Выход
+Образец поиска (Используйте '?' вместо любого символа)
+Расширенный поиск
+Замена 'H' и 'p'
+Результат последнего поиска
+Направление
+Вверх
+Вниз
+С начала
+Мультивыбор
+$IDD_CFG_AREA
+Настройка эхо-областей
+Макс. количество писем (0-без ограничений)
+Дней от создания > (0-без ограничений)
+Дней от получения > (0-без ограничений)
+Добавить
+Удалить
+По умолчанию
+Название:
+Описание:
+AKA:
+Группа:
+Автоматическая очистка области:
+Аплинк:
+Поиск описания
+Область копий
++ дней для непрочитанных
+Изм. группу
+Перенумеровать
+Изменить
+Сохранить
+Отменить
+Помощь
+$IDD_CHOOSE_AUTOSAVE
+Выбор области автосохранения
+Сохранить
+Отменить
+Создать новую область: (имя без 'ASAVED:')
+Создать
+$IDD_STAT_PURGE
+Протокол работы PURGERa
+Сжать все
+Скрыть
+Очистить
+Помощь
+Сжать одну
+$IDD_STAT_MAILER
+Протокол работы мэйлера
+Скрыть
+Запустить прозвонку
+Прервать прозвонку
+Всего:
+Передано:
+CPS:
+Время:
+Состояние:
+Информация об удаленной системе:
+Отменить прозвонку
+Пропустить прозвонку
+Упаковать почту
+Файл:
+Протокол работы мэйлера:
+События:
+Вкл
+Выкл
+Настройка
+Входящие звонки:
+Очередь мэйлера
+Управление мэйлером:
+Помощь
+Всего:
+Принято:
+CPS:
+Время:
+Файл:
+Передача:
+Прием:
+Исходящие звонки:
+Пропустить файл
+Отменить файл
+$IDD_STAT_TOSS
+Протокол работы TOSSERa
+Пуск
+Скрыть
+Очистить
+Помощь
+$IDD_CFG_SOUND
+Озвучивание событий
+Изменить
+По умолчанию
+Путь к файлу WAV:
+Тест
+Стоп
+$IDD_CFG_TEMPLATE
+Шаблоны
+Заменить
+Удалить
+Добавить
+Для новых
+Для ответов
+случайный
+случайный
+Файл ориджинов:
+Приветствие
+Подпись
+Ориджн
+$IDD_WRITMAIL640
+Создание нового письма
+Сохранить
+Вложить
+Отменить
+Кому:
+От кого:
+Тема:
+Область:
+Вложение
+Уведомление
+Напрямую
+Удалить отпр.
+Адр.инф.
+Вставить
+Высота окна:
+Спец.символы
+Отложенное
+Частное
+Помощь
+ФИДО-адрес:
+Выбрать
+$IDD_CFG_HARDWARE
+Комм. устройства
+Нет
+Нечет
+Чет
+Импорт настроек...
+Удалить
+Добавить
+Инициализационные строки:
+Команды настройки перед набором номера:
+Команда набора:
+Команда ответа:
+Параметры соединения:
+Данные:
+Четность:
+Стоп-бит:
+Управление:
+COM-порт:
+Скорость:
+Строка (рег.завис.)
+Прием вызова
+Включить определение ISDN
+Использовать 2 модем вместо CAPI2.0
+Идент. строки\в нодлисте
+включить
+включить
+включить
+включить
+включить
+включить
+$IDD_MODEM_DETECT
+Автоматическое определение модема
+Выбрать
+Отменить
+Пожалуйста, выберите модем из списка:
+Определить
+$IDD_ADDRBOOK
+Адресная книга
+Сохранить
+Отменить
+Добавить
+Удалить
+Адрес:
+Имя:
+Комментарий:
+Заменить
+Для сортировки списка используйте правую кнопку мыши.
+Псевдоним:
+Помощь
+$IDD_ADDRSELECT
+Выбор получателя
+Группы
+Для поиска/фильтра начните набор, выбор - двойным щелчком
+Помощь
+Выбрать
+Отменить
+Добавить данные нодлистов
+Искать
+Фильтровать
+Образец:
+$IDD_FREQ
+Запрос файлов
+Добавить
+Удалить
+Выход
+Адрес станции:
+Имена файлов:
+Запрос файлов:
+Адрес или № телефона
+Список запросов:
+Пароль:
+Информация о станции:
+Файл-листы:
+Добавить
+Удалить
+Данные адреса
+Прозвонка
+Другие адреса
+Поиск п/строки
+Внешний реквестер
+Настройка
+Помощь
+$IDD_CFG_PHONES
+Замена номеров
+Номер начинается с:
+Заменить на:
+Добавить
+Удалить
+Заменить
+Префикс страны:
+заменить на префикс:
+Префикс города:
+Префикс выхода на линию:
+$IDD_CFG_NODELIST
+Адресные листы
+Изменить
+Добавить
+Удалить
+Описание листа:
+Имя листа различий:
+Имя листа:
+это поинт-лист
+Зона для листа (2 для Европы)
+Исключить адреса
+Имена листов не включают расширение файла ( напр. NET5030 )\Файлы листов должны иметь цифровые расширения ( напр. NET5030.123 )
+Адр.книга
+$IDD_CFG_COLOR
+Цвета и шрифты
+Фон
+Текст
+Стрелка
+Цвет
+Игн.регистр
+Добавить
+Удалить
+Фон
+Текст
+Нечет.цитата
+Кладж
+Ориджн
+Выделение
+Окно текста письма:
+Окно списка писем:
+Четн.цитата
+Отображать текст письма в 866-кодировке
+Шрифты:
+Основные цвета:
+Изменить
+Список писем
+Текст (ANSI)
+Текст (OEM)
+Редактор
+Надписи
+Поля
+$IDD_SCRIPT_EDITOR
+Редактор скриптов
+Загрузить
+Сохранить
+Сохранить
+Возможные команды:
+Пользовательские кнопки:
+Макрос № 1
+Макрос № 2
+Макрос № 3
+Макрос № 4
+Функциональные ключи:
+Клавиша 'F2'
+Клавиша 'F3'
+Клавиша 'F4'
+Клавиша 'F5'
+Клавиша 'F6'
+Клавиша 'F7'
+Клавиша 'F8'
+Клавиша 'F9'
+Помощь
+Макрос № 5
+Клавиша 'F11'
+Клавиша 'F12'
+Отменить
+$IDD_STAT_NLCOMP
+Компилятор ноделиста и поинтлиста
+Пуск
+Скрыть
+Очистить
+Проверить
+Помощь
+$IDD_VALUE_AREAFIX
+Информация о текущей подписке
+Послать заказ
+Помощь
+Отменить
+Адрес аплинка:
+Подписанные эхоконференции\(двойной щелчок - отписки, правый - сортировка)
+Текст запроса к эхороботу ('-' - отписка от эхоконференции)
+$IDD_CFG_CARBONS
+Копии писем
+Игн. регистр
+Текст поиска:
+Добавить
+Удалить
+Условия для создания копии:
+Копировать в область: (для LOCALMAIL оставьте пустым):
+Не сканировать следующие области:
+Копировать исходящий нетмэйл в ASAVED: MY_NETMAIL
+Копировать исходящую эхопочту в ASAVED: MY_ECHOMAIL
+Автокопирование:
+Изменить
+Не сохранять исходное
+Автосохранение в область 'ASAVED: GLOBAL'
+$IDD_SELECT_FROM_NODELIST
+Выбор адреса
+OK
+Отменить
+Подсказка: Сортировка по правой кнопке мыши
+$IDD_ECHO_FILELIST
+Подписка на эхоконференции
+Имеющиеся боссы:
+Эхолисты:
+Заказать эхолист
+Отослать изменения
+Измените подписку двойным щелчком (O=заказана, X=заказана у другого босса)
+Подписать все
+Настройка босса
+Настройка областей
+Ручной заказ
+Помощь
+Выход
+$IDD_TRAFFIC
+Статистика трафика областей
+Выход
+Формат:    Получено писем,(Отправлено писем)
+Очистить статистику
+Помощь
+$IDD_QUICK_SETUP
+Начальная настройка станции:
+Данные Вашей станции:
+Язык:
+Имя:
+Фамилия:
+Станция:
+Город:
+Телефон:
+Настройка модема: (исправляйте только в случае необходимости!)
+Строка инициализации:
+Команда набора номера:
+COM-порт:
+Данные Вашего босса (можно заполнить позже)
+Название станции:
+Имя и фамилия:
+Телефон босса:
+FIDO-адрес:
+Ваш поинт-номер:
+Пароль на сессию:
+Тип архиватора:
+Этот диалог содержит все необходимые настройки для связи Вашей станции с боссом. Дальнейшую настройку можно произвести через меню 'Настройка'
+Помощь
+Отменить
+OK
+$IDD_FILELIST_REQUEST
+Запрос файлов по информации файллиста
+Без учета регистра
+С учетом регистра
+Добавить
+Найти:
+Перейти на строку
+В начало
+Вверх
+Вниз
+В конец
+Помощь
+Отменить
+$IDD_ADD_FILELIST
+Распаковка и привязка нового файллиста
+Распаковать
+Поиск
+Импортировать
+Импорт распакованных файллистов:
+ФИДО-адрес станции:\полный адрес\или поиск подстроки
+Отменить
+Помощь
+Путь к упакованным файллистам
+$IDD_CFG_OTHERS
+Дополнительно
+Отключить всплывающие подсказки
+Мигание SCROLL-LOCK, если есть непрочитанные письма
+Преобразование Latin-1 в IBMPC (только для нем.языка)
+Не показывать сообщение об устаревании нодлиста
+Прятать окно командного процессора
+Минимизировать в трей
+$IDD_CFG_SERVICES
+Настройка служб
+Включение менеджера событий при запуске FIPS
+Автоматическое сканирование почты при запуске FIPS
+Паковать исходящую почту
+Удалять отсканированную почту
+Не создавать уведомлений менеджером событий
+Не создавать уведомлений при создании новых областей
+Использовать АКА для маршрута по умолчанию
+Автоматический запуск тоссера по окончании сессии
+Игнорировать ошибки в полях ОТ,КОМУ,ТЕМА
+Обрабатывать скрытые пакеты
+Удалять файлы IMP после обработки
+Отключить обработку TIC
+Не использовать информацию о часовых поясах
+Учитывать часовые пояса при тоссинге
+Учитывать часовые пояса при построении цепочек
+Не обрабатывать группу ASAVED
+Удалять KLUDGE-строки
+Мейлер
+Тоссер
+Пуржер
+$IDD_INFO_ADDRESS
+Информация об адресе:
+Помощь
+Поиск
+Закрыть
+Адрес/Имя:
+Имя:
+Флаги:
+Город:
+Поиск образца
+Время работы:
+$IDD_CFG_TEXTIMP
+Импорт текста
+Клавиши
+Импортируемый файл:
+$IDD_CFG_PERSONAL
+Личные данные
+Дополнительные AKA:
+Внимание: добавляйте только AKA, не указанные в настройке боссов!
+Удалить
+Изменить
+Добавить
+Псевдонимы (никнеймы)
+Список алиасов (список областей через запятую):
+Удалить
+Изменить
+Добавить
+Данные станции и сисопа:
+Имя:
+Фамилия:
+Станция:
+Город:
+Телефон:
+Пароль:
+Установить
+$IDD_MANUAL_AREA_ORDER
+Ручной заказ конференций
+Заказать
+Помощь
+Отменить
+$IDD_CFG_FILTER
+Фильтр отображения почты
+Непрочитанные
+Исходящие
+Не показывать ответы
+Не старше чем
+Имеющие в 'ОТ'
+Имеющие в 'КОМУ'
+Имеющие в 'ТЕМА'
+Применить
+Отменить
+дней
+Инвертировать условие
+Фильтр отсутствует
+Принятые в последней сессии
+По умолчанию
+Отмеченные
+Имеющие в заголовке
+Показать последние
+сообщений
+Неотправляемые
+Помощь
+$IDD_CHAR_CONVERSION
+Специальные преобразования символов
+Символ
+Заменить на:
+Добавить
+Удалить
+Новая замена:
+заменять по умолчанию
+Помощь
+Отменить
+Сохранить
+$IDD_CROSSPOST
+Пересылка писем в другие конференции
+Без изменений текста
+С заголовком (стиль FIPS)
+С заголовком (стиль GoldEdit)
+Выберите одну или несколько областей
+Варианты оформления:
+Следите, чтобы кросспост не нарушал правил конференций\Не пересылайте писем, не представляющих интереса.
+Внимание!
+Отменить
+Отправить
+Помощь
+$IDD_CHOOSE_SAVE
+Файл существует
+Дописать
+Переписать
+Отменить
+$IDD_OUTBOUND_VIEW
+Просмотр папки отправляемых пакетов
+Помощь
+Выход
+Информация о системах-получателях:
+Присоединенные файлы
+Письма
+Запросы файлов
+Управление пакетами почты:
+Удалить пакет
+TIC-Файлы
+$IDD_XFERFLS_EDIT
+Редактирование списка присоединенных файлов
+Отменить
+Сохранить
+Помощь
+$IDD_CFG_PRIVNODES
+Частные узлы
+Добавить
+Удалить
+Изменить
+Телефонный №:
+Описание:
+Имя:
+Адрес:
+$IDD_OUTBOUND_MAIL_VIEW
+Просмотр отправляемого пакета писем
+Выход
+Помощь
+Удалить письмо
+Пакеты:
+Текст письма:
+Письма:
+Удалить пакет
+$IDD_CFG_TWITS
+Фильтр писем
+Образец поиска (разрешены регулярные выражения):
+Удалить письмо, если образец найден в полях:
+ОТ КОГО
+КОМУ
+ТЕМА
+Условия фильтра:
+Добавить
+Удалить
+Действующие фильтры:
+Проверять области (разрешены регулярные выражения, пустое поле - для всех):
+Изменить
+АДРЕС
+$IDD_RECIPIENT_LIST
+Группы получателей
+Добавить
+Добавить
+Изменить
+Изменить
+Удалить
+Удалить
+Имя:
+Адрес:
+Список членов группы:
+Название группы:
+Используйте '::' перед именем группы в качестве получателя при написании писем.
+Импортировать
+$IDD_CHOOSE_IMPORT
+Вставить в письмо
+Отменить
+Текст DOS
+Текст WIN
+UU-кодирование
+Мультимедия-код
+$IDD_EVENTS
+Установки менеджера событий
+включено
+Пн
+Вт
+Ср
+Чт
+Пт
+Сб
+Вс
+Установить
+Удалить
+Добавить
+Помощь
+Вкл. события
+Выкл. события
+Пауза до:
+Пауза после:
+Адрес/Тлф:
+Тлф №2:
+Тлф №3:
+Попыток:
+Условие:
+Событие:
+Время дозвонки (ЧЧ:ММ) :
+Соединение с:
+Условия дозвонки:
+Описание:
+при НЕУДАЧЕ:
+при УСПЕХЕ:
+Завершающие действия (полный путь к скрипту):
+Рестарт событий
+Контроль событий:
+удалить при УСПЕХЕ
+Прервать событие
+Название:
+По умолчанию
+Отчет состояния
+Сохранить
+Отменить
+$IDD_SEARCH_REPLACE
+Поиск и замена
+игнорировать регистр
+Найти текст:
+Заменить на:
+подстановка символов
+Выполнить
+Отменить
+$IDD_CFG_TEXTREPL
+Подстановка текста
+Добавить
+Удалить
+Заменить
+Список замен при наборе:
+Текст:
+Замена:
+$IDD_CFG_PRINT
+Настройка принтера
+Фоновая печать
+Команда печати (если опущена, то используется Notepad)
+Помощь
+По умолчанию
+Отменить
+Сохранить
+Всегда печатать в Win-кодировке
+$IDD_LOGFILE_DISPLAY
+Протоколы служб
+Лог мэйлера
+Лог тоссера
+Лог пуржера
+Лог событий
+Лог нодлиста
+Помощь
+Выход
+$IDD_CFG_LOGFILES
+Протоколирование
+Макс. размер:(kb)
+Сократить до:(kb)
+Вести протокол работы:
+мэйлера
+тоссера
+пуржера
+менеджера событий
+компилятора нодлистов
+$IDD_CFG_INRINGS
+Входящие вызовы
+Звонков до соединения:
+Ожидание соединения:(сек)
+Устройство:
+Модем 1
+Модем 2
+Запретить входящие звонки
+Ограничение частоты вызовов:
+Разрешить, если после последнего звонка прошло:
+сек.
+сек.
+От:
+До:
+Модем 1
+Модем 2
+Действует для:
+$IDD_CFG_INCOME
+Условия
+Пн
+Вт
+Ср
+Чт
+Пт
+Сб
+Вс
+Модем 1
+Модем 2
+ISDN
+EMSI
+BBS
+Добавить
+Удалить
+Изменить
+От:
+До:
+Разрешенное время: (формат: ЧЧ:ММ)
+Разрешенные дни:
+Разрешенное время:
+Доступные устройства:
+Условия приема входящих вызовов:
+Доступные сервисы:
+Голос
+$IDD_EXT_SEARCH
+Расширенный поиск
+не
+Добавить
+Удалить
+Очистить список
+Начать поиск
+Загрузить
+Сохранить
+Выделить
+Сбросить
+Скрыть
+Помощь
+Остановить
+Очистить
+Настройка
+Загрузить
+Сохранить
+объединение по 'И' (иначе - по 'ИЛИ')
+Запрос:
+Найдено: 0
+Ограничение поиска:
+Результаты поиска:
+учитывать регистр
+Изменить
+Копировать результат в область:
+Образец:
+пометить найденные
+отметить как прочтенные
+обрабатывать удаленные
+$IDD_RESULT_FORMAT
+Формат результатов поиска
+Сохранить
+Отменить
+Внимание: Эти настройки только для опытных пользователей!
+Помощь
+По умолчанию
+Применить
+$IDD_CFG_DESIGN
+Оформление
+Путь к скин-файлу:
+Настройка плавающей панели
+Доступные значки
+Используемые значки
+Вверх
+Вниз
+$IDD_CFG_MMEDIA
+Мультимедиа
+Мультимедиа-расширения
+Размер картинок
+Озвучивание событий
+Путь к файлу WAV:
+Включить звуки
+Показывать картинки
+Предупреждать об отсутствующих картинках
+Большой
+Средний
+Маленький
+Минимальный
+По умолчанию
+Тест
+Стоп
+Изменить
+BMP-файлы
+WAV-файлы
+Тест
+Стоп
+$IDD_MM_SELECTION
+Вставка элементов мультимедия в письмо
+.WAV файлы
+Вставить
+Отменить
+Помощь
+Выбор типа элемента:
+Выберите элемент для вставки в письмо:
+Тест
+Проигрывать (или отображать) :
+При выводе письма
+При выводе строки
+.BMP файлы
+По двойному щелчку мыши
+$IDD_ADJUST_SUBJ_LIST
+Настройка окна списка писем
+Положение полей:
+Получатель:
+Тема:
+№ и размер:
+Отменить
+Сохранить
+$IDD_CFG_MAGIC
+Псевдонимы файлов
+Изменить
+Добавить
+Удалить
+Псевдоним:
+Имя файла:
+Пароль:
+...
+Экспорт
+$IDD_CFG_REQPATH
+Файловые папки
+Изменить
+Добавить
+Удалить
+Каталог:
+Пароль:
+...
+Список путей:
+Импорт путей
+$IDD_CFG_REMOTE
+Настройка удаленного монитора
+Сохранить
+Отменить
+Помощь
+Разрешить удаленное управление
+Для удаленного управления необходимо наличие TCP/IP-протокола !
+$IDD_SEARCH_AREA_SELECTION
+Выбор области
+Отменить
+Выбрать
+$IDD_CHANGE_DEST
+Данные вызываемой системы
+Телефонный №:
+Пароль:
+Другие адреса
+Система:
+Использовать
+Отменить
+$IDD_CFG_TICS
+TIC-области
+...
+Изменить
+Добавить
+Удалить
+TIC-область:
+Каталог:
+Аплинк:
+Характеристика области:
+Описание:
+Не удалять полученные файлы из папки входящих
+Замечание:\Если путь к каталогу TIC-области не задан, будет использоваться путь из системной настройки.
+$IDD_HATCHDLG
+Постинг файла в файлэху (HATCH)
+...
+Импорт описания
+Помощь
+Отменить
+Отправить
+Удалить файл после отправки
+Имя файла:
+TIC область:
+Описание:
+Заменить файл:
+$IDD_TIC_EDITOR
+Просмотр файлов, отправляемых по TIC
+Удалить TIC-постинг
+Выход
+$IDD_INADR_FOUND
+Выбор адреса е-мэйл
+Использовать
+Отменить
+Е-мэйл:
+$IDD_START_BROWSER
+Запуск Интернет браузера
+Выполнить
+Отменить
+Помощь
+Интернет-ресурсы найденные в выделенном фрагменте:
+Команда:
+$IDD_SELECT_EV_BOSS
+Выбор босса
+OK
+Отменить
+Доступные боссы:
+$IDD_CFG_COST
+Cтоимость прозвонки
+Добавить
+Удалить
+Изменить
+Добавить
+Удалить
+Изменить
+Включить расчет стоимости
+Имеющиеся базовые тарифы:
+Название:
+Цена единицы (хх.уу):
+Валюта:
+Рабочие дни:
+Выходные дни:
+Задержка для сообщения CONNECT (сек)
+Имеющиеся стоимости прозвонок:
+Тлф. номер:
+Базовый тариф:
+Базовые тарифы
+Стоимости прозвонок
+(формат:  Интервал=Секунд-в-Единице, пример:  0:00-5:00=240 5:00-9:00=150)
+$IDD_COSTANAL
+Расчет стоимости сеансов
+Выход
+Помощь
+Показать интервал
+Сохранить по умолчанию
+Начало (дд.мм.гггг):
+Конец: (дд.мм.гггг)
+Данные для расчета:
+Период анализа
+Показать все
+Очистить лог-файл
+Не показывать 0.0
+Показать сегодня
+Записать в файл
+$IDD_INOUT_HIST
+Протокол входящих/исходящих звонков
+Входящие звонки
+Исходящие звонки
+Выход
+$IDD_CFG_FAX
+Настройка факсов
+Не преобразовывать в формат AWD
+Не удалять исходные .FAX-файлы
+Каталог для входящих факсов:
+Команда для просмотра факсов:
+Команда для исходных файлов:
+Скорость соединения 19200 бод для факсов
+$IDD_CFG_DIRS
+Программы и пути
+Базовая папка:
+Почтовая база:
+Сервисные утилиты:
+Нод- и поинт-листы:
+Входящая почта:
+Исходящая почта:
+Настройка путей системы:
+Базовый для TIC:
+Мультимедия:
+Использовать базовый путь как корневой
+Интернет браузер ('%s' используется в качестве аргумента)
+Командная строка:
+Программа печати (если пустое, будет использоваться Notepad)
+Командная строка:
+выполнять в фоне
+кодировка ANSI
+$IDD_BBS_LEVELS
+Уровни доступа
+Добавить
+Установить
+Удалить
+Установленные уровни доступа:
+Уровень доступа:
+Время на линии:
+Комментарий:
+$IDD_BBS_MAIN
+Настройка BBS
+Тест звуков
+Язык для начального экрана BBS:
+Уровень доступа для нового пользователя:
+Звук вызова сисопа на разговор
+...
+$IDD_BBS_USERS
+Пользователи
+Текущие пользователи:
+Добавить
+Изменить
+Удалить
+Имя:
+Уровень доступа:
+Улица:
+Город:
+Голосовой телефон:
+Модем/Факс:
+Строк на страницу:
+Использовать ANSI-цвета
+Язык:
+Группы:
+Пароль:
+Осталось времени:
+$IDD_BBS_AREA
+Файловые области
+...
+...
+Удалить
+Добавить
+Установить
+Путь к области:
+Доступные области:
+Описание области:
+Мин.уровень доступа:
+Групповые флаги:
+Список файлов:
+Импорт путей
+$IDD_CFG_GATE
+Шаблон Интернет
+Кому:
+Адрес шлюза:
+Тема:
+Содержание:
+Шаблон для новых писем
+Для детального описания макросов нажмите кнопку помощи
+Включить макросы формирования почты для Интернет
+Для ответов в Интернет используйте правую кнопку мыши -> Найти 'e-mail адрес' в диалоге создания письма
+$IDD_TIMEOUTS
+Параметры соединений
+Счетчик попыток
+Попыток на один номер
+Время ожидания (сек)
+Максимальное число попыток дозвона
+за
+сек
+При переполнении счетчика, задержка на
+сек
+Включить контроль дозвонки
+Сброс счетчика
+Таймауты соединений
+Прерывания дозвонки
+$IDD_SELECT_MODEM
+Выбор модема
+Выбрать
+Отменить
+Выберите модем из списка
+$IDD_REPOST_FOLDER
+Папка репостов
+Выход
+Репост сейчас
+Удалить репост
+Помощь
+Список репостов:
+$IDD_CFG_EXTFREQ
+Настройка внешнего файл-реквестера
+Команда вызова внешнего реквестера (без пути)
+16-битная программа
+Отменить
+Сохранить
+$IDD_FREQ_SELECT
+Выбор файлов для запроса
+Выбрать
+Отменить
+Помощь
+$IDD_CHANGE_HEADER
+Выбор шаблона заголовка
+Помощь
+Отменить
+Выбрать
+$IDD_CHANGE_FOOTER
+Выбор шаблона подписи
+Помощь
+Отменить
+Выбрать
+$IDD_MAIN_WINDOW
+FIPS/2001
+От:
+Кому:
+Тема:
+А
+С
+У
+$IDD_CFG_KLUDGES
+Обработка кладжей
+Добавлять кладжи:
+Скрывать кладжи:
+Добавить
+Удалить
+Добавить
+Удалить
+Все
+Выделенные
+Изменить
+Изменить
+Скрыть кладжи
+$IDD_MAIN_CONFIG
+Настройки FIPS
+ОК
+Отмена
+Применить
+Помощь
+$IDD_GUARD
+Введите пароль:
+ОК
+Отмена
+$IDD_CFG_MAILEDITOR
+Редактор
+Правая граница:
+Размер табуляции:
+Шрифт
+Цвета:
+Автоотступ
+Использовать псевдографику
+Показывать табуляции и пробелы
+Переносить слова
+Равные табуляции
+Заменять табуляции на пробелы
+Выделять пометки цветом
+$IDD_CODESEL
+Кодировка
+Кодировка DOS
+Кодировка WIN
+
+@SECTION ENGLISH
+
+$IDD_CHOOSE_MARK
+Execute for:
+Cancel
+Selected mails (red mark)
+Marked mails (inverted mark)
+Selected and Marked mails
+$IDD_MANUAL_POLL
+Poll a remote system
+Call
+Cancel
+System: (name or FIDO-address)
+To make a call to your BOSS system please use then boss setup.\Use this dialog only if you want to call a remote system.
+$IDD_CFG_BOSS
+Bosses (uplinks)
+Add '+' when subscribe
+Add '+' when subscribe
+Set
+Add
+Delete
+System name:
+Boss name:
+Phone number:
+My point number:
+Session password:
+Password:
+Name:
+Packed name:
+Packer type:
+Unpacked name:
+Echolist filename:
+Name:
+Password:
+Fileecho bot (usually AllFix or FileFix):
+File list (boss filelist):
+Packed name:
+Unpacked name:
+New files list (usually NewFiles):
+Echo bot (usually Areafix):
+Basic settings:
+Boss list for current system:
+Boss name:
+Arcmail password:
+Routing:
+Don't create empty Poll-packet
+Don't put this boss into mailer queue
+To dial with CAPI 2.0 use '$'-preffix
+no HYDRA
+no ZMODEM
+$IDD_REPOST
+Repost
+Select
+Cancel
+Through
+days
+Through 1 day
+Through 3 days
+Through week
+Through month
+$IDD_AREASELECT
+New area selection
+Areas traffic
+User defined display
+Up
+Down
+Comment
+Add
+Remove
+Restore
+Save
+Help
+Cancel
+OK
+$IDD_CFG_EDITOR
+Mail Editor
+Golded-style cursor keys
+Hide leading empty lines
+Immediate message update
+Enable colored reader
+Autoscroll subject list
+First non-read mail
+Last already read mail
+Structured subject display (ALT-T)
+On area change show:
+Enable alternate-colored quotes
+Use ORIGIN in Netmail
+Max. number of UUE lines in one mail (10-1000 lines)
+clear                              TEARLINE:
+Width of mail editor dialog window (20-100 chars)
+Display area selection after last mail
+Repeate quote after breaking line
+Multiselection in mail navigation with SPACE
+Preferable nodelist in sender location search
+Don't ask for detailed name search
+Don't insert 'RE:' in replyes subject
+Filter 'RE:' in subjects
+Right margin:
+Editor Font
+Auto indent
+Use pseudographics
+Show tabs and spaces
+Word wrap
+Equal tabs
+Replace tabs with spaces
+Use color attributes
+$IDD_CFG_PACKER
+Packers configuration
+Set
+Add
+Delete
+Default
+Compression command:
+Decompression command:
+Packer name:
+Packer description
+First 10 bytes (in Hex) to detect this archiver.\Leave blank to ignore specific byte
+Use %p for destination path and %f for filename
+Use built-in packer
+$IDD_SIMPLE_SEARCH
+Search in current area
+Help
+Find next
+in Headers
+in Mailtext
+Ignore Case
+Ever highlite
+Exit
+Search pattern (Use '?' as a Wildcard)
+Extended Search
+User convertion
+Last search result
+Direction
+Upward
+Downward
+Everywhere
+Multiselection
+$IDD_CFG_AREA
+Echo-areas setup
+Max. number of mails (0-no limits)
+Days from creation greater (0-no limits)
+Days from reciption greater (0-no limits)
+Set/Add
+Delete
+Set defaults...
+Areatag:
+Area description:
+AKA:
+Group:
+Purge area with criteria:
+Uplink:
+Look for description
+CarbonCopy area
++ Add days for non-read
+Change areas group
+Renumber
+Change
+Save
+Cancel
+Help
+$IDD_CHOOSE_AUTOSAVE
+Autosave area selection
+Save
+Cancel
+Create new area: (name without 'ASAVED:')
+Create
+$IDD_STAT_PURGE
+Purge log
+Purge All
+Hide
+Clear log
+Help
+Purge One
+$IDD_STAT_MAILER
+Mailer log
+Hide
+Start call
+Abort call
+Total:
+Sent:
+CPS:
+Time:
+Status:
+Remote info:
+Remove call
+Skip call
+Rescan
+File:
+Session info:
+Events:
+Start
+Stop
+Setup
+Incoming calls:
+Mailer queue
+Mailer control:
+Help
+Total:
+Recieved:
+CPS:
+Time:
+File:
+Sending:
+Recieving:
+Outgoing calls:
+Skip file
+Remove file
+$IDD_STAT_TOSS
+Tosser log
+Start
+Hide
+Clear log
+Help
+$IDD_CFG_SOUND
+Events sounds
+Change
+Default
+WAV-file path
+Test
+Stop
+$IDD_CFG_TEMPLATE
+Templates
+Change
+Delete
+Add
+For new
+For quote
+random
+random
+Origins file:
+Header
+Footer
+Origin
+$IDD_WRITMAIL640
+New mail
+Save
+Append
+Cancel
+To:
+From:
+Subject:
+Area:
+Attachment
+Request recipt
+Send direct
+Kill after send
+Address info
+Import
+Height of dialog:
+Umlaut conv.
+Frozen
+Private
+Help
+FIDO-address
+Select
+$IDD_CFG_HARDWARE
+Comm. devices
+None
+Odd
+Even
+Import settings...
+Delete
+Add
+Init strings:
+Communication parameters
+Dial command:
+Answer command:
+Init strings before dialing
+Data-bits:
+Parity:
+Stop-bits:
+Flow control:
+COM-port:
+Baud:
+String (case sens.)
+Call Acception:
+Enable ISDN Line Detection
+Use 2nd Modem Config instead of CAPI2.0
+Identification lines in nodelist
+use
+use
+use
+use
+use
+use
+$IDD_MODEM_DETECT
+Modem selection
+Select
+Cancel
+Select the modem to use:
+Define
+$IDD_ADDRBOOK
+Address book
+Save
+Cancel
+Add
+Delete
+Address:
+Name:
+Comment:
+Change
+Use right mouse click to sort entries.
+Nickname:
+Help
+$IDD_ADDRSELECT
+Address selection
+Groups
+Start Search/filter by typing name. Doubleclick to select
+Help
+Select
+Cancel
+Add Nodelist data
+Search
+Filter
+Pattern:
+$IDD_FREQ
+File requests
+Add
+Delete
+Exit
+Address:
+Filenames:
+File requests
+Address or tel.number
+Requests list:
+Password:
+System information
+File-lists:
+Add
+Delete
+Address info
+Shedule
+Other lines
+Pattern search
+External requester
+Config
+Help
+$IDD_CFG_PHONES
+Phones replacements
+Number begins with:
+Replace to:
+Add
+Delete
+Change
+Country prefix:
+translate to:
+City prefix:
+Office out prefix:
+$IDD_CFG_NODELIST
+Node and pointlists
+Change
+Add
+Delete
+List description:
+Diff-list name:
+List name:
+this is a point-list
+Zone for this list (e.g. 2 for Europe)
+Exclude systems
+List names don't include file extension (e.g. NET5030)\File lists must have numeric extensions (e.g. NET5030.123 )
+Address book
+$IDD_CFG_COLOR
+Colors and Fonts
+Background
+Text
+Arrow
+Basic colors:
+ignore case
+Add
+Delete
+Background
+Text
+Odd quote
+Kludge
+Origin
+Bold
+Mail Text Window:
+Subjects List Window:
+Even quote
+Use OEM (DOS) coding for mail text
+Fonts:
+Main colors:
+Change
+Subjects List
+Mailtext (ANSI)
+Mailtext (OEM)
+Editor
+Labels
+Fields
+$IDD_SCRIPT_EDITOR
+Scripts editor
+Load
+Save
+Save
+Available commands:
+User keys:
+Script № 1
+Script № 2
+Script № 3
+Script № 4
+Function keys:
+Key 'F2'
+Key 'F3'
+Key 'F4'
+Key 'F5'
+Key 'F6'
+Key 'F7'
+Key 'F8'
+Key 'F9'
+Help
+Script № 5
+Key 'F11'
+Key 'F12'
+Cancel
+$IDD_STAT_NLCOMP
+Nod and point-lists compiler
+Start
+Hide
+Clear
+Check
+Help
+$IDD_VALUE_AREAFIX
+Areafix subscriptions
+Send request
+Help
+Cancel
+Uplink address:
+Linked echo conference, double click to unlink, right click - sort
+Request text (prefix '-' to unlink echoes)
+$IDD_CFG_CARBONS
+Carbon copy
+Ignore case
+Search pattern:
+Add
+Delete
+Copiing conditions:
+Copy to area: (leave blank to copy in LOCALMAIL):
+Do not scan the following areas:
+Copy sent netmails to 'ASAVED: MY_NETMAIL'
+Copy sent echomails to 'ASAVED: MY_ECHOMAIL'
+Autocopy:
+Change
+Don't save original
+Autosave to area 'ASAVED: GLOBAL'
+$IDD_SELECT_FROM_NODELIST
+Address selection
+OK
+Cancel
+Hint: Right click to sort list
+$IDD_ECHO_FILELIST
+Echoes subscription
+Available bosses:
+Echolists:
+Query echolist
+Send changes
+Double click to mark/unmark (O=subscribed, X=subscribed from another boss)
+Subscribe all
+Boss config
+Areas config
+Manual order
+Help
+Exit
+$IDD_TRAFFIC
+Areas traffic logs
+Exit
+Format:    Recieved mails (Sent mails)
+Clear log
+Help
+$IDD_QUICK_SETUP
+Initial station setup:
+Your station data:
+Language:
+First name:
+Second name:
+Station name:
+Location:
+Phone:
+Modem setup:
+Init string:
+Dial command:
+COM-port:
+Your boss data (can fill later)
+Station name:
+First and second name:
+Phone:
+FIDO-address:
+Your point-number:
+Session password:
+Archiver type:
+This dialog contains all necessary data to link with your boss. Further configuration you can do in menu "Settings"
+Help
+Cancel
+OK
+$IDD_FILELIST_REQUEST
+File request from filelist
+Case insensitive
+Case sensitive
+Add
+Find:
+Goto line
+To top
+Page Up
+Page Down
+To bottom
+Help
+Cancel
+$IDD_ADD_FILELIST
+Importing filelist
+Unpack
+Search
+Import
+Import unpacked lists:
+FIDO-address:\full address\or search substring
+Cancel
+Help
+Path to packed filists
+$IDD_CFG_OTHERS
+Other's config
+Disable tooltips
+Blink SCROLL-LOCK, if there are unread mails
+Convert Latin-1 to IBMPC (only for german)
+Don't remind about old nodelist
+Hide command processor window
+Minimize to tray
+$IDD_CFG_SERVICES
+Services
+Enable events on startup
+Rescan new mails on startup
+Pack outbound mails
+Purge scanned mails
+Don't generate event-info mails
+Don't generate info mails when creating new area
+Use AKA uplink in default routing
+Start tosser after mailer session
+Ignore errors in fields FROM,TO,SUBJECT
+Process hidden packets
+Delete IMP-files after parsing
+Disable TIC processing
+Don't use timezone information
+Use timezone information while tossing
+Use timezone information while displaying chains 
+Don't process ASAVED
+Delete KLUDGEs
+Mailer
+Tosser
+Purger
+$IDD_INFO_ADDRESS
+Address info
+Help
+Find
+Close
+Address/Name:
+Name:
+Flags:
+Location:
+Pattern search
+Worktime:
+$IDD_CFG_TEXTIMP
+Text import
+Keys
+Importing file:
+$IDD_CFG_PERSONAL
+Personal data
+Additional AKA's:
+Attention: add only AKA's, different from ones in boss setup
+Delete
+Change
+Add
+Aliases (Nicknames)
+Aliases list (comma delimited areas list)
+Delete
+Change
+Add
+System and sysop data:
+First Name:
+Last Name:
+System Name:
+Location:
+Phone:
+Password:
+Set
+$IDD_MANUAL_AREA_ORDER
+Manual echoes subscription
+Subscript
+Help
+Cancel
+$IDD_CFG_FILTER
+Reader display filter
+Unread mails
+Outgoing mails
+No replys
+Not older than
+Contains in 'FROM'
+Contains in 'TO'
+Contains in 'SUBJ'
+Use
+Cancel
+days
+Inverse filter
+No filter
+New mails from last poll
+Default
+Отмеченные
+Header only
+Show last
+messages
+Frozen
+Help
+$IDD_CHAR_CONVERSION
+Special conversion
+Char
+Replace to:
+Add
+Delete
+New replacement:
+replace by default
+Help
+Cancel
+Save
+$IDD_CROSSPOST
+Crosspost mail to other conferences
+Witnout changes
+With header (FIPS style)
+With header (GoldEdit style)
+Choose one or more destination areas
+Crosspost styles:
+Be sure not violate the rules of destination areas\Don't crosspost to echoes, where your mail isn't of interest.
+Attention!
+Cancel
+Send
+Help
+$IDD_CHOOSE_SAVE
+File exists
+Append
+Replace
+Cancel
+$IDD_OUTBOUND_VIEW
+Outbound folder view
+Help
+Close
+Recipients info:
+Attached files
+Mails
+File requests
+Mail packages management:
+Delete package
+TIC-files
+$IDD_XFERFLS_EDIT
+Editing list of attached files
+Cancel
+Save
+Help
+$IDD_CFG_PRIVNODES
+Private nodes
+Add
+Delete
+Change
+Phone number:
+Description:
+Name:
+Address:
+$IDD_OUTBOUND_MAIL_VIEW
+Mail package view
+Close
+Help
+Delete mail
+Packages:
+Mail text:
+Mails:
+Delete package
+$IDD_CFG_TWITS
+Twit-filter
+Search pattern (available regular expressions):
+Delete mail if found in fields:
+FROM
+TO
+SUBJECT
+New twit filter:
+Add
+Delete
+Active twit filters:
+Use in area (available regular expressions):
+Change
+FROM-ADDR
+$IDD_RECIPIENT_LIST
+Recipients list
+Add
+Add
+Change
+Change
+Delete
+Delete
+Name:
+Address:
+Group members list:
+Group name:
+Hint: Preffix groupname with '::' while using as recipient in mail editor.
+Import
+$IDD_CHOOSE_IMPORT
+Insert
+Cancel
+OEM Text
+ANSI Text
+UU-coding
+Multimedia code
+$IDD_EVENTS
+Event manager setup
+active
+Mo
+Tu
+We
+Th
+Fr
+Sa
+Su
+Set
+Delete
+Add
+Help
+Enable events
+Disable events
+Pause till:
+Pause after:
+Address:
+Phone.№ 2:
+Phone.№ 3:
+Tries:
+Condition:
+Event:
+Call time (HH:MM) :
+Connect to:
+Call conditions:
+Description:
+if FAIL:
+if OK:
+After-session action (full script-path):
+Restart events
+Events control:
+delete if OK
+Break event
+Name:
+Default
+Status report
+Save
+Cancel
+$IDD_SEARCH_REPLACE
+Search and Replace
+ignore case
+Search pattern:
+Replace to:
+chars substitution
+Apply
+Cancel
+$IDD_CFG_TEXTREPL
+Text Replacements
+Add
+Delete
+Change
+List of replacements:
+Pattern:
+Replacement:
+$IDD_CFG_PRINT
+Printer setup
+Background printing
+Print command (if omitted, then Notepad used)
+Help
+Default
+Cancel
+Save
+Always use ANSI-coding
+$IDD_LOGFILE_DISPLAY
+Services Log-files
+Mailer Log
+Tosser Log
+Purger Log
+Events Log
+Nodelist Log
+Help
+Exit
+$IDD_CFG_LOGFILES
+Log-files
+Maximum size:(kb)
+Shorten to:(kb)
+Enable log-file for:
+Mailer
+Tosser
+Purger
+Events manager
+Nodelist compiler
+$IDD_CFG_INRINGS
+Incoming Calls
+Nr of rings to accept::
+Time to detect new call: (sec)
+Device:
+Modem 1
+Modem 2
+Disable incoming calls
+Line splitter:
+Accept calls, if interval after last call is:
+sec.
+sec.
+From:
+To:
+Modem 1
+Modem 2
+Used for:
+$IDD_CFG_INCOME
+Conditions
+Mo
+Tu
+We
+Th
+Fr
+Sa
+Su
+Modem 1
+Modem 2
+ISDN
+EMSI
+BBS
+Add
+Delete
+Change
+From:
+To:
+Time:  (HH:MM)
+Enabled days::
+Current periods:
+Device:
+Incoming conditions:
+Accept services:
+Voice
+$IDD_EXT_SEARCH
+Extended search
+not
+Add
+Delete
+Clear list
+Start search
+Load
+Save
+Select
+Reset
+Hide
+Help
+Stop
+Clear
+Setup
+Load
+Save
+'AND' conjunction (otherwise - 'OR')
+Query:
+Found: 0
+Limit search to:
+Search results:
+case sensitive
+Change
+Copy result to area:
+Sample:
+user-mark found mails
+mark found as read
+proceed deleted
+$IDD_RESULT_FORMAT
+Format of search results
+Save
+Cancel
+(This settings are for power users!)
+Help
+Default
+Use
+$IDD_CFG_DESIGN
+Design settings
+Skin-file path:
+Floating toolbar setup
+Available icons
+Used icons
+Up
+Down
+$IDD_CFG_MMEDIA
+Multimedia
+Multimedia extensions
+Pictures size
+Events sounds
+WAV-file path
+Enable sounds
+Show pictures
+Warning about absent elements
+Large
+Normal
+Small
+Tiny
+Default
+Test
+Stop
+Change
+BMP Files
+WAV Files
+Play
+Stop
+$IDD_MM_SELECTION
+Multimedia elements selection
+.WAV files
+Insert
+Cancel
+Help
+Type selection:
+Select element for insertion:
+Test
+Play (or show) :
+While mail output
+While line output
+.BMP files
+By double click
+$IDD_ADJUST_SUBJ_LIST
+Mailview window setup
+Fields placement:
+Recipient:
+Subject:
+№ and size:
+Cancel
+Save
+$IDD_CFG_MAGIC
+Magic Names
+Change
+Add
+Delete
+Magic:
+File path:
+Password:
+...
+Export
+$IDD_CFG_REQPATH
+File Folders
+Change
+Add
+Delete
+Folder:
+Password:
+...
+List of Pathes:
+Path Import
+$IDD_CFG_REMOTE
+Rempte monitor setup
+Save
+Cancel
+Help
+Enable remote monitor
+(You need installed TCP/IP-protocols for remoting!)
+$IDD_SEARCH_AREA_SELECTION
+Area selection
+Cancel
+Select
+$IDD_CHANGE_DEST
+Calling system data
+Phone:
+Password:
+Other addresses
+System:
+Use
+Cancel
+$IDD_CFG_TICS
+TIC-areas
+...
+Change
+Add
+Delete
+TIC-area:
+Folder:
+Uplink:
+Area settings:
+Description:
+Do not delete received files from Inbound
+Note:\If area path is empty, the path definded in the system setup will be used.
+$IDD_HATCHDLG
+File posting to fileecho (HATCH)
+...
+Import description
+Help
+Cancel
+Send
+Delete file after sending
+File name:
+TIC-area:
+Description:
+Replace file:
+$IDD_TIC_EDITOR
+Просмотр файлов, отправляемых по TIC
+Delete TIC-posting
+Exit
+$IDD_INADR_FOUND
+Выбор адреса е-мэйл
+Использовать
+Cancel
+Е-мэйл:
+$IDD_START_BROWSER
+Start Internet Browser
+Go
+Cancel
+Help
+Internet resources found in your selection:
+Command:
+$IDD_SELECT_EV_BOSS
+Boss selection
+OK
+Cancel
+Available bosses:
+$IDD_CFG_COST
+Phone costs
+Add
+Delete
+Change
+Add
+Delete
+Change
+Enable cost calculation
+Available base costs:
+Name:
+Cost of Unit (xx.yy):
+Currency:
+Workdays:
+Weekend:
+Delay to CONNECT message (sec)
+Current phone costs:
+Phone:
+Base cost:
+(format:   Interval=Seconds-in-Unit, example:   0:00-5:00=240 5:00-9:00=150)
+$IDD_COSTANAL
+Расчет стоимости сеансов
+Выход
+Help
+Показать интервал
+Save по умолчанию
+Начало (дд.мм.гггг):
+Конец: (дд.мм.гггг)
+Данные для расчета:
+Период анализа
+Показать все
+Очистить лог-файл
+Не показывать 0.0
+Показать сегодня
+Записать в файл
+$IDD_INOUT_HIST
+Incoming/outgoing calls log
+Incoming calls
+Outgoing calls
+Exit
+$IDD_CFG_FAX
+Faxes setup
+Don't convert into AWD-format
+Don't delete original .FAX-files
+Incoming faxes folder:
+Command line to view converted faxes:
+Command line to view raw faxes:
+Fallback to 19200 baud
+$IDD_CFG_DIRS
+Programs and folders
+Base FIPS folder:
+Mail base folder:
+Utilities folder:
+Nodelists folder:
+Inbound folder:
+Outbound folder:
+Location of system folders:
+TIC-files base folder:
+Multimedia folder:
+Use Base folder path as root
+Internet Browser setup ('%s' used as argument)
+Command line:
+Printing program (if is blank, Notepad will be used)
+Command line:
+Execute hidden
+Print in ANSI
+$IDD_BBS_LEVELS
+Access levels
+Add
+Change
+Delete
+Used access levels:
+Access level:
+Online time:
+Comment:
+$IDD_BBS_MAIN
+BBS Setup
+Sound test
+BBS startup dialog language:
+New user access level:
+Call-Sysop sound
+...
+$IDD_BBS_USERS
+Users
+Registered users:
+Add
+Change
+Delete
+Name:
+Access level:
+Street:
+City:
+Voice phone:
+Modem/Fax:
+Lines per page:
+Use ANSI-colors
+Language:
+Groups:
+Password:
+Time left:
+$IDD_BBS_AREA
+Download areas
+...
+...
+Delete
+Add
+Set
+Path to area:
+Available areas:
+Area description:
+Minimal access level:
+Group flags:
+Area filelist:
+Import
+$IDD_CFG_GATE
+Internet template
+To:
+Gate address:
+Subject:
+Text:
+New mail template
+Use Help to read more about macroses
+Enable internet gate macroses
+Use context menu (right click) in mail editor to search e-mail addresses
+$IDD_TIMEOUTS
+Connections settings
+Try counter
+Tries per entry
+Wait time (sec)
+Allow to dial maximum
+per
+sec
+If overflow, delay each next call
+sec
+Enable emergency call break
+Reset counter
+Timeouts
+Emergency dial-break
+$IDD_SELECT_MODEM
+Modem selection
+Select
+Cancel
+Available modems
+$IDD_REPOST_FOLDER
+Repost folder
+Exit
+Repost now
+Delete repost
+Help
+List of reposts:
+$IDD_CFG_EXTFREQ
+External file-requester setup
+Command line (without path)
+16-bits programm
+Cancel
+Save
+$IDD_FREQ_SELECT
+Request files selection
+Select
+Cancel
+Help
+$IDD_CHANGE_HEADER
+Header template selection
+Help
+Cancel
+Select
+$IDD_CHANGE_FOOTER
+Footer template selection
+Help
+Cancel
+Select
+$IDD_MAIN_WINDOW
+FIPS/Phoenix
+From:
+To:
+Subject:
+A
+H
+D
+$IDD_CFG_KLUDGES
+Kludges processing
+Add kludges:
+Hide kludges:
+Add
+Delete
+Add
+Delete
+All
+Selected
+Change
+Change
+Hide kludges
+$IDD_MAIN_CONFIG
+FIPS Setup
+OK
+Cancel
+Apply
+Help
+$IDD_GUARD
+Enter password:
+ОК
+Cancel
+$IDD_CFG_MAILEDITOR
+Mail editor
+Right margin:
+Tab width:
+Font
+Colors:
+Auto indent
+Use pseudographics
+Show tabs and spaces
+Word wrap
+Equal tabs
+Replace tabs with spaces
+Use color attributes
+$IDD_CODESEL
+Coding
+DOS coding
+WIN coding
+
+@SECTION GERMAN
+
+$IDD_LIGHT_DIALOG
+FIPS/2000
+Area
+From:
+To:
+Subject:
+C:
+R:
+$IDD_CHOOSE_MARK
+Durchfьhren fьr:
+Cancel
+Selektierten Nachrichten (die mit rotem Viereck)
+Markierte Nachrichten (in der schmalen Listbox)
+Beiden
+$IDD_MANUAL_POLL
+Bei einem bestimmten System anrufen
+OK
+Abbruch
+System:(Name oder FidoAdr.)
+Bitte benutzen sie das BOSS Setup falls ein BOSS-Poll erfolgen soll.\Dieser Dialog ist fuer einfache Anrufe bei einem 'fremden' System.
+$IDD_CFG_BOSS
+Bosses (uplinks)
+Addiere '+' Zeichen
+Addiere '+' Zeichen
+Ьbernehmen
+Hinzufьgen
+Loeschen
+System Name:
+Fido Adresse:
+Telefon Nummer:
+Meine Pointadresse:
+Session Passwort:
+Passwort:
+Name:
+Gepackt:
+PackerTyp:
+Ungepackt:
+Echolist Dateiname:
+Name:
+Passwort:
+FileFix:
+Name der FileList:
+Gepackt:
+Ungepackt:
+Name der 'Newfiles':
+Areafix:
+Basis:
+Bereits konfigurierte Boss Systeme:
+Sysop Name:
+Arcmail  Passwort:
+Routing Schema:	
+Kein Pollpaket erstellen
+Nicht in Mailerqueue aufnehmen
+Fьr ISDN (CAPI 2.0) erstes '$'
+without HYDRA
+without ZMODEM
+$IDD_REPOST
+Repost
+Select
+Cancel
+Through
+days
+Through 1 day
+Through 3 days
+Through week
+Through month
+$IDD_AREASELECT
+Auswahl eines Nachrichtenbereiches
+Area Statistik
+Benutzer definiert
+Auf
+Ab
+Kommentar
+Add
+Delete
+Restore
+Save
+Help
+Cancel
+OK
+$IDD_CFG_EDITOR
+Mail Editor
+Cursor Tasten wie Golded
+Verstecke fьhrende Leerzeilen
+Sofortige Nachrichtenanzeige
+Farbiger Mailbetrachter
+AutoScroll Subject Liste
+Erste nicht gelesene Mail
+Letzte gelesene Mail
+Strukturierte Subject Darstellung (Umschalten mit ALT-T)
+Zeige bei Area Wechsel
+Enable alternate-colored quotes
+[G]Use ORIGIN in Netmail
+[G]Max. number of UUE lines in one mail (10-1000 lines)
+[G]clear                    TEARLINE:
+[G]Width of maileditor dialog window (20-100 chars)
+Area Auswahl nach letzter Mail
+[G]Repeat quote after breaking line
+[G]Multiselection in mail navigation with SPACE
+[G]Preferable nodelist in sender location search
+Nicht nach Teilnamen suchen
+Kein RE: beim Beantworten einer Nachricht
+'Re:' in Subject filtern
+Right margin:
+Editor Font
+Auto indent
+Use pseudographics
+Show tabs and spaces
+Word wrap
+Equal tabs
+Replace tabs with spaces
+Use color attributes
+$IDD_CFG_PACKER
+Packer Konfigurationen
+Ьbernahme
+Hinzufьgen
+Lцschen
+Default
+Einpack Befehl:
+Auspack Befehl:
+Name:
+Packer Beschreibung
+Die ersten 10 Byte um diesen Packer zu erkennen.\( Wenn leer wird dieses Byte ignoriert)
+Benutzen sie %p fьr den Zielpfad und %f fьr den Filename
+Enable Built-In packer
+$IDD_SIMPLE_SEARCH
+Suchen
+Hilfe
+Suche Nдchsten
+Im Mailkopf
+Nachrichten text
+Gr/Kl ignorieren
+Immer markieren
+Exit
+Search pattern ('?' kann als Platzhalter verwendet werden)
+Erweit. Suche
+User convertion
+Last search result
+Direction
+Upward
+Downward
+Everywhere
+Multiselection
+$IDD_CFG_AREA
+Nachrichtenbereiche
+Max. Anzahl (0-no limits)
+Tage Alter Erstellung (0-no limits)
+Tage Alter Empfang (0-no limits)
+Hinzuf.
+Lцschen
+Set Defaults...
+Area Identifikation:
+Beschreibung:
+AKA:
+Gruppe:
+Lцschen alter Mails nach Kriterium:
+Uplink:
+Suchen
+Dies ist eine CarbonCopy Area
++ Tage wenn nicht gelesen
+Mehrere Areas auf einmal verдndern
+[G]Renumber
+Setzen
+Save
+Cancel
+Help
+$IDD_CHOOSE_AUTOSAVE
+Bitte eine Autosave Area zum Abspeichern wдhlen
+Speichern
+Abbruch
+Neuen Bereich erstellen: (Bitte Bezeichnung ohne 'ASAVED:' eingeben)
+Erstellen
+$IDD_STAT_PURGE
+Informationen zum Purger
+Puge All
+Verstecken
+Lцschen
+Hilfe
+Purge One
+$IDD_STAT_MAILER
+Informationen zum Mailer
+Verstecken
+Start
+Abbruch
+Total:
+Ьbertragen:
+CPS:
+Zeit
+Status:
+Info ьber das verbundene System:
+Lцschen
+ьberspr.
+Neu Scannen
+Datei:
+Sitzungsprotokoll:
+Zeige:
+Ein
+Aus
+Setup
+Anrufannahme:
+Mailer Queue
+Hilfe
+Total:
+Ьbertragen:
+CPS:
+Zeit
+Datei:
+Sending:
+Recieving:
+Verbindungen:
+[G]Skip File
+[G]Remove File
+$IDD_STAT_TOSS DIALOG
+Informationen zum Tosser
+Start
+Verstecken
+Lцschen
+Hilfe
+$IDD_CFG_SOUND
+Systemklдnge
+Ьbernehmen
+Default
+Pfad einer Klangdatei:
+Test
+Stop
+$IDD_CFG_TEMPLATE
+Editorschablonen
+setze
+lцschen
+hinzufьgen
+Default Neu
+Default Antw.
+Zufall
+Zufall
+[G]Origins file:
+Header
+Fuss
+Origin
+$IDD_WRITMAIL640
+Eine neue Mail erstellen oder verдndern
+Speichern
+Datei anhдng.
+Cancel
+To:
+From:
+Subject:
+Area:
+Dateianlage
+Empf. Bestдtig.
+Direkt send.
+Lцsch.n.Senden
+Address Info
+Import
+Import Konf.
+GrцЯe des Dialogs
+Umlautkonvertier.
+nicht sofort Sc.
+Privat
+Hilfe
+FIDO-Address
+Select
+$IDD_CFG_HARDWARE
+Comm. devices
+None
+Odd
+Even
+Import settings...
+Delete
+Add
+Modem Initialisierungs Befehle:
+Kommunikations Parameter
+Wдhl Kommando:
+Antwort Kommando:
+Spezielle Inits fьr Anwahl:
+Data-bits:
+Parity:
+Stop-bits:
+Flow control:
+COM-port:
+Baud:
+String (case sens.)
+Call Acception:
+ISDN-Line Detektierung ein
+Benutze 2'tes Modem statt CAPI 2.0
+Identifizierungs lines fuer die Nodeliste
+use
+use
+use
+use
+use
+use
+$IDD_MODEM_DETECT
+Automatische Modemerkennung
+Auswahl
+Cancel
+Bitte wдhlen sie ein Modem aus:
+Erkennung
+$IDD_ADDRBOOK
+Privates Addressbuch
+ьbernehmen
+Cancel
+Hinzufьgen
+lцschen
+Fido:
+Name:
+Kommentar:
+[G]Change
+Rechte Maustaste zum sortieren der Eintrдge!
+Spitzname:
+Hilfe
+$IDD_ADDRSELECT
+Address selection
+Groups
+Start Search/filter by typing name. Doubleclick to select
+Help
+Select
+Cancel
+Add Nodelist data
+Search
+Filter
+Pattern:
+$IDD_FREQ
+Datei von einem anderen System anfordern:
+hinzufьgen
+lцschen
+Exit
+Adresse:
+Filename(n):
+File Requests:
+Fido Systeme od. Tel #
+Request Liste:
+Passwort:
+System Info:
+File Listen:
+hinzufьg
+lцschen
+Info Adresse
+zeitversetzt
+weitere Lines
+Vollsuche
+External program
+Config
+Hilfe
+$IDD_CFG_PHONES
+[G]Phones replacements
+TelNr. beginnt mit:
+Ersetze durch:
+Hinzufьg.
+Lцschen
+[G]Change:
+Landesvorwahl
+Landesvorwahl Ьbersetz.
+Ortsvorwahl:
+Auslandsvorwahl:
+$IDD_CFG_NODELIST
+Node und Point Listen
+ьbernehmen
+hinzufьgen
+lцschen
+Nodelist Beschr.
+Nodediff Name:
+Nodelist Name:
+Dies ist eine Pointliste
+Zone fьr diese Pointliste (z.b. 2)
+Exclude Systems
+The names of node/point/diff-lists don't include file extension ( i.e. NET5030 )\The files of node/point/diff-lists must have numeric extension (i.e. net5030.123)
+Address book
+$IDD_CFG_COLOR
+[G]Colors and Fonts
+Hintergrund
+Text
+Antworten
+Farbe
+ignor. gr/kl.
+hinzufьgen
+lцschen
+Hintergrund
+Text
+Odd Antworten
+Kludge
+Origin
+Fett
+Reader Darstellung:
+Namen und Subject Anzeige:
+Even Antworten
+[G]Use OEM (DOS) coding for mail text
+[G]Fonts:
+[G]Main colors:
+[G]Change
+[G]Subjects List
+[G]Mailtext (ANSI)
+[G]Mailtext (OEM)
+[G]Editor
+[G]Labels
+[G]Fields
+$IDD_SCRIPT_EDITOR
+Script Editor
+Laden
+Speichern
+Speichern
+verfьgbare Befehle:
+Pushbutton definition
+User Pushbutton 1
+User Pushbutton 2
+User Pushbutton 3
+User Pushbutton 4
+Function Keys
+Function Key 'F2'
+Function Key 'F3'
+Function Key 'F4'
+Function Key 'F5'
+Function Key 'F6'
+Function Key 'F7'
+Function Key 'F8'
+Function Key 'F9'
+Hilfe
+User Pushbutton 5
+Function Key 'F11'
+Function Key 'F12'
+Cancel
+$IDD_STAT_NLCOMP
+Nodelistencompiler
+Start
+Verstecken
+Lцschen
+Test
+Hilfe
+$IDD_VALUE_AREAFIX
+Nachrichtenbereiche An/Abbestellen aus Areafix Netmail
+Bestellung abschicken
+Hilfe
+Cancel
+Zielsystem:
+[G]Linked echo conferences, doubleclick to unlink, right click - sort on echotag
+Aktuelle An/Abbestellen Liste (- wird abbestellt)
+$IDD_CFG_CARBONS
+Mailduplikate
+ign. gr./kl.
+Text:
+hinzufьgen
+lцschen
+Text damit Mail dupliziert wird
+Zielarea: (Wenn leer, dann ->LOCALMAIL):
+Aus diesen Areas nicht duplizieren:
+Carbon Copies fьr Netmails->ASAVED: MY_NETMAIL
+Carbon Copies fьr Echomails->ASAVED: MY_ECHOMAIL
+[G]Autocopy:
+[G]Change
+[G]Don't save original
+Autosave generell nach AUTSAVE:GLOBAL
+$IDD_SELECT_FROM_NODELIST
+Adressauswahl
+OK
+Abbruch
+Hinweis: Sortieren mit rechter Maustaste
+$IDD_ECHO_FILELIST
+Automatisches An/Abbestellen von Areas
+Verfьgbare Boss Systeme:
+Echofiledatei
+Echofilelist anfordern
+Дnderung senden
+An-Abbestellen mit Doppelklick (O=zur Zeit bestellt,X=bei einem anderem BOSS bestellt
+komplett senden
+Boss Konfiguration
+Area Konfiguration
+Manuell bestellen
+Hilfe
+Exit
+$IDD_TRAFFIC
+Area Auslastung
+OK
+Format:    Eingehende Mails,(Hinausgehende Mails)
+Statistiken lцschen
+Hilfe
+$IDD_QUICK_SETUP
+Der erste Schritt, die Schnellinstallation:
+Ihre persцnlichen Daten
+[G]Language
+Vorname:
+Nachname:
+Systemname:
+Ort:
+Telefon:
+Modem Initialisierung: (Im Zweifelsfall Defaults benutzen!)
+Init:
+Wдhl Kommando:
+Com Port:
+Boss Konfiguration (fragen sie ihren 'Boss' nach diesen Eintrдgen)
+System Name:
+Sysop name:
+Boss Telefon Nummer:
+Fido Addresse:
+Meine Pointnummer:
+Session passwort:
+Packertyp:
+Dieses Setup enthдlt alles was fьr eine Verbung zu ihrem Boss nцtig ist.Fьr eine erweitere Konf. und der Nutzung aller F.I.P.S./32 Mцglichkeiten benutzen sie bitte das Setup Menu.
+Hilfe
+Cancel
+OK,
+$IDD_FILELIST_REQUEST
+Dateien aus Dateiliste anfordern
+Suchen (ignor. gr/kl),
+Suchen,
+Hinzu,
+Suche:,
+Gehe Zeile,
+Anfang,
+Seite rauf,
+Seite runter,
+Ende,
+Hilfe
+Cancel
+$IDD_ADD_FILELIST
+Hinzufьgen einer neuen Fileliste
+Extrahieren
+Suche
+Importieren
+Importiere eine bereits entpackte Liste:
+Eingabe als zone:net/node oder benutzen sie mit Teilinformation den Suchbutton
+Cancel
+Hilfe
+Path to packed filelists
+$IDD_CFG_OTHERS
+Sonstige Konfigurationen
+Keine Tooltips anzeigen
+ROLLEN-LOCK LED blinken wenn ungelesene Mail existiert
+Mails mit CHARSET Latin-1 zu FIPS-Std wandeln
+[G]Hide nodelist oldness reminder
+[G]Hide command processor window
+[G]Minimize to tray
+$IDD_CFG_SERVICES
+[G]Services
+[G]Enable events on startup
+[G]Rescan new mails on startup
+[G]Pack outbound mails
+[G]Purge scanned mails
+[G]Don't generate event-info mails
+[G]Don't generate info mails when creating new area
+[G]Use AKA uplink in default routing
+[G]Start tosser after mailer session
+[G]Ignore errors in fields FROM,TO,SUBJECT
+[G]Process hidden packets
+[G]Delete IMP-files after parsing
+[G]Disable TIC processing
+[G]Don't use timezone information
+[G]Use timezone information while tossing
+[G]Use timezone information while displaying chains 
+[G]Don't process ASAVED
+[G]Delete KLUDGEs
+Mailer
+Tosser
+Purger
+$IDD_INFO_ADDRESS
+Information zu einer Adresse:
+Hilfe
+Suche
+Cancel
+Fido/Name:
+Name:
+Info:
+Ort:
+Vollsuche
+Time to call:
+$IDD_CFG_TEXTIMP
+Textbausteinen
+Abkьrzung
+Zu importierende Datei:
+$IDD_CFG_PERSONAL
+Personal data
+Additional AKA's:
+Bitte keine bereits vorhandenen Adressen eintragen!
+Lцschen
+Change
+Hinzufьgen
+Aliases (Nicknames)
+Aliases list (comma delimited areas list)
+Lцschen
+Change
+Hinzufьgen
+System and sysop data:
+First name:
+Second Name:
+System Name:
+Location:
+Phone:
+Password:
+Set
+$IDD_MANUAL_AREA_ORDER
+Areas 'zu Fuss' bestellen
+Bestellen
+Hilfe
+Cancel
+Personal data:
+First Name:
+Last Name:
+System Name:
+Location:
+Phone:
+$IDD_CFG_FILTER
+Auswahl der darzustellenden Nachrichten
+Ungelesene Mails:
+Hinausgehende Mails:
+Keine Antworten:					   
+Nicht дlter als:
+Wenn Text in 'FROM':
+Wenn Text in 'TO':
+Wenn Text in 'SUBJECT':
+Benutzen:
+Cancel
+Tage
+Inverse filter
+Kein Filter (Zeige alle Mails)
+Neue Mails seit der letzen Ьbertragung
+Standard
+Nur markierte Mails
+In From od. TO od. Sub.
+Nur die letzten:
+Mails anzeigen
+Nur eingefrorene
+Hilfe
+$IDD_CHAR_CONVERSION
+Umlautkonvertierung fьr neue Mails
+Zeichen
+Ersetze mit:
+Hinzufьgen
+Lцschen
+Neue Ьbersetzung:
+Zeichenumwandlung als Default
+Hilfe
+Cancel
+Save
+$IDD_CROSSPOST
+Mail in mehreren Areas verschicken
+Unverдndert
+Mit 'CrossPost' Hinweis (FIPS Style)
+Mit 'CrossPost' Hinweis (GoldEdit Style)
+Bitte selektieren sie eine oder mehrere Ziel Areas
+Art der Versendung:
+Bitte verletzten sie keine Regeln in den Zielareas!\Posten sie bitte in keine Areas in die ihre Mail nicht hineingehцrt!
+Wichtige Hinweise:
+Cancel
+Crosspost!
+Hilfe
+$IDD_CHOOSE_SAVE
+Datei existiert bereits
+Anhдngen
+Ьberschreiben
+Abbruch
+$IDD_OUTBOUND_VIEW
+Information ьber Hinausgehende Nachrichten und Dateien
+Hilfe
+Zurьck
+Zur Zeit liegen Packete fьr folgende Systeme bereit zum Versenden:
+Angehдngte Dateien
+Nachrichten
+Datei Anforderungen
+Дndere Information fьr
+Alles lцschen
+TIC Dateien
+$IDD_XFERFLS_EDIT
+Folgende Dateien sollen ьbertragen werden
+Abbruch
+Speichern
+Hilfe
+$IDD_CFG_PRIVNODES
+Private Nodeeintrдge
+Hinzufьgen
+Lцschen
+Setzen
+Telephon Nummer:
+Beschreibung:
+Name:
+Adresse:
+$IDD_OUTBOUND_MAIL_VIEW
+Betrachter fьr hinausgehende Nachrichten
+Exit
+Hilfe
+Lцsche diese Mail
+Packet Auswahl:
+Nachrichten Text Betrachter:
+Packet enthдlt folgende Nachrichten:
+Lцsche dieses Packet
+$IDD_CFG_TWITS
+Mьlleimer
+Search pattern (available regular expressions):
+Ab in den Mьlleimer falls der Text enthalten ist in:
+FROM
+TO
+SUBJECT
+Neue Definition::
+Hinzufьgen
+Lцschen
+Aktuelle Definitionen:
+Benutze in folgenden Areas (available regular expressions):
+[G]Change
+FROM-ADR
+$IDD_RECIPIENT_LIST
+Empfдngerlisten
+Hinzufьgen
+Hinzufьgen
+Setze
+Setze
+Lцsche
+Lцsche
+Name:
+Fido:
+Mitgliederliste:
+Gruppenname:
+Hinweis: Durch Voranstellen von '::' kann ein Gruppenname als Empfдnger.
+Import
+$IDD_CHOOSE_IMPORT
+Import Auswahl
+Cancel
+OEM Text
+ANSI Text
+Uuencoden
+Multimedia
+$IDD_EVENTS
+Event Manager Konfiguration
+aktiv
+Mo
+Di
+Mi
+Do
+Fr
+Sa
+So
+Setze
+Lцsche
+hinzufьgen
+Hilfe
+Events Ein
+Events Aus
+Inwait:
+Outwait:
+FidoAdr:
+Tel.Nr2:
+Tel.Nr3:
+Maximal:
+Bedingung:
+Event:
+Zeit:  (Format: HH:MM)
+Verzцgerung: (optional)
+Verbinden mit:
+Bedingungen: (optional)
+Beschreibung:
+bei FAILED:
+bei OK:
+Optionale Aktionen (Script Datei mit Pfad):
+Sequ. neu starten
+Event Kontrolle:
+nach Erfolg Event lцschen
+Akt. Event abbrechen
+Name:
+Default
+Statusreport
+Save
+Cancel
+$IDD_SEARCH_REPLACE
+Suchen und Ersetzen
+Ignore Case
+Suchtext
+Ersetze mit:
+Use text replacement
+OK
+Cancel
+$IDD_CFG_TEXTREPL 
+Textkьrzel beim Mailschreiben
+hinzufьgen
+lцschen
+setzen
+Liste der existierenden Textkьrzel:
+Kьrzel:
+Ersatz:
+$IDD_CFG_PRINT
+Konfiguration des Ausdruckbefehls
+versteckt ausfьhren
+Auszufьhrender Befehl (Wenn leer dann wird Notepad verwendet
+Hilfe
+Default
+Cancel
+Save
+[G]Always use ANSI
+$IDD_LOGFILE_DISPLAY
+Display Logfiles
+Mailer Log
+Tosser Log
+Purger Log
+Events Log
+Nodelist Log
+Help
+Exit
+$IDD_CFG_LOGFILES
+Logdateien
+Maxiale Groesse(kb)
+Verkьrze auf:(kb)
+Logfile ein fьr:
+MAILER
+TOSSER
+PURGER
+EVENTS
+NODELIST
+$IDD_CFG_INRINGS
+Klingelzeichen
+Anzahl der Klingelzeichen:
+Zeitdauer fьr neuen Anruf: (sec)
+Gerдt:
+Modem 1
+Modem 2
+Generell keine Anrufe annehmen
+Mehrfachverwendung fьr Telefonleitung:
+'Ring' muss in folgendem Intervall zum letzten 'Ring' liegen:
+Sek.
+Sek.
+von
+bis
+Modem 1
+Modem 2
+Aktiv fьr:
+$IDD_CFG_INCOME
+Conditions
+Mo
+Di
+Mi
+Do
+Fr
+Sa
+So
+Modem 1
+Modem 2
+ISDN
+EMSI
+BBS
+hinzufьgen
+lцschen
+setzen
+Von:
+Bis:
+Zeitspanne:  (Format: HH:MM)
+gьltige Tage:
+Aktuelle Eintrдge:
+Gerдte Auswahl:
+Eintrag:
+Folgende Dienste werden akzeptiert:
+Sprache
+$IDD_EXT_SEARCH
+Erweiterte Suchfunktionen
+not
+hinzufьgen
+lцschen
+Lцsche Liste
+Suche starten				 
+Laden
+Speichern
+In allen
+In keinen
+Unsichtb.
+Hilfe
+Suche stoppen
+Ergeb. lцschen
+Anzeige
+Laden
+Speichern
+'UND' Verknьpfung statt 'ODER'
+Bedingungen:
+Gefunden: 0
+Begrenze Suche:
+Suchergebnisse:
+gr\kl beachten
+дndern
+Ergebnisse in folgende Area kopieren:
+Text:
+Bei gefundenen UserMarked setzten
+Gefundene als gelesen markieren
+Proceed deleted
+$IDD_RESULT_FORMAT
+Format der Suchergebnisse
+Speichern
+Cancel
+Warnung: Diese Konfiguration ist nur fьr erfahrene Anwender!
+Hilfe
+Default
+Anwenden
+$IDD_CFG_DESIGN
+[G]Design settings
+[G]Skin-file path:
+Konfiguration des Icon-Balkens
+Verfьgbare Icons
+Benutzte Icons
+Rauf
+Runter
+$IDD_CFG_MMEDIA
+Multimedia
+[G]Multimedia extensions
+Bitmap DarstellungsgrцЯe
+[G]Events sounds
+Pfad einer Klangdatei:
+Sounds abspielen
+Display BMP's
+'nicht-gefunden' Nachrichten anzeigen
+[G]Large
+Normale
+Kleiner
+Winzig
+[G]Default
+Test
+Stop
+[G]Change
+BMP Files
+WAV Files
+Play
+Stop
+$IDD_MM_SELECTION
+Multimedia Element verwenden
+.WAV Dateien
+Einfuegen
+Abbruch
+Help
+Folgende Elemente anzeigen:
+Bitte auswaehlen:
+Test
+Spiel (oder Anzeige) Optionen:
+Wenn die Mail dargestellt wird
+Wenn die Zeile dargstellt wird
+.BMP Dateien
+Abspielen bei Doppleklick
+$IDD_ADJUST_SUBJ_LIST
+Darstellung des Subject Fensters
+Positionen:
+Empfдnger:
+Subject:
+Nr. and GrцЯe:
+Cancel
+Save
+$IDD_CFG_MAGIC
+Magic Konfiguration
+Setzen
+Hinzufьgen
+Lцschen
+Magic:
+Filepfad:
+Passwort:
+...
+Export
+$IDD_CFG_REQPATH
+File Folders
+Setzen
+Hinzufьgen
+Lцschen
+Directory:
+Passwort:
+...
+Pathes:
+Importiere
+$IDD_CFG_REMOTE
+Konfiguration der Fernьberwachung
+Speichern
+Cancel
+Hilfe
+Fernьberwachung ein
+Fьr die Fernьberwachung muss das TCP/IP Protocol installiert sein!
+$IDD_SEARCH_AREA_SELECTION
+Auswahl Zielarea
+Abbruch
+Benutze
+$IDD_CHANGE_DEST
+Дndern der Zieladresse:
+TelNr.:
+Passwort:
+Weitere Lines
+[G]System:
+OK
+Cancel
+$IDD_CFG_TICS
+TIC echoes
+...
+[G]Change
+hinzufьgen
+Lцschen
+TIC echo:
+Dir. Pfad:
+Uplink:
+Neuer Eintrag:
+Beschreibung:
+Empfangene Dateien nicht aus dem Inbound lцschen
+Bitte beachten:\Falls keine Definition vorhanden ist wird der TIC Pfad des System-Setups verwendet
+$IDD_HATCHDLG
+Eine Datei 'hatchen'
+...
+DIZ einlesen
+Hilfe
+Abbruch
+Abschicken
+Nach Ьbertragung lцschen
+Dateiname:
+Ziel Tic Area:
+Beschreibung:
+Ersetze Datei:
+$IDD_TIC_EDITOR
+TIC Dateien verдndern
+TIC Datei lцschen
+Exit
+$IDD_INADR_FOUND
+Gefundene Internet Adressen
+Benutze diese Adresse
+Cancel
+Adresse:
+$IDD_START_BROWSER
+Starten Internet Browsers
+Ausfьhren
+Cancel
+Hilfe
+Gefundene Internet Bezьge:
+Command:
+$IDD_SELECT_EV_BOSS
+Boss System auswдhlen
+OK
+Abbrechen
+Verfьgbare Boss Systeme:
+$IDD_CFG_COST
+Phone costs
+Add
+Delete
+Change
+Add
+Delete
+Change
+Enable cost calculation
+Available base costs:
+Name:
+Cost of Unit (xx.yy):
+Currency:
+Workdays:
+Weekend:
+Delay to CONNECT message (sec)
+Current phone costs:
+Phone:
+Base cost:
+(format:   Interval=Seconds-in-Unit, example:   0:00-5:00=240 5:00-9:00=150)
+$IDD_COSTANAL
+Telefonkosten Auswertung
+Exit
+Hilfe
+Anzeigen
+Standard
+Startdatum:
+Enddatum:
+Anzeige Auswahl:
+Format: TT.MM.JJJJ
+Alles Anzeigen
+Logdatei lцschen
+0.0 Werte nicht anzeigen
+Heutige Kosten
+In Datei abspeichern
+$IDD_INOUT_HIST
+Eingehende/Hinausgehende Verbindungen
+Eingehende Verbindungen
+Hinausgehende Verbindungen
+Exit
+$IDD_CFG_FAX
+Fax Konfiguration
+Nicht ins AWD Format konvertieren
+Eingangs .FAX Files nicht lцschen
+Basispfad fьr eingehende Faxe:
+Kommando-Zeile fьr MS-FaxViewer
+Kommando-Zeile fьr *.FAX Viewer
+Baudrate fьr Fax auf 19200 Baud setzen
+$IDD_CFG_DIRS
+Programs and folders
+Basis Verzeichniss:
+Nachrichtendatenbank:
+Hilfsdateien:
+Nodeliste:
+Eingehende Nachrichten:
+Ausgehende Nachrichten:
+Verzeichniss Konfiguration:
+Default TIC Verzeichniss
+Multimedia
+Use Base Folder as Root for others
+Internet Browser setup ('%s' used as argument)
+Command line:
+Printing program (if is blank, Notepad will be used)
+Command line:
+Execute hidden
+Print in ANSI
+$IDD_BBS_LEVELS
+Sicherheitsebenen
+hinzufьgen
+Setzen
+Lцschen
+Verfьgbare Sicherheitsebenen:
+Ebene:
+Online Zeit:
+Kommentar:
+$IDD_BBS_MAIN
+BBS Konfiguration
+Sound testen
+Sprache fьr den Startup Bildschirm:
+Zugriffs Level fьr neuen Benutzer:
+Sound fьr den Sysop Chat
+...
+$IDD_BBS_USERS
+Benutzer
+Vorhandene Benutzer:
+hinzufьgen
+Setzen
+Lцschen
+Name:
+Security Level:
+Strasse:
+Stadt:
+Telefon:
+Modem/Fax:
+Zeilen pro Seite:
+ANSI Farben benutzen
+Sprache:
+Grupenzugehцrigkeit:
+Passwort:
+Restzeit:
+$IDD_BBS_AREA
+Download Areas
+...
+...
+Lцschen
+Hinzufьgen
+Setzen
+Pfad der Area:
+Verfьgbare Areas:
+Area Beschreibung:
+Minimales Sicherheits Level:
+Benцtigte Gruppenflags:
+Pfad fьr 'files.bbs' Datei:
+Import
+$IDD_CFG_GATE
+Internet Schema
+An:
+An Fido:
+Subject:
+Nachricht:
+New mail template
+Die benutzbaren Makros sind in der Online-Hilfe beschrieben
+Internet Gateway Unterstьtzung einschalten
+Um eine Nachricht von/ins Internet zu quoten in der Writemail Dialogbox rechte Maustaste->'email Adresse bestimmen' benutzen
+$IDD_TIMEOUTS
+[G]Connections settings
+Schleifenzдhler
+Versuche pro Eintrag
+Wartezeit (sec)
+Erlaube FIPS maximal
+per
+sek
+Verzoegere bei Ueberschreitung jeden weiteren Anruf um
+sek
+Anwahl Notbremse einschalten
+Zaehler Reset
+[G]Timeouts
+Notbremse fuer Anwahl
+$IDD_SELECT_MODEM
+Modemauswahl
+Benutzen
+Abbruch
+Bitte wдhlen sie das Modem welches benutzt werden soll
+$IDD_REPOST_FOLDER
+Repost folder
+Exit
+Repost now
+Delete repost
+Help
+List of reposts:
+$IDD_CFG_EXTFREQ
+Configure external FileRequest Tool
+Command Line (Without Path)
+This is a 16BIT program
+Cancel
+Save
+$IDD_FREQ_SELECT
+File selection for request
+OK
+Cancel
+Hilfe
+$IDD_CHANGE_HEADER
+Change header template
+Hilfe
+Cancel
+Select
+$IDD_CHANGE_FOOTER
+Change footer template
+Hilfe
+Cancel
+Select
+$IDD_MAIN_WINDOW
+[G]FIPS/2001
+[G]From:
+[G]To:
+[G]Subject:
+A
+H
+D
+$IDD_CFG_KLUDGES
+[G]Kludges proccessing
+[G]Additional kludges
+[G]Hidden kludges
+[G]Add
+[G]Delete
+[G]Add
+[G]Delete
+[G]All
+[G]Selected
+Change
+Change
+Hide kludges
+$IDD_MAIN_CONFIG
+FIPS Setup
+OK
+Abbruch
+Apply
+Hilfe
+$IDD_GUARD
+Enter password:
+ОК
+Abbruch
+$IDD_CFG_MAILEDITOR
+Mail editor
+Right margin:
+Tab width:
+Font
+Colors:
+Auto indent
+Use pseudographics
+Show tabs and spaces
+Word wrap
+Equal tabs
+Replace tabs with spaces
+Use color attributes
+$IDD_CODESEL
+Coding
+DOS coding
+WIN coding
+
+@SECTION FRENCH
+
+$IDD_CHOOSE_MARK
+Accomplir l'щquipe(commande) pour:
+Supprimer
+Des lettres choisies (le marqueur rouge)
+Des lettres marquщes (la marque inverse)
+Des lettres choisies et marquщes
+$IDD_MANUAL_POLL
+L'appel de la station щloignщe (POLL)
+Provoquer
+Supprimer
+La station: (le nom ou la FIDO-adresse)
+Pour les coups de tщlщphone pour la station de votre chef utilisez(exploitez) le rщglage du chef.\Utilisez(exploitez) ce dialogue seulement aux coups de tщlщphone directs pour d'autres stations.
+$IDD_CFG_BOSS
+Bosses (uplinks)
+Ajouter '+' р la souscription
+Ajouter '+' р la souscription
+Йtablir
+Ajouter
+Йloigner
+Le nom du systшme:
+L'adresse de la station:
+Le tщlщphone:
+Mon adresse:
+Le mot d'ordre pour la session:
+Le mot d'ordre:
+Le nom:
+Emballщ:
+Le type de la compression:
+Dщpaquetщ:
+Le fichier echolist
+Le nom:
+Le mot d'ordre:
+Le robot fileechos (est ordinaire AllFix ou FileFix):
+La liste des fichiers (fichierfeuille chef):
+Emballщ:
+Dщpaquetщ:
+La liste des nouveaux fichiers (est ordinaire NewFiles):
+Le robot des confщrences (est ordinaire Areafix):
+Les Installations choisi chef:
+La liste chefs pour la station donnщe:
+Le nom patronymique du chef
+Le mot d'ordre Arcmail:
+L'itinщraire
+Ne pas former le Poll-paquet vide
+Ne pas insщrer cela chef dans le tour
+Pour ISDN (CAPI 2.0) ajoutez '$'
+Est absent HYDRA
+Est absent ZMODEM
+$IDD_REPOST
+Repost
+Select
+Supprimer
+Through
+days
+Through 1 day
+Through 3 days
+Through week
+Through month
+$IDD_AREASELECT
+Le choix du nouveau domaine
+Le traffic des domaines
+Le rщglage de la liste
+En haut
+En bas
+Le commentaire:
+Ajouter
+Cacher
+Restaurer
+Garder
+La aide
+Supprimer
+Choisir
+$IDD_CFG_EDITOR
+Mail Editor
+La Gestion comme р GoldEd
+Cacher les lignes vides
+La rщnovation Immщdiate
+Le schщma De couleur
+Le Dщfilement de la liste des lettres
+Premier non lu
+Dernier lu
+Montrer la chaюne des rщponses (la commutation selon ALT-T)
+Au choix du domaine montrer
+Le schщma Alternant des quotas
+Utiliser(exploiter) ORIGIN р NETMAIL
+La Quantitщ maximum des lignes du UUE-code dans une lettre (10-1000 lignes)
+Nettoyer la Ligne (TEARLINE):
+La Largeur de la fenъtre du rщdacteur des lettres (20-100 symboles)
+Le Choix du domaine aprшs la lecture de la derniшre lettre
+La Rщpщtition du quota р la rupture de la ligne
+Le Choix au dщplacement par la lacune selon la liste des lettres
+L'utilisation Prщfщrable Nodelist р la recherche de la ville
+Ne pas demander la recherche щlargie des noms
+Ne pas insщrer RE:'aux rщponses'
+Йloigner(enlever)RE:'dans le sujet de la lettre'
+Right margin:
+Editor Font
+Auto indent
+Use pseudographics
+Show tabs and spaces
+Word wrap
+Equal tabs
+Replace tabs with spaces
+Use color attributes
+$IDD_CFG_PACKER
+Le Rщglage des archivistes
+Йtablir
+Ajouter
+Йloigner(supprimer)
+Selon la silence
+L'щquipe(commande) de l'emballage:
+L'щquipe(commande) du dщballage:
+Le Nom de l'archiviste:
+La Description de l'archiviste
+Les Premiers 10 octets (Hex) de l'archiviste.\le champ Vide - ignorer la position
+Utilisez(exploitez) %p pour les voies et %f pour le nom du fichier
+Utiliser l'archiviste insщrщ
+$IDD_SIMPLE_SEARCH
+La Recherche dans le domaine courant
+La aide
+Suivant
+Dans le titre
+Dans le texte de la lettre
+Ignorer le registre
+Affecter Toujours
+La sortie
+Le Modшle de la recherche (Utilisez ' ? ' Au lieu de n'importe quel symbole)
+La recherche Йlargie
+La Substitution des symboles
+Le Rщsultat de la derniшre recherche
+La direction
+En haut
+En bas
+Du dщbut
+MultiSelect
+$IDD_CFG_AREA
+Domaines des messages
+La Quantitщ maximum des lettres (0-no limits)
+Les Jours de la crщation il y a plus de (0-no limits)
+Les Jours de la rщception il y a plus de (0-no limits)
+Йtablir/Ajouter
+Йloigner
+Pour nouveau...
+Le Nom du domaine:
+La Description du domaine:
+AKA:
+Le Groupe:
+L'щpuration Automatique du domaine:
+Uplink:
+La Recherche de la description
+Le Domaine des copies
++ les jours pour non lu
+Changer le groupe des domaines
+Numщroter
+Change
+Save
+Cancel
+Help
+$IDD_CHOOSE_AUTOSAVE
+Le Choix du domaine de l'autoprщservation
+Garder
+Supprimer
+Crщer un nouveau domaine: (le nom sans ASAVED:)
+Crщer
+$IDD_STAT_PURGE
+Le Procшs - verbal du travail PURGERa
+[F]Purge All
+Cacher
+Nettoyer
+La aide
+[F]Purge One
+$IDD_STAT_MAILER
+L'щtat du travail de la poste
+Cacher
+Lancer le coup de tщlщphone
+Interrompre le tщlщphone
+Au total
+Est remis:
+CPS:
+Le Temps:
+L'щtat:
+L'information sur le systшme щloignщ:
+Supprimer le tщlщphone
+Manquer le tщlщphone
+Emballer la poste
+Le Fichier:
+Le Procшs - verbal du travail de la poste:
+Les Йvщnements:
+Insщrer
+Couper
+Le rщglage
+Les coups de tщlщphone Entrant:
+Le Tour de la poste
+La Gestion par poste:
+La aide
+Au total
+Il convient:
+CPS:
+Le Temps:
+Le Fichier:
+La Transmission:
+L'accueil:
+Les coups de tщlщphone Sortant:
+Manquer le fichier
+Supprimer le fichier
+$IDD_STAT_TOSS
+Le Procшs - verbal du travail TOSSERa
+La mise en marche
+Cacher
+Nettoyer
+La aide
+$IDD_CFG_SOUND
+Des sons systщmiques
+Йtablir
+Selon la silence
+La voie et le nom du fichier .WAV:
+Le test
+Le stop
+$IDD_CFG_TEMPLATE
+Les Clichщs
+Йtablir
+Йloigner
+Ajouter
+Pour nouveau
+Pour les rщponses
+Par hasard
+Par hasard
+Le Fichier origins:
+Header
+Signature
+Origin
+$IDD_WRITMAIL640
+La Crщation de la nouvelle lettre
+Garder
+Mettre
+Supprimer
+А qui:
+De qui:
+Le Sujet:
+Le Domaine:
+Le placement
+Le avis
+Directement
+Йloigner expщdiщ
+L'information D'adresse
+Insщrer
+L'hauteur de la fenъtre:
+Les symboles Spщciaux
+Remis
+Privщ
+La aide
+Fido-l'adresse:
+Select
+$IDD_CFG_HARDWARE
+[F]Comm. devices
+[F]None
+[F]Odd
+[F]Even
+[F]Import settings...
+[F]Delete
+[F]Add
+[F]Init strings:
+[F]Communication parameters
+[F]Dial command:
+[F]Answer command:
+[F]Init strings before dialing
+[F]Data-bits:
+[F]Parity:
+[F]Stop-bits:
+[F]Flow control:
+[F]COM-port:
+[F]Baud:
+[F]String (case sens.)
+[F]Call Acception:
+[F]Enable ISDN Line Detection
+[F]Use 2nd Modem Config instead of CAPI2.0
+[F]Identification lines in nodelist
+[F]use
+[F]use
+[F]use
+[F]use
+[F]use
+[F]use
+$IDD_MODEM_DETECT
+La dщfinition Automatique du modem
+Choisir
+Supprimer
+S'il vous plaюt, choisissez le modem parmi la liste:
+Dщfinir
+$IDD_ADDRBOOK
+Le livre D'adresse
+Garder
+Supprimer
+Ajouter
+Йloigner
+L'adresse:
+Le Nom:
+Le Commentaire:
+Йtablir
+Pour le tri de la liste utilisez(exploitez) le bouton droit de la souris.
+Le Pseudonyme:
+La aide
+$IDD_ADDRSELECT
+Address selection
+Groups
+Start Search/filter by typing name. Doubleclick to select
+Help
+Select
+Cancel
+Add Nodelist data
+Search
+Filter
+Pattern:
+$IDD_FREQ
+La Demande des fichiers
+Ajouter
+Йloigner
+La sortie
+L'adresse de la station:
+Les Noms des fichiers:
+La Demande des fichiers:
+L'adresse ou № du tщlщphone
+La Liste des demandes:
+Le Mot d'ordre:
+L'information sur la station:
+Les Fichiers - feuilles:
+Ajouter
+Йloigner(supprimer)
+Les adresses Donnщes
+ПЁючтюэър
+D'autres adresses
+La Recherche de la я/ligne
+La demande Extщrieure
+Le rщglage
+La aide
+$IDD_CFG_PHONES
+Le Remplacement des numщros de tщlщphone
+Le Numщro commence ё:
+Remplacer sur:
+Ajouter
+Йloigner
+[F]Change
+Le prefixe du pays:
+Remplacer sur Prefix:
+Le prefixe de la ville:
+Le prefix de la sortie pour la ligne:
+$IDD_CFG_NODELIST
+Nodelist et Pointlist
+Йtablir
+Ajouter
+Йloigner
+La Description de la feuille:
+Le Nom de la feuille des diffщrences:
+Le Nom de la feuille:
+C'est la point-feuille
+La Zone pour la feuille (2 pour Europe)
+Exclure les adresses
+Les Noms des feuilles n'insшrent pas l'щlargissement du fichier (par exemple: NET5030)\les Fichiers des feuilles doivent avoir les щlargissements en chiffre (par exemple: NET5030.123)
+Address book
+$IDD_CFG_COLOR
+[F]Colors and Fonts
+Le fond
+Le texte
+La flшche
+La couleur
+Ign. le registre
+Ajouter
+Йloigner
+Le fond
+Le texte
+La citation Impaire
+Kludge
+Origin
+La mise en relief
+L'image du texte de la lettre:
+L'image de la liste des lettres:
+La citation Paire
+Reflщter le texte de la lettre dans le 866-codage
+[F]Fonts:
+[F]Main colors:
+[F]Change
+[F]Subjects List
+[F]Mailtext (ANSI)
+[F]Mailtext (OEM)
+[F]Editor
+[F]Labels
+[F]Fields
+$IDD_SCRIPT_EDITOR
+Le Rщdacteur scripts
+Charger
+Garder
+Garder
+Les щquipes(commandes) Possibles:
+Les boutons D'utilisateur:
+Script № 1
+Script № 2
+Script № 3
+Script № 4
+Les clщs Fonctionnelles:
+La touche 'F2'
+La touche 'F3'
+La touche 'F4'
+La touche 'F5'
+La touche 'F6'
+La touche 'F7'
+La touche 'F8'
+La touche 'F9'
+La aide
+Script № 5
+La touche 'F11'
+La touche 'F12'
+Supprimer
+$IDD_STAT_NLCOMP
+Le Compilateur Nodelist et Pointlist
+La mise en marche
+Cacher
+Nettoyer
+ContrЇler
+La aide
+$IDD_VALUE_AREAFIX
+L'information sur la souscription courante
+Envoyer la commande
+La aide
+Supprimer
+L'adresse uplink:
+Signщ echoconfщrence, le clic double pour la suppression, droit - pour le tri
+Le Texte de la demande vers ¤їюЁюсюЄє ('-' - la suppression de echoconfщrence)
+$IDD_CFG_CARBONS
+Copiage des lettres
+Ignorer le registre
+Le Texte de la recherche:
+Ajouter
+Йloigner
+Le Devoir des nouvelles conditions pour la crщation de la copie:
+Copier au domaine: (pour LOCALMAIL laissez vide):
+Ne pas scanner les domaines suivants:
+Copier sortant Netmail р ASAVED: MY_NETMAIL
+Copier sortant echomail р ASAVED: MY_ECHOMAIL
+[F]Autocopy:
+[F]Change
+Ne pas garder initial
+L'autoprщservation au domaine 'ASAVED: GLOBAL'
+$IDD_SELECT_FROM_NODELIST
+Le Choix de l'adresse
+OK
+Supprimer
+L'aide: le tri par le bouton droit de la souris
+$IDD_ECHO_FILELIST
+La Souscription sur echoconference
+Disponible node:
+Echolist:
+Commander echolist
+Envoyer les changements
+Changez la souscription par le clic double (O =est commandщe, X =est commandщe chez le autre node)
+Signer tout
+Le Rщglage node
+Le Rщglage des domaines
+La commande De main
+La aide
+La sortie
+$IDD_TRAFFIC
+La Statistique du traffic des domaines
+La sortie
+Le Format: Est reчu des lettres, (Est expщdiщ des lettres)
+Nettoyer la statistique
+La aide
+$IDD_QUICK_SETUP
+Le rщglage Initial de la station:
+Donnщ р votre station:
+La Langue:
+Le Nom:
+Le Nom:
+La Station:
+La Ville:
+Le Tщlщphone:
+Le Rщglage du modem: (corrigez seulement en cas de besoin!)
+La Ligne de l'initialisation:
+L'щquipe(commande) de l'assortiment du numщro:
+COM-le port:
+On peut remplir les Donnщes de votre сюёёр (plus tard)
+Le Nom de la station:
+Le Nom et le nom:
+Le Tщlщphone node:
+FIDO-l'adresse:
+Votre point-le numщro:
+Le Mot d'ordre pour la session:
+Le Type de l'archiviste:
+Ce dialogue contient(dщtient) tout nщcessaire du rщglage pour la liaison de votre station avec node. On peut produire le rщglage ultщrieur par le menu 'le Rщglage'
+La aide
+Supprimer
+OK
+$IDD_FILELIST_REQUEST
+La Demande des fichiers sur l'information filelist
+Sans compte du registre
+Compte tenu du registre
+Ajouter
+Trouver:
+Passer pour la ligne
+Au dщbut
+En haut
+En bas
+А la fin
+La aide
+Supprimer
+$IDD_ADD_FILELIST
+Le Dщballage et le rattachement nouveau filelist
+Dщpaqueter
+La recherche
+Importer
+L'importation dщpaquetщ ЇрщыышёЄют:
+La КВ?-ADRESSE de la station:\l'adresse complшte\ou la recherche rщglage
+Supprimer
+La aide
+La Voie vers emballщ filelist
+$IDD_CFG_OTHERS
+Du rщglage Supplщmentaire
+Dщconnecter les aides щmergeant
+L'activation SCROLL-LOCK, si ъtre les lettres non lues
+La Transformation Latin-1 р IBMPC (seulement pour la langue allemande)
+Ne pas montrer le message sur le vieux Nodelist
+Cacher la fenъtre du processeur de commande
+[F]Minimize to tray
+$IDD_CFG_SERVICES
+[F]Services
+[F]Enable events on startup
+[F]Rescan new mails on startup
+[F]Pack outbound mails
+[F]Purge scanned mails
+[F]Don't generate event-info mails
+[F]Don't generate info mails when creating new area
+[F]Use AKA uplink in default routing
+[F]Start tosser after mailer session
+[F]Ignore errors in fields FROM,TO,SUBJECT
+[F]Process hidden packets
+[F]Delete IMP-files after parsing
+[F]Disable TIC processing
+[F]Don't use timezone information
+[F]Use timezone information while tossing
+[F]Use timezone information while displaying chains 
+[F]Don't process ASAVED
+[F]Delete KLUDGEs
+Mailer
+Tosser
+Purger
+$IDD_INFO_ADDRESS
+L'information sur l'adresse:
+La aide
+La recherche
+Fermer
+L'adresse/nom:
+Le Nom:
+Les Drapeaux:
+La Ville:
+La Recherche du modшle
+Le Temps de travail:
+$IDD_CFG_TEXTIMP
+L'importation de texte
+Les touches
+Le fichier Importщ:
+$IDD_CFG_PERSONAL
+Personal data
+Additional AKA's:
+L'attention: ajoutez seulement AKA, non indiquщ au rщglage nodes!
+Йloigner
+Change
+Ajouter
+Aliases (Nicknames)
+Aliases list (comma delimited areas list)
+Йloigner
+Change
+Ajouter
+System and sysop data:
+First Name:
+Last Name:
+System Name:
+Location:
+Phone:
+Password:
+Set
+$IDD_MANUAL_AREA_ORDER
+La commande De main des confщrences
+Commander
+La aide
+Supprimer
+$IDD_CFG_FILTER
+Le Filtre de l'image de la poste
+Non lu
+Sortant
+Ne pas montrer les rщponses
+Non plus тgщ que
+Ayant р 'DE'
+Ayant р 'р qui'
+Ayant р 'le SUJET'
+Appliquer
+Supprimer
+Des jours
+Invertir la condition
+Le Filtre manque
+Acceptщ р la derniшre session
+Selon la silence
+Remarquщ
+Ayant au titre
+Montrer les derniers
+Des messages
+Non expщdiщ
+La aide
+$IDD_CHAR_CONVERSION
+Les transformations Spщciales des symboles
+Le symbole
+Remplacer sur:
+Ajouter
+Йloigner
+Un Nouveau remplacement:
+Remplacer selon la silence
+La aide
+Supprimer
+Garder
+$IDD_CROSSPOST
+L'envoi des lettres р d'autres confщrences
+Sans changements du texte
+Avec le titre (le style FIPS)
+Avec le titre (le style GoldEdit)
+Choisissez de domaines uns ou severale
+Les Variantes de la prщsentation:
+Suivez, pour que answer ne viole pas les rшgles des confщrences\ne renvoyez pas les lettres ne prщsentant pas de l'intщrъt.
+L'attention!
+Supprimer
+Expщdier
+La aide
+$IDD_CHOOSE_SAVE
+Le Fichier existe
+Йcrire
+Recopier
+Supprimer
+$IDD_OUTBOUND_VIEW
+L'affichage du classeur des paquets(volets) expщdiщs
+La aide
+La sortie
+L'information sur les systшmes - destinataires:
+Les fichiers Joints
+Les lettres
+Les Demandes des fichiers
+La Gestion des paquets(volets) de la poste:
+Йloigner le paquet(volet)
+Les TIC-fichiers
+$IDD_XFERFLS_EDIT
+L'щdition de la liste des fichiers joints
+Supprimer
+Garder
+La aide
+$IDD_CFG_PRIVNODES
+Les noeuds privщs
+Ajouter
+Йloigner
+Йtablir
+Le Numщro de tщlщphone:
+La Description:
+Le Nom:
+L'adresse:
+$IDD_OUTBOUND_MAIL_VIEW
+L'affichage du paquet(volet) expщdiщ des lettres
+La sortie
+La aide
+Йloigner la lettre
+Les Paquets(volets):
+Le Texte de la lettre:
+Les Lettres:
+Йloigner le paquet(volet)
+$IDD_CFG_TWITS
+Filtre de la poste
+Le Texte (available regular expressions):
+Йloigner la lettre si ce texte est dщcouvert:
+Au champ DE
+Au champ р qui
+Au champ le SUJET
+Le Devoir du nouveau filtre:
+Ajouter
+Йloigner
+Les filtres Fonctionnant:
+Utiliser dans le domaine indiquщ (available regular expressions):
+[F]Change
+FROM-ADDR
+$IDD_HINWEIS_DAYS
+Shareware Ablauf Hinweis
+OK
+$IDD_RECIPIENT_LIST
+Le Rщglage des destinataires
+Ajouter
+Ajouter
+Йtablir
+Йtablir
+Йloigner
+Йloigner
+Le Nom:
+L'adresse:
+La Liste des membres du groupe:
+Le Nom du groupe:
+Ajouter le groupe
+L'aide: Utilisez '::' devant le nom du groupe pour l'insertion la р la liste des membres.
+Importer
+$IDD_CHOOSE_IMPORT
+Insщrer dans la lettre
+Supprimer
+Le OEM Texte
+Le ANSI Texte
+Le UU-codage
+Le Code Multimedia
+$IDD_EVENTS
+Les Installations du directeur des щvщnements
+Agit
+Lundi
+Mardi
+Mercredi
+Jeudi
+Vendredi
+Samedi
+Dimanche
+Йtablir
+Йloigner
+Ajouter
+La aide
+Insщrer les щvщnements
+Couper les щvщnements
+La Pause jusqu'р:
+La Pause l'ambassadeur:
+L'adresse:
+Le tщl. № 2:
+Le tщl. № 3:
+Des Tentatives:
+La Condition:
+L'щvщnement:
+Le Temps communication (he:mi):
+La Composition ё:
+Les Conditions communication:
+La Description:
+р L'ЙCHEC:
+au SUCCИS:
+Les actions Terminant (la voie complшte vers script):
+Le relancement des щvщnements
+Le ContrЇle des щvщnements:
+Йloigner au SUCCИS
+Interrompre l'щvщnement
+Le Nom:
+Selon la silence
+Le Rapport de l'щtat
+Garder
+Supprimer
+$IDD_SEARCH_REPLACE
+La Recherche et le remplacement
+Ignorer le registre
+Trouver le texte:
+Remplacer sur:
+La substitution des symboles
+Accomplir
+Supprimer
+$IDD_CFG_TEXTREPL
+Le Remplacement du texte
+Ajouter
+Йloigner
+Йtablir
+La Liste des remplacements mais l'assortiment:
+Le Texte:
+Le Remplacement:
+$IDD_CFG_PRINT
+Le Rщglage de l'imprimante
+Le sceau De fond
+L'щquipe(commande) du sceau (si est omise, est utilisщ(exploitщ) Notepad)
+La aide
+Selon la silence
+Supprimer
+Garder
+Taper Toujours dans le Win-codage
+$IDD_LOGFILE_DISPLAY
+Les Procшs - verbaux des services
+La Log de mail
+La Log des unpacker
+La Log des яєЁцхЁр
+La Log des щvщnements
+La Log des Nodelist
+La aide
+La sortie
+$IDD_CFG_LOGFILES
+Fichiers des procшs
+Max. le montant: (kb)
+Rщduire jusqu'р: (kb)
+L'щcriture des fichiers des procшs - verbaux pour:
+mail
+unpacker
+яєЁцхЁр
+Du directeur des щvщnements
+Du compilateur Nodelist
+$IDD_CFG_INRINGS
+Incoming calls
+Des Coups de tщlщphone avant la composition:
+L'attente de la composition: (des secondes)
+L'installation:
+Modem 1
+Modem 2
+$IDD_CFG_INCOME
+Conditions
+Interdire les coups de tщlщphone entrant
+Lu
+Ma
+Me
+Je
+Ve
+Sa
+Di
+Modem 1
+Modem 2
+ISDN
+EMSI
+BBS
+Ajouter
+Йloigner(supprimer)
+Йtablir
+De:
+Jusqu'р:
+Le Temps: (le format: he:mi)
+Les jours Permis:
+Le temps Permis:
+Le Choix de l'installation:
+Les Installations:
+Les services Accessibles:
+Voice
+La Restriction de la frщquence des appels:
+Permettre l'appel, si l'ambassadeur du dernier coup de tщlщphone a passщ:
+Des secondes.
+Des secondes.
+De:
+Jusqu'р:
+Total du rщglage:
+Modem 1
+Modem 2
+Agit pour:
+$IDD_EXT_SEARCH
+La recherche Йlargie
+Non
+Ajouter
+Йloigner
+Nettoyer la liste
+Commencer la recherche
+Charger
+Garder
+Affecter
+Enlever
+Cacher
+La aide
+Arrъter
+Nettoyer
+Le rщglage
+Charger
+Garder
+Le groupement selon 'Et' (autrement - selon 'OU')
+La Demande:
+Est trouvщ: 0
+La Restriction de la recherche:
+Les Rщsultats de la recherche:
+Prendre en considщration le registre
+Changer
+Copier le rщsultat au domaine:
+Le Modшle:
+Marquer trouvщ
+Remarquer comme lu
+Traiter щloignщ
+$IDD_RESULT_FORMAT
+Le Format des rщsultats de la recherche
+Garder
+Supprimer
+L'attention: Ceux-ci du rщglage seulement pour les utilisateurs expщrimentщs!
+La aide
+Selon la silence
+Appliquer
+$IDD_CFG_DESIGN
+[F]Design settings
+[F]Skin-file path:
+[F]Floating toolbar setup
+[F]Available icons
+[F]Used icons
+[F]Up
+[F]Down
+$IDD_CFG_MMEDIA
+[F]Multimedia
+Multimedia extensions
+Pictures size
+Events sounds
+WAV-file path
+Enable sounds
+Show pictures
+Warning about absent elements
+Large
+Normal
+Small
+Tiny
+Default
+Test
+Stop
+Change
+BMP Files
+WAV Files
+Play
+Stop
+$IDD_ADJUST_SUBJ_LIST
+Le Rщglage de la fenъtre de la liste des lettres
+La Position des champs:
+Le Destinataire:
+Le Sujet:
+№ et le montant(taille):
+Supprimer
+Garder
+$IDD_CFG_MAGIC
+Pseudonymes des fichiers
+Йtablir
+Ajouter
+Йloigner
+Le Pseudonyme:
+Le Nom du fichier:
+Le Mot d'ordre:
+...
+La exportation
+$IDD_CFG_REQPATH
+File Folders
+Йtablir
+Ajouter
+Йloigner(supprimer)
+Le Catalogue:
+Le Mot d'ordre:
+...
+List of Pathes:
+L'importation
+$IDD_CFG_REMOTE
+Le Rщglage du moniteur щloignщ(supprimщ)
+Garder
+Supprimer
+La aide
+Permettre(rщsoudre) la gestion щloignщe(supprimщe)
+Pour la gestion щloignщe(supprimщe) la prщsence du TCP/IP-procшs - verbal est nщcessaire!
+$IDD_SEARCH_AREA_SELECTION
+Le Choix du domaine
+Supprimer
+Choisir
+$IDD_CHANGE_DEST
+Donnщ du systшme provoquщ
+Tщlщphonique №:
+Le Mot d'ordre:
+D'autres adresses
+Le Systшme:
+Utiliser
+Supprimer
+$IDD_CFG_TICS
+TIC-domaines
+...
+[F]Change
+Ajouter
+Йloigner
+Le TIC-domaine:
+Le Catalogue:
+Uplink:
+La Caractщristique du domaine:
+La Description:
+Ne pas щloigner(enlever) les fichiers reчus du classeur entrant
+L'attention:\Si la voie vers le catalogue du TIC-domaine n'est pas donnщe, on utilisera(exploitera) la voie du rщglage systщmique.
+$IDD_HATCHDLG
+Posting du fichier р file echos (HATCH)
+...
+L'importation de la description
+La aide
+Supprimer
+Expщdier
+Йloigner le fichier aprшs l'expщdition
+Le Nom du fichier:
+TIC le domaine:
+La Description:
+Remplacer le fichier:
+$IDD_TIC_EDITOR
+L'affichage des fichiers expщdiщs selon TIC
+Йloigner TIC- posting
+La sortie
+$IDD_INADR_FOUND
+Le Choix de l'adresse e-mail
+Utiliser
+Supprimer
+E-mail:
+$IDD_START_BROWSER
+La Mise en marche le Internet - сЁрєчхЁр extщrieur
+Accomplir
+Supprimer
+La aide
+Les Internets - ressources trouvщ au fragment affectщ:
+Commande:
+$IDD_SELECT_EV_BOSS
+Le Choix node
+OK
+Supprimer
+Accessible node:
+$IDD_CFG_COST
+Phone costs
+Add
+Delete
+Change
+Add
+Delete
+Change
+Enable cost calculation
+Available base costs:
+Name:
+Cost of Unit (xx.yy):
+Currency:
+Workdays:
+Weekend:
+Delay to CONNECT message (sec)
+Current phone costs:
+Phone:
+Base cost:
+(format:   Interval=Seconds-in-Unit, example:   0:00-5:00=240 5:00-9:00=150)
+$IDD_COSTANAL
+Le Compte du coыt des sщances
+La sortie
+La aide
+Montrer l'intervalle
+Garder selon la silence
+Le Dщbut (le jour.Le mois.L'annщe):
+La Fin: (le jour.Le mois.L'annщe)
+Les Donnщes pour le compte:
+La Pщriode de l'analyse
+Montrer tout
+Nettoyer le fichier de la statistique
+Ne pas montrer 0.0
+Montrer aujourd'hui
+Inscrire au fichier
+$IDD_INOUT_HIST
+Le Procшs - verbal entrant/des coups de tщlщphone sortant
+Les coups de tщlщphone Entrant
+Les coups de tщlщphone Sortant
+La sortie
+$IDD_CFG_FAX
+Le Rщglage des faxs
+Ne pas transformer en format AWD
+Ne pas щloigner(enlever) les .FAX-fichiers initiaux
+Le Catalogue pour les faxs entrant:
+L'щquipe(commande) pour l'affichage des faxs:
+L'щquipe(commande) pour les fichiers initiaux:
+La Vitesse de la composition 19200 bod pour les faxs
+$IDD_CFG_DIRS
+Programs and folders
+Le classeur De base FIPS:
+Le Classeur de la base postale:
+Le Classeur des utilitaires de service:
+Le Classeur node- et les point-feuilles:
+Le Classeur de la poste entrant:
+Le Classeur du courrier:
+Le Rщglage des voies du systшme:
+Le classeur De base pour TIC:
+Le Classeur multimedia:
+Utiliser(exploiter) le classeur de base comme radical pour autre
+Internet Browser setup ('%s' used as argument)
+Command line:
+Printing program (if is blank, Notepad will be used)
+Command line:
+Execute hidden
+Print in ANSI
+$IDD_BBS_LEVELS
+Access levels
+Ajouter
+Йtablir
+Йloigner
+Les niveaux(degrщs) Йtablis de l'accшs:
+Le Niveau(degrщ) de l'accшs:
+Le Temps р la ligne:
+Le Commentaire:
+$IDD_BBS_MAIN
+Le rщglage BBS
+Le Test des sons
+La Langue pour l'щcran initial BBS:
+Le Niveau(degrщ) de l'accшs pour un nouvel utilisateur:
+Le Son de l'appel sysop pour la conversation
+...
+$IDD_BBS_USERS
+Utilisateurs
+Les utilisateurs Courants:
+Ajouter
+Йtablir
+Йloigner
+Le Nom:
+Le Niveau(degrщ) de l'accшs:
+La Rue:
+La Ville:
+Le tщlщphone Vocal:
+Le Modem/fax:
+Des Lignes pour la page:
+Utiliser les ANSI-couleurs
+La Langue:
+Les Groupes:
+Le Mot d'ordre:
+Il resta au temps:
+$IDD_BBS_AREA
+Download Areas
+...
+...
+Йloigner
+Ajouter
+Йtablir
+La Voie vers le domaine:
+Les domaines Accessibles:
+La Description du domaine:
+Le Niveau minimum de l'accшs:
+Les drapeaux De groupe:
+La Liste des fichiers du domaine:
+Import
+$IDD_CFG_GATE
+[F]Internet template
+А qui:
+L'adresse de l'щcluse:
+Le Sujet:
+Le Contenu:
+Le Clichщ pour de nouvelles lettres
+Pour la description dщtaillщe scripts appuyez sur le bouton de l'aide
+Insщrer scripts de la formation de la poste pour le Internet
+Pour les rщponses au Internet utilisez(exploitez) le bouton droit de la souris - > Trouver ' e-mail l'adresse ' dans le dialogue de la crщation de la lettre
+$IDD_TIMEOUTS
+[F]Connections settings
+Le Compteur des tentatives
+Des Tentatives pour un numщro
+Le Temps d'attente (des secondes)
+Le nombre(date) Maximum des tentatives la communication
+Pour
+Des secondes
+Au regorgement du compteur,\le retard pour chaque coup de tщlщphone
+Des secondes
+Insщrer le contrЇle la communication
+СсЁюё du compteur
+[F]Timeouts
+De l'interruption la communication
+$IDD_SELECT_MODEM
+Le Choix du modem
+Choisir
+Supprimer
+Choisissez le modem parmi la liste
+$IDD_REPOST_FOLDER
+Repost folder
+Exit
+Repost now
+Delete repost
+Help
+List of reposts:
+$IDD_CFG_EXTFREQ
+Le Rщglage le fichier extщrieur - rekvester
+L'щquipe(commande) de l'appel extщrieur rekvester (sans voies)
+Le programme 16-bits
+Supprimer
+Garder
+$IDD_FREQ_SELECT
+Le Choix des fichiers pour la demande
+Choisir
+Supprimer
+La aide
+$IDD_CHANGE_HEADER
+Le Choix du clichщ du titre
+La aide
+Supprimer
+Choisir
+$IDD_CHANGE_FOOTER
+Le Choix du clichщ de la signature
+La aide
+Supprimer
+Choisir
+$IDD_MAIN_WINDOW
+FIPS/Phoenix
+De:
+А qui:
+Le Sujet:
+A
+C	
+Й
+$IDD_CFG_KLUDGES
+Le Traitement cludge
+Ajouter cludge:
+Cacher cludge:
+Ajouter
+Йloigner
+Ajouter
+Йloigner
+Tout
+Affectщ
+Change
+Change
+Hide kludges
+$IDD_MAIN_CONFIG
+FIPS Setup
+OK
+Cancel
+Apply
+Help
+$IDD_GUARD
+Enter password:
+ОК
+Cancel
+$IDD_CFG_MAILEDITOR
+Mail editor
+Right margin:
+Tab width:
+Font
+Colors:
+Auto indent
+Use pseudographics
+Show tabs and spaces
+Word wrap
+Equal tabs
+Replace tabs with spaces
+Use color attributes
+$IDD_CODESEL
+Coding
+DOS coding
+WIN coding

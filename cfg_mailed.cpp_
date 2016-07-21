@@ -1,0 +1,223 @@
+#include "stdafx.h"
+#include "resource.h"
+#include "cfg_mailed.h"
+#include "structs.h"
+#include "editwnd.h"
+
+
+// cfg_mailed dialog
+
+COLORREF TextWndColors[NUM_EDIT_COLORS];
+
+IMPLEMENT_DYNAMIC(cfg_mailed, CSAPrefsSubDlg)
+cfg_mailed::cfg_mailed(CWnd* pParent /*=NULL*/)
+	: CSAPrefsSubDlg(cfg_mailed::IDD, pParent)
+	, m_nRMargin(0)
+	, m_bAutoIndent(FALSE)
+	, m_bOemCharset(FALSE)
+	, m_bWordWrap(FALSE)
+	, m_nTabSize(0)
+	, m_bEqualTabs(FALSE)
+	, m_bReplaceTabs(FALSE)
+	, m_nFontSize(0)
+	, m_FontName(_T(""))
+	, m_bShowTabs(FALSE)
+	, m_nCurColor(0)
+	, m_bColorMark(FALSE)
+{
+	m_nRMargin = get_cfg(CFG_MAILED, "RightMargin", 0);
+	m_bAutoIndent = get_cfg(CFG_MAILED, "AutoIndent", 1);
+	m_bOemCharset = get_cfg(CFG_MAILED, "OemCharset", 1);
+	m_bWordWrap = get_cfg(CFG_MAILED, "WordWrap", 1);
+	m_nTabSize = get_cfg(CFG_MAILED, "TabSize", 4);
+	m_bEqualTabs = get_cfg(CFG_MAILED, "EqualTabs", 1);
+	m_bReplaceTabs = get_cfg(CFG_MAILED, "ReplaceTabs", 0);
+	m_nFontSize = get_cfg(CFG_MAILED, "FontSize", 10);
+	m_bShowTabs = get_cfg(CFG_MAILED, "ViewTabs", 0);
+	m_FontName = get_cfg(CFG_MAILED, "FontName", "Courier New");
+	m_bColorMark = get_cfg(CFG_MAILED, "ColorMark", 1);
+	
+	memcpy(m_aColors, TextWndColors, sizeof(COLORREF) * NUM_EDIT_COLORS);
+	m_Color.currentcolor = m_aColors[m_nCurColor];
+	m_nLastColor = m_nCurColor;
+}
+
+void ApplyEditWndOptions(CEditWnd *wnd)
+{
+	wnd->SetScreenChars(get_cfg(CFG_MAILED, "RightMargin", 0));
+	wnd->SetAutoIndent(get_cfg(CFG_MAILED, "AutoIndent", 1));
+	wnd->SetOemCharset(get_cfg(CFG_MAILED, "OemCharset", 1));
+	wnd->SetWordWrapping(get_cfg(CFG_MAILED, "WordWrap", 1));
+	wnd->SetTabSize(get_cfg(CFG_MAILED, "TabSize", 4));
+	wnd->SetEqualTabs(get_cfg(CFG_MAILED, "EqualTabs", 0));
+	wnd->SetReplaceTabs(get_cfg(CFG_MAILED, "ReplaceTabs", 0));
+	wnd->SetViewTabs(get_cfg(CFG_MAILED, "ViewTabs", 0));
+	wnd->SetColorMark(get_cfg(CFG_MAILED, "ColorMark", 0));
+	
+	LOGFONT lf;
+	wnd->GetFont(lf);
+	strcpy(lf.lfFaceName, get_cfg(CFG_MAILED, "FontName", "Courier New"));
+	HDC hDC = ::GetDC(wnd->m_hWnd);
+	lf.lfHeight = -MulDiv(get_cfg(CFG_MAILED, "FontSize", 10), GetDeviceCaps(hDC, LOGPIXELSY), 72);
+	::ReleaseDC(wnd->m_hWnd, hDC);
+	wnd->SetFont(lf);
+}
+
+cfg_mailed::~cfg_mailed()
+{
+}
+
+void cfg_mailed::DoDataExchange(CDataExchange* pDX)
+{
+	CDialog::DoDataExchange(pDX);
+	DDX_Text(pDX, IDC_RMARGIN, m_nRMargin);
+	DDX_Check(pDX, IDC_AUTOINDENT, m_bAutoIndent);
+	DDX_Check(pDX, IDC_USEDOS, m_bOemCharset);
+	DDX_Check(pDX, IDC_WORDWRAP, m_bWordWrap);
+	DDX_Text(pDX, IDC_TABSIZE, m_nTabSize);
+	DDX_Check(pDX, IDC_EQUALTABS, m_bEqualTabs);
+	DDX_Check(pDX, IDC_TABTOSPACE, m_bReplaceTabs);
+	DDX_Control(pDX, IDC_FONTFACE, m_FontsList);
+	DDX_Text(pDX, IDC_EDITFONTSZ, m_nFontSize);
+	DDX_CBString(pDX, IDC_FONTFACE, m_FontName);
+	DDX_Check(pDX, IDC_SHOWTABS, m_bShowTabs);
+	DDX_Control(pDX, IDC_COLOR, m_Color);
+	DDX_CBIndex(pDX, IDC_COLORS, m_nCurColor);
+	DDX_Check(pDX, IDC_COLORMARK, m_bColorMark);
+}
+
+
+BEGIN_MESSAGE_MAP(cfg_mailed, CSAPrefsSubDlg)
+	ON_CBN_SELCHANGE(IDC_COLORS, OnCbnSelchangeColors)
+	ON_BN_CLICKED(IDC_USEDOS, OnBnClickedUsedos)
+END_MESSAGE_MAP()
+
+
+// cfg_mailed message handlers
+
+BOOL cfg_mailed::OnInitDialog()
+{
+	CSAPrefsSubDlg::OnInitDialog();
+
+	FillFontsList();
+	
+	return TRUE;  // return TRUE unless you set the focus to a control
+	// EXCEPTION: OCX Property Pages should return FALSE
+}
+
+void cfg_mailed::OnOK()
+{
+	CSAPrefsSubDlg::OnOK();
+	set_cfg(CFG_MAILED, "RightMargin", m_nRMargin, FALSE);
+	set_cfg(CFG_MAILED, "AutoIndent", m_bAutoIndent, FALSE);
+	set_cfg(CFG_MAILED, "OemCharset", m_bOemCharset, FALSE);
+	set_cfg(CFG_MAILED, "WordWrap", m_bWordWrap, FALSE);
+	set_cfg(CFG_MAILED, "TabSize", m_nTabSize, FALSE);
+	set_cfg(CFG_MAILED, "EqualTabs", m_bEqualTabs, FALSE);
+	set_cfg(CFG_MAILED, "ReplaceTabs", m_bReplaceTabs, FALSE);
+	set_cfg(CFG_MAILED, "FontSize", m_nFontSize, FALSE);
+	set_cfg(CFG_MAILED, "FontName", m_FontName, FALSE);
+	set_cfg(CFG_MAILED, "ViewTabs", m_bShowTabs, FALSE);
+	set_cfg(CFG_MAILED, "ColorMark", m_bColorMark);
+	
+	memcpy(TextWndColors, m_aColors, sizeof(COLORREF) * NUM_EDIT_COLORS);
+
+	extern CEditWnd *editptr;
+	if (editptr)
+		ApplyEditWndOptions(editptr);
+}
+
+const COLORREF defTextWndColors[] =
+{
+	//цвета редактора
+	GetSysColor(COLOR_WINDOW),		//COLOR_EDIT_WHITESPACE
+	GetSysColor(COLOR_WINDOWTEXT),	//COLOR_EDIT_NORMALTEXT
+	GetSysColor(COLOR_HIGHLIGHT),		//COLOR_EDIT_SELBKGND
+	GetSysColor(COLOR_HIGHLIGHTTEXT),	//COLOR_EDIT_SELTEXT
+	RGB(128, 0, 128),			//COLOR_EDIT_QUOTE1
+	RGB(110, 0, 0),				//COLOR_EDIT_QUOTE2
+	RGB(0, 192, 0),				//COLOR_EDIT_TEARLINE
+	RGB(0, 192, 192),			//COLOR_EDIT_TAGLINE
+	RGB(0, 128, 0),				//COLOR_EDIT_ORIGIN
+
+	RGB(255, 0, 0),				//COLOR_EDIT_KLUDGE
+	RGB(0, 0, 0),				//COLOR_EDIT_MARK0, 0000
+	RGB(255, 0, 0),				//0001
+	RGB(128, 128, 128),			//0010
+	RGB(0, 0, 128),				//0011
+	RGB(0, 0, 255),				//0100
+	RGB(128, 0, 0),				//0101
+	RGB(0, 255, 0),				//0110
+	RGB(0, 255, 0),				//0111
+	RGB(128, 128, 128),			//1000
+	RGB(255, 0, 255),			//1001
+	RGB(0, 0, 128),				//1010
+	RGB(0, 0, 255),				//1011
+	RGB(255, 0, 0),				//1100
+	RGB(128, 0, 0),				//1101
+	RGB(0, 128, 0),				//1110
+	RGB(0, 255, 0),				//COLOR_EDIT_MARK15, 1111
+};
+
+void load_textwnd_colors()
+{
+	char key[32];
+	for (int i = 0; i < NUM_EDIT_COLORS; i++)
+	{
+		sprintf(key, "Color%d", i);
+		TextWndColors[i] = get_cfg(CFG_MAILED, key, defTextWndColors[i]);
+	}
+}
+
+void store_textwnd_colors()
+{
+	char key[32];
+	for (int i = 0; i < NUM_EDIT_COLORS; i++)
+	{
+		sprintf(key, "Color%d", i);
+		set_cfg(CFG_MAILED, key, TextWndColors[i]);
+	}
+}
+
+
+void cfg_mailed::OnCbnSelchangeColors()
+{
+	UpdateData();
+	m_aColors[m_nLastColor] = m_Color.currentcolor;
+	m_Color.currentcolor = m_aColors[m_nCurColor];
+	m_Color.Invalidate();
+	m_Color.UpdateWindow();
+	m_nLastColor = m_nCurColor;
+}
+
+int CALLBACK EnumFontFamProc(CONST LOGFONTA *lplf, CONST TEXTMETRICA *, DWORD, LPARAM lParam)
+{
+	CComboBox *cb = (CComboBox *)lParam;
+	ASSERT(cb);
+	if (cb->FindString(-1, lplf->lfFaceName) == CB_ERR)
+		cb->AddString(lplf->lfFaceName);
+		
+	return 1;
+}
+
+void cfg_mailed::FillFontsList()
+{
+	UpdateData();
+
+	LOGFONT lf;
+	lf.lfCharSet = m_bOemCharset ? OEM_CHARSET : DEFAULT_CHARSET;
+	lf.lfFaceName[0] = 0;
+	lf.lfPitchAndFamily = 0;
+
+	HDC hDC = ::GetDC(0);
+	m_FontsList.ResetContent();
+	EnumFontFamiliesEx(hDC, &lf, EnumFontFamProc, (LPARAM)&m_FontsList, 0);
+	::ReleaseDC(0, hDC);
+	
+	m_FontsList.SelectString(-1, m_FontName);
+}
+
+void cfg_mailed::OnBnClickedUsedos()
+{
+	FillFontsList();
+}

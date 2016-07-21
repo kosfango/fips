@@ -1,0 +1,1001 @@
+; DO NOT MODIFY!
+
+@SECTION RUSSIAN
+
+$MENU_MAIN
+Файл
+ Создать новое письмо...\Ins|58
+ Изменить текущее письмо...\Ctrl-Enter|59
+ Ответить
+  В текущей области...\Ctrl-Enter|60
+  Нетмэйлом...\Ctrl-N|61
+  В другой области...\Ctrl-Shift-Enter|62
+ Форвард текущего письма...\Alt-W|63
+ Кросспост текущего письма...\Alt-C|64
+ ---
+ Экспорт
+  Письма в файл...\Ctrl-S|4
+  Письма в GLOBAL ASAVED\Alt-S|5
+  Письма в другую ASAVED...|6
+ ---
+ Печать письма\Ctrl-P|9
+ ---
+ Выход\F10|11
+Вид
+ Язык
+  Английский|208
+  Немецкий|209
+  Русский|210
+  Французский|211
+ ---
+ Сортировать по
+  Дате получения\Ctrl-Shift-1|76
+  Дате создания\Ctrl-Shift-2|74
+  Отправителю\Ctrl-Shift-3|68
+  Получателю\Ctrl-Shift-4|70
+  Теме письма\Ctrl-Shift-5|72
+  Статусу письма\Ctrl-Shift-6|78
+  ---
+  По убыванию\Ctrl-Shift-0|79
+ Фильтр отображения...\Alt-Y|80
+ ---
+ Основное окно
+  Положение полей списка писем...|21
+  ---
+  10 %\Alt-1|22
+  20 %\Alt-2|23
+  30 %\Alt-3|24
+  40 %\Alt-4|25
+  50 %\Alt-5|26
+  60 %\Alt-6|27
+  70 %\Alt-7|28
+  80 %\Alt-8|29
+  90 %\Alt-9|30
+  100 %tAlt-0|31
+  ---
+  Размеры диалогов по умолчанию|32
+ Эхоконференции (области)...|46
+ Файлэхи (TIC)...|48
+ ---
+ Параметры...\Ctrl-G|212
+Правка
+ Выделить весь текст\Ctrl-A|1
+ Копировать выделение\Ctrl-C|2
+ Копировать письмо\Ctrl-B|3
+ ---
+ Найти
+  В текущей области...\Ctrl-F|65
+  Оригинал текущей копии\Ctrl-O|66
+  Расширенный поиск...\Alt-F|67
+ ---
+ Выбранные/помеченные письма
+  Сохранить в ASAVED...|81
+  Сохранить в другую область...|82
+  Сохранить в файл...|83
+  ---
+  Пометить как удаленные...|84
+  Пометить как прочтенные...|85
+  Пометить как неудаляемые...|86
+  ---
+  Отложить просмотр текущего...\Ctrl-W|87
+  ---
+  Напечатать...|88
+ Пометить все письма
+  Как прочтенные (текущая область)\Ctrl-R|89
+  Как удаленные (текущая область)|90
+  Как прочтенные (все области)|91
+ Изменить флаг текущего письма
+  Неотправляемое\Alt-K|92
+  Неудаляемое\Alt-L|93
+ Пометить письмо на удаление\Del|94
+ Переключить отметку выбранных\Ctrl-M|95
+ Снять все отметки у выбранных|96
+ ---
+ UU-декодирование
+  Из выбранных писем\Alt-U|97
+  ---
+  Начать выбор (первое письмо)|98
+  Закончить выбор (последнее письмо)|99
+ Удалить дубли (Dupes)
+  В текущей области\Alt-D|100
+  Во всех областях|101
+ Кодирование ROT13|102
+Входящие
+ Локальный вход BBS|108
+ Принять звонок (первый модем)|113
+ Принять звонок (второй модем)|114
+ Удаленный монитор|115
+Сервис
+ Упаковать почту|116
+ Запустить мэйлер|117
+ Запустить тоссер|118
+ Запустить пуржер|119
+ Компилятор нодлистов...|120
+ ---
+ Запрос файлов по файллистам (Freq)...\Alt-R|121
+ Запрос файлов из текущего письма...|122
+ Вызов другой системы (Poll)...|123
+ Отправить файл в файлэху (Hatch)...|124
+ ---
+ Подписка на конференции
+  По полному эхолисту...|125
+  Подписка на выделенное...|126
+ Скрипты
+  Редактор скриптов...|127
+  ---
+  Выполнить скрипт 1|128
+  Выполнить скрипт 2|129
+  Выполнить скрипт 3|130
+  Выполнить скрипт 4|131
+  Выполнить скрипт 5|132
+  Выполнить другой скрипт...|133
+  ---
+  Прервать текущий скрипт|134
+ Прервать текущее событие|135
+ ---
+ Адресная книга...\Ctrl-K|49
+ Сохранить адрес отправителя...|7
+ Сохранить адрес получателя...|8
+ ---
+ Запуск WWW-браузера...|136
+Окно
+ Окно мэйлера...\Ctrl-1|137
+ Окно тоссера...\Ctrl-2|138
+ Окно пуржера...\Ctrl-3|139
+ Компилятор нодлистов...\Ctrl-4|140
+ Менеджер событий...|54
+ ---
+ Левая панель инструментов\Alt-B|141
+ Плавающая панель инструментов|142
+ ---
+ Папка исходящей почты...\Alt-O|143
+ Папка репостов...|144
+ ---
+ Протоколы служб...\Alt-P|145
+ Протоколы звонков...|146
+ Статистика областей...|147
+ Анализ стоимости сеансов...|148
+ Адресная справка...\Alt-I|149
+?
+ Помощь...\F1|150
+ Основной экран|151
+ ---
+ Язык FIDO|152
+ Справочник|153
+ ---
+ О программе|154
+
+$MENU_POP_SUBJLIST
+Высота списка писем 30%\Alt-3|156
+Высота списка писем 100%\Alt-0|157
+Предыдущий размер списка|158
+---
+Выбор области\Alt-A,Tab|159
+Вывод цепочек обсуждения\Alt-T|160
+Найти оригинал данной копии\Ctrl-O|161
+---
+Переключить отметку выбранных\Ctrl-M|162
+Пометить все, как прочтенные|163
+Пометить текущее, как неудаляемое|164
+Пометить выбранные, как удаленные|165
+Пометить все, как удаленные|166
+---
+Сохранить в файл...|167
+Сохранить в выбранную область...|168
+UU-декодировать выбранные\Alt-U|169
+
+$MENU_POP_MAILTEXT
+Копировать выделение\Ctrl-C|172
+Сохранить в выбранную область|173
+---
+Ответить в данной области\Ctrl-Enter|174
+Ответить в другую область\Ctrl-Shift-Enter|175
+Ответить нетмэйлом\Ctrl-N|176
+Переслать письмо\Alt-W|177
+---
+UU-декодировать выбранные\Alt-U|169
+Запрос файлов из текущего письма|170
+Запустить WWW-браузер|171
+Подписка на выделенные конференции|178
+
+$MENU_POP_ADDRESS
+Копировать имя отправителя|179
+Копировать имя получателя|180
+Копировать тему письма|181
+---
+Занести отправителя в адресную книгу|182
+Занести получателя в адресную книгу|183
+---
+Информация об отправителе|184
+Информация о получателе|185
+
+$MENU_POP_EDITOR
+Вставить|186
+Копировать|187
+Вырезать|188
+---
+Вставить DOS текст...|189
+Вставить WIN текст...|213
+Вставить UU-код...|190
+Вставить мультимедиа-код...|191
+---
+Найти и заменить|192
+Кодирование/декодирование Rot13|193
+---
+Найти электронный адрес|194
+Использовать адрес отправителя|195
+
+$MENU_POP_PASTETO
+Вставить|196
+
+$MENU_POP_PASTETOADDR
+Вставить|197
+
+$MENU_POP_PASTESUBJ
+Вставить|198
+
+$MENU_POP_ADDRBOOK
+Сортировать по имени|199
+Сортировать по адресу|200
+Сортировать по примечанию|201
+
+$MENU_POP_NODESEL
+Сортировать по имени|202
+Сортировать по адресу|203
+Сортировать по городу|204
+Сортировать по BBS|205
+Сортировать по тел.номеру|206
+Сортировать по флагам|207
+
+$MENU_TRAY_ICON
+Восстановить|214
+Выход|215
+
+@SECTION ENGLISH
+
+$MENU_MAIN
+File
+ Select All\Ctrl-A|1
+ Copy selection to clipboard\Ctrl-C|2
+ Copy mail to clipboard\Ctrl-B|3
+ ---
+ Save mail to file...\Ctrl-S|4
+ Autosave mail\Alt-S|5
+ Autosave to specifc area...|6
+ ---
+ Capture sender address|7
+ Capture recipient address|8
+ ---
+ Print mail\Ctrl-P|9
+ ---
+ Exit\F10|11
+Setup
+ Language
+  English|208
+  German|209
+  Russian|210
+  French|211
+ ---
+ Setup...|212
+ Upper window options
+  Subject display adjustment|21
+  ---
+  10 %\Alt-1|22
+  20 %\Alt-2|23
+  30 %\Alt-3|24
+  40 %\Alt-4|25
+  50 %\Alt-5|26
+  60 %\Alt-6|27
+  70 %\Alt-7|28
+  80 %\Alt-8|29
+  90 %\Alt-9|30
+  100 %\Alt-0|31
+  ---
+  Reset dialog box positions to default|32
+ Area Setup's ...|46
+ TIC echo Setup ...|48
+ ---
+ Addressbook...\Ctrl-K|49
+ ---
+ Event Manager...|54
+Mails
+ Create new mail\Ins|58
+ Change current mail\Ctrl-Enter|59
+ Answer message
+  Answer as quote\Ctrl-Enter|60
+  Answer as netmail\Ctrl-N|61
+  Quote to another area\Ctrl-Shift-Enter|62
+ Forward message...\Alt-W|63
+ Crosspost message...\Alt-C|64
+ ---
+ Find
+  In current area\Ctrl-F|65
+  Find orginal of a carboncopy\Ctrl-O|66
+  Extended Search\Alt-F|67
+ Sort 
+  For Receiving Date\Ctrl-Shift-1|76
+  For Creation Date\Ctrl-Shift-2|74
+  For Sender\Ctrl-Shift-3|68
+  For Recipient\Ctrl-Shift-4|70
+  For Subject\Ctrl-Shift-5|72
+  For Mailstatus\Ctrl-Shift-6|78
+  ---
+  Decreasing Order\Ctrl-Shift-0|79
+ Filter for mail display ...\Alt-Y|80
+ ---
+ With all selected/marked mails
+  Autosave...|81
+  Autosave to specific area...|82
+  Save to one file...|83
+  ---
+  Mark for deletion...|84
+  Mark as already read...|85
+  Never delete this messages...|86
+  ---
+  Present Again current mail\Ctrl-W|87
+  ---
+  Print mails...|88
+ Mark all message
+  As read\Ctrl-R|89
+  As deleted|90
+  In all areas as read|91
+ Change mail state
+  Toggle freeze status\Alt-K|92
+  Never purge this mail\Alt-L|93
+ Mark current mail as deleted\Del|94
+ Switch user mark\Ctrl-M|95
+ Unmark all marked messages|96
+ ---
+ Uudecode mail
+  From selected mails\Alt-U|97
+  ---
+  Begin multiple selection|98
+  End multiple selection|99
+ Check Dupes
+  For the current area\Alt-D|100
+  For all areas|101
+ Toggle ROT13 display|102
+Incoming calls
+ BBS Local Login|108
+ Accept call (First modem)|113
+ Accept call (Second modem)|114
+ Remote monitor|115
+Service
+ Rescan mails|116
+ Start mailer Session|117
+ Start tosser|118
+ Start purging database|119
+ Nodelist compiler...|120
+ ---
+ File Request ...\Alt-R|121
+ Filerequest from current mail ...|122
+ Poll a foreign system...|123
+ Hatch a file...|124
+ ---
+ Order Echos
+  From a echolist|125
+  Value Areafix netmail|126
+ Scripts
+  Script Editor...|127
+  ---
+  Start script 1|128
+  Start script 2|129
+  Start script 3|130
+  Start script 4|131
+  Start script 5|132
+  Execute any script|133
+  ---
+  Abort current script|134
+ Abort current event|135
+ ---
+ Start WWW-Browser|136
+Window
+ Mailer status window\Ctrl-1|137
+ Tosser status window\Ctrl-2|138
+ Purger status window\Ctrl-3|139
+ Nodelist compiler\Ctrl-4|140
+ Left side toolbar\Alt-B|141
+ Floating toolbar|142
+ ---
+ Outbound folder...\Alt-O|143
+ Repost folder...|144
+ ---
+ View Logfiles\Alt-P|145
+ In/out call-history|146
+ Area Traffic Info|147
+ Cost Analyze|148
+ Address Info\Alt-I|149
+?
+ Help me ...\F1|150
+ Main screen|151
+ ---
+ FIDO Language|152
+ Dictionary|153
+ ---
+ About|154
+
+$MENU_POP_SUBJLIST
+30%  subjectview\Alt-3|156
+100% subjectview\Alt-0|157
+Last scale|158
+---
+Areaselection\Alt-A,Tab|159
+Toggle structured display\Alt-T|160
+Find original of a carboncopy\Ctrl-O|161
+---
+Switch user mark for selected\Ctrl-M|162
+Mark all as read|163
+Never delete this message|164
+Mark Selected as Deleted|165
+Mark all as deleted|166
+---
+Save to one file...|167
+Autosave to specific area...|168
+UU-decoding Selected Mail\Alt-U|169
+
+$MENU_POP_MAILTEXT
+Copy\Ctrl-C|172
+Autosave to specific area|173
+---
+Quote mail\Ctrl-Enter|174
+Quote to another area\Ctrl-Shift-Enter|175
+Answer as Netmail\Ctrl-N|176
+Forward to Another Person\Alt-W|177
+---
+UU-decoding Selected Mail\Alt-U|169
+Request from this mail|170
+Start www-browser|171
+Value Areafix netmail|178
+
+$MENU_POP_ADDRESS
+Copy sender name|179
+Copy recipient name|180
+Copy subject to clipboard|181
+---
+Take sender to addressbook|182
+Take recipient to addressbook|183
+---
+Sender info|184
+Recipient info|185
+
+$MENU_POP_EDITOR
+Paste|186
+Copy|187
+Cut|188
+---
+Insert OEM Text|189
+Insert ANSI Text...|213
+Insert binary data|190
+Insert multimedia element|191
+---
+Search and replace|192
+Rot13 En/Decrypt|193
+---
+Find email address|194
+Change address to recipient|195
+
+$MENU_POP_PASTETO
+Paste|196
+
+$MENU_POP_PASTETOADDR
+Paste|197
+
+$MENU_POP_PASTESUBJ
+Paste|198
+
+$MENU_POP_ADDRBOOK
+Sort for Name|199
+Sort for Fido|200
+Sort for Comment|201
+
+$MENU_POP_NODESEL
+Sort for Name|202
+Sort for Address|203
+Sort for Town|204
+Sort for BBSName|205
+Sort for Phone|206
+Sort for Flags|207
+
+$MENU_TRAY_ICON
+Restore|214
+Exit|215
+
+@SECTION GERMAN
+
+$MENU_MAIN
+Datei
+ Gesamte Mail anwдhlen\Ctrl-A|1
+ Kopiere Auswahl in die Zwischenablage\Ctrl-C|2
+ Kopiere gesamte Mail in die Zwischenablage\Ctrl-B|3
+ ---
+ Mail in Datei abspeichern...\Ctrl-S|4
+ Automatisches Mailspeichern\Alt-S|5
+ Automatisches Speichern in spezielle Area...|6
+ ---
+ Adressьbernahme Senderadresse|7
+ Adressьbernahme Empfдngeradresse|8
+ ---
+ Mail ausdrucken\Ctrl-P|9
+; Konfiguration des Ausdrucks...|10
+ ---
+ FIPS beenden\F10|11
+Einstellungen
+ Sprachauswahl
+  English|208
+  German|209
+  Russian|210
+  French|211
+ ---
+ Setup...|212
+ Fensterverhдltnis
+  Anpassung des Subjectfensters|21
+  ---
+  10 %\Alt-1|22
+  20 %\Alt-2|23
+  30 %\Alt-3|24
+  40 %\Alt-4|25
+  50 %\Alt-5|26
+  60 %\Alt-6|27
+  70 %\Alt-7|28
+  80 %\Alt-8|29
+  90 %\Alt-9|30
+  100 %\Alt-0|31
+  ---
+  Dialogboxpositionen auf Default|32
+ Nachrichtenbereichsverwaltung...|46
+ TIC Echos...|48
+ ---
+ Adressbuch...\Ctrl-K|49
+ ---
+ Event Verwaltung...|54
+Nachrichten
+ Erstelle neue Nachricht\Ins|58
+ Aktuelle Nachricht verдndern\Ctrl-Enter|59
+ Beantworten
+  Antworte in dieser Area\Ctrl-Enter|60
+  Antworte als Netmail\Ctrl-N|61
+  Antworte in einer anderen Area...\Ctrl-Shift-Enter|62
+ Forward message...\Alt-W|63
+ Crosspost message...\Alt-C|64
+ ---
+ Suchen
+  Suchen in NachrichtentCtrl-F|65
+  Suche Original einer CarbonCopy\Ctrl-O|66
+  Fenster fьr erweiterte Suche\Alt-F|67
+ Sortieren
+  Nach Empfangsdatum\Ctrl-Shift-1|76
+  Nach Erstellungsdatum\Ctrl-Shift-2|74
+  Nach Sender\Ctrl-Shift-3|68
+  Nach Empfдnger\Ctrl-Shift-4|70
+  Nach Subject\Ctrl-Shift-5|72
+  Nach Mailstatus\Ctrl-Shift-6|78
+  ---
+  Absteigend Ordnung\Ctrl-Shift-0|79
+ Auswahlfilter fьr Nachrichten\Alt-Y|80
+ ---
+ Fьr alle selektierten/markierten Nachrichten
+  Autosave...|81
+  Autosave in bestimmte Area...|82
+  Speichern in eine Datei...|83
+  ---
+  Zum Lцschen markieren...|84
+  Als bereits gelesen markieren...|85
+  Niemals lцschen...|86
+  ---
+  Wiedervorlage\Ctrl-W|87
+  ---
+  Ausdrucken...|88
+ Alle Markieren
+  Als gelesen\Ctrl-R|89
+  Als gelцscht|90
+  In allen Areas als gelesen markieren|91
+ Nachrichtenstatus дndern
+  Scannen dieser Mail (nicht) erlauben\Alt-K|92
+  Diese Nachricht niemals lцschen\Alt-L|93
+ Mark current mail as deleted\Del|94
+ Switch user mark for selected\Ctrl-M|95
+ Alle Markierungen entfernen|96
+ ---
+ Uudecode Nachricht
+  Aus den selektierten Nachrichten\Alt-U|97
+  ---
+  Start Nachrichtenmarkierung|98
+  Stop Nachrichtenmarkierung|99
+ Doppelte Nachrichten finden
+  Fьr den aktiven Nachrichtenbereich\Alt-D|100
+  Alle Nachrichtenbereiche|101
+ Rot13 Anzeige umschalten|102
+Anrufannahme
+ Lokaler Zugang BBS|108
+ Anruf jetzt annehmen (Erstes Modem)|113
+ Anruf jetzt annehmen (Zweites Modem)|114
+ Fernьberwachung|115
+Service
+ Erstellte Nachrichten zum Versand vorbereiten|116
+ Starte eine Nachrichten- und/oder Dateiьbertragung|117
+ Mails auspacken|118
+ Alte Nachrichten aus Datenbank entfernen|119
+ Nodeliste erstellen...|120
+ ---
+ Datei von einem anderen System anfordern..\Alt-R|121
+ Filerequest aus aktueller Mail ...|122
+ Einfacher Poll bei Fremdsystem...|123
+ Eine Datei hatchen...|124
+ ---
+ Nachrichtenbereiche an-/abbestellen
+  Ьber eine Echoliste|125
+  Areafix Netmail auswerten|126
+ Scripts
+  Erstellen von Scripts...|127
+  ---
+  Script Nr 1 ausfьhren|128
+  Script Nr 2 ausfьhren|129
+  Script Nr 3 ausfьhren|130
+  Script Nr 4 ausfьhren|131
+  Script Nr 5 ausfьhren|132
+  Beliebiges Script ausfьhren|133
+  ---
+  Laufendes Script abbrechen|134
+ Laufenden Event abbrechen|135
+ ---
+ WWW-Browser starten|136
+Fenster
+ Mailer Status Fenster\Ctrl-1|137
+ Tosser Status Fenster\Ctrl-2|138
+ Purger Status Fenster\Ctrl-3|139
+ Nodelistencompiler Fenster\Ctrl-4|140
+ Iconleiste auf linker Seite\Alt-B|141
+ Frei verschiebbare Icons|142
+ ---
+ Outbound folder...\Alt-O|143
+ Repost folder...|144
+ ---
+ Protokolldateien anschauen\Alt-P|145
+ Eingehende/hinausgehende Verbindungen|146
+ Mengeninformation|147
+ Telefonkosten Auswertung|148
+ Adressbuch\Alt-I|149
+?
+ Hilf mir...\F1|150
+ Hilfe zum Hauptfenster|151
+ ---
+ FIDO Language|152
+ Dictionary|153
+ ---
+ Versions Information|154
+
+$MENU_POP_SUBJLIST
+30%  subjectview\Alt-3|156
+100% subjectview\Alt-0|157
+Last scale|158
+---
+Areaselection\Alt-A,Tab|159
+Toggle structured display\Alt-T|160
+Find original of a carboncopy\Ctrl-O|161
+---
+Switch user mark for selected\Ctrl-M|162
+Mark all as read|163
+Never delete this message|164
+Mark Selected as Deleted|165
+Mark all as deleted|166
+---
+Save to one file...|167
+Autosave to specific area...|168
+UU-decoding Selected Mail\Alt-U|169
+
+$MENU_POP_MAILTEXT
+Copy\Ctrl-C|172
+Autosave to specific area|173
+---
+Quote mail\Ctrl-Enter|174
+Quote to another area\Ctrl-Shift-Enter|175
+Answer as Netmail\Ctrl-N|176
+Forward to Another Person\Alt-W|177
+---
+UU-decoding Selected Mail\Alt-U|169
+Request from this mail|170
+Start www-browser|171
+Value Areafix netmail|178
+
+$MENU_POP_ADDRESS
+Copy sender name|179
+Copy recipient name|180
+Copy subject to clipboard|181
+---
+Take sender to addressbook|182
+Take recipient to addressbook|183
+---
+Sender info|184
+Recipient info|185
+
+$MENU_POP_EDITOR
+Paste|186
+Copy|187
+Cut|188
+---
+Insert OEM Text|189
+Insert ANSI Text...|213
+Insert binary data|190
+Insert multimedia element|191
+---
+Search and replace|192
+Rot13 En/Decrypt|193
+---
+Find email address|194
+Change address to recipient|195
+
+$MENU_POP_PASTETO
+Paste|196
+
+$MENU_POP_PASTETOADDR
+Paste|197
+
+$MENU_POP_PASTESUBJ
+Paste|198
+
+$MENU_POP_ADDRBOOK
+Sort for Name|199
+Sort for Fido|200
+Sort for Comment|201
+
+$MENU_POP_NODESEL
+Sort for Name|202
+Sort for Address|203
+Sort for Town|204
+Sort for BBSName|205
+Sort for Phone|206
+Sort for Flags|207
+
+$MENU_TRAY_ICON
+Restore|214
+Exit|215
+
+@SECTION FRENCH
+
+$MENU_MAIN
+File
+ Select All\Ctrl-A|1
+ Copy selection to clipboard\Ctrl-C|2
+ Copy mail to clipboard\Ctrl-B|3
+ ---
+ Save mail to file...\Ctrl-S|4
+ Autosave mail\Alt-S|5
+ Autosave to specifc area...|6
+ ---
+ Capture sender address|7
+ Capture recipient address|8
+ ---
+ Print mail\Ctrl-P|9
+; Print Configuration...|10
+ ---
+ Exit\F10|11
+Setup
+ La Langue
+  English|208
+  German|209
+  Russian|210
+  French|211
+ ---
+ Setup...|212
+ Upper window options
+  Subject display adjustment|21
+  ---
+  10 %\Alt-1|22
+  20 %\Alt-2|23
+  30 %\Alt-3|24
+  40 %\Alt-4|25
+  50 %\Alt-5|26
+  60 %\Alt-6|27
+  70 %\Alt-7|28
+  80 %\Alt-8|29
+  90 %\Alt-9|30
+  100 %\Alt-0|31
+  ---
+  Reset dialog box positions to default|32
+ Area Setup's ...|46
+ TIC echo Setup ...|48
+ ---
+ Addressbook...\Ctrl-K|49
+ ---
+ Event Manager...|54
+Mails
+ Create new mail\Ins|58
+ Change current mail\Ctrl-Enter|59
+ Answer message
+  Answer as quote\Ctrl-Enter|60
+  Answer as netmail\Ctrl-N|61
+  Quote to another area\Ctrl-Shift-Enter|62
+ Forward message...\Alt-W|63
+ Crosspost message...\Alt-C|64
+ ---
+ Find
+  In current area\Ctrl-F|65
+  Find orginal of a carboncopy\Ctrl-O|66
+  Extended Search\Alt-F|67
+ Sort 
+  For Receiving Date\Ctrl-Shift-1|76
+  For Creation Date\Ctrl-Shift-2|74
+  For Sender\Ctrl-Shift-3|68
+  For Recipient\Ctrl-Shift-4|70
+  For Subject\Ctrl-Shift-5|72
+  For Mailstatus\Ctrl-Shift-6|78
+  ---
+  Decreasing Order\Ctrl-Shift-0|79
+ Filter for mail display ...\Alt-Y|80
+ ---
+ With all selected/marked mails
+  Autosave...|81
+  Autosave to specific area...|82
+  Save to one file...|83
+  ---
+  Mark for deletion...|84
+  Mark as already read...|85
+  Never delete this messages...|86
+  ---
+  Present Again current mail\Ctrl-W|87
+  ---
+  Print mails...|88
+ Mark all message
+  As read\Ctrl-R|89
+  As deleted|90
+  In all areas as read|91
+ Change mail state
+  Toggle freeze status\Alt-K|92
+  Never purge this mail\Alt-L|93
+ Mark current mail as deleted\Del|94
+ Switch user mark\Ctrl-M|95
+ Unmark all marked messages|96
+ ---
+ Uudecode mail
+  From selected mails\Alt-U|97
+  ---
+  Begin multiple selection|98
+  End multiple selection|99
+ Check Dupes
+  For the current area\Alt-D|100
+  For all areas|101
+ Toggle ROT13 display|102
+Incoming calls
+ BBS Local Login|108
+ Accept call (First modem)|113
+ Accept call (Second modem)|114
+ Remote monitor|115
+Service
+ Rescan mails|116
+ Start mailer Session|117
+ Start tosser|118
+ Start purging database|119
+ Nodelist compiler...|120
+ ---
+ File Request ...\Alt-R|121
+ Filerequest from current mail ...|122
+ Poll a foreign system...|123
+ Hatch a file...|124
+ ---
+ Order Echos
+  From a echolist|125
+  Value Areafix netmail|126
+ Scripts
+  Script Editor...|127
+  ---
+  Start script 1|128
+  Start script 2|129
+  Start script 3|130
+  Start script 4|131
+  Start script 5|132
+  Execute any script|133
+  ---
+  Abort current script|134
+ Abort current event|135
+ ---
+ Start WWW-Browser|136
+Window
+ Mailer status window\Ctrl-1|137
+ Tosser status window\Ctrl-2|138
+ Purger status window\Ctrl-3|139
+ Nodelist compiler\Ctrl-4|140
+ Left side toolbar\Alt-B|141
+ Floating toolbar|142
+ ---
+ Outbound folder...\Alt-O|143
+ Repost folder...|144
+ ---
+ View Logfiles\Alt-P|145
+ In/out call-history|146
+ Area Traffic Info|147
+ Cost Analyze|148
+ Address Info\Alt-I|149
+?
+ Help me ...\F1|150
+ Main screen|151
+ ---
+ FIDO Language|152
+ Dictionary|153
+ ---
+ About|154
+
+$MENU_POP_SUBJLIST
+30%  subjectview\Alt-3|156
+100% subjectview\Alt-0|157
+Last scale|158
+---
+Areaselection\Alt-A,Tab|159
+Toggle structured display\Alt-T|160
+Find original of a carboncopy\Ctrl-O|161
+---
+Switch user mark for selected\Ctrl-M|162
+Mark all as read|163
+Never delete this message|164
+Mark Selected as Deleted|165
+Mark all as deleted|166
+---
+Save to one file...|167
+Autosave to specific area...|168
+UU-decoding Selected Mail\Alt-U|169
+
+$MENU_POP_MAILTEXT
+Copy\Ctrl-C|172
+Autosave to specific area|173
+---
+Quote mail\Ctrl-Enter|174
+Quote to another area\Ctrl-Shift-Enter|175
+Answer as Netmail\Ctrl-N|176
+Forward to Another Person\Alt-W|177
+---
+UU-decoding Selected Mail\Alt-U|169
+Request from this mail|170
+Start www-browser|171
+Value Areafix netmail|178
+
+$MENU_POP_ADDRESS
+Copy sender name|179
+Copy recipient name|180
+Copy subject to clipboard|181
+---
+Take sender to addressbook|182
+Take recipient to addressbook|183
+---
+Sender info|184
+Recipient info|185
+
+$MENU_POP_EDITOR
+Paste|186
+Copy|187
+Cut|188
+---
+Insert OEM Text|189
+Insert ANSI Text...|213
+Insert binary data|190
+Insert multimedia element|191
+---
+Search and replace|192
+Rot13 En/Decrypt|193
+---
+Find email address|194
+Change address to recipient|195
+
+$MENU_POP_PASTETO
+Paste|196
+
+$MENU_POP_PASTETOADDR
+Paste|197
+
+$MENU_POP_PASTESUBJ
+Paste|198
+
+$MENU_POP_ADDRBOOK
+Sort for Name|199
+Sort for Fido|200
+Sort for Comment|201
+
+$MENU_POP_NODESEL
+Sort for Name|202
+Sort for Address|203
+Sort for Town|204
+Sort for BBSName|205
+Sort for Phone|206
+Sort for Flags|207
+
+$MENU_TRAY_ICON
+Restore|214
+Exit|215

@@ -1,0 +1,19 @@
+
+	// LIGHT.idl : IDL-Quellcode für LIGHT.exe
+//
+// Diese Datei wird von dem Programm MIDL verarbeitet, um
+// die Typbibliothek (LIGHT.tlb) und Marshalling-Code zu erstellen.
+import "oaidl.idl";
+import "ocidl.idl";
+[
+	uuid(DE11B54C-53DC-11D4-AAD4-00500464744A),
+	version(1.0),
+	helpstring("LIGHT 1.0 Typbibliothek")
+]
+library LIGHTLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+};
+
+	

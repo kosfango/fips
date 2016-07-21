@@ -1,0 +1,1179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9d515ff8-8515-4b7c-8483-c7e5d314b6fa}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;hpj;bat;for;f90</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Binkd">
+      <UniqueIdentifier>{c48e61cc-eb00-43ab-92f2-3f12e2ef6a60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{f7a3533d-92bb-4ae6-9348-af76302e415f}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;fi;fd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{d3abb064-ec94-4da4-a093-9a6dcb8b2f6b}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="adrbook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="again.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="al_exist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arcmail.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="areasel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="badxfer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bbsarea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bbsgrp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bbsmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bbsstuff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bbsuser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bmpview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mime\Cb64endec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg_aaka.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg_advn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg_apno.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg_area.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg_boss.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg_carb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg_col.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg_conv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg_dir.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg_edit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg_fax.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg_gate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg_icon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg_inco.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg_mode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg_mult.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg_nfll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg_node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg_othr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg_pack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg_ring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg_rmon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg_scr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg_serv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg_tics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg_time.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg_tras.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfgexfr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfgmagic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfgrpath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfgsound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfido.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cha_tmpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cha_xfer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="changed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="charging.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="choosas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="costanal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="crospost.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csobj.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cuuendec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dbcon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="det_nl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="detmail.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="detpurg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dettoss.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dibapi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ecolst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="emergenc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="error.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="events.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="evpump.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exbrow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exsearch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fax.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="filereq.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FListCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="floating.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="import.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="impwhat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inafound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="info_adr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inouthis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="insmm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kludges.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MathParser\Lexer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lightdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="logdisp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="logopti.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mailhan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="manual.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="marksel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MathParser\MathParser.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msgbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="myedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="myeditfr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mylist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="myowlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mystrlst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="net.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="newmail.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nodelist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nodesel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nt_debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="outbound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="owlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pkt_view.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SUP\pr_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SUP\Pr_hydra.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SUP\Pr_xfer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SUP\pr_zmod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quickset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="receiver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="reqsel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="resultfm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rfilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SAPrefsDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SAPrefsStatic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SAPrefsSubDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="screenpo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="script.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="search.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="searepl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sedesta.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sel_freq.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="selevbos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="simple.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="simppoll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="splash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MathParser\StrMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sub_adj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MathParser\SymTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tapisel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ticedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="timed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tosslib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="traffic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trepl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trmansi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="txttemp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="u_crc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="valarea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wiedinf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="writedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="writmail.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="binkd\binkd.cpp">
+      <Filter>Source Files\Binkd</Filter>
+    </ClCompile>
+    <ClCompile Include="binkd\binlog.cpp">
+      <Filter>Source Files\Binkd</Filter>
+    </ClCompile>
+    <ClCompile Include="binkd\bsy.cpp">
+      <Filter>Source Files\Binkd</Filter>
+    </ClCompile>
+    <ClCompile Include="binkd\client.cpp">
+      <Filter>Source Files\Binkd</Filter>
+    </ClCompile>
+    <ClCompile Include="binkd\crypt.cpp">
+      <Filter>Source Files\Binkd</Filter>
+    </ClCompile>
+    <ClCompile Include="binkd\dirwin32.cpp">
+      <Filter>Source Files\Binkd</Filter>
+    </ClCompile>
+    <ClCompile Include="binkd\ftnaddr.cpp">
+      <Filter>Source Files\Binkd</Filter>
+    </ClCompile>
+    <ClCompile Include="binkd\ftndom.cpp">
+      <Filter>Source Files\Binkd</Filter>
+    </ClCompile>
+    <ClCompile Include="binkd\ftnnode.cpp">
+      <Filter>Source Files\Binkd</Filter>
+    </ClCompile>
+    <ClCompile Include="binkd\ftnq.cpp">
+      <Filter>Source Files\Binkd</Filter>
+    </ClCompile>
+    <ClCompile Include="binkd\getfree.cpp">
+      <Filter>Source Files\Binkd</Filter>
+    </ClCompile>
+    <ClCompile Include="binkd\getw.cpp">
+      <Filter>Source Files\Binkd</Filter>
+    </ClCompile>
+    <ClCompile Include="binkd\https.cpp">
+      <Filter>Source Files\Binkd</Filter>
+    </ClCompile>
+    <ClCompile Include="binkd\inbound.cpp">
+      <Filter>Source Files\Binkd</Filter>
+    </ClCompile>
+    <ClCompile Include="binkd\iptools.cpp">
+      <Filter>Source Files\Binkd</Filter>
+    </ClCompile>
+    <ClCompile Include="binkd\md5b.cpp">
+      <Filter>Source Files\Binkd</Filter>
+    </ClCompile>
+    <ClCompile Include="binkd\prothlp.cpp">
+      <Filter>Source Files\Binkd</Filter>
+    </ClCompile>
+    <ClCompile Include="binkd\protocol.cpp">
+      <Filter>Source Files\Binkd</Filter>
+    </ClCompile>
+    <ClCompile Include="binkd\readcfg.cpp">
+      <Filter>Source Files\Binkd</Filter>
+    </ClCompile>
+    <ClCompile Include="binkd\readflo.cpp">
+      <Filter>Source Files\Binkd</Filter>
+    </ClCompile>
+    <ClCompile Include="binkd\sem.cpp">
+      <Filter>Source Files\Binkd</Filter>
+    </ClCompile>
+    <ClCompile Include="binkd\server.cpp">
+      <Filter>Source Files\Binkd</Filter>
+    </ClCompile>
+    <ClCompile Include="binkd\srif.cpp">
+      <Filter>Source Files\Binkd</Filter>
+    </ClCompile>
+    <ClCompile Include="binkd\TCPErr.cpp">
+      <Filter>Source Files\Binkd</Filter>
+    </ClCompile>
+    <ClCompile Include="binkd\tools.cpp">
+      <Filter>Source Files\Binkd</Filter>
+    </ClCompile>
+    <ClCompile Include="binkd\WSock.cpp">
+      <Filter>Source Files\Binkd</Filter>
+    </ClCompile>
+    <ClCompile Include="binkd\xalloc.cpp">
+      <Filter>Source Files\Binkd</Filter>
+    </ClCompile>
+    <ClCompile Include="colorbtn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="guard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="costuser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="textbuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TrayIcon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="textwnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addrselect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="regexp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg_mailed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="database.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="light.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="ntdebug.obj">
+      <Filter>Source Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="sup\Win32_De\PROTOCOL.lib">
+      <Filter>Source Files</Filter>
+    </Library>
+    <Library Include="sup\Win32_D0\SUPERCOM.lib">
+      <Filter>Source Files</Filter>
+    </Library>
+    <Library Include="WINMM.LIB">
+      <Filter>Source Files</Filter>
+    </Library>
+    <Library Include="WSOCK32.LIB">
+      <Filter>Source Files</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="adrbook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="again.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="al_exist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="areasel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="badxfer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bbsarea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bbsgrp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bbsmain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bbsuser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bmpview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mime\CB64ENDEC.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg_aaka.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg_advn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg_apno.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg_area.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg_boss.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg_carb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg_col.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg_conv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg_dir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg_edit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg_fax.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg_gate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg_icon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg_inco.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg_mode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg_mult.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg_nfll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg_node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg_othr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg_pack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg_ring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg_rmon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg_scr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg_serv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg_tics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg_time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg_tras.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfgexfr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfgmagic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfgrpath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfgsound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfido.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cha_tmpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cha_xfer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="changed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="choosas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="costanal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="costuser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="crospost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csobj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cuuendec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="det_nl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="detmail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="detpurg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dettoss.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dibapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ecolst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="emergenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="events.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exbrow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exsearch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="faxinc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="filereq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FListCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="floating.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gcomm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impwhat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inafound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="info_adr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inouthis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="insmm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kludges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MathParser\Lexer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lightdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="logdisp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="logopti.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="manual.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="marksel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MathParser\MathParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="msgbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myeditfr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mylist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myowlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mystrlst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="newmail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nodesel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="outbound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="owlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pkt_view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SUP\pr_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SUP\PR_HYDRA.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SUP\PR_XFER.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SUP\pr_zmod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quickset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="receiver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="reqsel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resultfm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rfilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SAPrefsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SAPrefsStatic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SAPrefsSubDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="search.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="searepl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sedesta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sel_freq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="selevbos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="simppoll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="splash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MathParser\StrMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sub_adj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MathParser\SymTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tapisel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ticedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="timed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="traffic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trepl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="txttemp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="u_crc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="valarea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wiedinf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="writedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="writmail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include.hh">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="RES\abort.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\about.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\area.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\asave.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\coda.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\codansi.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\codansi.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\codo.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\codoem.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\codoem.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\com1_off.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\com1_on.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\com2_off.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\com2_on.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\empty.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\exit.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\file.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\filt.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\find.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Fips.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\freq.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\ico00001.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\icon2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\isdn_off.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\isdn_on.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\isdnoff.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\isdnon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\light.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\macro1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\macro2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\macro3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\macro4.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\macro5.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\mailer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\mod1off.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\mod1on.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\mod2off.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\mod2on.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\new.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\next.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\phoenix.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\phoenix.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\phoenix1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\phoenix2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\phoenix2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\prev.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\purger.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\quote.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\quotea.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\splash.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\tosser.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RES\http.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\mailer.avi">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\mailto.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\purger.avi">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\tosser.avi">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="RES\Light.exe.manifest" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,40 @@
+// searepl.h : header file
+//
+
+/////////////////////////////////////////////////////////////////////////////
+// searepl dialog
+
+class searepl : public CDialog
+{
+// Construction
+public:
+	searepl(CWnd* pParent = NULL);   // standard constructor
+
+// Dialog Data
+	//{{AFX_DATA(searepl)
+	enum { IDD = IDD_SEARCH_REPLACE };
+	CButton	m_userconv;
+	CButton	m_igncase;
+	CEdit	m_search;
+	CEdit	m_replace;
+	//}}AFX_DATA
+
+
+// Overrides
+	// ClassWizard generated virtual function overrides
+	//{{AFX_VIRTUAL(searepl)
+	protected:
+	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV support
+	//}}AFX_VIRTUAL
+
+// Implementation
+protected:
+
+	// Generated message map functions
+	//{{AFX_MSG(searepl)
+	virtual BOOL OnInitDialog();
+	virtual void OnCancel();
+	virtual void OnOK();
+	//}}AFX_MSG
+	DECLARE_MESSAGE_MAP()
+};

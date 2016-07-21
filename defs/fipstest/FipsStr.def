@@ -1,0 +1,2562 @@
+; DO NOT MODIFY!
+
+@SECTION RUSSIAN
+
+S_1	      Адресная книга\Время работы не указано
+S_2	     Новая почта в %s :
+S_3	  \t\t,Автосозданная
+S_4	--- конец ---
+S_5	Файл отсутствует!
+S_6	Удалено %d дублей
+S_7	репост %d писем
+S_8	%d из %d
+S_9	%d адресов в адресных листах
+S_10	%s
+S_11	%s  %1.0f Байт
+S_12	%s  %4.2f МБайт
+S_13	%s  %8.1f КБайт
+S_14	%s (%d сек)
+S_15	Запрос %s (%s)
+S_16	В файле '%s' отсутствует сообщение для кода <%s>!
+S_17	%s ввел неверный пароль
+S_18	%s,Прямой телефонный номер
+S_19	%s: Ошибка
+S_20	%s: Вопрос
+S_21	%s: Информация
+S_22	%s: Предупреждение
+S_23	... перепосылка с позиции %d
+S_24	... повтор с позиции %d
+S_25	; --- Без описания ---
+S_26	? дней
+S_27	\** Лог-файл укорочен %s в %s **\
+S_28	\Получен _факс_ от *%s*\Факс состоит из *%d* страниц(ы)\
+S_29	\Запуск BBS...
+S_30	\Не задана папка для Upload. Пожалуйста, сообщите SysOp-у !
+S_31	\/Область:/ 
+S_32	Событие: %s, период: %s-%s, адрес/команда: %s\результат: %s в %s, выполнено %d попыток.\
+S_33	\Файл %s.\\_Примечание_: для просмотра факса выполните двойной щелчок на строке *вверху*\
+S_34	\П - Настройка скриптов
+S_35	\\*/FIPS automatical generated message/*\\Your message from %s with subject:\\
+S_36	\\===  продолжение следует  ===
+S_37	^[FAВ локальном режиме Download невозможен !
+S_38	^[FBНет доступа к ^[FE%s^[FB. Пожалуйста, сообщите SysOp-у !
+S_39	^[FBВ локальном режиме Upload невозможен !
+S_40	^[FE%s^[FB не найден. Пожалуйста, сообщите SysOp-у !
+S_41	_завершено неудачно_
+S_42	_завершено успешно_
+S_43	| Основной AKA : %d:%d/%d.%d
+S_44	++ Копия в LOCALMAIL
+S_45	++ город %s (тел. %s)
+S_46	++ Прием %s
+S_47	++ Неизвестный протокол %d
+S_48	++ Результат: [%s]
+S_49	++ пользователь %s (уров. %d, гр. %s)
+S_50	++ Пользователь выбрал ZedZap 8k
+S_51	++ Пользователь выбрал ZModem 1k
+S_52	++ создано письмо %s
+S_53	+Д
+S_54	<неизвестная>
+S_55	== Несущая обнаружена
+S_56	== Установлена связь с %s
+S_57	== Ошибка рассоединения
+S_58	== Обнаружено рассоединение с сетью ISDN
+S_59	== Успешное рассоединение
+S_60	== Конец входящей сессии
+S_61	== Модем потерял несущую
+S_62	== Таймаут соединения
+S_63	== Сканирование почты завершено
+S_64	== Прием ZModem
+S_65	== Входящий вызов отвергнут
+S_66	== Сканирование отправляемой почты
+S_67	== Передача ZModem
+S_68	== Сессия прервана оператором
+S_69	== Невозможно инициализировать модем
+S_70	== Результат: [%s]
+S_71	Не заданы нодлисты!
+S_72	>С
+S_73	>П
+S_74	Прерывание невозможно
+S_75	Отмена очереди
+S_76	== Прервано
+S_77	Добавление приватного узла %s, %d:%d/%d.%d
+S_78	Дополнительная информация отсутствует
+S_79	Информация об адресе отсутствует
+S_80	Информация об адресе: (Адрес босса!)
+S_81	Адресная книга
+S_82	АДРЕСАТ
+S_83	ВСЕ
+S_84	Все файлы (*.*)|*.*||
+S_85	ЧИТАННЫЕ
+S_86	Переадресовка письма на %d:%d/%d
+S_87	Ответ на вызов
+S_88	Ответ на входящий вызов
+S_89	Добавление запроса файлов для %s
+S_90	Присоединение файла для %s
+S_91	Архив переименован в %s
+S_92	Область
+S_93	Описание области
+S_94	Область восстановлена
+S_95	Новая TIC-область
+S_96	Автоматическое подтверждение получения
+S_97	Автосканирование почты отключено
+S_98	Сохранить
+S_99	Ошибка даты в сообщении
+S_100	BBS (тлф): %s (%s)\Город: %s\Флаги: %s\
+S_101	Локальная область BBS
+S_102	НАЧИНАЕТСЯ С
+S_103	Fido-адрес босса
+S_104	Имя и фамилия босса
+S_105	Телефон босса
+S_106	Название станции Босса
+S_107	Маршрутизация для %s
+S_108	С
+S_109	Расчитанная контрольная сумма: %d (0x%X)
+S_110	Входящий звонок...
+S_111	>> %s
+S_112	Ошибка добавления запроса в %s
+S_113	Ошибка создания файла %s
+S_114	Невозможно удалить %s
+S_115	Ошибка удаления индекса адресов!
+S_116	Ошибка удаления индекса приватных узлов!
+S_117	Ошибка удаления старого REQ-файла '%s' !
+S_118	Ошибка удаления индекса имен!
+S_119	Отсутствует файл %s
+S_120	Контрольная сумма в файле нодлиста не найдена
+S_121	Ошибка импорта файла %s
+S_122	Ошибка импорта: неизвестная область %s
+S_123	Невозможно перенести %s в папку INBOUND
+S_124	Копии писем
+S_125	Копий        : %d
+S_126	Потеря несущей
+S_127	К
+S_128	копия -> %s
+S_129	>> Файл: %s %s
+S_130	Копия из области %s
+S_131	Стоимость сессии: %2.2f %s
+S_132	Базовый тариф <%s>
+S_133	Проверяется %s
+S_134	Проверка OUTBOUND для %s
+S_135	Очистка приемного буфера
+S_136	Команда: %s
+S_137	Поиск закончен
+S_138	Соединение с сетью ISDN...
+S_139	Соединение установлено
+S_140	СОДЕРЖИТ
+S_141	Области для копий
+S_142	Неправильная длина EMSI_DAT
+S_143	Контрольные суммы не совпали
+S_144	Контрольные суммы совпали
+S_145	Создано письмо к %s
+S_146	Создан лист %s
+S_147	Новое
+S_148	СОЗДАНИЕ
+S_149	Дата
+S_150	Распаковка файла
+S_151	Распаковка листа изменений
+S_152	По умолчанию
+S_153	Пауза перед набором - %d сек.
+S_154	Удален файл различий %s
+S_155	Удален старый лист %s
+S_156	Старый REQ-файла '%s' удален
+S_157	Удаление %s
+S_158	удаляется после отправки
+S_159	Удаление файла %s
+S_160	Удаление старого листа %s
+S_161	Создана область /%s/ _(проверьте настройки!)_\
+S_162	Описание
+S_163	Команда набора
+S_164	Вызов...
+S_165	Лист разл.
+S_166	направляется напрямую к %d:%d/%d.%d
+S_167	События отключены
+S_168	Ошибка рассоединения !
+S_169	Обнаружено отключение от сети ISDN !
+S_170	Выделение сохранено в области ASAVED
+S_171	Успешное рассоединение
+S_172	Письмо сохранено в области ASAVED
+S_173	Отсоединен от сети ISDN
+S_174	Рассоединение с сетью ISDN
+S_175	Рассоединение...
+S_176	Выполнено
+S_177	Эхопочта     : %d
+S_178	Эхо-менеджер
+S_179	Пустая
+S_180	Таймаут EMSI
+S_181	Получен EMSI_ACK
+S_182	Получен EMSI_DAT
+S_183	Получен EMSI_DAT вместо EMSI_ACK
+S_184	Получен EMSI_NAK
+S_185	Получен EMSI_NAK, ожидался EMSI_DAT
+S_186	Получен EMSI_REQ
+S_187	Получен EMSI_REQ вместо EMSI_DAT
+S_188	Таймаут EMSI-пакета
+S_189	Ошибка установления EMSI-сессии
+S_190	События включены
+S_191	Скрипт завершен
+S_192	== Конец тоссинга
+S_193	== Сжатие базы завершено
+S_194	== Завершение работы мэйлера
+S_195	Удаление поврежденного файла %s
+S_196	Результаты расширенного поиска
+S_197	Ошибка доступа к TIC-файлу !
+S_198	Ошибка выполнения пакетного файла: КЗ=%d ошибка=%d
+S_199	Ошибка претоссинговой обработки: КЗ=%d ошибка=%d
+S_200	Неправильный номер строки для кода <%s>!
+S_201	Ошибка переноса: %d
+S_202	Ошибка преобразования факса
+S_203	Ошибка открытия файла %s
+S_204	Ошибка распаковки %s
+S_205	Ошибка сохранения письма\
+S_206	Не найден файл сообщений <%s>
+S_207	Установка EMSI-сессии
+S_208	%s: <%s>
+S_209	Перезапуск событий
+S_210	%s: прервано пользователем
+S_211	%s: не найден адрес!
+S_212	%s: набор %s
+S_213	%s: прозвонка %s завершена неудачно
+S_214	%s: прозвонка завершена успешно
+S_215	%s: скрипт завершен
+S_216	%s: выполнение скрипта <%s>
+S_217	--- события ---
+S_218	%s: выполнение OK-скрипта <%s>
+S_219	%s: выполнение FAILED-скрипта <%s>
+S_220	%s: модем занят
+S_221	%s: пауза %d сек.
+S_222	%s: удалено
+S_223	%s: адрес <%s> не найден
+S_224	%s: продолжение работы
+S_225	Протокол событий
+S_226	Менеджер событий
+S_227	ПРОТОКОЛ СОБЫТИЙ
+S_228	Приостановка событий на время настройки...
+S_229	Искл. '%s'
+S_230	Лист исключений %s
+S_231	Исключаемая зона %d
+S_232	EXECTOOL завершился с ошибкой: %d
+S_233	Запуск
+S_234	Выполнение: %s
+S_235	Выполняется %s
+S_236	Выход
+S_237	Ошибка
+S_238	Ошибка сжатия %s
+S_239	Преобразование факса отключено
+S_240	Получен факс
+S_241	Факс успешно преобразован
+S_242	Факс-менеджер
+S_243	Тоссинг...
+S_244	Файл 
+S_245	Файл %s не найден !
+S_246	Присоединен файл %s
+S_247	Файл существует, переименован в %s
+S_248	Файл возможно заблокирован другой программой...
+S_249	Передача файла %s завершена
+S_250	Файл: %s
+S_251	Фильтр
+S_252	Поиск
+S_253	Ваше имя
+S_254	Сохранение файлов на диске...
+S_255	Найдено %d
+S_256	Найден лист %s  (тип %d)
+S_257	найден лист %s, перенесен в папку NODELIST
+S_258	Найдено 0
+S_259	Найдено в поле 'От кого'
+S_260	Найдено в тексте письма
+S_261	Найдено в поле 'Тема'
+S_262	Найдено в поле 'Кому'
+S_263	найден лист %s, распакован в папку NODELIST
+S_264	ОТ КОГО
+S_265	ОТ
+S_266	ОТ КОГО
+S_267	НЕОТПРАВЛЯЕМЫЕ
+S_268	RUSSIAN
+S_269	Группа
+S_270	ЗАГОЛОВОК
+S_271	Ожидание
+S_272	игн.
+S_273	Игнор.рег.
+S_274	Входящая сессия завершена
+S_275	Входящая EMSI-сессия
+S_276	Входящий ручной вызов
+S_277	Получен незавершенный EMSI_DAT
+S_278	Незавершенный EMSI_DAT: %d/%d
+S_279	Увеличение приоритета ...
+S_280	Генерация служебных сообщений отключена
+S_281	Инициализация модема на COM%d
+S_282	Неправильный адрес '%s'
+S_283	Неверное время доставки
+S_284	Соединение с сетью ISDN
+S_285	Обнаружен вызов ISDN
+S_286	Да
+S_287	%d Байт
+S_288	%8.1f КБайт
+S_289	%4.2f МБайт
+S_290	Преобразование в формат *.AWD *отключено*\
+S_291	Л - 
+S_292	ПОСЛЕДНИЕ
+S_293	Время доставки = 0
+S_294	Время доставки: %d д. %d ч. %d м.
+S_295	уровень:%d, группа:%s, осталось:%d мин
+S_296	уровень:%d, осталось:%d мин
+S_297	Достигнут предел
+S_298	Имя листа
+S_299	Локальный выход из BBS
+S_300	Создано локальное уведомление
+S_301	Локальная область копий
+S_302	Локальное уведомление
+S_303	Блокирована %s, будет сжата позже
+S_304	М
+S_305	письмо %s -> %s
+S_306	Письмо слишком длинное и будет разбито
+S_307	Письмо будет перенаправлено боссу
+S_308	ПРОТОКОЛ РАБОТЫ МЭЙЛЕРА
+S_309	Очередь мэйлера
+S_310	Писем/сек    : %d
+S_311	СТАТУС
+S_312	ТЕКСТ
+S_313	ПРОЧИТАННЫЕ
+S_314	Max
+S_315	Объединение %s и %s
+S_316	Направлено в %d конференций
+S_317	ММ-пакет %s удален
+S_318	Модем не отвечает !
+S_319	Инициализация модема
+S_320	<< %s
+S_321	Перенос файл различийа в %s
+S_322	Нет
+S_323	Личных       : %d
+S_324	НЕУДАЛЯЕМЫЕ
+S_325	СОЗДАННЫЕ
+S_326	Новый скрипт
+S_327	Контрольная сумма из файла: %d (0x%X)
+S_328	Нет
+S_329	Вызов не распознан
+S_330	Соединение не установлено
+S_331	Не получена EMSI-посылка, предполагается ручной вызов
+S_332	Отсутствуют файлы %s.*
+S_333	Не определен архиватор для %s
+S_334	Удаленный модем не ответил! Прием почты отключен.
+S_335	Не задан аплинк для области %s
+S_336	Не найден файл различий для листа %s
+S_337	Не найден нодлист для %s.*
+S_338	нодлист
+S_339	Компиляция нодлиста невозможна!
+S_340	ПРОТОКОЛ КОМПИЛЯТОРА НОДЛИСТОВ
+S_341	Компиляция нодлиста завершена
+S_342	Без описания
+S_343	Не задан
+S_344	не указано
+S_345	Не хватает памяти для выполнения операции!
+S_346	Не найден
+S_347	Не найдено
+S_348	Не сохр.
+S_349	Номер
+S_350	Пропуск прозвонки
+S_351	Удаленная сторона не отвечает!
+S_352	Упаковка почты
+S_353	ПЛ
+S_354	Выберите протокол:
+S_355	поинтлист
+S_356	Претоссинг: TOSS.BAT
+S_357	Личные письма
+S_358	Личная почта
+S_359	Обработка %s
+S_360	Обрабатывается %s %s
+S_361	Обрабатывается файл различий %s
+S_362	Обрабатывается список приватных узлов
+S_363	Обрабатываются запросы...
+S_364	Сканируется зона %d
+S_365	Обрабатывается зона %d
+S_366	Программа завершилась с ошибкой: %d
+S_367	== Конец сжатия
+S_368	Сжата %s
+S_369	ПРОТОКОЛ РАБОТЫ ПУРЖЕРА
+S_370	Ответ
+S_371	ОтветО
+S_372	Ответ в область %s
+S_373	П
+S_374	Считано %d, ожидалось %d байтов
+S_375	ПОЛУЧЕНИЕ
+S_376	Получен EMSI_DAT
+S_377	Удаленная сторона отвергла EMSI-пакет
+S_378	Файл %s переименован в %s
+S_379	ЗапросФ
+S_380	Запрос %s (%d:%d/%d.%d)
+S_381	Локальный вход на BBS
+S_382	Сканирование очереди...
+S_383	Сброс порта
+S_384	Перезапуск событий
+S_385	Восстановление с позиции %d
+S_386	Продолжение с байта %d
+S_387	Входящий звонок на 1 модеме
+S_388	Входящий звонок на 2 модеме
+S_389	Входящий звонок на ISDN
+S_390	Через '%s'
+S_391	направляется к %s через %s
+S_392	Сессия Hydra
+S_393	с
+S_394	Сохранение списка файлов из-за ошибки сессии
+S_395	СКАНИРОВАННЫЕ
+S_396	Сообщение скрипта
+S_397	      Скрипт не задан
+S_398	Строка поиска
+S_399	Поиск ...
+S_400	Ваша фамилия
+S_401	Страница *%2d* сохранена в файл *%s*\
+S_402	Выберите папку
+S_403	Посылка инит-строки в модем
+S_404	Посылка EMSI_DAT
+S_405	Передача ZModem
+S_406	Исходящая сессия завершена
+S_407	Пропустить области
+S_408	Пропущена %s
+S_409	Сортировка по именам
+S_410	Сортировка по адресам
+S_411	== Начало сжатия
+S_412	== Начало тоссинга
+S_413	== Начало компиляции нодлиста
+S_414	== Начало сжатия базы
+S_415	== Начало тоссинга
+S_416	ТЕМА
+S_417	Соединение с сетью ISDN
+S_418	Сумма:
+S_419	Синхронизация процессов...
+S_420	Сортировка завершена
+S_421	Сисоп: %s\
+S_422	Телефонный номер преобразован в %s
+S_423	перенаправляется боссу поинта
+S_424	КОМУ
+S_425	КОМУ
+S_426	Слишком много помех!
+S_427	ПРОТОКОЛ РАБОТЫ ТОССЕРА
+S_428	Тоссинг %s (%s)
+S_429	Twit в %s (%d): '%s'
+S_430	Тоссинг завершен (%d сек)
+S_431	Всего писем
+S_432	Обработано %ld байт
+S_433	Передача файлов
+S_434	Удалено      : %d
+S_435	Скрипт
+S_436	Мэйлер
+S_437	Тоссер
+S_438	Пуржер
+S_439	Сжатие заблокированных областей
+S_440	Невозможно присоединить все файлы
+S_441	Невозможно добавить запрос файла!
+S_442	Невозможно удалить %s
+S_443	Ошибка инициализации модема инит-строкой !
+S_444	Ошибка инициализации модема!
+S_445	Ошибка ответа модема
+S_446	Вызов UniPack
+S_447	Поинт %d:%d/%d.%d отсутствует в поинтлисте
+S_448	Распаковка %s (%s)
+S_449	Распаковка %s с помощью UniPack
+S_450	Распаковка почты
+S_451	Распаковка ММ-пакета %s
+S_452	Не прочитано
+S_453	Обновление почтовой базы...
+S_454	Аплинк
+S_455	Прервано оператором !
+S_456	Сброс несущей оператором
+S_457	Сброс оператором ISDN DATA-B3
+S_458	ПОМЕЧЕННЫЕ
+S_459	UU-декодирование файла
+S_460	UU-кодирование файла
+S_461	Ожидание %d сек.
+S_462	Ожидание завершения выбора области
+S_463	Ожидание сброса линии
+S_464	АДРЕС
+S_465	Ожидание пропущено
+S_466	Ожидание ответа удаленной системы
+S_467	Время работы не указано
+S_468	Время работы: %s-%s
+S_469	Запись индекса имен
+S_470	Запись индекса адресов
+S_471	Запись индекса приватных узлов
+S_472	Да
+S_473	СТАРШЕ
+S_474	Ваш поинт-номер
+S_475	Название Вашей станции
+S_476	Восстановление ZModem после сбоя
+S_477	Зона
+S_478	\r/Аплинк :/ 
+S_479	Невозможно создать папку %s
+S_480	Область   :/ *
+S_481	Файл      :/ *
+S_482	Переписан :/ *
+S_483	Скопирован:/ *
+S_484	Описание  :/ 
+S_485	Перенос %s -> %s
+S_486	Копия %s -> %s
+S_487	Невозможно открыть %s для добавления описания
+S_488	Невозможно скопировать файл!
+S_489	\rФайл *%s* Область /%s/\r* /TIC-файл без прикрепленного файла, отмечен для обработки позже !/ *\r
+S_490	Начало
+S_491	Репост через %d дней
+S_492	TIC-файл без прикрепленного файла, отложен
+S_493	Нет доступа к TIC-файлу %s
+S_494	Удаление старого TIC-файла %s
+S_495	\rФайл *%s* Область /%s/\r * /Старый TIC-файл удален, т.к. не получен соответствующий файл !/ * \r
+S_496	Остаток
+S_497	Прервано удаленной стороной
+S_498	Не найдена TIC-область для %s
+S_499	Файл оставлен в папке INBOUND !
+S_500	\rФайл *%s* _Неизвестная область_ : *%s*\r>> _/Проверьте настройки TIC-областей !_/ <<\r
+S_501	Прервано оператором
+S_502	Низкий CPS
+S_503	Обрабатывается %s
+S_504	TIC-менеджер
+S_505	Локальное уведомление
+S_506	\rСледующие TIC-области были автоматически созданы FIPS:\r\r
+S_507	\rСледующие TIC-файлы были получены от Вашего аплинка:\r%s\r
+S_508	: начало работы
+S_509	     Прикрепленные файлы:
+S_510	файл %s уже прикреплен
+S_511	Прервано. PKT переименован в '%s'
+S_512	Ошибка в поле %s в файле %s
+S_513	Найден %s, переношу в папку UTIL
+S_514	Дата
+S_515	Создать новое письмо
+S_516	Л - Ответить в текущей области\П - Ответить нетмэйлом
+S_517	Л - Ответить в другую область\П - Форвард в другую область
+S_518	Л - Сохранить письмо в Autosave\П - Сохранить в другую область
+S_519	Л - Поиск в текущей области\П - Расширенный поиск
+S_520	Л - Запрос файлов из текущего письма\П - Запрос файлов по файл-листу
+S_521	Выход из FIPS (F10)
+S_522	Л - Предыдущее письмо\П - Предыдущая область
+S_523	Л - Следующее письмо\П - Следующая область
+S_524	Л - Выбор области (Tab)\П - Настройка областей
+S_525	Дата создания письма\
+S_526	Дата получения письма\
+S_527	Л - Показать/скрыть окно мэйлера (Ctrl-1)\П - Запустить очередь
+S_528	Л - Показать/скрыть окно тоссера (Ctrl-2)\П - Запустить тоссинг
+S_529	Л - Показать/скрыть окно пуржера (Ctrl-3)\П - Запустить сжатие базы
+S_530	Л - Переключение фильтра отображения\П - Настройка фильтра
+S_531	Л - Отображение атрибутов (Ctrl-T)
+S_532	Л - Отображение скрытых строк (Ctrl-H)
+S_533	Л - Отображение удаленных писем (Ctrl-D)
+S_534	Адресная книга
+S_535	Имеется присоединенный файл
+S_536	Ваше имя и фамилия или никнейм
+S_537	Ваш адрес в данной области
+S_538	Адрес получателя
+S_539	Вертикальный размер окна
+S_540	Запрос подтверждения получения
+S_541	Отправка письма напрямую получателю
+S_542	Удалить письмо после отсылки
+S_543	Не экспортировать это письмо
+S_544	Преобразование специальных символов (умляуты...)
+S_545	Не сканировать для отправки
+S_546	Заголовок (изменить - ПК)
+S_547	Подпись (изменить - ПК)
+S_548	Ориджин
+S_549	Присоединить файл к письму
+S_550	Вставка текста, уу-кода и мультимедиа
+S_551	Информация об адресе
+S_552	Выйти без сохранения изменений
+S_553	Сохранить и выйти
+S_554	Имя получателя
+S_555	Тема письма (или название присоединенного файла
+S_556	Период
+S_557	Область
+S_558	От кого
+S_559	Кому
+S_560	Тема
+S_561	дн.
+S_562	Изменение текущего письма
+S_563	Запустить отмеченные элементы очереди
+S_564	Прервать текущее соединение
+S_565	Состояние передачи файла
+S_566	Состояние приема файла
+S_567	Текущее состояние мэйлера
+S_568	Общий объем для передачи
+S_569	Общий объем для приема
+S_570	Передано байт
+S_571	Принято байт
+S_572	Скорость передачи (симв. в сек.)
+S_573	Скорость приема (симв. в сек.)
+S_574	Время передачи (блоков передачи, время до следующего блока)
+S_575	Время приема (блоков приема, время до следующего блока)
+S_576	Имя передаваемого файла (расчетное время передачи)
+S_577	Имя принимаемого файла (расчетное время передачи)
+S_578	Отображение очереди мэйлера/очереди событий
+S_579	Пропустить текущую прозвонку
+S_580	Отменить текущую прозвонку
+S_581	Пропустить принимаемый файл
+S_582	Отменить прием файла
+S_583	Сканировать базу на наличие неотправленных писем
+S_584	Разрешить события
+S_585	Запретить события
+S_586	Настроить события
+S_587	Информация об удаленной системе
+S_588	Прервать
+S_589	Выполнение скрипта прервано
+S_590	Фильтр отображения ВКЛ
+S_591	Фильтр отображения ВЫКЛ
+S_592	Отображение цепочек ответов ВКЛ
+S_593	Отображение цепочек ответов ВЫКЛ
+S_594	Отсутствуют доступные протоколы
+S_595	<< Файл: %s %s
+S_596	Условные обозначения:\---\x - прочтено\P - новое\S - упакованное\A - неудаляемое\F - неотправляемое\B - имеется ответ
+S_597	Обработано: %d pkt, %d писем (%s)\Нетмэйл: %d писем, Эхомэйл: %d писем\Скопировано: %d писем, Удалено: %d писем
+S_598	Обработано: %d писем, %s, %d областей из %d\Удалено: %d писем, %s
+S_599	Смена кодировки DOS/WIN
+S_600	Переключение фильтра по полю
+S_601	Для ответов :
+S_602	Для новых :
+S_603	Создание подтверждения о получении
+S_604	=== продолжение ===\\
+S_605	Обнаружено обновление нодлиста
+S_606	Сохранено
+S_607	Выход...
+S_608	Режим сканирования сохранен
+S_609	Режим преобразования сохранен
+S_610	Создано: %d
+S_611	Изменено: %d
+S_612	Удалено: %d
+S_613	Областей: %d
+S_614	Письмо не найдено
+S_615	Письмо обработано
+S_616	Используется второй модем
+S_617	= Частный узел =
+S_618	= Адресная книга =
+S_619	Всего:
+S_620	Сессия BinkP
+S_621	Отмена файла %s пользователем
+S_622	Пропуск файла %s пользователем
+S_623	== Начало сессии BinkP
+S_624	сессия с %s (%s)
+S_625	== Конец сессии BinkP
+S_626	== Конец сессии Hydra
+S_627	== Начало сессии Hydra
+S_628	ОБЛАСТЬ: %s (%s)\ОТ: %s  %s\КОМУ: %s  %s\ТЕМА: %s\\
+S_629	Протокол событий
+S_630	%s: проверка флага <%s>
+S_631	%s: флаг <%s> обнаружен
+S_632	%s: флаг <%s> не обнаружен
+S_633	\** Лог-файл укорочен %s в %s **\\
+S_634	Шаблон
+S_635	Комментарий
+S_636	Псевдоним
+S_637	Превышение временных лимитов
+
+@SECTION ENGLISH
+
+S_1	     AddressBook\Worktime not defined
+S_2	     New mail in %s :
+S_3	  \t\t,Autocreated
+S_4	--- end ---
+S_5	No such file!
+S_6	%d Dupes deleted
+S_7	repost %d mail(s)
+S_8	%d of %d
+S_9	%d Users in Address lists
+S_10	%s
+S_11	%s %1.0f Bytes
+S_12	%s %4.2f MB
+S_13	%s %8.1f kB
+S_14	%s (%d sec)
+S_15	Requesting %s (%s)
+S_16	'%s' Entry for Identifier <%s> not found!
+S_17	%s used wrong password !
+S_18	%s,Direct telephone Number
+S_19	%s: Error
+S_20	%s: Question
+S_21	%s: Message
+S_22	%s: Warning
+S_23	... resending from position %d
+S_24	... retry at position %d
+S_25	; --- Nonlisted Areas ---
+S_26	? days
+S_27	\** Logfile truncated at %s %s **\\
+S_28	\\A _FAX_ was received from *%s*\\The Fax consisted of *%d* page(s)\\
+S_29	\BBS Startup...
+S_30	\No upload-path defined, please contact SysOp !
+S_31	\/Area:/ 
+S_32	Event %s allowed to run [%s-%s],\calling System %s\has %s at %s.\\%d tries were done.\\
+S_33	\File: %s was created.\\_Hint_: Doubleclick on *above* line to view fax\
+S_34	\R - Scripts setup
+S_35	\\wurde von %s gelesen\\
+S_36	\\=== to be continued ===
+S_37	^[FADownload not available in local mode !
+S_38	^[FBCannot access ^[FE%s^[FB, please contact SysOp !
+S_39	^[FBNo Upload available when running in local mode !
+S_40	^[FE%s^[FB not found, please contact SysOp !
+S_41	_failed_
+S_42	_successfully completed_
+S_43	| Main AKA : %d:%d/%d.%d
+S_44	++ CC to LOCALMAIL
+S_45	++ city %s (Tel. %s)
+S_46	++ Download %s
+S_47	++ ERROR unknown protocol %d
+S_48	++ Result: [%s]
+S_49	++ user %s (Sec %d, Grp. %s)
+S_50	++ User selected ZedZap 8k
+S_51	++ User selected ZModem 1k
+S_52	++ wrote mail to %s
+S_53	+D
+S_54	<unknown>
+S_55	== Carrier detected
+S_56	== Connected to %s
+S_57	== Disconnect failed
+S_58	== Disconnect from ISDN detected
+S_59	== Disconnect successfull
+S_60	== End of Inbound Session
+S_61	== Modem Lost Carrier
+S_62	== Modem timeout
+S_63	== Outbound mail scan complete
+S_64	== Receiving ZModem
+S_65	== Rejecting incoming call
+S_66	== Scanning for outbound mail
+S_67	== Sending ZModem
+S_68	== Session aborted by user
+S_69	== Unable to initialize modem
+S_70	== Xfer status: [%s]
+S_71	>> No Nodelists defined !
+S_72	>C
+S_73	>R
+S_74	Abort failed
+S_75	Abort pending
+S_76	Aborted
+S_77	Adding private node %s, %d:%d/%d.%d
+S_78	Additional information is absent
+S_79	Address info is absent
+S_80	Address info: (Address of boss!)
+S_81	AddressBook
+S_82	ADDRESSEE
+S_83	ALL
+S_84	All Files (*.*)|*.*||
+S_85	ALREADY READ
+S_86	Alternate address is %d:%d/%d
+S_87	Answering call
+S_88	Answering incoming call
+S_89	Appending file requests for %s
+S_90	Appending file transfers for %s
+S_91	Archive renamed to %s
+S_92	Area
+S_93	Area Description
+S_94	Area restored
+S_95	Auto added TIC-echo
+S_96	Automatic Mail Receipt Confirmation
+S_97	Autorescan option disabled
+S_98	AUTOSAVE
+S_99	BAD DateTime in message
+S_100	BBS (phone): %s (%s)\Location: %s\Flags: %s\
+S_101	BBS Local Mailarea
+S_102	BEGINS
+S_103	Boss Address
+S_104	Boss Name
+S_105	Boss Phone number
+S_106	Boss System Name
+S_107	Boss-Routing for %s
+S_108	C
+S_109	Calculated CRC16: %d (0x%X)
+S_110	Accept cal...
+S_111	Calling %s
+S_112	Cannot append FileRequest to %s
+S_113	Cannot create file %s
+S_114	Cannot delete %s
+S_115	Cannot delete old FIDO-Index !
+S_116	Cannot delete old PrivateNode-Index!
+S_117	Cannot delete old REQ-File '%s' !
+S_118	Cannot delete old User-Index !
+S_119	Cannot find file %s
+S_120	Cannot get CRC16 checksum from nodelist file
+S_121	Cannot import file %s
+S_122	Cannot import mail: unknown area %s
+S_123	Cannot move %s to the INBOUND dir !
+S_124	Carbon Copies
+S_125	CarbonCopies : %d
+S_126	Carrier Lost !
+S_127	CC
+S_128	CC -> %s
+S_129	>> File: %s %s
+S_130	CarbonCopy from area %s
+S_131	Charged money: %2.2f %s
+S_132	Charging Zone <%s>
+S_133	Checking %s
+S_134	Checking OUTBOUND for %s
+S_135	Clearing InboundBuffer
+S_136	Command: %s
+S_137	Completed
+S_138	Connecting to ISDN Network...
+S_139	Connection detected
+S_140	CONTAINS
+S_141	Copy area
+S_142	Corrupted EMSI_DAT length
+S_143	CRC16 check failed
+S_144	CRC16 check successfull
+S_145	Created mail to %s
+S_146	Created nodelist %s
+S_147	CREATEMAIL
+S_148	CREATION
+S_149	Date
+S_150	Decrunching File
+S_151	Decrunching Nodediff
+S_152	Default
+S_153	Delaying next call %d sec.
+S_154	Deleted nodediff %s
+S_155	Deleted old nodelist %s
+S_156	Deleted old REQUEST-File %s
+S_157	Deleting %s
+S_158	Deleting after sent
+S_159	Deleting File %s
+S_160	Deleting old Nodelist %s
+S_161	The area /%s/ has been created _(check settings!)_\
+S_162	Description
+S_163	Dial command
+S_164	Dialing...
+S_165	Diff List
+S_166	DirectMail to %d:%d/%d.%d
+S_167	Disabling Events ...
+S_168	Disconnect failed
+S_169	Disconnect from ISDN detected !
+S_170	Selection saved to ASAVED
+S_171	Disconnect successfull
+S_172	Mail saved to ASAVED
+S_173	Disconnected from ISDN
+S_174	Disconnecting from ISDN Network
+S_175	Disconnecting...
+S_176	Done
+S_177	Echomails    : %d
+S_178	Echo-manager
+S_179	EMPTY
+S_180	EMSI TIMEOUT
+S_181	EMSI_ACK received
+S_182	EMSI_DAT received
+S_183	EMSI_DAT received instead of EMSI_ACK
+S_184	EMSI_NAK received
+S_185	EMSI_NAK received, waiting EMSI_DAT
+S_186	EMSI_REQ received
+S_187	EMSI_REQ received instead of EMSI_DAT
+S_188	EMSI-packet timeout
+S_189	EMSI-session failed
+S_190	Enabling Events ...
+S_191	End of Script
+S_192	End tossing
+S_193	Ended
+S_194	Ending Mailer
+S_195	Erasing broken file %s
+S_196	Results from a extended search
+S_197	Error accessing TIC-file !
+S_198	Error executing inbound-batch: ret=%d error=%d
+S_199	Error executing pretossing batch: ret=%d error=%d
+S_200	Error Line wrong for Identifier <%s>!
+S_201	Error moving: %d
+S_202	Error on FAX conversion
+S_203	Error opening file %s
+S_204	Error unpacking %s
+S_205	Error writing to messagebase\n\r
+S_206	Errorfile <%s> not found
+S_207	Establishing EMSI Session
+S_208	%s: <%s>
+S_209	Resetted all events
+S_210	%s: Aborted by User
+S_211	%s: Address not found!
+S_212	%s: Dialing %s
+S_213	%s: Dialing %s failed
+S_214	%s: Dialing successfully completed
+S_215	%s: End of SCRIPT-EVENT
+S_216	%s: Executing script <%s>
+S_217	--- events ---
+S_218	%s: Executing OK-script <%s>
+S_219	%s: Executing FAILED-script <%s>
+S_220	%s: Modem Device Busy
+S_221	%s: Pause %d sec.
+S_222	%s: Removed
+S_223	%s: System <%s> not found
+S_224	%s: Waiting finished
+S_225	Event Log
+S_226	Event-manager
+S_227	EVENTS LOGFILE
+S_228	Events sleeping while in setup ..
+S_229	Except  '%s'
+S_230	ExcludeList %s
+S_231	Excluding Zones %d
+S_232	EXECTOOL returned !Error!: %d
+S_233	Execute
+S_234	Execute: %s
+S_235	Executing %s
+S_236	EXIT
+S_237	Failed
+S_238	Failed purging %s
+S_239	FAX conversion is disabled
+S_240	FAX received
+S_241	Fax successfully converted
+S_242	FAX-manager
+S_243	FIDO Tossing...
+S_244	File 
+S_245	File %s not found !
+S_246	File attach %s
+S_247	File exists, renaming to %s
+S_248	File may be locked by other task...
+S_249	File transfer of %s complete !
+S_250	File: %s
+S_251	FILTER
+S_252	FIND
+S_253	First Name
+S_254	Flushing Files to Disk ...
+S_255	Found %d
+S_256	Found %s  (type %d)
+S_257	Found %s, moving to NODELIST folder
+S_258	Found 0
+S_259	Found in FromName
+S_260	Found in Mailtext
+S_261	Found in Subject
+S_262	Found in ToName
+S_263	Found nodelist, unpacking to NODELIST folder
+S_264	FROM
+S_265	FROM
+S_266	FROMNAME
+S_267	FROZEN
+S_268	ENGLISH
+S_269	Group
+S_270	HEADER
+S_271	Idle
+S_272	ign.
+S_273	Ignore Case
+S_274	Inbound Session complete
+S_275	Incoming EMSI-Session
+S_276	Incoming HUMAN CALLER
+S_277	Incomplete EMSI_DAT received
+S_278	Incomplete EMSI_DAT: %d/%d
+S_279	Increasing Priority ...
+S_280	Infomail generation disabled
+S_281	Init Modem on COM%d
+S_282	Invalid Adress '%s'
+S_283	Invalid delivery time
+S_284	ISDN Connect
+S_285	ISDN Line identified
+S_286	Yes
+S_287	%d Byte
+S_288	%8.1f KByte
+S_289	%4.2f MByte
+S_290	Conversion to *.AWD Format is *disabled*\
+S_291	L - 
+S_292	LASTCALL
+S_293	Delivery time = 0
+S_294	Delivery time: %d d. %d h. %d m.
+S_295	level:%d, group:%s, left:%d min
+S_296	level:%d, left:%d min
+S_297	Limit reached
+S_298	List Name
+S_299	Local BBS Login ended
+S_300	Local Infomail generated.
+S_301	Local mails for this system
+S_302	Local Notification
+S_303	Locked %s, purged on exit
+S_304	M
+S_305	Mail %s -> %s
+S_306	Mail to long and will be splitted!
+S_307	Mail will be exported to BOSS
+S_308	MAILER LOGFILE
+S_309	Mailer Queue
+S_310	Mails/sec    : %d
+S_311	MAILSTATUS
+S_312	MAILTEXT
+S_313	MARKEDREAD
+S_314	Max
+S_315	Merging %s and %s
+S_316	Message was duplicated to %d areas
+S_317	MM-Packet %s was deleted
+S_318	Modem doesn't respond!
+S_319	Modem INIT
+S_320	Modem reports %s
+S_321	Moving file to %s
+S_322	No
+S_323	Netmails     : %d
+S_324	NEVER DELETE
+S_325	NEW OWN MAIL
+S_326	New script
+S_327	NL-CRC16: %d (0x%X)
+S_328	No
+S_329	No caller detected
+S_330	No connection
+S_331	No EMSI response, assuming HUMAN CALLER !
+S_332	No file found matching %s.*
+S_333	No packer defined for %s
+S_334	No response from REMOTE ! Mailbox disabled.
+S_335	No uplink defined for area %s
+S_336	No valid Nodediff found for %s
+S_337	No valid Nodelist found for %s.*
+S_338	NODELIST
+S_339	Nodelist compile not possible !
+S_340	NODELIST LOGFILE
+S_341	Nodelist-Compile complete
+S_342	Not available
+S_343	Not configured
+S_344	not defined
+S_345	Not enough memory for this operation !
+S_346	Not found
+S_347	Not found
+S_348	Not Save
+S_349	Number
+S_350	Number skipped
+S_351	Other side does not respond !
+S_352	Packing Mail
+S_353	PL
+S_354	Please select:
+S_355	POINTLIST
+S_356	Pretossing: TOSS.BAT
+S_357	Private mails
+S_358	Private Mails
+S_359	Proccessing %s
+S_360	Processing %s %s
+S_361	Processing Nodediff %s
+S_362	Processing Private Nodes
+S_363	Processing requests ...
+S_364	Processing specified Zone %d
+S_365	Processing Zone %d
+S_366	Program returned !Error!: %d
+S_367	Purge ended
+S_368	Purged %s
+S_369	PURGER LOGFILE
+S_370	QUOTE
+S_371	QUOTEANOTHER
+S_372	Quoting to Area: %s
+S_373	R
+S_374	Read %d, expected %d Bytes
+S_375	RECEIVE
+S_376	Receiving EMSI_DAT
+S_377	Remote refused our EMSI-packet
+S_378	Renaming File %s to %s
+S_379	REQUEST
+S_380	Requesting %s (%d:%d/%d.%d)
+S_381	Requesting BBS Local Login
+S_382	Rescanning Queue...
+S_383	Reseting Port
+S_384	Resetting events
+S_385	Resuming from %d
+S_386	Resuming from Byte %d
+S_387	Ring detected on 1st modem
+S_388	Ring detected on 2nd modem
+S_389	Ring detected on ISDN Port
+S_390	RouteTo '%s'
+S_391	Routing to %s through %s
+S_392	Session Hydra
+S_393	s
+S_394	Saving list of requested files due to session error
+S_395	SCANNED
+S_396	Script Message
+S_397	Script not defined
+S_398	Search text
+S_399	Searching ...
+S_400	Second Name
+S_401	Page *%2d* is stored in file *%s* \
+S_402	Select a folder
+S_403	Sending dial-init to modem
+S_404	Sending EMSI_DAT
+S_405	Sending ZModem
+S_406	Session complete
+S_407	Skip areas
+S_408	Skipped %s
+S_409	Sorting by names
+S_410	Sorting by numbers
+S_411	Start Purge
+S_412	Starting
+S_413	Starting Nodelist-Compile
+S_414	Starting Purge
+S_415	Starting Tosser
+S_416	SUBJECT
+S_417	Successful ISDN-CONNECT
+S_418	Sum:
+S_419	Syncronizing Threads ...
+S_420	Sorting finished
+S_421	Sysop: %s\
+S_422	TelNr. translated to:%s
+S_423	This mail will be sent to his BOSS
+S_424	TO
+S_425	TONAME
+S_426	Too much garbage!
+S_427	TOSSER LOGFILE
+S_428	Tossing %s (%s)
+S_429	Twit in %s (%d): '%s'
+S_430	Tossing complete (%d sec)
+S_431	Total mails
+S_432	Processed %ld bytes
+S_433	Transfering Files
+S_434	TwitMails    : %d
+S_435	Script
+S_436	Mailer
+S_437	Tosser
+S_438	Purger
+S_439	Purging locked areas
+S_440	Unable to append all file transfers
+S_441	Unable to append file requests!
+S_442	Unable to delete %s
+S_443	Unable to initialise modem (dial-init) !
+S_444	Unable to initialise modem!
+S_445	Unable to send answer string
+S_446	UniPack Call
+S_447	Unlisted Point %d:%d/%d.%d
+S_448	Unpacking %s (%s)\
+S_449	Unpacking %s with UniPack
+S_450	Unpacking Mail
+S_451	unpacking MM-Packet %s
+S_452	Unread mails
+S_453	Update Mail-Read Info ...
+S_454	Uplink
+S_455	User Abort !
+S_456	User dropped CARRIER
+S_457	User dropped ISDN DATA-B3
+S_458	USERMARKED
+S_459	UUDECODE To
+S_460	UUENCODE From
+S_461	Waiting %d sec.
+S_462	Waiting for completion of area setup
+S_463	Waiting for line to settle down
+S_464	FROM-ADDR
+S_465	Waiting skipped
+S_466	Waiting for remote answer
+S_467	Worktime not defined
+S_468	Worktime: %s-%s
+S_469	Writing Index by Names
+S_470	Writing Index by Numbers
+S_471	Writing Nodelist-Index
+S_472	Yes
+S_473	YOUNGER
+S_474	Your pointnumber
+S_475	Your System Name
+S_476	ZModem Crash Recovery
+S_477	Zone
+S_478	\r/From:/ 
+S_479	Cannot create dir %s
+S_480	Area       :/ *
+S_481	File       :/ *
+S_482	Moved      :/ *
+S_483	Copied     :/ *
+S_484	Description:/ 
+S_485	Moving file %s to %s
+S_486	Copying file %s to %s
+S_487	Cannot open %s to add the description
+S_488	Cannot copy file !
+S_489	\rFile *%s* Area /%s/\r* /TIC-file without attached file, marked for later processing !/ *\r
+S_490	Start
+S_491	Repost through %d days
+S_492	TIC-file without attached file, delayed
+S_493	Cannot access TIC-file %s
+S_494	Deleting old TIC-file %s
+S_495	\rFile *%s* Area /%s/\r * /Old TIC-FILE deleted, because no matching file was received !/ * \r
+S_496	Remain
+S_497	Aborted by other side
+S_498	No TIC-area defined for %s
+S_499	File will be left in the INBOUND !
+S_500	\rFile *%s* _Unknown area_ : *%s*\r>> _/Please check your TIC-Echo Setup !_/ <<\r
+S_501	Aborted by operator
+S_502	Aborted as low CPS
+S_503	Processing %s
+S_504	TIC-manager
+S_505	Local Notification
+S_506	*Please check your TIC-area setup to validate the default settings*\r%s\r
+S_507	\rThese TIC-files were received from your uplinks:\r%s\r
+S_508	: starting session on
+S_509	     Attached fls:
+S_510	File %s already attached
+S_511	Aborted. PKT renamed to '%s'
+S_512	BAD Data in %s in file %s
+S_513	Found %s, moving to UTIL-path
+S_514	Datum
+S_515	Create new mail
+S_516	L - Quote mail\R - Quote in netmail
+S_517	L - Quote to another area\R - Forward mail
+S_518	L - Save mail to Autosave Area\R - Save to other area
+S_519	L - Search in messages\R - Advanced search
+S_520	L - Filerequest from mail\R - FREQ from filelist
+S_521	Exit Fips (F10)
+S_522	L - Goto previous mail\R - Goto previous area
+S_523	L - Goto next mail\R - Goto next area
+S_524	L - Choose area (Tab)
+S_525	Creation date of mail\
+S_526	Reciption date of mail\
+S_527	L - Mailer status window (Ctrl-1)\R - Start queue
+S_528	L - Tosser status window (Ctrl-2)\R - Start tossing
+S_529	L - Purge status window (Ctrl-3)\R - Start purging
+S_530	L - Display limit for messages\R - Filter setup
+S_531	L - Display attributes (Ctrl-T)
+S_532	L - Display hidden lines (Ctrl-H)
+S_533	L - Display deleted mails (Ctrl-D)
+S_534	Addressbook
+S_535	Is attached file
+S_536	Your name and surname or nickname
+S_537	Your address in this area
+S_538	Destination address
+S_539	Change Size of dialog window
+S_540	Request recipt return
+S_541	Send mail direct to destination
+S_542	Kill mail after sending
+S_543	Do not export this message
+S_544	Convert special characters on saving
+S_545	Do not scan this message
+S_546	Header lines (change - Right click)
+S_547	Footer lines (change - Right click)
+S_548	Origin for this mail
+S_549	Attach a file to this mail
+S_550	Import text,binary or multimedia element
+S_551	Address information
+S_552	Cancel, do not save this mail
+S_553	Save and exit
+S_554	Name of recipient
+S_555	Subject of mail (or filename if it is a fileattach
+S_556	Period
+S_557	Area
+S_558	From
+S_559	To
+S_560	Subject
+S_561	d.
+S_562	Change current mail
+S_563	Start of marked queue entries
+S_564	Abort current connection
+S_565	Current file sending status
+S_566	Current file recieving status
+S_567	Mailer Current State
+S_568	Total size of sending
+S_569	Total size of receiving
+S_570	Already sent bytes
+S_571	Already recieved bytes
+S_572	Sending speed (chars per sec)
+S_573	Receiving speed (chars per sec)
+S_574	Elapsed time of sending (Charged units, time to next charging unit)
+S_575	Elapsed time of receiving (Charged units, time to next charging unit)
+S_576	Sending file (estimated time of transfer)
+S_577	Receiving file (estimated time of transfer)
+S_578	Displaying mailer-queue/events
+S_579	Skiping current call
+S_580	Removing current call
+S_581	Skiping current file
+S_582	Removing current file
+S_583	Scan message base for unsent mails
+S_584	Enable Events
+S_585	Disable Events
+S_586	Config Events
+S_587	Info about remote system
+S_588	Abort
+S_589	Script aborted
+S_590	Mail Filter ON
+S_591	Mail Filter OFF
+S_592	Structured display ON
+S_593	Structured display OFF
+S_594	No valid protocols
+S_595	<< File: %s %s
+S_596	Symbol description:\---\x - Already read\P - New mail\S - Already scanned\A - Never delete\F - Mail frozen\B - Mail is answered
+S_597	Proccessed: %d packs, %d mails, %s\Netmail: %d mails, Echomail: %d mails\Carboncopy: %d mails, Twit: %d mails
+S_598	Proccessed: %d mails, %s, %d areas from %d\Deleted: %d mails, %s
+S_599	Change coding DOS/WIN
+S_600	Switching filter on field
+S_601	For Quote :
+S_602	For New :
+S_603	Generating receipt confirmation
+S_604	=== continuation ===\\
+S_605	New Nodelist Info found
+S_606	Saved
+S_607	Exiting...
+S_608	Saved as scan default
+S_609	Saved as convert default
+S_610	Created: %d
+S_611	Modified: %d
+S_612	Deleted: %d
+S_613	Areas: %d
+S_614	Mail not found
+S_615	Mail proceeded
+S_616	Using second modem
+S_617	= Private node =
+S_618	= Address book =
+S_619	Total:
+S_620	Session BinkP
+S_621	Denying file %s
+S_622	Skipping file %s
+S_623	== Start BinkP session
+S_624	session with %s (%s)
+S_625	== End BinkP session
+S_626	== End Hydra session
+S_627	== Start Hydra session
+S_628	AREA: %s (%s)\FROM: %s  %s\TO: %s  %s\SUBJ: %s\\
+S_629	Events log
+S_630	%s: check flag <%s>
+S_631	%s: flag <%s> found
+S_632	%s: flag <%s> not found
+S_633	\** Logfile truncated at %s %s **\\
+S_634	Template
+S_635	Comment
+S_636	Nickname
+S_637	Aborted due to the time limits
+
+@SECTION GERMAN
+
+S_1	     AddressBook\Worktime not defined
+S_2	     New mail in %s :
+S_3	  \t\t,Autocreated
+S_4	--- end ---
+S_5	Keine solche Datei!
+S_6	%d Dupes deleted
+S_7	repost %d mail(s)
+S_8	%d of %d
+S_9	%d Users in Address lists
+S_10	%s
+S_11	%s %1.0f Bytes
+S_12	%s %4.2f MB
+S_13	%s %8.1f kB
+S_14	%s (%d sek)
+S_15	Requesting %s (%s)
+S_16	'%s' Eintrag fuer Identifier <%s> nicht gefunden!
+S_17	%s used wrong password !
+S_18	%s,Direct telephone Number
+S_19	%s: Fehler
+S_20	%s: Frage
+S_21	%s: Nachricht
+S_22	%s: Warnung
+S_23	... resending from position %d
+S_24	... retry at position %d
+S_25	; --- Nonlisted Areas ---
+S_26	? days
+S_27	\** Logfile truncated at %s %s **\\
+S_28	\\Ein _FAX_ von *%s* wurde empfangen\\Das Fax besteht aus *%d* Seite(n)\\
+S_29	\BBS Startup...
+S_30	\No upload-path defined, please contact SysOp !
+S_31	\/Area:/ 
+S_32	\\Event %s mit der Zeitscheibe [%s-%s],\hat bei System %s angerufen,\und wurde am %s %s.\\%d Versuch(e) wurden unternommen.\\
+S_33	\Datei: %s erstellt.\\_Hinweis_: Doppelklick auf *obige* Zeile um Fax anzusehen\
+S_34	\R - Scripts setup
+S_35	\\*/FIPS Automatisch erstellte Nachricht/*\\Ihre Nachricht vom %s mit dem Titel:\\
+S_36	\\=== to be continued ===
+S_37	^[FADownload not available in local mode !
+S_38	^[FBCannot access ^[FE%s^[FB, please contact SysOp !
+S_39	^[FBNo Upload available when running in local mode !
+S_40	^[FE%s^[FB not found, please contact SysOp !
+S_41	_abgebrochen_
+S_42	_erfolgreich beendet_
+S_43	| Main AKA : %d:%d/%d.%d
+S_44	++ CC to LOCALMAIL
+S_45	++ city %s (Tel. %s)
+S_46	++ Download %s
+S_47	++ ERROR unknown protocol %d
+S_48	++ Result: [%s]
+S_49	++ user %s (Sec %d, Grp. %s)
+S_50	++ User selected ZedZap 8k
+S_51	++ User selected ZModem 1k
+S_52	++ wrote mail to %s
+S_53	+D
+S_54	<unknown>
+S_55	== Carrier detected
+S_56	== Connected to %s
+S_57	== Disconnect failed
+S_58	== Disconnect from ISDN detected
+S_59	== Disconnect successfull
+S_60	== End of Inbound Session
+S_61	== Modem Lost Carrier
+S_62	== Modem timeout
+S_63	== Outbound mail scan complete
+S_64	== Receiving ZModem
+S_65	== Rejecting incoming call
+S_66	== Scanning for outbound mail
+S_67	== Sending ZModem
+S_68	== Session aborted by user
+S_69	== Unable to initialize modem
+S_70	== Xfer status: [%s]
+S_71	>> No Nodelists defined !
+S_72	>C
+S_73	>R
+S_74	Abort failed
+S_75	Abort pending
+S_76	Aborted
+S_77	Adding private node %s, %d:%d/%d.%d
+S_78	Additional information is absent
+S_79	Address info is absent
+S_80	Address info: (Address of boss!)
+S_81	AddressBook
+S_82	ADDRESSEE
+S_83	ALL
+S_84	All Files (*.*)|*.*||
+S_85	ALREADY READ
+S_86	Alternate address is %d:%d/%d
+S_87	Answering call
+S_88	Answering incoming call
+S_89	Appending file requests for %s
+S_90	Appending file transfers for %s
+S_91	Archive renamed to %s
+S_92	Area
+S_93	Area Description
+S_94	Area restored
+S_95	Auto added TIC-echo
+S_96	AUTOMATISCHE EMPFANGSBESTAETIGUNG
+S_97	Autorescan option disabled
+S_98	AUTOSAVE
+S_99	BAD DateTime in message
+S_100	BBS (phone): %s (%s)\Location: %s\Flags: %s\
+S_101	BBS Local Mailarea
+S_102	BEGINS
+S_103	Boss address
+S_104	Boss Name
+S_105	Boss Phone number
+S_106	Boss System Name
+S_107	Boss-Routing for %s
+S_108	C
+S_109	Calculated CRC16: %d (0x%X)
+S_110	CallAcception: Initialize modem
+S_111	Calling %s
+S_112	Cannot append FileRequest to %s
+S_113	Cannot create file %s
+S_114	Cannot delete %s
+S_115	Cannot delete old FIDO-Index !
+S_116	Cannot delete old PrivateNode-Index!
+S_117	Cannot delete old REQ-File '%s' !
+S_118	Cannot delete old User-Index !
+S_119	Cannot find file %s
+S_120	Cannot get CRC16 checksum from nodelist file
+S_121	Cannot import file %s
+S_122	Cannot import mail: unknown area %s
+S_123	Cannot move %s to the INBOUND dir !
+S_124	Carbon Copies
+S_125	CarbonCopies : %d
+S_126	Carrier Lost !
+S_127	CC
+S_128	CC -> %s
+S_129	>> File: %s %s
+S_130	CarbonCopy from area %s
+S_131	Charged money: %2.2f %s
+S_132	Charging Zone <%s>
+S_133	Checking %s
+S_134	Checking OUTBOUND for %s
+S_135	Clearing InboundBuffer
+S_136	Command: %s
+S_137	Completed
+S_138	Connecting to ISDN Network...
+S_139	Connection detected
+S_140	CONTAINS
+S_141	Copy area
+S_142	Corrupted EMSI_DAT length
+S_143	CRC16 check failed
+S_144	CRC16 check successfull
+S_145	Created mail to %s
+S_146	Created nodelist %s
+S_147	CREATEMAIL
+S_148	CREATION
+S_149	Datum
+S_150	Decrunching File
+S_151	Decrunching Nodediff
+S_152	Default
+S_153	Delaying next call %d sec.
+S_154	Deleted nodediff %s
+S_155	Deleted old nodelist %s
+S_156	Deleted old REQUEST-File %s
+S_157	Deleting %s
+S_158	Deleting after sent
+S_159	Deleting File %s
+S_160	Deleting old Nodelist %s
+S_161	Der Nachrichtenbereich /%s/ wurde neu erstellt _(check settings!)_\
+S_162	Description
+S_163	Dial command
+S_164	Dialing...
+S_165	Diff List
+S_166	DirectMail to %d:%d/%d.%d
+S_167	Disabling Events ...
+S_168	Disconnect failed
+S_169	Disconnect from ISDN detected !
+S_170	Selection saved to ASAVED
+S_171	Disconnect successfull
+S_172	Mail saved to ASAVED
+S_173	Disconnected from ISDN
+S_174	Disconnecting from ISDN Network
+S_175	Disconnecting...
+S_176	Done
+S_177	Echomails    : %d
+S_178	Echo-manager
+S_179	EMPTY
+S_180	EMSI TIMEOUT
+S_181	EMSI_ACK received
+S_182	EMSI_DAT received
+S_183	EMSI_DAT received instead of EMSI_ACK
+S_184	EMSI_NAK received
+S_185	EMSI_NAK received, waiting EMSI_DAT
+S_186	EMSI_REQ received
+S_187	EMSI_REQ received instead of EMSI_DAT
+S_188	EMSI-packet timeout
+S_189	EMSI-session failed
+S_190	Enabling Events ...
+S_191	End of Script
+S_192	End tossing
+S_193	Ended
+S_194	Ending Mailer
+S_195	Erasing broken file %s
+S_196	Ergebnisse einer erweiterten Suche
+S_197	Error accessing TIC-file !
+S_198	Error executing inbound-batch: ret=%d error=%d
+S_199	Error executing pretossing batch: ret=%d error=%d
+S_200	Error Line fehlerhaft fuer Identifier <%s>!
+S_201	Error moving: %d
+S_202	Error on FAX conversion
+S_203	Error opening file %s
+S_204	Error unpacking %s
+S_205	Error writing to messagebase\n\r
+S_206	Errorfile <%s> nicht gefunden
+S_207	Establishing EMSI Session
+S_208	%s: <%s>
+S_209	Neustart aller Events
+S_210	%s: Aborted by User
+S_211	%s: Address not found!
+S_212	%s: Dialing %s
+S_213	%s: Dialing %s failed
+S_214	%s: Dialing successfully completed
+S_215	%s: End of SCRIPT-EVENT
+S_216	%s: Executing script <%s>
+S_217	--- events ---
+S_218	%s: Executing OK-script <%s>
+S_219	%s: Executing FAILED-script <%s>
+S_220	%s: Modem Device Busy
+S_221	%s: Pause %d sec.
+S_222	%s: Removed
+S_223	%s: System <%s> not found
+S_224	%s: Waiting finished
+S_225	Event Protokoll
+S_226	Event-manager
+S_227	EVENTS LOGFILE
+S_228	Events sleeping while in setup ..
+S_229	Except  '%s'
+S_230	ExcludeList %s
+S_231	Excluding Zones %d
+S_232	EXECTOOL returned !Error!: %d
+S_233	Execute
+S_234	Execute: %s
+S_235	Executing %s
+S_236	EXIT
+S_237	Failed
+S_238	Failed purging %s
+S_239	FAX conversion is disabled
+S_240	FAX empfangen
+S_241	Fax successfully converted
+S_242	FAX-manager
+S_243	FIDO Tossing...
+S_244	File 
+S_245	File %s not found !
+S_246	File attach %s
+S_247	File exists, renaming to %s
+S_248	File may be locked by other task...
+S_249	File transfer of %s complete !
+S_250	File: %s
+S_251	FILTER
+S_252	FIND
+S_253	First Name
+S_254	Flushing Files to Disk ...
+S_255	Found %d
+S_256	Found %s  (type %d)
+S_257	Found %s, moving to NODELIST folder
+S_258	Found 0
+S_259	Found in FromName
+S_260	Found in Mailtext
+S_261	Found in Subject
+S_262	Found in ToName
+S_263	Found nodelist, unpacking to NODELIST folder
+S_264	FROM
+S_265	FROM
+S_266	FROMNAME
+S_267	FROZEN
+S_268	GERMANY
+S_269	Group
+S_270	HEADER
+S_271	Idle
+S_272	ign.
+S_273	Ignore Case
+S_274	Inbound Session complete
+S_275	Incoming EMSI-Session
+S_276	Incoming HUMAN CALLER
+S_277	Incomplete EMSI_DAT received
+S_278	Incomplete EMSI_DAT: %d/%d
+S_279	Increasing Priority ...
+S_280	Infomail generation disabled
+S_281	Init Modem on COM%d
+S_282	Invalid Adress '%s'
+S_283	Invalid delivery time
+S_284	ISDN Connect
+S_285	ISDN Line identified
+S_286	Ja
+S_287	%d Byte
+S_288	%8.1f KByte
+S_289	%4.2f MByte
+S_290	Konvertierung ins *.AWD Format is *ausgeschaltet*\
+S_291	L - 
+S_292	LASTCALL
+S_293	Laufzeit = 0
+S_294	Laufzeit: %d t. %d s. %d m.
+S_295	level:%d, group:%s, left:%d min
+S_296	level:%d, left:%d min
+S_297	Limit reached
+S_298	List Name
+S_299	Local BBS Login ended
+S_300	Local Infomail generated.
+S_301	Local mails for this system
+S_302	Local Notification
+S_303	Locked %s, purged on exit
+S_304	M
+S_305	Mail %s -> %s
+S_306	Mail to long and will be splitted!
+S_307	Mail will be exported to BOSS
+S_308	MAILER LOGFILE
+S_309	Mailer Warteschlange
+S_310	Mails/sec    : %d
+S_311	MAILSTATUS
+S_312	MAILTEXT
+S_313	MARKEDREAD
+S_314	Max
+S_315	Merging %s and %s
+S_316	Message was duplicated to %d areas
+S_317	MM-Packet %s was deleted
+S_318	Modem doesn't respond!
+S_319	Modem INIT
+S_320	Modem reports %s
+S_321	Moving file to %s
+S_322	Nein
+S_323	Netmails     : %d
+S_324	NEVER DELETE
+S_325	NEW OWN MAIL
+S_326	New script
+S_327	NL-CRC16: %d (0x%X)
+S_328	No
+S_329	No caller detected
+S_330	No connection
+S_331	No EMSI response, assuming HUMAN CALLER !
+S_332	No file found matching %s.*
+S_333	No packer defined for %s
+S_334	No response from REMOTE ! Mailbox disabled.
+S_335	No uplink defined for area %s
+S_336	No valid Nodediff found for %s
+S_337	No valid Nodelist found for %s.*
+S_338	NODELIST
+S_339	Nodelist compile not possible !
+S_340	NODELIST LOGFILE
+S_341	Nodelist-Compile complete
+S_342	Not available
+S_343	Not configured
+S_344	not defined
+S_345	Not enough memory for this operation !
+S_346	Not found
+S_347	Not found
+S_348	Not Save
+S_349	Number
+S_350	Number skipped
+S_351	Other side does not respond !
+S_352	Packing Mail
+S_353	PL
+S_354	Please select:
+S_355	POINTLIST
+S_356	Pretossing: TOSS.BAT
+S_357	Private mails
+S_358	Private Mails
+S_359	Proccessing %s
+S_360	Processing %s %s
+S_361	Processing Nodediff %s
+S_362	Processing Private Nodes
+S_363	Processing requests ...
+S_364	Processing specified Zone %d
+S_365	Processing Zone %d
+S_366	Program returned !Error!: %d
+S_367	Purge ended
+S_368	Purged %s
+S_369	PURGER LOGFILE
+S_370	QUOTE
+S_371	QUOTEANOTHER
+S_372	Quoting to Area: %s
+S_373	R
+S_374	Read %d, expected %d Bytes
+S_375	RECEIVE
+S_376	Receiving EMSI_DAT
+S_377	Remote refused our EMSI-packet
+S_378	Renaming File %s to %s
+S_379	REQUEST
+S_380	Requesting %s (%d:%d/%d.%d)
+S_381	Requesting BBS Local Login
+S_382	Rescanning Queue...
+S_383	Reseting Port
+S_384	Resetting events
+S_385	Resuming from %d
+S_386	Resuming from Byte %d
+S_387	Ring detected on 1st modem
+S_388	Ring detected on 2nd modem
+S_389	Ring detected on ISDN Port
+S_390	RouteTo '%s'
+S_391	Routing to %s through %s
+S_392	Session Hydra
+S_393	s
+S_394	Saving list of requested files due to session error
+S_395	SCANNED
+S_396	Script Message
+S_397	Script not defined
+S_398	Search text
+S_399	Searching ...
+S_400	Second Name
+S_401	Seite *%2d* ist in der Datei *%s* gespeichert.\
+S_402	Select a folder
+S_403	Sending dial-init to modem
+S_404	Sending EMSI_DAT
+S_405	Sending ZModem
+S_406	Session complete
+S_407	Skip areas
+S_408	Skipped %s
+S_409	Sorting by names
+S_410	Sorting by numbers
+S_411	Start Purge
+S_412	Starting
+S_413	Starting Nodelist-Compile
+S_414	Starting Purge
+S_415	Starting Tosser
+S_416	SUBJECT
+S_417	Successful ISDN-CONNECT
+S_418	Summe:
+S_419	Syncronizing Threads ...
+S_420	Sorting finished
+S_421	Sysop: %s\
+S_422	TelNr. translated to:%s
+S_423	This mail will be sent to his BOSS
+S_424	TO
+S_425	TONAME
+S_426	Too much garbage!
+S_427	TOSSER LOGFILE
+S_428	Tossing %s (%s)
+S_429	Twit in %s (%d): '%s'
+S_430	Tossing complete (%d sec)
+S_431	Total mails
+S_432	Processed %ld bytes
+S_433	Transfering Files
+S_434	TwitMails    : %d
+S_435	Script
+S_436	Mailer
+S_437	Tosser
+S_438	Purger
+S_439	Purging locked areas
+S_440	Unable to append all file transfers
+S_441	Unable to append file requests!
+S_442	Unable to delete %s
+S_443	Unable to initialise modem (dial-init) !
+S_444	Unable to initialise modem!
+S_445	Unable to send answer string
+S_446	UniPack Call
+S_447	Unlisted Point %d:%d/%d.%d
+S_448	Unpacking %s (%s)\
+S_449	Unpacking %s with UniPack
+S_450	Unpacking Mail
+S_451	unpacking MM-Packet %s
+S_452	Unread mails
+S_453	Update Mail-Read Info ...
+S_454	Uplink
+S_455	User Abort !
+S_456	User dropped CARRIER
+S_457	User dropped ISDN DATA-B3
+S_458	USERMARKED
+S_459	UUDECODE To
+S_460	UUENCODE From
+S_461	Waiting %d sec.
+S_462	Waiting for completion of area setup
+S_463	Waiting for line to settle down
+S_464	FROM-ADDR
+S_465	Waiting skipped
+S_466	Warte auf Fernantwort
+S_467	Worktime not defined
+S_468	Worktime: %s-%s
+S_469	Writing Index by Names
+S_470	Writing Index by Numbers
+S_471	Writing Nodelist-Index
+S_472	Yes
+S_473	YOUNGER
+S_474	Your pointnumber
+S_475	Your System Name
+S_476	ZModem Crash Recovery
+S_477	Zone
+S_478	\r/From:/ 
+S_479	Cannot create dir %s
+S_480	Area       :/ *
+S_481	File       :/ *
+S_482	Moved      :/ *
+S_483	Copied     :/ *
+S_484	Description:/ 
+S_485	Moving file %s to %s
+S_486	Copying file %s to %s
+S_487	Cannot open %s to add the description
+S_488	Cannot copy file !
+S_489	\rFile *%s* Area /%s/\r* /TIC-file without attached file, marked for later processing !/ *\r
+S_490	Start
+S_491	Repost through %d days
+S_492	TIC-file without attached file, delayed
+S_493	Cannot access TIC-file %s
+S_494	Deleting old TIC-file %s
+S_495	\rFile *%s* Area /%s/\r * /Old TIC-FILE deleted, because no matching file was received !/ * \r
+S_496	Remain
+S_497	Aborted by other side
+S_498	No TIC-area defined for %s
+S_499	File will be left in the INBOUND !
+S_500	\rFile *%s* _Unknown area_ : *%s*\r>> _/Please check your TIC-Echo Setup !_/ <<\r
+S_501	Aborted by operator
+S_502	Aborted as low CPS
+S_503	Processing %s
+S_504	TIC-manager
+S_505	Local Notification
+S_506	\rThese TIC-areas were automatically created by FIPS:\r\r
+S_507	\rThese TIC-files were received from your uplinks:\r%s\r
+S_508	: starting session on
+S_509	     Attached fls:
+S_510	File %s already attached
+S_511	Aborted. PKT renamed to '%s'
+S_512	BAD Data in %s in file %s
+S_513	Found %s, moving to UTIL-path
+S_514	Datum
+S_515	Neue Nachricht erstellen
+S_516	L - Nachricht beantworten\R - Quote in netmail
+S_517	L - Nachricht in andere Area beantworten\R - Forward mail
+S_518	L - Nachricht in Autosave Area abspeichern\R - Save to other area
+S_519	L - Suchen in Nachrichten\R - Advanced search
+S_520	L - Filerequest aus aktueller Nachricht\R - FREQ from filelist
+S_521	FIPS beenden (F10)
+S_522	L - Goto previous mail\R - Gehe eine Area zurьck
+S_523	L - Goto next mail\R - Gehe zur nдchsten Area
+S_524	L - Area auswдhlen (Tab)
+S_525	Erstellungsdatum der Nachricht\
+S_526	Empfangsdatum der Nachricht\
+S_527	L - Mailer Status Fenster (Ctrl-1)\R - Start queue
+S_528	L - Tosser Status Fenster (Ctrl-2)\R - Start tossing
+S_529	L - Purger Status Fenster (Ctrl-3)\R - Start purging
+S_530	L - Nur die letzten X Nachrichten anzeigen\R - Filter setup
+S_531	L - Display attributes (Ctrl-T)
+S_532	L - Display hidden lines (Ctrl-H)
+S_533	L - Display deleted mails (Ctrl-D)
+S_534	Adressbuch
+S_535	Datei zusammen mit Nachricht versenden
+S_536	Your name and surname or nickname
+S_537	Ihre Adresse in dieser Area
+S_538	Zieladresse
+S_539	GrцЯe des Dialogs дndern
+S_540	Empfangsbestдtigung anfordern
+S_541	Zielsystem selber direkt anwдhlen
+S_542	Nach Versenden lцschen
+S_543	Nachricht nicht exportieren
+S_544	Umlaute beim Speichern konvertieren
+S_545	Diese Nachricht nicht zum Versand vorbereiten
+S_546	Kopftext der Nachricht (change - Right click)
+S_547	FuЯtext der Nachricht (change - Right click)
+S_548	Origin fьr diese Nachricht
+S_549	Eine Datei an die Nachricht anhдngen
+S_550	Text, Binдrdatei oder Multimediaelement einfьgen
+S_551	Information ьber diese Adresse
+S_552	Abbrechen, Nachricht nicht speichern
+S_553	Nachricht abspeichern
+S_554	Name des Empfдngers
+S_555	Diese Nachricht handelt ьber ... (oder Dateiname bei einer Dateianlage)
+S_556	Period
+S_557	Area
+S_558	From
+S_559	To
+S_560	Subject
+S_561	d.
+S_562	Change current mail
+S_563	Startet die Ьbertragung fьr die in der Warteschlange markierten Eintrдge
+S_564	Aktive Verbindung abbrechen
+S_565	Fortschrittsanzeige fьr aktuelle Datei
+S_566	Fortschrittsanzeige fьr aktuelle Datei
+S_567	Aktueller Mailer Status
+S_568	GesamtgrцЯe der Datei
+S_569	GesamtgrцЯe der Datei
+S_570	Already send bytes
+S_571	Already recieved bytes
+S_572	Durschnittlich Ьbertragungsgeschwindigkeit (Zeichen/Sekunde)
+S_573	Durschnittlich Ьbertragungsgeschwindigkeit (Zeichen/Sekunde)
+S_574	Verstrichene Zeit (Bisherige Gebьhren, Zeit bis zur nдchsten Einheit)
+S_575	Verstrichene Zeit (Bisherige Gebьhren, Zeit bis zur nдchsten Einheit)
+S_576	Dateiname (geschдtzte Zeit bis zum Ьbertragungsende)
+S_577	Dateiname (geschдtzte Zeit bis zum Ьbertragungsende)
+S_578	Anzeige umschalten auf Warteschlange/Events
+S_579	Skiping current call
+S_580	Removing current call
+S_581	Skiping current file
+S_582	Removing current file
+S_583	Neue Nachrichten zum Versand vorbereiten
+S_584	Zeitgesteuerte Aktionen einschalten
+S_585	Zeitgesteuerte Aktionen ausschalten
+S_586	Konfiguration zeitgesteuerter Aktionen
+S_587	Informationen ьber das verbundene System
+S_588	Abort
+S_589	Script aborted
+S_590	Mail Filter ON
+S_591	Mail Filter OFF
+S_592	Structured display ON
+S_593	Structured display OFF
+S_594	No valid protocols
+S_595	<< File: %s %s
+S_596	Symbol description:\---\x - Already read\P - New mail\S - Already scanned\A - Never delete\F - Mail frozen\B - Mail is answered
+S_597	Killing '%s' (Twit FROM-ADDR) in area %s
+S_597	Proccessed: %d packs, %d mails, %s\Netmail: %d mails, Echomail: %d mails\Carboncopy: %d mails, Twit: %d mails
+S_598	Proccessed: %d mails, %s, %d areas from %d\Deleted: %d mails, %s
+S_599	Change coding DOS/WIN
+S_600	Switching filter on field
+S_601	For Quote :
+S_602	For New :
+S_603	Empfangsbestaetigung wird erstellt
+S_604	=== continuation ===\\
+S_605	Neue Nodeliste gefunden
+S_606	Saved
+S_607	Exiting...
+S_608	Saved as scan default
+S_609	Saved as convert default
+S_610	Created: %d
+S_611	Modified: %d
+S_612	Deleted: %d
+S_613	Areas: %d
+S_614	Mail not found
+S_615	Mail proceeded
+S_616	Using second modem
+S_617	= Private node =
+S_618	= Address book =
+S_619	Total:
+S_620	Session BinkP
+S_621	Denying file %s
+S_622	Skipping file %s
+S_623	== Start BinkP session
+S_624	session with %s (%s)
+S_625	== End BinkP session
+S_626	== End Hydra session
+S_627	== Start Hydra session
+S_628	AREA: %s (%s)\FROM: %s  %s\TO: %s  %s\SUBJ: %s\\
+S_629	Events log
+S_630	%s: check flag <%s>
+S_631	%s: flag <%s> found
+S_632	%s: flag <%s> not found
+S_633	\** Logfile truncated at %s %s **\\
+S_634	Template
+S_635	Comment
+S_636	Nickname
+S_637	Aborted due to the time limits
+
+@SECTION FRENCH
+
+S_1	     AddressBook\Worktime not defined
+S_2	     New mail in %s :
+S_3	  \t\t,Autocreated
+S_4	--- end ---
+S_5	No such file!
+S_6	%d Dupes deleted
+S_7	repost %d mail(s)
+S_8	%d of %d
+S_9	%d Users in Address lists
+S_10	%s
+S_11	%s %1.0f Bytes
+S_12	%s %4.2f MB
+S_13	%s %8.1f kB
+S_14	%s (%d sec)
+S_15	Requesting %s (%s)
+S_16	'%s' Entry for Identifier <%s> not found!
+S_17	%s used wrong password !
+S_18	%s,Direct telephone Number
+S_19	%s: Error
+S_20	%s: Question
+S_21	%s: Message
+S_22	%s: Warning
+S_23	... resending from position %d
+S_24	... retry at position %d
+S_25	; --- Nonlisted Areas ---
+S_26	? days
+S_27	\** Logfile truncated at %s %s **\\
+S_28	\\A _FAX_ was received from *%s*\\The Fax consisted of *%d* page(s)\\
+S_29	\BBS Startup...
+S_30	\No upload-path defined, please contact SysOp !
+S_31	\/Area:/ 
+S_32	Event %s allowed to run [%s-%s],\calling System %s \has %s at %s.\\%d tries were done.\\
+S_33	\File: %s was created.\\_Hint_: Doubleclick on *above* line to view fax\
+S_34	\R - Scripts setup
+S_35	\\wurde von %s gelesen\\
+S_36	\\=== to be continued ===
+S_37	^[FADownload not available in local mode !
+S_38	^[FBCannot access ^[FE%s^[FB, please contact SysOp !
+S_39	^[FBNo Upload available when running in local mode !
+S_40	^[FE%s^[FB not found, please contact SysOp !
+S_41	_failed_
+S_42	_successfully completed_
+S_43	| Main AKA : %d:%d/%d.%d
+S_44	++ CC to LOCALMAIL
+S_45	++ city %s (Tel. %s)
+S_46	++ Download %s
+S_47	++ ERROR unknown protocol %d
+S_48	++ Result: [%s]
+S_49	++ user %s (Sec %d, Grp. %s)
+S_50	++ User selected ZedZap 8k
+S_51	++ User selected ZModem 1k
+S_52	++ wrote mail to %s
+S_53	+D
+S_54	<unknown>
+S_55	== Carrier detected
+S_56	== Connected to %s
+S_57	== Disconnect failed
+S_58	== Disconnect from ISDN detected
+S_59	== Disconnect successfull
+S_60	== End of Inbound Session
+S_61	== Modem Lost Carrier
+S_62	== Modem timeout
+S_63	== Outbound mail scan complete
+S_64	== Receiving ZModem
+S_65	== Rejecting incoming call
+S_66	== Scanning for outbound mail
+S_67	== Sending ZModem
+S_68	== Session aborted by user
+S_69	== Unable to initialize modem
+S_70	== Xfer status: [%s]
+S_71	>> No Nodelists defined !
+S_72	>C
+S_73	>R
+S_74	Abort failed
+S_75	Abort pending
+S_76	Aborted
+S_77	Adding private node %s, %d:%d/%d.%d
+S_78	Additional information is absent
+S_79	Address info is absent
+S_80	Address info: (Address of boss!)
+S_81	AddressBook
+S_82	ADDRESSEE
+S_83	ALL
+S_84	All Files (*.*)|*.*||
+S_85	ALREADY READ
+S_86	Alternate address is %d:%d/%d
+S_87	Answering call
+S_88	Answering incoming call
+S_89	Appending file requests for %s
+S_90	Appending file transfers for %s
+S_91	Archive renamed to %s
+S_92	Area
+S_93	Area Description
+S_94	Area restored
+S_95	Auto added TIC-echo
+S_96	Automatic Mail Receipt Confirmation
+S_97	Autorescan option disabled
+S_98	AUTOSAVE
+S_99	BAD DateTime in message
+S_100	BBS (phone): %s (%s)\Location: %s\Flags: %s\
+S_101	BBS Local Mailarea
+S_102	BEGINS
+S_103	Boss address
+S_104	Boss Name
+S_105	Boss Phone number
+S_106	Boss System Name
+S_107	Boss-Routing for %s
+S_108	C
+S_109	Calculated CRC16: %d (0x%X)
+S_110	CallAcception: Initialize modem
+S_111	Calling %s
+S_112	Cannot append FileRequest to %s
+S_113	Cannot create file %s
+S_114	Cannot delete %s
+S_115	Cannot delete old FIDO-Index !
+S_116	Cannot delete old PrivateNode-Index!
+S_117	Cannot delete old REQ-File '%s' !
+S_118	Cannot delete old User-Index !
+S_119	Cannot find file %s
+S_120	Cannot get CRC16 checksum from nodelist file
+S_121	Cannot import file %s
+S_122	Cannot import mail: unknown area %s
+S_123	Cannot move %s to the INBOUND dir !
+S_124	Carbon Copies
+S_125	CarbonCopies : %d
+S_126	Carrier Lost !
+S_127	CC
+S_128	CC -> %s
+S_129	>> File: %s %s
+S_130	CarbonCopy from area %s
+S_131	Charged money: %2.2f %s
+S_132	Charging Zone <%s>
+S_133	Checking %s
+S_134	Checking OUTBOUND for %s
+S_135	Clearing InboundBuffer
+S_136	Command: %s
+S_137	Completed
+S_138	Connecting to ISDN Network...
+S_139	Connection detected
+S_140	CONTAINS
+S_141	Copy area
+S_142	Corrupted EMSI_DAT length
+S_143	CRC16 check failed
+S_144	CRC16 check successfull
+S_145	Created mail to %s
+S_146	Created nodelist %s
+S_147	CREATEMAIL
+S_148	CREATION
+S_149	Date
+S_150	Decrunching File
+S_151	Decrunching Nodediff
+S_152	Default
+S_153	Delaying next call %d sec.
+S_154	Deleted nodediff %s
+S_155	Deleted old nodelist %s
+S_156	Deleted old REQUEST-File %s
+S_157	Deleting %s
+S_158	Deleting after sent
+S_159	Deleting File %s
+S_160	Deleting old Nodelist %s
+S_161	The area /%s/ has been created _(check settings!)_\
+S_162	Description
+S_163	Dial command
+S_164	Dialing...
+S_165	Diff List
+S_166	DirectMail to %d:%d/%d.%d
+S_167	Disabling Events ...
+S_168	Disconnect failed
+S_169	Disconnect from ISDN detected !
+S_170	Selection saved to ASAVED
+S_171	Disconnect successfull
+S_172	Mail saved to ASAVED
+S_173	Disconnected from ISDN
+S_174	Disconnecting from ISDN Network
+S_175	Disconnecting...
+S_176	Done
+S_177	Echomails    : %d
+S_178	Echo-manager
+S_179	EMPTY
+S_180	EMSI TIMEOUT
+S_181	EMSI_ACK received
+S_182	EMSI_DAT received
+S_183	EMSI_DAT received instead of EMSI_ACK
+S_184	EMSI_NAK received
+S_185	EMSI_NAK received, waiting EMSI_DAT
+S_186	EMSI_REQ received
+S_187	EMSI_REQ received instead of EMSI_DAT
+S_188	EMSI-packet timeout
+S_189	EMSI-session failed
+S_190	Enabling Events ...
+S_191	End of Script
+S_192	End tossing
+S_193	Ended
+S_194	Ending Mailer
+S_195	Erasing broken file %s
+S_196	Results from a extended search
+S_197	Error accessing TIC-file !
+S_198	Error executing inbound-batch: ret=%d error=%d
+S_199	Error executing pretossing batch: ret=%d error=%d
+S_200	Error Line wrong for Identifier <%s>!
+S_201	Error moving: %d
+S_202	Error on FAX conversion
+S_203	Error opening file %s
+S_204	Error unpacking %s
+S_205	Error writing to messagebase\n\r
+S_206	Errorfile <%s> not found
+S_207	Establishing EMSI Session
+S_208	%s: <%s>
+S_209	Resetted all events
+S_210	%s: Aborted by User
+S_211	%s: Address not found!
+S_212	%s: Dialing %s
+S_213	%s: Dialing %s failed
+S_214	%s: Dialing successfully completed
+S_215	%s: End of SCRIPT-EVENT
+S_216	%s: Executing script <%s>
+S_217	--- events ---
+S_218	%s: Executing OK-script <%s>
+S_219	%s: Executing FAILED-script <%s>
+S_220	%s: Modem Device Busy
+S_221	%s: Pause %d sec.
+S_222	%s: Removed
+S_223	%s: System <%s> not found
+S_224	%s: Waiting finished
+S_225	Event Log
+S_226	Event-manager
+S_227	EVENTS LOGFILE
+S_228	Events sleeping while in setup ..
+S_229	Except  '%s'
+S_230	ExcludeList %s
+S_231	Excluding Zones %d
+S_232	EXECTOOL returned !Error!: %d
+S_233	Execute
+S_234	Execute: %s
+S_235	Executing %s
+S_236	EXIT
+S_237	Failed
+S_238	Failed purging %s
+S_239	FAX conversion is disabled
+S_240	FAX received
+S_241	Fax successfully converted
+S_242	FAX-manager
+S_243	FIDO Tossing...
+S_244	File 
+S_245	File %s not found !
+S_246	File attach %s
+S_247	File exists, renaming to %s
+S_248	File may be locked by other task...
+S_249	File transfer of %s complete !
+S_250	File: %s
+S_251	FILTER
+S_252	FIND
+S_253	First Name
+S_254	Flushing Files to Disk ...
+S_255	Found %d
+S_256	Found %s  (type %d)
+S_257	Found %s, moving to NODELIST folder
+S_258	Found 0
+S_259	Found in FromName
+S_260	Found in Mailtext
+S_261	Found in Subject
+S_262	Found in ToName
+S_263	Found nodelist, unpacking to NODELIST folder
+S_264	FROM
+S_265	FROM
+S_266	FROMNAME
+S_267	FROZEN
+S_268	ENGLISH
+S_269	Group
+S_270	HEADER
+S_271	Idle
+S_272	ign.
+S_273	Ignore Case
+S_274	Inbound Session complete
+S_275	Incoming EMSI-Session
+S_276	Incoming HUMAN CALLER
+S_277	Incomplete EMSI_DAT received
+S_278	Incomplete EMSI_DAT: %d/%d
+S_279	Increasing Priority ...
+S_280	Infomail generation disabled
+S_281	Init Modem on COM%d
+S_282	Invalid Adress '%s'
+S_283	Invalid delivery time
+S_284	ISDN Connect
+S_285	ISDN Line identified
+S_286	Yes
+S_287	%d Byte
+S_288	%8.1f KByte
+S_289	%4.2f MByte
+S_290	Conversion to *.AWD Format is *disabled*\
+S_291	L - 
+S_292	LASTCALL
+S_293	Delivery time = 0
+S_294	Delivery time: %d d. %d h. %d m.
+S_295	level:%d, group:%s, left:%d min
+S_296	level:%d, left:%d min
+S_297	Limit reached
+S_298	List Name
+S_299	Local BBS Login ended
+S_300	Local Infomail generated.
+S_301	Local mails for this system
+S_302	Local Notification
+S_303	Locked %s, purged on exit
+S_304	M
+S_305	Mail %s -> %s
+S_306	Mail to long and will be splitted!
+S_307	Mail will be exported to BOSS
+S_308	MAILER LOGFILE
+S_309	Mailer Queue
+S_310	Mails/sec    : %d
+S_311	MAILSTATUS
+S_312	MAILTEXT
+S_313	MARKEDREAD
+S_314	Max
+S_315	Merging %s and %s
+S_316	Message was duplicated to %d areas
+S_317	MM-Packet %s was deleted
+S_318	Modem doesn't respond!
+S_319	Modem INIT
+S_320	Modem reports %s
+S_321	Moving file to %s
+S_322	No
+S_323	Netmails     : %d
+S_324	NEVER DELETE
+S_325	NEW OWN MAIL
+S_326	New script
+S_327	NL-CRC16: %d (0x%X)
+S_328	No
+S_329	No caller detected
+S_330	No connection
+S_331	No EMSI response, assuming HUMAN CALLER !
+S_332	No file found matching %s.*
+S_333	No packer defined for %s
+S_334	No response from REMOTE ! Mailbox disabled.
+S_335	No uplink defined for area %s
+S_336	No valid Nodediff found for %s
+S_337	No valid Nodelist found for %s.*
+S_338	NODELIST
+S_339	Nodelist compile not possible !
+S_340	NODELIST LOGFILE
+S_341	Nodelist-Compile complete
+S_342	Not available
+S_343	Not configured
+S_344	not defined
+S_345	Not enough memory for this operation !
+S_346	Not found
+S_347	Not found
+S_348	Not Save
+S_349	Number
+S_350	Number skipped
+S_351	Other side does not respond !
+S_352	Packing Mail
+S_353	PL
+S_354	Please select:
+S_355	POINTLIST
+S_356	Pretossing: TOSS.BAT
+S_357	Private mails
+S_358	Private Mails
+S_359	Proccessing %s
+S_360	Processing %s %s
+S_361	Processing Nodediff %s
+S_362	Processing Private Nodes
+S_363	Processing requests ...
+S_364	Processing specified Zone %d
+S_365	Processing Zone %d
+S_366	Program returned !Error!: %d
+S_367	Purge ended
+S_368	Purged %s
+S_369	PURGER LOGFILE
+S_370	QUOTE
+S_371	QUOTEANOTHER
+S_372	Quoting to Area: %s
+S_373	R
+S_374	Read %d, expected %d Bytes
+S_375	RECEIVE
+S_376	Receiving EMSI_DAT
+S_377	Remote refused our EMSI-packet
+S_378	Renaming File %s to %s
+S_379	REQUEST
+S_380	Requesting %s (%d:%d/%d.%d)
+S_381	Requesting BBS Local Login
+S_382	Rescanning Queue...
+S_383	Reseting Port
+S_384	Resetting events
+S_385	Resuming from %d
+S_386	Resuming from Byte %d
+S_387	Ring detected on 1st modem
+S_388	Ring detected on 2nd modem
+S_389	Ring detected on ISDN Port
+S_390	RouteTo '%s'
+S_391	Routing to %s through %s
+S_392	Session Hydra
+S_393	s
+S_394	Saving list of requested files due to session error
+S_395	SCANNED
+S_396	Script Message
+S_397	Script not defined
+S_398	Search text
+S_399	Searching ...
+S_400	Second Name
+S_401	Page *%2d* is stored in file *%s* \
+S_402	Select a folder
+S_403	Sending dial-init to modem
+S_404	Sending EMSI_DAT
+S_405	Sending ZModem
+S_406	Session complete
+S_407	Skip areas
+S_408	Skipped %s
+S_409	Sorting by names
+S_410	Sorting by numbers
+S_411	Start Purge
+S_412	Starting
+S_413	Starting Nodelist-Compile
+S_414	Starting Purge
+S_415	Starting Tosser
+S_416	SUBJECT
+S_417	Successful ISDN-CONNECT
+S_418	Sum:
+S_419	Syncronizing Threads ...
+S_420	Sorting finished
+S_421	Sysop: %s\
+S_422	TelNr. translated to:%s
+S_423	This mail will be sent to his BOSS
+S_424	TO
+S_425	TONAME
+S_426	Too much garbage!
+S_427	TOSSER LOGFILE
+S_428	Tossing %s (%s)
+S_429	Twit in %s (%d): '%s'
+S_430	Tossing complete (%d sec)
+S_431	Total mails
+S_432	Processed %ld bytes
+S_433	Transfering Files
+S_434	TwitMails    : %d
+S_435	Script
+S_436	Mailer
+S_437	Tosser
+S_438	Purger
+S_439	Purging locked areas
+S_440	Unable to append all file transfers
+S_441	Unable to append file requests!
+S_442	Unable to delete %s
+S_443	Unable to initialise modem (dial-init) !
+S_444	Unable to initialise modem!
+S_445	Unable to send answer string
+S_446	UniPack Call
+S_447	Unlisted Point %d:%d/%d.%d
+S_448	Unpacking %s (%s)\
+S_449	Unpacking %s with UniPack
+S_450	Unpacking Mail
+S_451	unpacking MM-Packet %s
+S_452	Unread mails
+S_453	Update Mail-Read Info ...
+S_454	Uplink
+S_455	User Abort !
+S_456	User dropped CARRIER
+S_457	User dropped ISDN DATA-B3
+S_458	USERMARKED
+S_459	UUDECODE To
+S_460	UUENCODE From
+S_461	Waiting %d sec.
+S_462	Waiting for completion of area setup
+S_463	Waiting for line to settle down
+S_464	FROM-ADDR
+S_465	Waiting skipped
+S_466	Waiting for remote answer
+S_467	Worktime not defined
+S_468	Worktime: %s-%s
+S_469	Writing Index by Names
+S_470	Writing Index by Numbers
+S_471	Writing Nodelist-Index
+S_472	Yes
+S_473	YOUNGER
+S_474	Your pointnumber
+S_475	Your System Name
+S_476	ZModem Crash Recovery
+S_477	Zone
+S_478	\r/From:/ 
+S_479	Cannot create dir %s
+S_480	Area       :/ *
+S_481	File       :/ *
+S_482	Moved      :/ *
+S_483	Copied     :/ *
+S_484	Description:/ 
+S_485	Moving file %s to %s
+S_486	Copying file %s to %s
+S_487	Cannot open %s to add the description
+S_488	Cannot copy file !
+S_489	\rFile *%s* Area /%s/\r* /TIC-file without attached file, marked for later processing !/ *\r
+S_490	Start
+S_491	Repost through %d days
+S_492	TIC-file without attached file, delayed
+S_493	Cannot access TIC-file %s
+S_494	Deleting old TIC-file %s
+S_495	\rFile *%s* Area /%s/\r * /Old TIC-FILE deleted, because no matching file was received !/ * \r
+S_496	Remain
+S_497	Aborted by other side
+S_498	No TIC-area defined for %s
+S_499	File will be left in the INBOUND !
+S_500	\rFile *%s* _Unknown area_ : *%s*\r>> _/Please check your TIC-Echo Setup !_/ <<\r
+S_501	Aborted by operator
+S_502	Aborted as low CPS
+S_503	Processing %s
+S_504	TIC-manager
+S_505	Local Notification
+S_506	*Please check your TIC-area setup to validate the default settings*\r%s\r
+S_507	\rThese TIC-files were received from your uplinks:\r%s\r
+S_508	: starting session on
+S_509	     Attached fls:
+S_510	File %s already attached
+S_511	Aborted. PKT renamed to '%s'
+S_512	BAD Data in %s in file %s
+S_513	Found %s, moving to UTIL-path
+S_514	Datum
+S_515	Create new mail
+S_516	L - Quote mail\R - Quote in netmail
+S_517	L - Quote to another area\R - Forward mail
+S_518	L - Save mail to Autosave Area\R - Save to other area
+S_519	L - Search in messages\R - Advanced search
+S_520	L - Filerequest from mail\R - FREQ from filelist
+S_521	Exit Fips (F10)
+S_522	L - Goto previous mail\R - Goto previous area
+S_523	L - Goto next mail\R - Goto next area
+S_524	L - Choose area (Tab)
+S_525	Creation date of mail\
+S_526	Reciption date of mail\
+S_527	L - Mailer status window (Ctrl-1)\R - Start queue
+S_528	L - Tosser status window (Ctrl-2)\R - Start tossing
+S_529	L - Purge status window (Ctrl-3)\R - Start purging
+S_530	L - Display limit for messages\R - Filter setup
+S_531	L - Display attributes (Ctrl-T)
+S_532	L - Display hidden lines (Ctrl-H)
+S_533	L - Display deleted mails (Ctrl-D)
+S_534	Addressbook
+S_535	Is attached file
+S_536	Your name and surname or nickname
+S_537	Your address in this area
+S_538	Destination address
+S_539	Change Size of dialog window
+S_540	Request recipt return
+S_541	Send mail direct to destination
+S_542	Kill mail after sending
+S_543	Do not export this message
+S_544	Convert special characters on saving
+S_545	Do not scan this message
+S_546	Header lines (change - Right click)
+S_547	Footer lines (change - Right click)
+S_548	Origin for this mail
+S_549	Attach a file to this mail
+S_550	Import text,binary or multimedia element
+S_551	Address information
+S_552	Cancel, do not save this mail
+S_553	Save and exit
+S_554	Name of recipient
+S_555	Subject of mail (or filename if it is a fileattach
+S_556	Period
+S_557	Area
+S_558	From
+S_559	To
+S_560	Subject
+S_561	d.
+S_562	Change current mail
+S_563	Start of marked queue entries
+S_564	Abort current connection
+S_565	Current file sending status
+S_566	Current file recieving status
+S_567	Mailer Current State
+S_568	Total size of sending
+S_569	Total size of receiving
+S_570	Already sent bytes
+S_571	Already recieved bytes
+S_572	Sending speed (chars per sec)
+S_573	Receiving speed (chars per sec)
+S_574	Elapsed time of sending (Charged units, time to next charging unit)
+S_575	Elapsed time of receiving (Charged units, time to next charging unit)
+S_576	Sending file (estimated time of transfer)
+S_577	Receiving file (estimated time of transfer)
+S_578	Displaying mailer-queue/events
+S_579	Skiping current call
+S_580	Removing current call
+S_581	Skiping current file
+S_582	Removing current file
+S_583	Scan message base for unsent mails
+S_584	Enable Events
+S_585	Disable Events
+S_586	Config Events
+S_587	Info about remote system
+S_588	Abort
+S_589	Script aborted
+S_590	Mail Filter ON
+S_591	Mail Filter OFF
+S_592	Structured display ON
+S_593	Structured display OFF
+S_594	No valid protocols
+S_595	<< File: %s %s
+S_596	Symbol description:\---\x - Already read\P - New mail\S - Already scanned\A - Never delete\F - Mail frozen\B - Mail is answered
+S_597	Proccessed: %d packs, %d mails, %s\Netmail: %d mails, Echomail: %d mails\Carboncopy: %d mails, Twit: %d mails
+S_598	Proccessed: %d mails, %s, %d areas from %d\Deleted: %d mails, %s
+S_599	Change coding DOS/WIN
+S_600	Switching filter on field
+S_601	For Quote :
+S_602	For New :
+S_603	Generating receipt confirmation
+S_604	=== continuation ===\\
+S_605	New Nodelist Info found
+S_606	Saved
+S_607	Exiting...
+S_608	Saved as scan default
+S_609	Saved as convert default
+S_610	Created: %d
+S_611	Modified: %d
+S_612	Deleted: %d
+S_613	Areas: %d
+S_614	Mail not found
+S_615	Mail proceeded
+S_616	Using second modem
+S_617	= Private node =
+S_618	= Address book =
+S_619	Total:
+S_620	Session BinkP
+S_621	Denying file %s
+S_622	Skipping file %s
+S_623	== Start BinkP session
+S_624	session with %s (%s)
+S_625	== End BinkP session
+S_626	== End Hydra session
+S_627	== Start Hydra session
+S_628	AREA: %s (%s)\FROM: %s  %s\TO: %s  %s\SUBJ: %s\\
+S_629	Events log
+S_630	%s: check flag <%s>
+S_631	%s: flag <%s> found
+S_632	%s: flag <%s> not found
+S_633	\** Logfile truncated at %s %s **\\
+S_634	Template
+S_635	Comment
+S_636	Nickname
+S_637	Aborted due to the time limits

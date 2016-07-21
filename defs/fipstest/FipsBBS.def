@@ -1,0 +1,374 @@
+;	FIPS/32 BBS language definition file
+;
+;	Color-Attributes	Foreground Colors	Background Colors
+;
+;	Black			^[F0			^[B0
+;	Blue			^[F1			^[B1
+;	Green			^[F2			^[B2
+;	Cyan			^[F3			^[B3
+;	Red			^[F4			^[B4
+;	Magenta			^[F5			^[B5
+;	Brown			^[F6			^[B6
+;	Grey			^[F7			^[B7
+;	Dark grey		^[F8
+;	Blue(high)		^[F9
+;	Green(high)		^[FA
+;	Cyan(high)		^[FB
+;	Red(high)		^[FC
+;	Magenta(high)		^[FD
+;	Yellow			^[FE
+;	White			^[FF
+;
+;	Special Attributes
+;
+;			Newline			^M
+;			Wait for a RETURN	^R
+;			Wait 1 second		^D
+;			Time left in mins	^#
+;			ClearScreen		^[CS
+;			Displayfile		^@filename@
+;
+
+;#####################################################
+@SECTION RUSSIAN
+
+; special paths for language-dependent files
+
+FILEDIRECTORY	BBSMenu\bbspics.rus
+MENUDIRECTORY	BBSMenu\bbsmenu.rus
+
+; special chars for user-input
+
+YESCHAR     Yy
+NOCHAR      Nn
+CONTINUE    Cc
+ABORT       Aa
+STOPCHAR    Ss
+MARKCHAR    Mm
+DELCHAR     Dd
+
+CONTQUEST	^[FFЕще ?
+
+; login section
+
+LOGIN           ^[FFПожалуйста, введите Ваше ^[FEИмя ^[FFи ^[FEФамилию ^[FF:
+PASSWORD        ^[FFПожалуйста, введите Ваш ^[FEпароль^[FF         :
+SEARCHUSER	^[FFПоиск в базе данных пользователей...
+WRONGPWD	^[FEНеправильный пароль !
+UNKNOWN    	^[FFВаше имя ^[FE%s^[FF неизвестно,^MВы новый пользователь ?
+
+; new user questions
+
+ASKSTREET       ^[FEПожалуйста введите Ваш почтовый адрес...^M^[FFУлица        :
+ASKTOWN		^[FFПочтовый индекс, город :
+
+ASKTEL		^[FFНомер телефона                 :
+ASKMODEM	^[FFModem/Fax (^[F3если есть^[FF) :
+
+ASKANSI		^[FFХотите использовать ANSI-colors ?
+ASKLPS		^[FFСколько строк отображает Ваш монитор :
+
+ASKLANGUAGE	^[FFКакой язык будете пользовать ?
+
+ASKPWD          ^[FFПожалуйста введите Ваш ^[FEпароль^[FF        :
+ASKPWDAGAIN     ^[FFПожалуйста введите еще раз для проверки :
+
+ASKEMPTYPWD	^[FBВы действительно хотите подключаться без пароля?
+
+PWDMISMATCH	^[FCНеправильный пароль, попробуйте еще раз!
+
+; bbs-menu actions
+
+PROMPT		^[FFУ Вас осталось ^[FE^#^[FF минут(ы), Пожалуйста делайте выбор =>
+
+LISTFILES   ^[FFПродолжить(^[FBY/N^[FF), пометить(^[FBM^[FF), прокрутить(^[FBC^[FF)
+ENDLIST		^[FFНажмите любую клавишу...
+ASKMARK     ^[FEВведите букву(ы) для пометки файлов :
+
+NOFLSTAGGED     ^[FEНичего не помечено !
+MARKEDFILES	^[FFПомечены файлы:^M^[FE=============^M
+EDITMARKED	^[FBУ^[FEдалить файл или ^[FBС^[FEбросить
+DELMARKED	^[FFУдалить номера :
+
+CHNGPWDSUCC	^[FFВаш пароль был успешно изменен !
+CHNGPWDFAIL	^[FCНеправильный пароль, будет^Mиспользоваться старый пароль!
+
+AREASAVAIL	^[FFВыберите файловую область:
+SELECTAREA      ^[FFПожалуйста, введите номер файловой области:
+
+; chat section
+
+CHATASK		^[FFО чем Вы хотите поговорить с SysOp'oм:
+CHATWAIT	^[FBПожалуйста подождите, вызываю оператора...
+CHATSTART	^[FEПривет, SysOp на связи ...
+CHATINFO	Закончите разговор нажатием на кнопку ESC...
+CHATABORT	^[FEОчень жаль, оператора сейчас нет дома....
+
+; download files
+
+PROTOCOL	^[FFВыберите протокол для передачи:
+DLINFO		^[FFВведите имя файла для получения. Для окончания  нажмите ^[FAEnter^[FF !
+DLFILES		^[FFФайл ^[FB%-2d^[FF : ^[FE
+DLSTART		^[FFНажмите [^[FBEnter^[FF] для начала передачи (^[FAESC для прекращения^[FF)...
+DLARCHIVE	^[FBПринять файлы ^[FA%-12s^[FB (%s,%s) ? ^[FF
+DLNOFOUND	^[FEТакой файл не найден!
+
+; upload files
+
+ULPROTO		^[FFДля начала передачи^Mнажмите любую клавишу...
+ULNOFILES	^[FEФайлы не приняты!
+ULDESC		^[FBВведите описание этого файла^[FA%s^[FB.
+ULDSCNEED	^[FEВы должны ввести не менее ^[FBодной^[FE строки!
+
+; mails
+
+MNEWMAIL	^M^[FBДля Вас есть почта!^[FF^MХотите прочитать ее сейчас?
+MMAILFROM	^[FFFrom : ^[FE%-40s ^[FB%s
+MMAILTO		^[FFTo   : ^[FE%s
+MMAILSUBJ	^[FFSubj.: ^[FB%s
+MCONTINUE	^[FFНажмите любую клавишу...
+MDELETE		^M^[FBУдалить это сообщение^[FF?
+
+MTOWHO		^[FBВведите имя получателя :
+MUSRNF		^[FEНет такого пользователя на BBS!
+MSUBJECT	^[FBSubject:
+MQUES		^[FFСохранить(^[FBY^[FF), отменить(^[FBN^[FF) или продолжить (^[FBC^[FF) ?
+MINFO		^[FEВведите Ваше сообщение.  Нажмите ^[FAEnter ^[FE на пустой строке для окончания ввода!
+
+; miscelaneous
+
+TIMEOUTWARN	^[FBВнимание ! У Вас осталось 2 минуты !
+TIMEOUT		^[FBОчень жаль, но лимит Вашего времени на сегодня закончился,^Mзвоните завтра...
+
+SEARCHFILE	^[FFПоиск файлов :
+NOMOREFOUND	^[FAФайлов больше не найдено...
+
+;#####################################################
+@SECTION ENGLISH
+
+; special paths for language-dependent files
+
+FILEDIRECTORY	BBSMenu\bbspics.eng
+MENUDIRECTORY	BBSMenu\bbsmenu.eng
+
+; special chars for user-input
+
+YESCHAR		Yy
+NOCHAR		Nn
+CONTINUE	Cc
+ABORT		Aa
+STOPCHAR	Ss
+MARKCHAR	Mm
+DELCHAR		Dd
+
+CONTQUEST	^[FFMore ?
+
+
+; login section
+
+LOGIN		^[FFPlease enter your ^[FEFIRST- ^[FFand ^[FELASTNAME ^[FF:
+PASSWORD	^[FFPlease enter your ^[FEpassword^[FF            :
+SEARCHUSER	^[FFSearching in the user-database...
+WRONGPWD	^[FESorry, wrong password !
+UNKNOWN    	^[FFThe username ^[FE%s^[FF is unknown,^Mare you a new user ?
+
+; new user questions
+
+ASKSTREET	^[FEPlease enter your mailing adress...^M^[FFStreet        :
+ASKTOWN		^[FFZIP-Code+Town :
+
+ASKTEL		^[FFTelephonenumber                 :
+ASKMODEM	^[FFModem-/Faxnumber (^[F3if available^[FF) :
+
+ASKANSI		^[FFDo you want to use ANSI-colors ?
+ASKLPS		^[FFHow many lines per page should be displayed :
+
+ASKLANGUAGE	^[FFWhich language should be used ?
+
+ASKPWD		^[FFPlease enter your ^[FEpassword^[FF        :
+ASKPWDAGAIN	^[FFPlease enter again for evaluation :
+
+ASKEMPTYPWD	^[FBDo you really want to use an empty password ?
+
+PWDMISMATCH	^[FCPasswords didn't match, please try again !
+
+; bbs-menu actions
+
+PROMPT		^[FB^#^[FF minutes left, please make a selection =>
+
+LISTFILES   ^[FFList more files (^[FBY/N^[FF) mark some files (^[FBM^[FF) without stop (^[FBC^[FF)
+ENDLIST		^[FFEnd of filearea, press a key...
+ASKMARK     ^[FEPlease enter the chars for each file :
+
+NOFLSTAGGED	^[FENo files have been tagged !
+MARKEDFILES	^[FFMarked Files:^M^[FE=============^M
+EDITMARKED	^[FBD^[FEelete a file or ^[FBA^[FEbort
+DELMARKED	^[FFDelete which filenumber :
+
+CHNGPWDSUCC	^[FFYour password has been changed !
+CHNGPWDFAIL	^[FCPasswords didn't match, the old password will be^Mused in future !
+
+AREASAVAIL	^[FFFollowing areas are available
+SELECTAREA	^[FFPlease enter the area-number :
+
+; chat section
+
+CHATASK		^[FFWhy do you want to speak with the SysOp :
+CHATWAIT	^[FBPlease wait, i'm shouting and screaming for my boss...
+CHATSTART	^[FEHello user, here is the SysOp speaking ...
+CHATINFO	End the chat by pressing the ESC key ...
+CHATABORT	^[FESorry, no one at home ....
+
+; download files
+
+PROTOCOL	^[FFSelect a Protocol for download:
+DLINFO		^[FFNow enter the filenames you want to download,^Mend selection with ^[FARETURN^[FF !
+DLFILES		^[FFFile ^[FB%-2d^[FF : ^[FE
+DLSTART		^[FFPress [^[FBRETURN^[FF] to start the transfer (^[FAESC for abort^[FF)...
+DLARCHIVE	^[FBDownload file ^[FA%-12s^[FB (%s,%s) ? ^[FF
+DLNOFOUND	^[FENo files were found !
+
+
+; upload files
+
+ULPROTO		^[FFYou can strat the ZModem transfer now.^MPlease press a key to start the transfer...
+ULNOFILES	^[FENo files have been received !
+ULDESC		^[FBPlease enter at least one line description for^Mfile ^[FA%s^[FB.
+ULDSCNEED	^[FEYou have to enter at least ^[FBone^[FE line !
+
+; mails
+
+MNEWMAIL	^[FF^MThere is mail for you !^MDo you want to read it now ?
+MMAILFROM	^[FFFrom : ^[FE%-40s ^[FB%s
+MMAILTO		^[FFTo   : ^[FE%s
+MMAILSUBJ	^[FFSubj.: ^[FB%s
+MCONTINUE	^[FFPlease press a key...
+MDELETE		^[FFDo you want to delete this mail now ?
+
+MTOWHO		^[FBName of receiver :
+MUSRNF		^[FEThis username is not known on this BBS !
+MSUBJECT	^[FBSubject:
+MQUES		^[FFDSave (^[FBY^[FF) mail, drop it(^[FBN^[FF) or continue (^[FBC^[FF) ?
+MINFO		^[FEPlease enter your mailtext now. If you enter ^Man ^[FAempty line^[FE you can save the message !
+
+; miscelaneous
+
+TIMEOUTWARN	^[FBAttention ! you only have 2 minutes left !
+TIMEOUT		^[FBSorry, your online-time for today is over,^Mplease try again tomorrow...
+
+SEARCHFILE	^[FFSearch for which keyword :
+NOMOREFOUND	^[FANo more files found...
+
+;#####################################################
+@SECTION GERMAN
+
+; spezielle directory angaben die von der verwendeten sprache abhaengen
+
+FILEDIRECTORY	\fips\bbspics.deu
+MENUDIRECTORY	\fips\bbsmenu.deu
+
+; spezielle zeichen fuer user-eingaben
+
+YESCHAR		Jj
+NOCHAR		Nn
+CONTINUE    Ww
+ABORT	    Aa
+STOPCHAR    Ss
+MARKCHAR    Mm
+DELCHAR     Ll
+
+CONTQUEST	^[FFWeiter ?
+
+; login section
+
+LOGIN		^[FFBitte ^[FEVor- ^[FFund ^[FENachnamen ^[FFeingeben :
+PASSWORD	^[FFBitte ^[BAgeben^[B0 Sie Ihr ^[FEPasswort ^[FFein  :
+SEARCHUSER	^[FFSuche in der User-Datenbank...
+WRONGPWD	^[FETut mir leid, das Passwort stimmt leider nicht !
+UNKNOWN    	^[FFDer Name ^[FE%s^[FF ist hier nicht bekannt,^Mbist Du ein neuer User ?
+
+; Fragen an den neuen user
+
+ASKSTREET	^[FEBitte gib Deine Anschrift an...^M^[FFStrasse :
+ASKTOWN		^[FFPLZ+Ort :
+
+ASKTEL		^[FFTelephonnummer                     :
+ASKMODEM	^[FFModem-/Faxnummer (^[F3falls vorhanden^[FF) :
+
+ASKANSI		^[FFSollen ANSI-Farben verwendet werden ?
+ASKLPS		^[FFWieviele Zeilen pro Seite sollen angezeigt werden :
+
+ASKLANGUAGE	^[FFWelche Sprache soll verwendet werden :
+
+ASKPWD		^[FFBitte jetzt das ^[FEPasswort^[FF eingeben :
+ASKPWDAGAIN	^[FFZur Kontrolle bitte wiederholen   :
+
+ASKEMPTYPWD	^[FBSind Sie sicher dass Sie kein Passwort verwenden wollen ?
+
+PWDMISMATCH	^[FCPasswoerter stimmen nicht ueberein, bitte wiederholen !
+
+; Menu-Aktionen
+
+PROMPT		^[FFRestzeit ^[FB^#^[FF Minuten,Bitte eine Auswahl treffen =>
+
+LISTFILES   ^[FFWeitere Dateien (^[FBJ/N^[FF) Dateien markieren (^[FBM^[FF) ohne Stop (^[FBW^[FF)
+ENDLIST		^[FFEnde des Dateibereichs, bitte eine Taste druecken...
+ASKMARK     ^[FEBitte die gewuenschten Buchstaben angeben :
+
+NOFLSTAGGED	^[FEEs wurden keine Dateien markiert !
+MARKEDFILES	^[FFFolgende Dateien wurden makiert:^M^[FE================================^M
+EDITMARKED	^[FEWelche markierte Datei ^[FBl^[FEoeschen oder ^[FBA^[FEbbruch ?
+DELMARKED	^[FFWelche Dateinummner loeschen :
+
+CHNGPWDSUCC	^[FFDas Passwort wurde geaendert
+CHNGPWDFAIL	^[FCPasswoerter stimmten nicht ueberein, das alte Passwort^Mist weiterhin gueltig
+
+AREASAVAIL	^[FFFolgende Bereiche stehen zur Verfuegung:
+SELECTAREA	^[FFBitte die gewuenschte Bereichsnummer eingeben:
+
+; Chat-Sektion
+
+CHATASK		^[FFWarum moechtest Du den SysOp sprechen :
+CHATWAIT	^[FBBitte warten, ich rufe den SysOp ...
+CHATSTART	^[FEHallo User, hier spricht der SysOp...
+CHATINFO	Mit ESC kann die Unterhaltung abgebrochen werden...
+CHATABORT	^[FETut mir leid, aber anscheinend ist keiner daheim ...
+
+; File Download
+
+PROTOCOL	^[FFBitte ein Protokoll fuer den Download auswaehlen:
+DLINFO		^[FFBitte nun die gewuenschten Dateinamen angeben,^Mbeenden der Eingabe mit ^[FARETURN^[FF !
+DLFILES		^[FFDatei ^[FB%-2d^[FF : ^[FE
+DLSTART		^[FFBitte [^[FBRETURN^[FF] druecken um den Transfer zu starten (^[FAESC fuer Abbruch^[FF)...
+DLARCHIVE	^[FBDatei ^[FA%-12s^[FB (%s,%s) uebertragen ? ^[FF
+DLNOFOUND	^[FEEs wurden keine Dateien gefunden !
+
+; Upload 
+
+ULPROTO		^[FFSie koennen jetzt eine ^[FAZModem^[FF Uebertragung starten.^M^[FBBitte eine Taste druecken um den Transfer zu starten ...
+ULNOFILES	^[FEEs wurden keine Dateien empfangen ...
+ULDESC		^[FBBitte geben Sie jetzt eine Beschreibung fuer die^MDatei ^[FA%s^[FB ein.
+ULDSCNEED	^[FESie muessen mindestens ^[FBeine^[FE Zeile Beschreibung eingeben !
+
+; Nachrichten
+
+MNEWMAIL	^[FF^MEs wurden Nachichten fuer Sie gefunden.^MWollen Sie diese Nachrichten jetzt lesen ?
+MMAILFROM	^[FFVon  : ^[FE%-40s ^[FB%s
+MMAILTO		^[FFAn   : ^[FE%s
+MMAILSUBJ	^[FFBetr.: ^[FB%s
+MCONTINUE	^[FFBitte eine Taste druecken ...
+MDELETE		^[FFSoll diese Nachricht jetzt geloescht werden ?
+
+MTOWHO		^[FBAn wen ist diese Nachricht gerichtet :
+MUSRNF		^[FEDieser Username ist nicht in dieser Mailbox eingetragen !
+MSUBJECT	^[FBBetrifft:
+MINFO		^[FEBitte geben Sie nun die Nachricht ein. Durch Eingabe^Meiner ^[FALeerzeile^[FE koennen Sie die Nachricht abspeichern.
+MQUES		^[FFNachricht speichern (^[FBJ^[FF), verwerfen (^[FBN^[FF) oder weiterschreiben(^[FBW^[FF) ?
+
+; Verschiedenes
+
+TIMEOUTWARN	^[FBAchtung, Du hast nur noch 2 Minuten Restzeit !
+TIMEOUT		^[FBSorry, die Onlinezeit ist fuer heute abgelaufen,^Mprobiere es morgen wieder...
+
+SEARCHFILE	^[FFBitte das zu suchende Stichwort angeben :
+NOMOREFOUND	^[FAKeine weiteren Dateien gefunden ...

@@ -1,0 +1,93 @@
+#define VHELP_INFO_ADDRESS			1
+#define VHELP_TRAFFIC				2
+#define VHELP_CFG_STATION			3
+#define VHELP_BOSS_CONFIG			4
+#define VHELP_CFG_CARBONCOPY		5
+#define VHELP_FREQ_SELECT			6
+#define VHELP_MAINWINDOW			7
+#define VHELP_STAT_MAILER			8
+#define VHELP_STAT_PURGE			9
+#define VHELP_STAT_TOSS				10
+#define VHELP_TIMEOUTS				11
+#define VHELP_OUTBOUND_MAIL_VIEW		12
+#define VHELP_CFG_EDITOR			13
+	//#define VHELP_Einleitung			14
+#define VHELP_KLUDGES					15
+	//#define VHELP_FidoRouting			16
+#define VHELP_FREQ					17
+	//#define VHELP_Fips_Info				18
+	//#define VHELP_forwarden				19
+	//#define VHELP_Inhaltverzeichnis		20
+	//#define VHELP_Listbox_Size			21
+#define VHELP_CFG_LOGFILES			22
+#define VHELP_CFG_FILTER			23
+#define VHELP_WRITMAIL				24
+#define VHELP_HELPHELP				25
+#define VHELP_MODEMS				26
+#define VHELP_TEXT_IMPORT			27
+#define VHELP_ADDRBOOK				28
+#define VHELP_CFG_AREA				29
+#define VHELP_ECHO_ORDER			30
+#define VHELP_CFG_NODELIST			31
+#define VHELP_STAT_NLCOMP			32
+#define VHELP_CFG_OTHERS			33
+#define VHELP_CFG_PACKER			34
+#define VHELP_QUICK_SETUP			35
+#define VHELP_CFG_COLOR				36
+	//#define VHELP_Register				37
+	//#define VHELP_sbs_fidoinfo			38
+	//#define VHELP_sbs_filerequestz		39
+	//#define VHELP_sbs_firststeps		40
+	//#define VHELP_sbs_grundconfig		41
+	//#define VHELP_sbs_install			42
+#define VHELP_SCRIPT_EDITOR			43
+	//#define VHELP_stepbystep			44
+#define VHELP_SIMPLE_SEARCH			45
+	//#define VHELP_System_Report			46
+#define VHELP_CFG_SOUND				47
+#define VHELP_MAIL_TEMPLATE			48
+	//#define VHELP_tricks				49
+#define VHELP_LOGFILE_DISPLAY		50
+	//#define VHELP_write_mail			51
+#define VHELP_OUTBOUND_VIEW			52
+#define VHELP_CROSSPOST				53
+#define VHELP_CFG_ADD_AKA			54
+#define VHELP_PRIVATE_NODES			55
+#define VHELP_CFG_AREA_MULTIPLE		56
+#define VHELP_CHAR_CONVERSION		57
+#define VHELP_CFG_TRAHS				58
+#define VHELP_CFG_ISDN				59
+#define VHELP_EVENTS				60
+#define VHELP_DIALBREAK				61
+#define VHELP_CFG_PRINT				62
+#define VHELP_RECIPIENT_LIST		63
+#define VHELP_TEXT_REPLACEMENT		64
+	//#define VHELP_tosser_cfg			65
+	//#define VHELP_Income_Konfiguration  66
+#define VHELP_EXT_SEARCH		    67
+#define VHELP_AREASELECT			68
+#define VHELP_CFG_INCOME	        70
+	//#define VHELP_ExternalFileRequest   71
+#define VHELP_CFG_GATE              72
+#define VHELP_MM_SELECTION		    73
+#define VHELP_CFG_REMOTE	        74
+#define VHELP_CFG_REQPATH	        75
+#define VHELP_HATCHDLG	            76
+#define VHELP_CFG_TICS              77
+#define VHELP_COMPATIBILITY         78
+#define VHELP_INTERNET_EXTERNAL     79
+#define VHELP_COSTANAL              80
+#define VHELP_FAX_SETUP	            81
+#define VHELP_BBS_GROUPS            82
+#define VHELP_BBS_MAIN              83
+#define VHELP_BBS_USERS             84
+#define VHELP_BBS_AREA              86
+#define VHELP_VALUE_AREAFIX	        87
+	//#define VHELP_Wiedervorlage         88
+#define VHELP_PRESENT_INFO	        89
+
+#define VHELP_UUENDEC				91
+#define VHELP_FIDONET				101
+#define VHELP_FIDOLANG				103
+#define VHELP_CFG_MULTIMEDIA        120
+#define VHELP_DICTIONARY			156

@@ -1,0 +1,5 @@
+        POPUP "B64decode"
+        BEGIN
+            MENUITEM "Из текущего письма...",       ID_ACTIONS_B64DECODEMAIL
+            MENUITEM "Из помеченных писем...",      ID_FROMSELECTEDB64MAILS
+        END
