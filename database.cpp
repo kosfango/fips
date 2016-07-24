@@ -90,7 +90,7 @@ int		i=0;
 	while (db_get_boss_by_index(i++,buf))
 	{
 		get_token(buf,BOSSADDR,boss);
-		if (strcmp(boss,gAreadef[hnd].uplink))
+		if (strcmp(boss,gAreadef[hnd].uplink)==0)
 		{
 			get_token(buf,MAINAKA,point);
 			return DB_OK;
