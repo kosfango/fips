@@ -2324,7 +2324,7 @@ int ret;
 	else
 		m_origin.GetWindowText(str);
 
-	Origin.Format(" * Origin: %65");
+	Origin.Format(" * Origin: ");
 	Origin=" * Origin: ";
 	Origin+=str.Left(65-strlen(addr));	// max length=79-Len(" * ORIGIN: ")-Len(" ()")
 	Origin+=" (";
