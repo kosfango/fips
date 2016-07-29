@@ -221,7 +221,7 @@ int		lng[]={
 		SHOW(m_convert);
 		m_convert.SetCheck(get_cfg(CFG_COMMON,"CharConversion",0));
 	}
-	if (ust.dest_area_handle==0)	// netmail
+	if (gustat.dest_area_handle==0)	// netmail
 	{
 		//SHOW(m_attached);
 		//SHOW(m_toaddr);
@@ -328,8 +328,10 @@ int		lng[]={
 
 	mh=ust.act_mailh;
 	set_aliases();
-	parse_kludge("\001MSGID: ",msg_addr,&msg_id);
-	parse_kludge("\001REPLY: ",reply_addr,&reply_id);
+	if (gc.mode != MODE_NEW) {
+		parse_kludge("\001MSGID: ", msg_addr, &msg_id);
+		parse_kludge("\001REPLY: ", reply_addr, &reply_id);
+	}
 	db_get_area_by_index(ust.dest_area_handle,&ad);
 	if (gc.mode==MODE_CHANGE)
 	{
@@ -490,24 +492,24 @@ char		mto[35],madr[200],tmp[200],bossinfo[MAX_BOSSLEN];
 	Pid.Empty();Msgid.Empty();Intl.Empty();Reply.Empty();Exkl.Empty();
 	Toname.Empty();Toaddr.Empty();Origin.Empty();Tearline.Empty();
 // loop on mailing list
-	for (int ia=0;ia<adrlst.GetCount();ia++)
+	for (int ia = 0; ia < adrlst.GetCount(); ia++)
 	{
-		str=adrlst.GetString(ia);
-		get_token(str,0,Toname);
+		str = adrlst.GetString(ia);
+		get_token(str, 0, Toname);
 		m_to.SetWindowText(Toname);
-		get_token(str,1,Toaddr);
+		get_token(str, 1, Toaddr);
 		m_toaddr.SetWindowText(Toaddr);
-		pmh=&ust.act_mailh;
-		longrepl=0;
-		*mto=*madr=*tmp=0;
-// check Areafix and Allfix as recipient in echomail
+		pmh = &ust.act_mailh;
+		longrepl = 0;
+		*mto = *madr = *tmp = 0;
+		// check Areafix and Allfix as recipient in echomail
 		if (ust.dest_area_handle > 0)
 		{
-			while (db_get_boss_by_index(i++,bossinfo))
+			while (db_get_boss_by_index(i++, bossinfo))
 			{
-				get_token(bossinfo,AREAFIX,str);
-				get_token(bossinfo,FILEFIX,str1);
-				if ((!Toname.CompareNoCase(str) || !Toname.CompareNoCase(str1)) && 
+				get_token(bossinfo, AREAFIX, str);
+				get_token(bossinfo, FILEFIX, str1);
+				if ((!Toname.CompareNoCase(str) || !Toname.CompareNoCase(str1)) &&
 					err_out("DN_TMMBAFC") != IDYES)	// areafix or allfix in echomail !
 				{
 					EndWaitCursor();
@@ -516,44 +518,48 @@ char		mto[35],madr[200],tmp[200],bossinfo[MAX_BOSSLEN];
 			}
 		}
 
-		memset(&mh,0,sizeof(mh));
-		mh.structlen=sizeof(mh);
-// timestamps
+		memset(&mh, 0, sizeof(mh));
+		mh.structlen = sizeof(mh);
+		// timestamps
 		build_fido_time(tmp);
-		mh.recipttime=time(NULL);
-		strnzcpy(mh.datetime,tmp,20);
-		CharToOem(mh.datetime,mh.datetime);
-// set sender address
-		if (!strcmp(ust.act_area.group,ASAVED_GROUP) && gc.mode==MODE_CHANGE)
-			strcpy(point,Org_FromAddr);
+		mh.recipttime = time(NULL);
+		strnzcpy(mh.datetime, tmp, 20);
+		CharToOem(mh.datetime, mh.datetime);
+		// set sender address
+		if (!strcmp(ust.act_area.group, ASAVED_GROUP) && gc.mode == MODE_CHANGE)
+			strcpy(point, Org_FromAddr);
 		else
-			m_fidodrop.GetLBText(m_fidodrop.GetCurSel(),point);
-		if (parse_address(point,&mh.srczone,&mh.srcnet,&mh.srcnode,&mh.srcpoint)<3 
-			&& strncmp(ust.act_area.echotag,BBSMAIL,strlen(BBSMAIL)))
+			m_fidodrop.GetLBText(m_fidodrop.GetCurSel(), point);
+		if (parse_address(point, &mh.srczone, &mh.srcnet, &mh.srcnode, &mh.srcpoint) < 3
+			&& strncmp(ust.act_area.echotag, BBSMAIL, strlen(BBSMAIL)))
 		{
 			EndWaitCursor();
-			ERR_MSG2_RET("E_INVALIDPOINT",point);
+			ERR_MSG2_RET("E_INVALIDPOINT", point);
 		}
-// get header and footer
+		// get header and footer
 		if (gc.mode != MODE_CHANGE)
 		{
 			m_header.GetWindowText(Header);
 			m_footer.GetWindowText(Footer);
 		}
-// get mailtext
+		// get mailtext
 		GetBufferText(&m_buffer, Msgtext);
-// convert umlauts
+		// convert umlauts
 		if (m_convert.GetCheck())
 		{
 			convert_specchars(Header);
 			convert_specchars(Msgtext);
 			convert_specchars(Footer);
 		}
-// build technical lines
-		build_kludges(ust.dest_area_handle,&mh);
-		build_origin(ust.dest_area_handle,point);
-		build_tearline();
-		mh.mailid = Msgtime;
+		// build technical lines
+		//if (gc.mode == MODE_NEW || gc.mode == MODE_CROSSPOST || gc.mode == MODE_FORWARD || gc.mode == MODE_QUOTE)
+			//if (gc.mode == MODE_CHANGE)
+		//{
+			build_kludges(ust.dest_area_handle, &mh);
+			build_origin(ust.dest_area_handle, point);
+			build_tearline();
+			mh.mailid = Msgtime;
+	    //}
 // subject
 		m_subject.GetWindowText(str);
 		if (m_convert.GetCheck() && !m_attached.GetCheck())	convert_specchars(str);
