@@ -973,8 +973,9 @@ TIC-область:
 Описание:
 Не удалять полученные файлы из папки входящих
 Замечание:\Если путь к каталогу TIC-области не задан, будет использоваться путь из системной настройки.
-$IDD_HATCHDLG
-Постинг файла в файлэху (HATCH)
+Сохранить
+Отмена
+Помощь
 ...
 Импорт описания
 Помощь
@@ -2201,8 +2202,9 @@ Area settings:
 Description:
 Do not delete received files from Inbound
 Note:\If area path is empty, the path definded in the system setup will be used.
-$IDD_HATCHDLG
-File posting to fileecho (HATCH)
+Save
+Cancel
+Help
 ...
 Import description
 Help
@@ -3442,8 +3444,9 @@ Neuer Eintrag:
 Beschreibung:
 Empfangene Dateien nicht aus dem Inbound lцschen
 Bitte beachten:\Falls keine Definition vorhanden ist wird der TIC Pfad des System-Setups verwendet
-$IDD_HATCHDLG
-Eine Datei 'hatchen'
+Speichern
+Cancel
+Hilfe
 ...
 DIZ einlesen
 Hilfe
@@ -4659,8 +4662,9 @@ La Caractщristique du domaine:
 La Description:
 Ne pas щloigner(enlever) les fichiers reчus du classeur entrant
 L'attention:\Si la voie vers le catalogue du TIC-domaine n'est pas donnщe, on utilisera(exploitera) la voie du rщglage systщmique.
-$IDD_HATCHDLG
-Posting du fichier р file echos (HATCH)
+Garder
+Supprimer
+La aide
 ...
 L'importation de la description
 La aide
