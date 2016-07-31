@@ -128,13 +128,13 @@ int		count=0;
 		BuildCrossPostTail(i);
 // build crosspost mailtext
 		db_get_uplink_for_area(handles[i],boss,point);
-		str.Format("\001MSGID: %s %x\r%s\001PID: %s\r",point,time(NULL),exkl,get_versioninfo(buf,0));
+		str.Format("\001MSGID: %s %x\r\001PID: %s\r",point,exkl,get_versioninfo(buf,0));
 		str+=CrossPostHeader+msgbuf+CrossPostTail+tline;
 		strcpy(newmail,str);
 		db_get_area_by_index(handles[i],&ad);
 		get_origin(&ad,TRUE,str,TRUE);
-		sprintf(buf,"\r * Origin: %s (%s)\r",str,point);
-		strcat(newmail,buf);
+		str=str.Left(65-strlen(point));
+		sprintf(newmail+strlen(newmail),"\r * Origin: %s (%s)\r",str,point);
 // build mailheader as a modified copy of current mailheader (!)
 		mh=gustat.act_mailh;
 		sscanf(point,"%hu:%hu/%hu.%hu",&mh.srczone,&mh.srcnet,&mh.srcnode,&mh.srcpoint);
