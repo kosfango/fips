@@ -5110,8 +5110,8 @@ BOOL	wasnetmail=FALSE,akaroute=FALSE;
 							hdr.status |= DB_DELETED;
 						}
 
-						//if (db_sethdr_by_index(ahandle,hdr.index,&hdr)!=DB_OK)
-						//	 ASSERT(0);
+						if (db_sethdr_by_index(ahandle,hdr.index,&hdr)!=DB_OK)
+							 ASSERT(0);
 
 // find matching uplink
 // check clear state of direct-flag for curarea==0 (netmails)
